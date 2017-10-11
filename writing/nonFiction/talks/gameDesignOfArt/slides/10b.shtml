@@ -1,0 +1,13 @@
+<!--#include virtual="head.html" -->
+
+<table border="0" width="100%"><tr><td align="right">
+<a href="10a.html">back</A> ---- <a href="10c.html">next</A>
+</td></tr></table>
+
+
+<center>
+<img src="BioShock2.jpg" width=640 height=360>
+</center>
+
+
+<!--#include virtual="foot.html" -->

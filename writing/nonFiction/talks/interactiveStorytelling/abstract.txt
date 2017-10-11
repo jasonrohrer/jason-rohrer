@@ -1,0 +1,48 @@
+Title:
+Interactive Storytelling is our Project Xanadu
+
+Abstract:
+Imagine freshly-generated dramatic experiences unfurling before your eyes and changing based on your inputs.  Imagine dynamic characters that react---grow angry at you, laugh at your jokes, or even fall in love with you.  Interactive storytelling is our medium's artistic holy grail.  It has haunted almost all of us, stolen decades from some of our brightest minds, and indefinitely postponed "making great art" pending future technological advancements.  Our destination is no closer now than it was when we started this 30-year windmill quest.  But turning around reveals a curious perspective:  perhaps we're there already.  Perhaps we've been there all along.
+
+
+
+and given others handy excuses as they wait for the future before they can make great art.  It has been a 30-year windmill quest. 
+
+
+
+
+
+
+Notes:
+
+
+From my email to Jon Sharp, 9 Dec 2009:
+
+
+It will be a theory talk, where I talk about big-picture issues for the medium.  Topics that are currently simmering:
+
+--multiplayer vs. single player
+--board games vs. computer games
+--story and intended meaning vs. emergence (the Jaffe problem)
+--how AI supposedly fits into all this as the "most important component of the future of our medium" (Checker's claim)
+--Facade, Masq, and Storytron
+
+Hmmm... maybe all this can best be summarized by the following title:
+
+"Interactive Storytelling is our Project Xanadu"
+
+
+
+From my email to JSharp, 28 Dec 2009
+
+
+> - Ian, Michael and I were discussing the conference talks, and we'd like
+> to ask you to focus your talk on the Gamist Manifesto (or whatever its
+> final title might be). This fits better with the general theme of the
+> conference. That OK with you?
+
+Oh man!  You're really putting me through the wringer here...  I was all excited about the interactive storytelling debunking (ISD) talk, which touches on my game in some ways AND on the manifesto that I *might* be distributing.  I don't think I can give a 20 minute talk just about the manifesto...  what, just stand there and read the tenets of it?  The manifesto is more of a provocation anyway... not something that I really want to explain in detail.  "Games do not have characters, except for the characters who play them."  Like, I really don't want to put that on a slide and then give a 3-minute explanation of what I mean.  Tenets like that are meant to exist without explanation, do you know what I mean?
+
+I understand your concern about the ISD talk... like I'll really be out in the weeds or something.  But I think it's deeply connected to games being art... or how we seem to expect them to eventually be art.  My talk *will* use the word "art" a lot, if that's the concern.  Also, it's not a talk about the history of Storytron... if you're worried about that.  There will be some stuff about that... but it's more about Checker and Jaffe and Facade and Masq and me.
+
+Giving a (good?) talk is really hard for me.  It has to be something that I'm really thinking deeply about already... like a talk that *has* to be given.  I guess that's the way that I make games, too.  As far as I know, I haven't delivered a really bad talk yet... a talk with no interesting observations... a talk without good flow.... (and per Ian's suggestion after the Tech talk, I don't even rewind slides anymore... nor do I do any more Crawford-esque memorized intros).

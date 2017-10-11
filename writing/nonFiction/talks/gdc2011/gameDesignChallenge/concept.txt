@@ -1,0 +1,26 @@
+"We become like gods to those who come after us"
+
+Old creation myths explained the origin of geological features (the buzzard flew low over the ground, and his wing tips carved the valleys and mountains).  New creation myths explain man-made features of the world (the house that my grandfather built).  
+
+Our predecessors play an important spiritual role in our lives.  As our distance from them grows, our memories of them become more polished, while the people themselves become more mysterious to us.  Several generations removed, they become impossible to imagine in a realistic way---nothing short of godlike.  Whatever relics remain from them become holy, and the places they once inhabited become destinations for pilgrimage.  When this process is taken to its limit, we get Stonehenge.  This is a deep spiritual connection:  that between successors and their predecessors.  
+
+This relationship already exists between designers and players, and it has been pointed out by several people (designers as gods who craft what is effectively the "meaning of life" in each game).  
+
+My design aims to foster this predecessor/successor relationship between *players* by forcing a linear chain of successive playings and passings-on.  Though the game will be widely available for download, it will be unplayable without a code.  But at the start, there is exactly one code, good for a single player to play the game once.  In so doing, that player achieves whatever she can achieve in the game and leaves her mark on the gamestate in the process.  When her game ends, she receives a new code, which she must pass on to someone else---again, good for a single player to play the game once.
+
+The second player starts the game---not from a fresh state---but from a remnant of the gamestate left behind by the first player.  The previous player's final gamestate will be the "blank slate" state that the second player experiences in her very first dealings with the game.  The second player will never know the game world without the relics and other features left behind by the first player, and they will essentially become the mountains and valleys of the game state:  a given.
+
+After the second player finishes exactly one game, she receives a code to pass on to a third player, who starts the game from the accumulated gamestate of the previous two players.  The fourth player starts from the accumulated state of the previous three players, and so on.
+
+This game will be a religious/spiritual practice among the players in the following ways:
+
+--A current player will imagine subsequent players and try to play in a way that will leave sensible relics behind for them.
+
+--Subsequent players will explore the mystery of what has been left behind by previous players and try to imagine how it came to be.  What were they trying to do when this gamestate artifact was made?  Were they trying to tell me something through it?
+
+--The very act of trying to play the game in the first place resembles a process of religious advent.  Waiting, wondering, hoping, and eventually being chosen to join the select few who have already gotten to play the game.
+
+
+Of course, this describes the meta-game without saying much of anything about the gameplay itself and what the players actually do when they play.  I'm still working on this.
+
+For the time being, imagine a survival and building game, where a player builds and otherwise transforms the game landscape in order to survive, but eventually dies.  Imagine an extremely hard version of Minecraft, with an additional life timer mechanic, where the first player starts out trying to survive in a completely natural, hostile world, but the second player gets to start off in a world containing whatever the first player managed to build before dying.  Imagine permadeath Spelunky, where all players explore the same series of caves, and subsequent players get the benefit of previous player's work.  Imagine something as simple as the mushrooms that are left behind in a game of Centipede.

@@ -1,0 +1,11 @@
+Cavanagh and Lavelle defied the artgame set's 2D-pixel-art convention when they chose a 2.5D, Doom-like presentation for their 2009 release, Judith.  The sprawling gardens and corridors of an abandoned estate, combined with this extra degree of navigation freedom, initially seem to promise an increased degree of interactivity.
+
+As the game weaves together events from the present and distant past, the illusion of interactivity erodes, first through a series of sequentially-unlocked doors that double as narrative gates.  Eventually, the game's diminishing interactivity yields to a series of fully-on-rails, automated sequences, culminating in a final yes/no branch that only gives player one option (yes).
+
+We might pan Judith as a failed game design, no different from countless other games that offer the player only illusory choices.  But we can only dismiss the game if we ignore its details.  By first observing that the erosion of interactivity occurs only in the segments that deal with the past, and then by aligning that observation with the game's narrative, we can build an interpretation of Judith as an exploration of control itself---debatably a tightly-crafted success.  This conclusion raises an important question about our medium:  in our basic quest for increased artistry through increased interactivity, are we ready for works that intentionally subvert interactivity for artistic purposes? 
+ 
+
+
+
+Idea:  show a "movie of the game" during the presentation ("bury prisoner with shovel"), and after it plays (non-interactively), reveal that it is actually a segment from the game ("Oh wait, that's not a video, that's the actual game running").  After that, play the following "present" sequence where unearthing the prisoner is fully interactive (to show the contrast).
+

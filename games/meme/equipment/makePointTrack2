@@ -1,0 +1,3 @@
+latex point_track_2.tex
+dvips -o point_track_2.ps point_track_2.dvi
+ps2pdf point_track_2.ps

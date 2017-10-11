@@ -1,0 +1,29 @@
+<!--#include virtual="head.html" -->
+
+<table border="0" width="100%"><tr><td align="right">
+<a href="12.html">back</A> ---- <a href="14.html">next</A>
+</td></tr></table>
+
+<br>
+
+
+<center>
+
+<table border=0 cellpadding=10>
+<tr>
+<td valign=middle>
+<img src="gameStore.jpg" width=300 height=400 border=1>
+</td>
+<td valign=middle>
+<font size=7>:</font>
+</td>
+<td valign=middle>
+<img src="adultStore.jpg" width=300 height=400 border=1>
+</td>
+</tr>
+</table>
+
+</center>
+
+
+<!--#include virtual="foot.html" -->

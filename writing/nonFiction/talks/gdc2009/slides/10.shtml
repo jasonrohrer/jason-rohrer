@@ -1,0 +1,14 @@
+<!--#include virtual="head.html" -->
+
+<table border="0" width="100%"><tr><td align="right">
+<a href="9.html">back</A> ---- <a href="11.html">next</A>
+</td></tr></table>
+
+
+<center>
+<img src="tetris.png" width=640 height=400><br>
+<font size=5><i>Tetris</i>, 1986, d. Alexey Pajitnov</font>
+</center>
+
+
+<!--#include virtual="foot.html" -->

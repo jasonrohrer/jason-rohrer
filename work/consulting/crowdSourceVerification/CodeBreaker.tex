@@ -1,0 +1,263 @@
+\documentclass[12pt]{article}
+
+\usepackage{times,fullpage,fancyvrb}
+
+
+\pagestyle{plain}
+
+\begin{document}
+
+\title{Design Concept: {\it Code Breaker}}
+
+\author{Jason Rohrer}
+
+\maketitle
+
+\section{Introduction}
+
+We've already narrowed our focus down to crowd-sourced discovery of loop invariants.  Even within this relatively limited realm, it seems that reasoning about pointers and arbitrary data structures, without representing those structures explicitly, is beyond the reach of a casual-friendly, sufficiently-abstract game design.  During our meeting, I watched marble-and-pipe machines sprout dizzying complexity as they tried to capture the behavior of even a simple linked list.
+
+In a last-ditch effort to produce a design that doesn't explicitly represent program structure, I'm further narrowing the focus:  loops for which the full, relevant state space---for a given execution instance of the loop---can be represented by a finite set of numerical values.
+
+\section{Thematic Overview}
+
+A newly constructed radio telescope has been receiving perplexing data sequences from various points in deep space.  At first, these sequences were dismissed as the output of quasars, but over time, that explanation has become less and less satisfying.  First of all, the locations of these sources do not match the positions of any previously known quasars---not surprising in and of itself, given that this scope is more sensitive than previous devices.  More shocking is the data itself:  when interpreted numerically, it seems that clear, logical patterns emerge.  We are hesitant to use the ``I'' word here, but we almost cannot help seeing some kind of intelligence in these patterns.  Not language, as we normally think of it, but perhaps a language of numerical relationships?  We don't know for sure, and that's why we need your help.
+
+We've got thousands of sources to analyze.  Furthermore, from each source, we have a virtually unlimited supply of sample messages of varying length.  Each message is an example of the pattern being output by a given source.  Your job is to detect and describe a pattern in each source's messages.  If your pattern misses something, our database will automatically provide you with messages that break your proposed pattern---more information with which you can revise your pattern.
+
+But just because you devise a pattern that covers all messages from a given source doesn't mean that you've nailed it.  Maybe your proposed pattern isn't as specific as it could be.  You'll be collaborating with others from around the world who are working on the same task.  Together, you'll hone the pattern for each source down into its tightest, most well-tuned form.
+
+\section{Design Description}
+
+\subsection{Related Design}
+
+The enormously popular casual puzzle game {\it Square Logic} gives players a grid of logical and mathematical constraints (for example, ``these cells must all be odd,'' ``these cells must sum to 6,'' or ``the product of these cells must be 8'') and then asks the player to fill the grid with numbers, Sudoku-style, so that no number occurs more than once in each row or column:
+
+\begin{center}
+http://www.squarelogicgame.com/
+\end{center}
+
+{\it Code Breaker} is an inversion of {\it Square Logic} in that the player is given a grid of numbers and asked to find the constraints.
+
+
+\subsection{Extracting Messages from Running Programs}
+
+Completely ignoring program structure, we can look at the relevant program state space (data that is actually touched by the loop) as a set of anonymous numerical values.  At the end of a given loop iteration, that numerical state can be represented as a {\it line} of numbers, like this:
+
+
+\begin{center}
+\begin{tabular}{|r|r|r|r|r|r|}
+\hline
+
+0&10&10&5&12&3\\
+\hline
+\end{tabular}
+\end{center}
+
+Lines from multiple iterations can be stacked, in order, to form a complete, multi-line {\it message} like this:
+
+
+\begin{center}
+
+\begin{tabular}{|r|r|r|r|r|r|}
+\hline
+
+0&10&10&5&12&3\\
+\hline
+\hline
+1&10&10&5&12&3\\
+\hline
+\hline
+2&12&10&5&12&3\\
+\hline
+\end{tabular}
+
+\end{center}
+
+
+
+Finally, columns in a given message can be assigned anonymous labels like this:
+
+
+\begin{center}
+
+\begin{tabular}{|r|r|r|r|r|r|}
+
+{\bf A}&\bf B&\bf C&\bf D&\bf E&\bf F\\
+
+\hline
+\hline
+0&10&10&5&12&3\\
+\hline
+\hline
+1&10&10&5&12&3\\
+\hline
+\hline
+2&12&10&5&12&3\\
+\hline
+\end{tabular}
+
+\end{center}
+
+
+\subsection{Player Goal}
+
+Given a multi-line messages like the one shown above, the player attempts to define constraints that describe each line in the message.  Looking at the given message, the player might propose the following constraint:
+
+\[
+B \leq E
+\]
+
+\subsection{Goal Iteration}
+
+A player-proposed constraint might be satisfied by the current messages or even by all sample messages that the player has seen so far.  However, there might be other messages from the same source that break the proposed constraint.  The player is presented with such a counter-example:
+
+
+\begin{center}
+
+\begin{tabular}{|r|r|r|r|r|r|}
+
+{\bf A}&\bf B&\bf C&\bf D&\bf E&\bf F\\
+
+\hline
+\hline
+0&10&10&5&2&3\\
+\hline
+\hline
+1&10&10&5&2&3\\
+\hline
+\hline
+2&10&10&5&2&3\\
+\hline
+\end{tabular}
+
+\end{center}
+
+Clearly, $B \leq E$ doesn't hold for this message.  The player might think that $B \leq C$ could work, but that would be violated by the previously-seen message.  Stumped, the player requests another example message:
+
+\begin{center}
+
+\begin{tabular}{|r|r|r|r|r|r|}
+
+{\bf A}&\bf B&\bf C&\bf D&\bf E&\bf F\\
+
+\hline
+\hline
+0&10&10&15&2&3\\
+\hline
+\hline
+1&15&10&15&2&3\\
+\hline
+\hline
+2&15&10&15&2&3\\
+\hline
+\end{tabular}
+
+\end{center}
+
+Now it becomes clear that $B$ takes on the maximum value of $C$, $D$, and $E$, so the player might propose:
+\[
+B \leq \max( C, D, E )
+\]
+
+And this, it turns out, is satisfied by all messages with that line length.  A longer message from the same source is presented to the player as a new counter-example:
+
+\begin{center}
+
+\begin{tabular}{|r|r|r|r|r|r|r|}
+
+{\bf A}&\bf B&\bf C&\bf D&\bf E&\bf F &\bf G\\
+
+\hline
+\hline
+0&10&10&15&2&16&4\\
+\hline
+\hline
+1&15&10&15&2&16&4\\
+\hline
+\hline
+2&15&10&15&2&16&4\\
+\hline
+\hline
+3&16&10&15&2&16&4\\
+\hline
+\end{tabular}
+
+\end{center}
+
+While the same $\max$ relationship is present here, it's clear that a variable number of columns must be accounted for.  The player tries:
+\[
+B \leq \max( \mbox{colspan}( C, A ))
+\]
+Where the {\it colspan} operator extracts the set of columns starting at $C$ and moving $A$ columns to the right.
+
+And, it turns out that all messages from this source satisfy that constraint.  The player submits her solution and moves on to tackle message from a different source.
+
+
+\subsection{Meager Solutions}
+Of course, the rather tight constraint discovered by the previous player required quite a bit of insight and effort.  A more loose constraint might be proposed by a less industrious player:
+\[
+A \leq \mbox{lastColumn}
+\]
+Where the {\it lastColumn} operator picks the value of the last column in a given line.  Yes, all messages satisfy the constraint, and in fact, this particular constraint was missed by the previous player.  These two constraints could be combined into the following set, which is stronger than either in isolation:
+\[
+B \leq \max( \mbox{colspan}( C, A ))
+\]
+\[
+A \leq \mbox{lastColumn}
+\]
+
+Thus, players can build on each other's constraints to find even better constraints for the messages from a given source.
+
+\subsection{Underlying Code}
+
+The above ``messages'' were actually the state space extracted from the end of each loop iteration in the following function:
+
+\begin{center}
+\begin{BVerbatim}
+
+arrayMax( a, n )
+    m = INT_MIN
+
+    for( i=0; i<n; i++ )
+        if( a[i] > m )
+            m = a[i]
+    
+    return m
+
+\end{BVerbatim}
+
+\end{center}
+with the following mapping:
+\begin{center}
+\begin{tabular}{|r||l|}
+\hline
+Code Variable:&Message Column:\\
+\hline
+\hline
+i&A\\
+\hline
+m&B\\
+\hline
+a&C $\cdots$ prevCol( lastCol )\\
+\hline
+n&lastCol\\
+\hline
+\end{tabular}
+\end{center}
+
+The key insight in this kind of mapping is that though {\tt arrayMax} can handle input of arbitrary length, a given instance of its invocation always involves a finite state space.  Furthermore, useful pattern information can be gleaned, as demonstrated above, from extremely small invocation examples.  Yes, though the example function might process thousand-variable state spaces in practice, such examples don't provide more information about constraint patterns than much smaller examples.  Loops behave inductively, after all, so we don't need to worry about how our system scales to huge state spaces.
+
+\section{Presentation}
+The enormous popularity of Sudoku, Drop7, and Square Logic suggests that casual players don't have trouble with logical or mathematical reasoning.  However, there's no sense in overloading the presentation of {\it Code Breaker} with unfamiliar symbols (even the difference between $<$ and $\leq$ might not be clear to non-programmers).
+
+Instead of asking the player to type in constraint formulas, we can ask them to construct a {\it pattern machine} that matches lines from messages.  The anonymous column names ($A$, $B$, $C$, etc.) can be disks for dragging and dropping.  Operators ($+$, $-$, $\times$, $\div$) can be blocks that connect disks together.  Relationship operators, such as the aforementioned $<$ and $\leq$, can become blocks with explanatory icons (sloping right triangles).
+
+Aggregation operations, like min and max, can become containers where other blocks can be dropped inside.  The colspan operator can be a block with two slots in it (one slot for the first column name, and the second slot for an expression describing the column extent).
+
+Players can then run their pattern machine on a message, line by line, to see where the message breaks their machine.  
+
+
+
+
+\end{document}

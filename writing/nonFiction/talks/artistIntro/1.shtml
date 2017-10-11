@@ -1,0 +1,14 @@
+<!--#include virtual="head.html" -->
+
+<table border="0" width="100%"><tr><td align="right">
+<a href="0b.html">back</A> ---- <a href="2.html">next</A>
+</td></tr></table>
+
+
+<center>
+<img src="arthouseGames.jpg" width=640 height=471><br>
+<font size=5>Arthouse Games, started December 2006</font>
+</center>
+
+
+<!--#include virtual="foot.html" -->

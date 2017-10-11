@@ -1,0 +1,14 @@
+<!--#include virtual="head.html" -->
+
+<table border="0" width="100%"><tr><td align="right">
+<a href="index.html">back</A> ---- <a href="0b.html">next</A>
+</td></tr></table>
+
+
+<center>
+<img src="transcend.png" width=501 height=501><br>
+<font size=5><i>Transcend</i>, September 2004</font>
+</center>
+
+
+<!--#include virtual="foot.html" -->

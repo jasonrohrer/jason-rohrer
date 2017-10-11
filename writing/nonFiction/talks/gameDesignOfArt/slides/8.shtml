@@ -1,0 +1,76 @@
+<!--#include virtual="head.html" -->
+
+<table border="0" width="100%"><tr><td align="right">
+<a href="7.html">back</A> ---- <a href="8a.html">next</A>
+</td></tr></table>
+
+<!--
+Adventure
+Fighting
+First-person shooter (FPS)
+Platform
+Puzzle
+Role-playing (RPG)
+Simulation
+Sneaking
+Strategy
+-->
+
+<center>
+
+<table border=0 width=100%>
+<tr>
+<td width=50%><font size=6><b>Film Genres</b></font></td> 
+<td width=50%><font size=6><b>Game Genres</b></font></td>
+</tr>
+
+<tr>
+<td colspan=2><hr></td>
+</tr>
+
+<tr>
+<td><font size=6>Action</font></td>
+<td><font size=6>Adventure</font></td>
+</tr>
+
+<tr>
+<td><font size=6>Adventure</font></td>
+<td><font size=6>Fighting</font></td>
+</tr>
+
+<tr>
+<td><font size=6>Comedy</font></td>
+<td><font size=6>First-person shooter (FPS)</font></td>
+</tr>
+
+<tr>
+<td><font size=6>Drama</font></td>
+<td><font size=6>Platform</font></td>
+</tr>
+
+<tr>
+<td><font size=6>Horror</font></td>
+<td><font size=6>Puzzle</font></td>
+</tr>
+
+<tr>
+<td><font size=6>Mystery</font></td>
+<td><font size=6>Role-playing (RPG)</font></td>
+</tr>
+
+<tr>
+<td><font size=6>Romance</font></td>
+<td><font size=6>Simulation</font></td>
+</tr>
+
+<tr>
+<td><font size=6>Thriller</font></td>
+<td><font size=6>Strategy</font></td>
+</tr>
+
+</table>
+
+</center>
+
+
+<!--#include virtual="foot.html" -->

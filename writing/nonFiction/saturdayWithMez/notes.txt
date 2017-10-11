@@ -1,0 +1,104 @@
+October 14, 2005
+
+Importing EPS files into Sketch documents results in a crude bitmap rendition
+being inserted.  This foils the plan for the back cover, which was looking
+rather nice so far (with the EPS typesetting as output by LaTeX).
+
+Don't see anything about this in the Sketch release notes...
+
+Maybe it's because we're importing a PS file and not a true EPSF:
+what's the difference between these two?
+
+
+Maybe it's because it is being rotated.
+
+
+
+October 15, 2005
+
+Figured out that Sketch has trouble importing PS files (imports them as 
+bitmaps for some reason... maybe because they are not encapsulated, so they
+must be rendered to a fixed-size bitmap before being inserted?)
+
+Calling dvips with the -E option solves this problem... AND it creates a nice,
+tight bounding box as well (no need to tweak the geometry package options so
+much).
+
+
+
+October 16, 2005
+
+Noticed banding in EPS gradient for back page.
+Increased Sketch's gradient steps to 256 in config.py
+
+Funny that PostScript doesn't have built-in gradient support.
+Essentially, you need to build gradients with bands in a resolution-dependent
+way... ugg.
+
+
+October 18, 2005
+
+Noticed that 15.png and 25.png were in RGB.  Changed to gray.
+
+
+Got all EPS files generated.  Ready to send to printer?
+
+Need an EPS mock-up of die-cuts with comments about physical sizes
+
+Trying to batch-convert to screen-PNGs for the web using ScriptFU in GIMP.
+
+Proper resolution:
+
+669x542 (at 72dpi)
+
+
+
+
+December 8, 2005
+
+Found/fixed a few bugs
+
+--Text on Xris the baker page was not centered
+--Same picture duplicated on pages 1 and 2 (recally trying to swap those 
+  pictures, must have muffed the swap... had to fetch backup copy of old 02.png
+  from the iMac)
+
+Figured out how to generate custom-sized PDFs with ps2pdf... it looks great,
+and is only 12MiB in size (the PS version is 289MiB... yikes!)
+
+Added sample die cut images with red cut lines.
+
+Printing the PDF on 2-sided pages to make a prototype.
+Printing is taking *forever*... many minutes per page.
+
+
+Files to give to printer:
+
+All page EPS files:
+ cover.eps
+ 01.eps -- 28.eps
+ back_cover.eps
+
+Die cut files:
+ die_cuts.eps
+ die_cuts.jpg
+
+Die cut placement samples
+ cut_placement_cover.png
+ cut_placement_01.png
+
+Final full book PDF file:
+ full_book.pdf
+
+
+
+December 9, 2005
+
+Proofread paper copies.  Ready to send to printer.
+
+Assembled all files.
+
+Typeset an instruction sheet (printed out)
+Also printed out the labeled die cut. 
+
+tagging files as first_printing

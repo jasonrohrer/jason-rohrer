@@ -1,0 +1,667 @@
+February 24, 2006
+
+Working on several improvements.
+
+--Changed population number diamonds to black.
+
+--Started working on tile legend
+
+--Making improvements to rules.
+
+
+December 5, 2005
+
+First playtest with Lauren.
+
+Seemed like there was too much money (we never felt short of money... money
+was not a factor).
+
+
+Started game and removed 7 tiles in 30 minutes...  thus, the full game would
+be about 2 hours long.  Maybe it could be 1 hour long for experts who know
+all the rules
+
+
+Other concern (it didn't happen in our game, but it could have):
+
+What if, during the beginning of the game, the first player "terrorizes" the
+other players, moving into their cities and blocking them from populating.
+The first player could do this easily (even if the other city is far across
+the map by using the 4-token move-anywhere rule) while still keeping some
+believers around her own city to populate and earn more tokens.  The first
+player could continue to follow the other players' lone believers around,
+ruining their chances to populate by moving into whatever cities they go to.
+
+Thus, player 1 has a huge advantage.
+
+So, how to fix this particular problem?  Ideas:
+
+--Players get to start with the number of believers listed on the city they 
+  pick.
+  (Problem:  too many believers around at beginning of game.  First player
+   could end up with 10 believers to move in her first turn.  She could
+   then still terrorize the other players and prevent them from ever getting
+   a second batch of believers)
+
+--Players start out with zero tokens, and get only 3 free tokens per turn, 
+  so they cannot execute a "4-token move-anywhere" on their first turn.
+  (Problem:  if two players' starting cities are closer than 3 hops apart,
+   the first player can still terrorize the second... what if players build
+   a map where all cities are clustered together?)
+
+--Players all step through the turn process together, each doing the Convert
+  step, each doing the Attract step, etc.  This would ensure that they
+  all populate before any of them move.
+  (Problem: slows the game down, since we remove 1/4 the tiles for a given
+   amount of activity)
+
+--Change so that the Move step happens before the Populate step.
+  (Problem:  there's no way to challenge a player's dominance of a population
+   area before she gets to populate from it)
+  Still, it makes sense that new-born believers cannot move around at all.
+  But there is an asymmetry here, since you can move to a tile and populate
+  from it right away, but you cannot move to a tile and collect tokens from
+  it right away.
+ 
+
+In general, the move step being last is ideal, since a player's position
+can always be challenged before she gets to act on it.  However, our
+problem is that a player's position might be challenged before his first
+turn.
+
+If we want to keep the game rules simple and avoid special cases, we might
+not be able to prevent first-turn terrorism in all cases.  However, we could
+adjust the starting states so that, if players are smart, they can avoid it.
+
+For example, if we give players less money to start, that will prevent
+terrorism in most cases.  If players really build a map with cities clustered
+together, they are setting the first player up for a supreme advantage. 
+
+In fact, no matter how players get to place believers on the map, the first
+player to move has some advantage.  This is probably true of all turn-based 
+strategy games, however.  Think of the first player advantage in Risk.
+
+Think about this problem more.
+
+For now, players should start out with zero tokens and get only 3 free tokens
+per turn.  This is actually good, since it makes the tiles in the immediate
+area of each player's first city more important.  It is not enough to pick
+a heavily-populating city---you need a city that is surrounded by good tiles.
+
+Change the rules to reflect this.
+
+
+Tangent:
+
+On idea is to let the first player build the entire map, but then have that
+player go last when placing his first believer.
+
+Thus, the first player gets the best advantage by building a map that is 
+well-balanced and has good starting positions for all the players.
+
+
+Another idea:
+
+What if you had to have 5 beleivers present before you could collect five more
+believers from a city with a population number of 5?  What if you had to have 
+5 believers present in a 5-token countryside before collecting 5 tokens.
+
+So, if you have 5 believers on the map, you must decide where to use them:
+Keep them in the city to generate more believers, or send them to the 
+countryside to generate tokens.  With the current rules, players can do both
+by sending one believer to the countryside.
+
+Maybe this makes it too hard to dominate any tiles.  It also makes the rules
+more complicated.  It definitely seems interesting, though.  It also is less
+abstract, since a large population of sheep (on a "token-rich" tile) would
+take many people to tend and harvest it.
+
+Actually, I like this idea a lot.  Think about it more.
+
+
+I guess it seems to make it too complicated.
+
+
+Now going back to finish point track artwork.
+
+
+Finished new point track... it looks good.
+
+
+Printing second prototype.
+
+
+
+
+December 4, 2005
+
+First playtest with printed tiles:
+
+Game works pretty well.  
+
+Point distributions on tiles make for interesting play, even when playing
+against yourself.
+
+
+Money too scarce, plus a player can become frozen if
+she runs out of money and no longer dominates any countrysides.
+
+To solve this problem, each player collects 5 tokens plus extra tokens for
+dominated countrysides.  
+
+Changing rules to reflect this.
+
+One of the tiles was missing some token number labels.
+
+Fixed this.
+
+
+Play area too big.  Tiles ~ 3.5 inches square.
+A densly-packed play grid (5 tiles x 6 tiles) is 17.5 x 21 inches.
+
+Risk board is ~ 21 x 22 inches.
+
+However, larger tiles look more interesting.  Another problem is that 6 tiles
+are a tight fit on a piece of paper with no room for crop marks.
+
+6 tiles are 10.5 x 7
+
+What about 3-inch tiles
+
+6 tiles would be 9 x 6.  That seems better.
+
+Then we'd have room for half-inch crop marks on all sides, producing a full
+image that is 10 x 7.
+
+Did this, and added crop marks... New tile sheets look good.
+
+
+Point track is a bit confusing with Convert, Attract, etc. connected to the
+lines that come out of the loop.  Also, likes sticking out of circle don't
+look that good.
+
+
+Made many improvements.
+
+Just found a major bug in the score track numbering (we skip 15 and go right
+to 20).
+
+Switching to a 24-point round track.  Still working on this.
+
+
+
+
+December 3, 2005
+
+Finished point track.
+
+Finished first draft of rules.
+
+Time to print?
+
+
+
+December 2, 2005
+
+Landscape features so far:
+--Hills
+--Mountains
+--Leaf trees
+--Pine trees
+--Swamp
+--Cattails
+--Lake
+--River
+--Fish
+--Yak
+--Sheep
+
+
+Now need to come up with a plan for placing these features onto the various
+tiles.  Our hand-tweaked list of countryside tiles, copied from below:
+
+
+Countryside:
+
+9  (t=1)  Swamp with cattails
+8  (t=2)  Dense mountain range
+7  (t=1)  Sparse hills (desert dunes)
+7  (t=2)  Tundra (sparse pine trees with a few mountains)
+6  (t=1)  Swamp with river going through it
+6  (t=2)  Sparse mountains, no trees
+6  (t=2)  Small lake in mountains, no rivers, no fish
+6  (t=3)  Sparse Leaf tree forest, several hills
+5  (t=2)  Small lake in hills (with leaf trees), no rivers, few fish
+5  (t=2)  Sparse pine forest bordering mountains
+5  (t=3)  Mountainous Tundra with a few yak
+5  (t=3)  Sparse Pine forest, nothing else
+5  (t=4)  Dense leaf tree forest, a few hills
+5  (t=4)  Small lake in mountains (with pine trees), one river out, few fish
+4  (t=3)  Hills and sparse leaf trees with a few sheep
+4  (t=4)  Mountain-LESS Tundra with many yak
+4  (t=4)  Dense pine forest bordering mountains
+4  (t=5)  Large lake in hills, no rivers, lots of fish
+3  (t=3)  Hills (no trees) with a few sheep
+3  (t=4)  Hills with many sheep
+2  (t=5)  Medium lake in hills (with leaf trees), river in and out, some fish
+1  (t=5)  Large lake with 2 rivers in, 1 river out, lots of fish
+
+
+Worried that fish will not be visible on printed version.
+
+In test print, they can be seen, but it's hard to tell what they are.
+
+Make their outlines white to fix the problem.  Did this
+
+
+Got all tiles done and ready for prototype printing.
+
+Still need to make minor changes to rules...
+
+
+Total possible score (if all points go to one player), 150.
+
+Could be doubled by temples.  But 600 is a lot of score track.
+
+
+Score track needs to account for this...  300 total points, players start
+at 150.
+
+
+Too many points... point track is too complicated.
+
+But I put too much work into scores and tiles already to change them for this
+reason (will tweak them after playtesting if needed).
+
+
+Okay... what about a 100-point track that has wrap-around features.
+
+If you hit 100, you leave a believer marker at the 100 mark and start a second
+marker at 0.  All players start at the 50 mark.
+
+
+If a player runs out of believer markers, they cannot place any more on the 
+board, but they can reuse believer markers that have been removed from the 
+board due to conversions or tile scorings.
+
+
+Interesting idea about score track:
+
+Have 100 (0 through 99) spots on the main track, and have a side track with
+100, 200, 300, 400, 500, 600 marks.  Players then start at 300 and 0.
+
+
+Got an interesting point track done that goes from -150 to +150
+
+
+
+
+December 1, 2005
+
+Better than ripple filter:  displace map.
+
+
+Make map with solid noise, detail 4, x16, y16, tileable.
+Shrink to 25% size.  Tile to fill a map the size of target image.
+
+Rotate copy of the map 180 degrees so that x and y use different maps.
+
+Apply displace filtern with amplitude 3.5 for both x and y.
+
+Still need to test a printout of this.
+
+Saved a sample noise tile that is the right resolution for 3-inch game tiles
+at 600dpi
+
+If print out distortions don't look detailed enough, use a smaller, more
+detailed noise tile (shrunk to smaller than 25% before tiling with it).
+
+
+Having trouble with GIMP memory issues when working with the full-page files.
+Probably just need to free-up more disk space.
+
+Focus now must be on getting all tiles done so that playtesting can begin.
+
+
+November 30, 2005
+
+Good Gimp import resolution for making a 6-inch-wide tile sheet
+at 600dpi (3600 pix wide): 919
+
+Eventually need to think about crop marks.
+
+Actually, if we print from Photoshop, we can add crop marks then.
+
+
+Ripple filter settings:
+
+First, horizontal at 40hz, amp 1
+Then, horizontal at 53hz, amp 1
+Then, vertical at 40hz, amp 1
+Then, vertical at 53hz, amp 1
+   
+Really, before I do more work in the presentation direction, I need to 
+develop a prototype... it can be tea paper.
+
+
+
+What about confusion between 6 and 9?  Maybe should avoid those numbers and use only 1, 2, 3, 4, 5, 7, 8.
+
+Leave it as-is for now, change it if some people report being confused.
+
+
+
+
+
+
+
+
+
+November 29, 2005
+
+Old maps of cities:
+http://www.trankebar.net/history/oldmap-uk.htm
+
+
+Started laying out first sheet of city tiles.
+
+Problem:  Tiles for larger villages look too busy... need to shrink
+central village and expand roads.
+
+Did this... much better.
+
+Still one more city to go:
+Large walled city with many wall segments and many internal roads and houses.
+
+
+Also have 22 country tiles to deal with...
+
+Can use forests and mountains on some of them, but what else?
+
+--Lake
+--River?
+--Swamp
+--Farm
+
+
+
+November 28, 2005
+
+To weather an EPS image in GIMP:
+
+-- Render clouds with X,Y=16 and detail higher than 1
+-- Add noise
+-- Blur a bit
+-- Brightness and contrast to get random black streaks and blobs
+-- Invert to get white blobs
+-- Set layer to lighten only
+
+
+
+Want to indicate scores symbolicly with dots without using numerals...
+
+Actually, need to use numerals anyway on the score track, so might as
+well use them on the tiles.
+
+But I just don't like the way any of the fonts look
+
+So, redo the scores anyway... we can always go back to old scores.
+
+
+First, do mechanically-computed scores, then tweak by hand.
+
+Still use old mechanical formula:
+Population number and token number based on point score.
+
+( 10 - X ) / 2, rounded down, + 1
+
+
+
+8 city tiles have scores of:
+
+9
+7
+6
+5 5
+4
+3
+1
+
+9   (p=1)
+7   (p=2)
+6   (p=3)
+5   (p=3)
+5   (p=3)
+4   (p=4)
+3   (p=4)
+1   (p=5)
+
+22 countryside tiles have scores of:
+
+9
+8 
+7  7
+6  6  6  6
+5  5  5  5  5  5 
+4  4  4  4
+3  3
+2
+1
+
+
+Full list:
+
+9  (t=1)
+8  (t=2)
+7  (t=2)
+7  (t=2)
+6  (t=3)
+6  (t=3)
+6  (t=3)
+6  (t=3)
+5  (t=3)
+5  (t=3)
+5  (t=3)
+5  (t=3)
+5  (t=3)
+5  (t=3)
+4  (t=4)
+4  (t=4)
+4  (t=4)
+4  (t=4)
+3  (t=4)
+3  (t=4)
+2  (t=5)
+1  (t=5)
+
+
+
+Now tweak by hand
+
+City:
+
+9   (p=1)
+7   (p=2)
+6   (p=3)
+5   (p=2)
+5   (p=3)
+4   (p=4)
+3   (p=4)
+1   (p=5)
+
+
+Countryside:
+
+9  (t=1)
+8  (t=2)
+7  (t=1)
+7  (t=2)
+6  (t=1)
+6  (t=2)
+6  (t=2)
+6  (t=3)
+5  (t=2)
+5  (t=2)
+5  (t=3)
+5  (t=3)
+5  (t=4)
+5  (t=4)
+4  (t=3)
+4  (t=4)
+4  (t=4)
+4  (t=5)
+3  (t=3)
+3  (t=4)
+2  (t=5)
+1  (t=5)
+
+
+
+
+Okay... good to stay away from 2-digit numbers anyway.
+
+Got some nice dot patterns, but I think it will be too confusing.
+We don't want to make players stop and scratch their heads every time
+they're trying to figure out how much a tile is worth.
+
+We could use dot patterns for the population numbers and token numbers,
+since those are only 1-5 and familiar because of the dot patterns on dice,
+but then they would be confusing because players might think the numbers
+have something to do with rolling dice, which they don't 
+
+
+
+
+
+
+
+
+November 27, 2005
+
+Lots of maps from 1300-1500 AD:
+http://www.henry-davis.com/MAPS/LMwebpages/LML.html
+
+
+
+
+Ideas about tile scores:
+
+30 tiles, ideally 3 inch by 3 inch.
+
+8 city tiles with population number
+22 countryside tiles with token number
+
+
+Point score X from 1 to 10
+
+Population number and token number based on point score.
+
+( 10 - X ) / 2, rounded down, + 1
+
+
+Tweak this by hand a bit to make more interesting.
+
+
+8 city tiles have scores of:
+
+10  (p=1)
+9   (p=1)
+8   (p=2)
+5   (p=3)
+5   (p=3)
+4   (p=4)
+2   (p=5)
+1   (p=5)
+
+22 countryside tiles have scores of:
+
+10 
+9  9
+8  8
+7  7
+6  6  6
+5  5  5  5 
+4  4  4
+3  3  
+2  2    
+1      
+
+
+Full list:
+
+10  (t=1)
+ 9  (t=1)
+ 9  (t=1)
+ 8  (t=2)
+ 8  (t=2)
+ 7  (t=2)
+ 7  (t=2)
+ 6  (t=3)
+ 6  (t=3)
+ 6  (t=3)
+ 5  (t=3)
+ 5  (t=3)
+ 5  (t=3)
+ 5  (t=3)
+ 4  (t=4)
+ 4  (t=4)
+ 4  (t=4)
+ 3  (t=4)
+ 3  (t=4)
+ 2  (t=5)
+ 2  (t=5)
+ 1  (t=5)
+
+
+Tweak this by hand a bit to make more interesting.
+
+10  (p=1)
+9   (p=1)
+8   (p=2)
+5   (p=2)
+5   (p=3)
+4   (p=4)
+2   (p=4)
+1   (p=5)
+
+
+
+10  (t=1)
+ 9  (t=1)
+ 9  (t=2)
+ 8  (t=1)
+ 8  (t=2)
+ 7  (t=2)
+ 7  (t=3)
+ 6  (t=1)
+ 6  (t=2)
+ 6  (t=3)
+ 5  (t=1)
+ 5  (t=2)
+ 5  (t=3)
+ 5  (t=4)
+ 4  (t=2)
+ 4  (t=3)
+ 4  (t=4)
+ 3  (t=3)
+ 3  (t=4)
+ 2  (t=3)
+ 2  (t=4)
+ 1  (t=5)
+
+
+
+November 25, 2005
+
+Interesting old maps here:
+http://grid.let.rug.nl/~welling/maps/colom/colom.html
+
+
+100 best board games:
+http://fluffysnoop.blogspot.com/2005/11/whole-enchilada.html
+
+
+German-style board games:
+http://en.wikipedia.org/wiki/German-style_board_game
+
+

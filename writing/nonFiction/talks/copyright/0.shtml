@@ -1,0 +1,11 @@
+<!--#include virtual="head.html" -->
+
+<table border="0" width="100%"><tr><td align="right">
+<a href="0.shtml">back</A> ---- <a href="1.shtml">next</A>
+</td></tr></table>
+
+
+
+
+
+<!--#include virtual="foot.html" -->

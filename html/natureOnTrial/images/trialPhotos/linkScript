@@ -1,0 +1,10 @@
+START=44
+LIMIT=68
+
+for file in D*.JPG
+do
+   echo "$file:"
+   echo "[urls=http://ia310119.us.archive.org/1/items/NatureOnTrial/$file][img]http://northcountrynotes.org/jason-rohrer/natureOnTrial/images/trialPhotos/small_$file[/img][/urls]"
+   echo ""
+   echo ""
+done

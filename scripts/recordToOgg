@@ -1,0 +1,6 @@
+echo "Control-C to end recording"
+
+arecord -f S16_LE -r 22050 -t wav > recordToOgg_temp.wav
+oggenc -q 1 recordToOgg_temp.wav
+
+rm recordToOgg_temp.wav 

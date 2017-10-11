@@ -1,0 +1,13 @@
+<!--#include virtual="head.html" -->
+
+<table border="0" width="100%"><tr><td align="right">
+<a href="index.html">back</A> ---- <a href="2.html">next</A>
+</td></tr></table>
+
+
+<center>
+<img src="ebert_quote.jpg" width=640 height=518>
+</center>
+
+
+<!--#include virtual="foot.html" -->

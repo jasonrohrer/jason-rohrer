@@ -1,0 +1,24 @@
+# simpler script that outputs only EPS files (no page layout files)
+
+./sudoku $1 $2
+
+
+# read the actual score (which may be slightly lower than the target score $2
+# in from the score file.
+read score < "$1_score.txt"
+
+
+# if generation succeeded, we should have this tex file
+if [ -e "$1_puzzle_${score}_layout.tex" ]
+then
+  latex $1_puzzle_${score}_layout.tex
+  dvips -E -o $1_puzzle_${score}_layout.eps $1_puzzle_${score}_layout.dvi
+fi
+
+
+# clean up
+rm $1_puzzle_${score}.eps
+rm $1_puzzle_${score}_layout.aux
+rm $1_puzzle_${score}_layout.dvi
+rm $1_puzzle_${score}_layout.tex
+rm $1_puzzle_${score}_layout.log

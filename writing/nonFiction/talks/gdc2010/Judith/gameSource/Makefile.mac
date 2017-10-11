@@ -1,0 +1,7 @@
+# MacOS specifics
+
+FMOD_API = /Developer/FMOD\ Programmers\ API\ Mac/api
+
+LINK_LIBS = ../libs/libSDL-1.2.0.dylib  -framework Cocoa SDLMain.m ../libs/libfmodex.dylib
+
+POST_LINK = install_name_tool -change ./libfmodex.dylib @loader_path/../Frameworks/libfmodex.dylib ./judith;      install_name_tool -change /opt/local/lib/libSDL-1.2.0.dylib  @loader_path/../Frameworks/libSDL-1.2.0.dylib ./judith 

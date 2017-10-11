@@ -1,0 +1,153 @@
+<HTML>
+
+<HEAD>
+<TITLE>Compressing Facade</TITLE>
+</HEAD>
+
+<BODY BGCOLOR=#FFFFFF TEXT=#000000 LINK=#0000FF VLINK=#FF0000>
+
+<CENTER><TABLE BORDER=0 WIDTH=75%><TR><TD>
+
+<H1>Compressing Facade</H1>
+
+These instructions describe how to compress Facade's many .wav files using <A HREF="http://vorbis.com">Ogg Vorbis</A>.
+At maximum compression (and lowest quality), this technique can reduce the download size to nearly one quarter of its original size (I achieved a size of 211 MiB).
+Higher quality settings are also possible, and of course there is a quality-size trade-off.<BR>
+<BR>
+I was unable to hear the difference between the original audio and the lowest-quality OGG files, at least with my speakers and my ears.
+Keep in mind that voices, with their limited frequency ranges, are <EM>very</EM> compressible using psycho-acoustic methods like Ogg Vorbis and MP3.  Quality settings that would produce unacceptable results for music are often fine for voice.
+On the other hand, I only comparison-tested a small subset of the voice audio files.
+Transient broad-band sounds, like coughs, breathing, or sighs might contain audible compression artifacts at the lowest quality setting.
+
+<H2>Tools</H2>
+Download <A HREF="Facade_compress_tools.zip">Facade_compress_tools.zip</A> and unzip it.
+The following screen shot shows the contents of this ZIP archive:<BR><BR>
+<CENTER><IMG SRC="zipScreen.png"></CENTER>
+<BR>
+The files <B>oggenc.exe</B> and <B>oggdec.exe</B> are the standard-issue encoding and decoding command-line tools provided by the Ogg Vorbis project.
+The files <B>oggEncode.bat</B> and <B>oggDecode.bat</B> are DOS batch scripts that I wrote to process all of Facade's WAV files, converting them to and from OGG files.
+Finally, the <B>removeWavFiles.bat</B> and <B>removeOggFiles.bat</B> scripts can be used to "clean" the Facade directory, removing the WAV files or OGG files as needed.
+
+<H2>Compression Procedure</H2>
+To compress Facade using my default quality settings (<B>-q 0</B>, or lowest quality), do the following:
+<UL>
+<LI>copy all six files from the ZIP archive into the Facade folder (probably <B>C:\Facade</B>, if you're working with a standard installation)</LI>
+<LI>run <B>oggEncode.bat</B></LI> 
+<LI>wait for a while (it may take a few hours)</LI> 
+<LI>run <B>removeWavFiles.bat</B></LI> 
+<LI>wait for a bit (it may take a few minutes)</LI> 
+</UL>
+
+At this point, you will have a Facade installation that contains OGG files in place of the original WAV files.
+You can now clean up the Facade directory a bit, if you want (remove <B>oggEncode.bat</B>, <B>oggenc.exe</B>, and <B>removeWavFiles.bat</B>).
+Make sure to leave the <B>oggDecode.bat</B> and <B>oggdec.exe</B> files in place---these will be needed post-download to reconstruct the WAV files.<BR>
+<BR>
+The simplest course of action would be to package up this new, OGG-ified Facade as-is and simply instruct users to run <B>oggDecode.bat</B> before trying to run Facade.
+Another option is to augment your installer to run <B>oggDecode.bat</B> as a final step.
+After decoding, the installer can reduce disk space by running <B>removeOggFiles.bat</B> and then restore the original Facade directory by automatically deleting <B>oggDecode.bat</B>, <B>oggdec.exe</B>, and <B>removeOggFiles.bat</B>.<BR>
+<BR> 
+Adding the decompression step should not increase the install time by much, since the installer will save time when unpacking and copying the smaller OGG files.
+
+<H2>Play Testing</H2>
+To test your OGG-ified Facade for sound quality, simply run <B>oggDecode.bat</B> to reconstruct the WAV files.
+This decoding process should be much faster than the encoding process.
+After decoding, you can play Facade with the new WAV files and listen for quality issues.
+If the lowest quality setting produces unacceptable results, you will need to adjust <B>oggEncode.bat</B> to specify a higher quality setting.
+Details are given below.
+
+<H2>The Anatomy of oggEncode.bat</H2>
+
+The text of oggEncode.bat is as follows:
+
+<CENTER>
+<TABLE><TR><TD>
+<TT><PRE>
+for %%x in (util\sources\facade\Sounds\global\*.wav) do oggenc -q 0 %%x
+
+for %%x in (util\sources\facade\Sounds\grace\01\*.wav) do oggenc -q 0 %%x
+for %%x in (util\sources\facade\Sounds\grace\02\*.wav) do oggenc -q 0 %%x
+for %%x in (util\sources\facade\Sounds\grace\03\*.wav) do oggenc -q 0 %%x
+for %%x in (util\sources\facade\Sounds\grace\04\*.wav) do oggenc -q 0 %%x
+for %%x in (util\sources\facade\Sounds\grace\05\*.wav) do oggenc -q 0 %%x
+for %%x in (util\sources\facade\Sounds\grace\06\*.wav) do oggenc -q 0 %%x
+for %%x in (util\sources\facade\Sounds\grace\07\*.wav) do oggenc -q 0 %%x
+for %%x in (util\sources\facade\Sounds\grace\08\*.wav) do oggenc -q 0 %%x
+for %%x in (util\sources\facade\Sounds\grace\09\*.wav) do oggenc -q 0 %%x
+
+for %%x in (util\sources\facade\Sounds\trip\01\*.wav) do oggenc -q 0 %%x
+for %%x in (util\sources\facade\Sounds\trip\02\*.wav) do oggenc -q 0 %%x
+for %%x in (util\sources\facade\Sounds\trip\03\*.wav) do oggenc -q 0 %%x
+for %%x in (util\sources\facade\Sounds\trip\04\*.wav) do oggenc -q 0 %%x
+for %%x in (util\sources\facade\Sounds\trip\05\*.wav) do oggenc -q 0 %%x
+for %%x in (util\sources\facade\Sounds\trip\06\*.wav) do oggenc -q 0 %%x
+for %%x in (util\sources\facade\Sounds\trip\07\*.wav) do oggenc -q 0 %%x
+for %%x in (util\sources\facade\Sounds\trip\08\*.wav) do oggenc -q 0 %%x
+for %%x in (util\sources\facade\Sounds\trip\09\*.wav) do oggenc -q 0 %%x
+for %%x in (util\sources\facade\Sounds\trip\10\*.wav) do oggenc -q 0 %%x
+</PRE></TT>
+</TD></TR></TABLE> 
+</CENTER>
+
+Each line in this file is a <B>for</B> loop that processes all of the WAV files in a given sub-directory.
+<B>%%x</B> is the loop variable---each time through the loop, it represents a different file in the sub-directory.<BR>
+<BR>
+Thus, in each loop body, we are calling <B>oggenc -q 0</B> on a WAV file.
+For example, a given loop iteration might execute:<BR><BR>
+<CENTER><TT>oggenc -q 0  util\sources\facade\Sounds\global\blender.wav</TT></CENTER>
+<BR>
+The <B>-q 0</B> flag specifies the quality, which can range from 0 to 10.
+Thus, to increase the quality of the encoding to <B>5</B>, you would replace all of the <B>-q 0</B> flags with <B>-q 5</B> in <B>oggEncode.bat</B>.
+The new text of the batch file would be as follows:
+
+<CENTER>
+<TABLE><TR><TD>
+<TT><PRE>
+for %%x in (util\sources\facade\Sounds\global\*.wav) do oggenc -q 5 %%x
+
+for %%x in (util\sources\facade\Sounds\grace\01\*.wav) do oggenc -q 5 %%x
+for %%x in (util\sources\facade\Sounds\grace\02\*.wav) do oggenc -q 5 %%x
+for %%x in (util\sources\facade\Sounds\grace\03\*.wav) do oggenc -q 5 %%x
+for %%x in (util\sources\facade\Sounds\grace\04\*.wav) do oggenc -q 5 %%x
+for %%x in (util\sources\facade\Sounds\grace\05\*.wav) do oggenc -q 5 %%x
+for %%x in (util\sources\facade\Sounds\grace\06\*.wav) do oggenc -q 5 %%x
+for %%x in (util\sources\facade\Sounds\grace\07\*.wav) do oggenc -q 5 %%x
+for %%x in (util\sources\facade\Sounds\grace\08\*.wav) do oggenc -q 5 %%x
+for %%x in (util\sources\facade\Sounds\grace\09\*.wav) do oggenc -q 5 %%x
+
+for %%x in (util\sources\facade\Sounds\trip\01\*.wav) do oggenc -q 5 %%x
+for %%x in (util\sources\facade\Sounds\trip\02\*.wav) do oggenc -q 5 %%x
+for %%x in (util\sources\facade\Sounds\trip\03\*.wav) do oggenc -q 5 %%x
+for %%x in (util\sources\facade\Sounds\trip\04\*.wav) do oggenc -q 5 %%x
+for %%x in (util\sources\facade\Sounds\trip\05\*.wav) do oggenc -q 5 %%x
+for %%x in (util\sources\facade\Sounds\trip\06\*.wav) do oggenc -q 5 %%x
+for %%x in (util\sources\facade\Sounds\trip\07\*.wav) do oggenc -q 5 %%x
+for %%x in (util\sources\facade\Sounds\trip\08\*.wav) do oggenc -q 5 %%x
+for %%x in (util\sources\facade\Sounds\trip\09\*.wav) do oggenc -q 5 %%x
+for %%x in (util\sources\facade\Sounds\trip\10\*.wav) do oggenc -q 5 %%x
+</PRE></TT>
+</TD></TR></TABLE> 
+</CENTER>
+
+<BR>
+<BR>
+
+I hope that my work on this will help more people experience Facade.
+
+
+</TD></TR>
+
+<TR><TD ALIGN=RIGHT>
+<TABLE><TR><TD>
+<A HREF="http://jasonrohrer.n3.net">Jason Rohrer</A><BR>
+July 2005<BR>
+Potsdam, NY
+</TD></TR></TABLE>
+</TD></TR>
+
+</TABLE></CENTER>
+
+
+</BODY>
+
+
+</HTML>

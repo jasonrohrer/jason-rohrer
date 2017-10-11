@@ -1,0 +1,5 @@
+latex full_book.tex
+dvips -o full_book.ps full_book.dvi
+
+# specify a custom page size
+ps2pdf -g542x668 -r72x72 full_book.ps

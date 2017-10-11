@@ -1,0 +1,16 @@
+latex ad.tex
+
+# generating EPS first is only way to produce a PDF file of custom size
+# (pdflatex might do it, but that does not work with embedded EPS files)
+
+# using T1 Times font, which doesn't work well with -P pdf
+# fix it with the G0 switch
+
+dvips -E -P pdf -G0 -o ad.eps ad.dvi
+
+# also generate a PS file, just in case we need it
+
+dvips -P pdf -G0 -o ad.ps ad.dvi
+
+
+epstopdf ad.eps

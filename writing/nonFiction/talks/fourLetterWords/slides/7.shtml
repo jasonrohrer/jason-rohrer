@@ -1,0 +1,14 @@
+<!--#include virtual="head.html" -->
+
+<table border="0" width="100%"><tr><td align="right">
+<a href="6.html">back</A> ---- <a href="8.html">next</A>
+</td></tr></table>
+
+<br>
+
+<center>
+<img src="top_addicting.png" width=640 height=434>
+</center>
+
+
+<!--#include virtual="foot.html" -->

@@ -1,0 +1,3 @@
+latex back_cover_text.tex
+dvips -E -o back_cover_text.eps back_cover_text.dvi
+#dvips -o back_cover_text.ps back_cover_text.dvi

@@ -1,0 +1,14 @@
+<!--#include virtual="head.html" -->
+
+<table border="0" width="100%"><tr><td align="right">
+<a href="13.html">back</A> ---- <a href="17.html">next</A>
+</td></tr></table>
+
+
+<center>
+<img src="scmrpg.jpg" width=600 height=450><br>
+<font size=5><i>Super Columbine Massacre RPG!</i>, 2005, by Danny Ledonne</font>
+</center>
+
+
+<!--#include virtual="foot.html" -->

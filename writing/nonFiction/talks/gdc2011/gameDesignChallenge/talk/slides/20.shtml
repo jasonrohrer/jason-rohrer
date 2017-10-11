@@ -1,0 +1,30 @@
+<!--#include virtual="head_white.html" -->
+
+<table border="0" width="100%"><tr><td align="right">
+<a href="19.html">back</A> ---- <a href="21.html">next</A>
+</td></tr></table>
+
+
+
+<font size=7>Cannon Law:</font>
+<br>
+<br>
+
+<font size=6>
+
+ 1. Run Chain World via one of the included "run_ChainWorld" launchers.<br>
+<br>
+ 2. Start a single-player game and pick "Chain World".<br>
+<br>
+3. Play until you die exactly once.<br>
+<br>
+ <img src="blank.png" width=72 height=1>
+3a. Erecting wooden signs with text is forbidden<br>
+<br>
+<img src="blank.png" width=72 height=1>
+3b. Suicide is permissible.<br>
+<br>
+ 4. Immediately after dying and respawning, quit to the menu.
+</font>
+
+<!--#include virtual="foot.html" -->

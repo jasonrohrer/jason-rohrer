@@ -1,0 +1,38 @@
+\documentclass[letterpaper,12pt]{article}
+
+\usepackage{epsfig,times}
+
+
+
+
+
+% typeblock size of 6.5 by 4 inches
+\setlength{\textheight}{6.5in} \setlength{\textwidth}{4.5in}
+\setlength{\oddsidemargin}{1in} \setlength{\evensidemargin}{1in} 
+\setlength{\topmargin}{55.9pt} \setlength{\footskip}{27.5pt} 
+\setlength{\headheight}{14.6pt} \setlength{\headsep}{19.9pt} 
+
+% use this line for pre-runs of latex to generate correct TOCs and references
+%\usepackage[noprint]{booklet}
+
+% use this line for the final run to do the layout
+\usepackage[print,1to1]{booklet} \nofiles 
+
+%\pagespersignature{4}
+
+
+\usepackage{ifpdf}
+\ifpdf
+  \setpdftargetpages
+\else
+  \setdvipstargetpages
+\fi
+\ifprintoption  % tweak dvi output only for final printing
+  \special{!TeXDict begin /landplus90{true}store end}
+  \special{!TeXDict begin <</Tumble true>> setpagedevice end}
+\fi
+
+
+
+% for dvips
+%\special{landscape}

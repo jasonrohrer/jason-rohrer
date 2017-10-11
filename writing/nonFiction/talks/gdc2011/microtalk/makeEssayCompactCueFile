@@ -1,0 +1,2 @@
+./essayToLatexCompactCueFile.pl essay.txt essayCompact.tex
+latex essayCompact.tex

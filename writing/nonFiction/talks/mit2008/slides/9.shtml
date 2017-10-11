@@ -1,0 +1,14 @@
+<!--#include virtual="head.html" -->
+
+<table border="0" width="100%"><tr><td align="right">
+<a href="8a.html">back</A> ---- <a href="10.html">next</A>
+</td></tr></table>
+
+
+<center>
+<img src="pacman.png" width=389 height=500><br>
+<font size=5><i>Pac-Man</i>, 1980, d. Toru Iwatani</font>
+</center>
+
+
+<!--#include virtual="foot.html" -->

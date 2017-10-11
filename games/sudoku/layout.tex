@@ -1,0 +1,42 @@
+\documentclass[10pt]{article}
+\usepackage{fullpage, times, epsfig}
+
+%% For defining all text/page measurements. 170x240mm is the
+%% standard thesis page size Ponsen & Looijen require. 124x185mm is
+%% simply a text body size that resulted in margins that pleased me.
+%% The dvips option will be superceded if pdflatex is used, but is
+%% necessary in order to generate a correct PostScript bounding box
+%% under standard LaTeX.
+
+\usepackage[dvips]{geometry}
+
+\newlength{\paperWidth}
+%\setlength{\paperWidth}{5.605in}
+\setlength{\paperWidth}{4in}
+\newlength{\paperHeight}
+\setlength{\paperHeight}{5in}
+
+% trim a bit more to reduce bottom whitespace
+%\setlength{\paperHeight}{0.987\paperHeight}
+
+\geometry{papersize={\paperWidth,\paperHeight},scale=1.0, vmargin={0in,0in}, headheight=0in, headsep=0in, footskip=0in}
+%total={6.5in,5in}}
+
+
+\begin{document}
+\thispagestyle{empty}
+
+\noindent \includegraphics[width=\textwidth]{NUMBER_puzzle_SCORE.eps}
+
+% use 10% leading as requested by NCTW
+\fontsize{10}{11}
+\selectfont
+
+{\centering Puzzle {\bf NUMBER}, difficulty rating:  {\bf DIFFICULTY}
+
+\centering\parbox{0.98\textwidth}{Each number (from 1 to 9) must occur exactly once in each row, each column, and each 3x3 sub-region.  Several numbers are already filled in for you:  those are your hints.  Your goal is to fill in every blank square.}
+
+} 
+%\noindent Each number (from 1 to 9) must occur exactly once in each row, each column, and each 3x3 sub-region.  Several numbers are already filled in for you:  those are your hints.  Your goal is to fill in every blank square.
+
+\end{document}

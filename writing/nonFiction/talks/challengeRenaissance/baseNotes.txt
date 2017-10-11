@@ -1,0 +1,694 @@
+Title:  
+
+The Challenge Renaissance
+
+
+
+Abstract:
+
+As our medium struggles for cultural legitimacy and mainstream acceptance, the challenging nature of many games seems to be standing in the way.  Non-players can't even walk straight with two-thumbstick controls, let alone navigate chaotic tactical situations to get to the somewhat sophisticated core of a game like Far Cry 2.  In its attempt to woo a mainstream full of non-players, the artgame movement weakened or completely eliminated challenge from its games.  In doing so, the movement unwittingly excised the feature of games that made them interesting in the first place.  The avant-garde has now come full-circle, re-embracing challenge as the beating heart of game design.  But where does that leave us in our quest for cultural legitimacy?
+
+
+
+
+The mainstream myth
+
+--COD:mw2  20 million units sold, brought in $1.2 billion
+
+Worldwide, this revenue is competing with the top 3 films of all time.
+
+[SLIDE]
+Chart from box-office mojo showing COD inserted on the chart.
+
+
+So, this is a super-popular game that has had a huge impact on culture, right?  And everyone knows about it, right?  Ask people on the street.  Ask your neighbor.  Ask your aunt.  Why's that? Tons of money... but no one has heard of it.  
+
+
+Because Avatar sold 348 million units!
+Titanic sold 400 million units!
+Gone with the Wind sold something like a billion units...
+
+[Slide series:  growing graphs, with new bars added to make COD look tiny]
+
+World population at the time was only 2 billion.
+
+[Final slide:  world population as last bar in graph]
+
+
+Demographic:  males 15-35
+CA 2010 census:  This demographic is only 15% of the total population
+
+
+So, we can't celebrate our conquest of the mainstream just yet.
+
+A big part of our mainstream problem involves journalists.
+
+
+Short intro of Tom Bissell
+
+Mainstream video game journalism is divided into two camps:
+
+--Drolling fanboys who have conned their way into the mainstream press and compare The Legend of Zelda to Citizen Cane.  They pretty much write about nothing but video games.
+
+Opening line Quote from NYT article:
+
+"As someone who has played electronic games almost my entire life, my deepest shame has always been that I'm not a great jumper."  --Seth Schiesel, New York Times
+
+(Shi-ZELL --- kinda like gazelle)
+
+[Show photo of Seth next to quote]
+
+--Luddite oldsters who dip their toes in the water an write humorous accounts about their general befuddlement.  Each of these guys writes one article about video games before moving on.
+
+Opening line Quote:
+"I'd never held a video-game controller until last fall."  --Nicholson Baker, The New Yorker
+
+[Show photo of Nicholson Baker next to quote]
+
+
+And then we have Tom Bissell.  
+
+[SLIDE: Tom Bissell]
+
+Born in 1974.  One foot on either side of this cultural divide.  Writes an article in the New Yorker about video games.  Writes a whole book about video games.  [Slide:  Cover]  A good book.  A mainstream book.  Book gets good reviews.  The NY Times review compares Bissell to Marshall McLuhan in the 50s and 60s.
+
+And doesn't just write about video games.  Writes about the real world too, about the Soviet Union, about Vietnam [Slide: Cover of vietnam book].
+
+We need Tom Bissell.  [Slide:  WE NEED TOM BISSELL]
+
+We just lost Tom Bissell:
+
+[Slide:  quotes]
+
+"video games have begun to seem like a fly buzzing in the room, and the only reason the fly is not dead is I have become too lazy to kill it."
+
+"a month ago I decided to quit playing video games."
+
+
+
+Bissell is not an isolated case here.  All of my intelligent, thoughtful 30-something friends have made the same promise to themselves.  They're done playing video games, after a lifetime of playing.  They have wives and kids now.  But all those new priorities still leave room for movies and books.
+
+Pretty much no one that I know plays video games anymore, except for my game designer friends in the industry.
+
+
+Video games aren't relevant to these people's lives anymore.
+
+
+That brings us back to the tired, old challenge 
+
+[SLIDE: line in the cultural sand]
+
+
+And in trying to figure out how to get there, the indie types have been working really hard on this problem.  Trying to figure out what it is about games that keeps the mainstream away.  Let's shed some of the old, annoying design patterns.  And lets also add content sophistication in the process.  The artgame movement, expressive games, or whatever you want to call it.  And games like these have been the result:
+
+[MT Slide 1:  boring games]
+
+
+Lots of people seem to have liked these games a whole lot, and games like these are the reason that I'm standing up here.  
+
+--I'm not entirely satisfied with this result.  
+
+--I've come to detest these games in many ways.
+
+--Not just me.  The artgame movement is pretty much dead.
+
+--But WHY?  Spent a lot of time thinking about this.
+
+--Conclusion:  these games are boring.
+
+[Slide:  S+SEP]
+
+--The realization that it's not enough to just wander around an incredibly beautiful environment and do stuff---that's kindof startling!
+
+--Interactivity is not enough!
+
+
+
+--Starting thinking about boredom itself.
+
+--May be hard-wired.
+
+--Survival mechanism to avoid unproductive situations
+
+
+[MT slide 2:  shooter]
+
+--These games aren't filled with tense action.
+
+--Action isn't the only gameplay not boring.
+
+--And lots of people say they aren't fun.
+
+--Forget about fun.  Lots of things aren't fun but still not boring.
+
+--But it doesn't matter how profound our expression
+
+--we're losing the audience through walking out or drifting out due to boredom.
+
+--we need to engage people!  Keep them there.
+
+
+[MT slide 3:  Bioshock Shrugged]
+
+--and we don't want gimmicks that fight the expression.
+
+--not a spoon full of sugar
+
+--fundamentally delicious medecine.  How to do that?
+
+
+[MT slide 4:  painting]
+
+--Got me thinking about other mediums
+
+--How do they handle engagement?
+
+--How long can they engage?
+
+--How long can we stay focused without drifting?
+
+--Durational tolerance.
+
+--How long to spend looking at a painting?  30 seconds.
+
+--Music engages longer.  Song lasts several minutes.  Some even longer
+
+
+[MT  slide 5:  music mosh]
+
+--Only engages ears, rest of mind/body free.
+
+--Cleaning, cooking.
+
+--I was listening to music as I wrote this talk.
+
+--Experiment:  listen to music with no parallel activities.
+
+--Stare at the speakers.
+
+--Hard to focus for more than few minutes.
+
+
+[MT slide 6:  Rosemary's Baby]
+
+--Movies engage eyes, ears, and good portion of brain.
+
+--Parallel activities limited.  Knitting.
+
+--Tolerate movies much longer.  Several hours.
+
+--Richer sensory engagement increases tolerance?  Is that it?
+
+
+[MT slide 7:  Play Time]
+
+--Clearly not the case, becasue some movies are boring.
+
+--Engaging eyes and ears, by itself, not enough.
+
+--Content matters!
+
+--But what content?
+
+--Answer is disappointing:  magic ingredient is plot.
+
+
+[MT slide 8:  Plotless vs Plotted]
+
+--Avant garde used to resist plot.
+
+--They gave up.  Today's most boundary-pushing art films embrace plot.
+
+--Maybe experimental plot, but still plot.
+
+--So... why is plot so engaging?
+
+--Again, may be hard-wired for survival.
+
+
+[MT slide 9:  crowd vs. argument]
+
+--City park bench experiment.  Mind wanders.
+
+--Couple argument.  Something going down:  whoa!  Can't stop watching.
+
+--Might learn something.  Future social or survival advantage.
+
+--If something's going down, you can watch closely for several hours.
+
+--Something going down = plot!
+
+
+[MT slide 10:  Alice's Restaurant]
+
+--Add magic ingredient to music, can pay attention much longer.
+
+--Arlo Guthrie:  "Alice's Restaurant", 18 minutes long.
+
+--Can listen to whole thing, no drifting.
+
+--No parallel activity needed.
+
+--Why?  Song has a plot.
+
+
+[MT slide 11:  Arcade cabinet]
+
+--Apply line of thought to games.
+
+--Game engage eyes, ears like movies.
+
+--Also engage BODY (interactivity).
+
+--Require active consumption.
+
+--Monopolize more of your brain than any passive medium.
+
+--No parallel activities possible.  Can't even knit!
+
+
+[MT slide 12:  gamer dad]
+
+--Multi-channel engagement.
+
+--Durational tolerance goes from a few hours to a few dozen hours.
+
+--Single play sessions:  four hours is common.
+
+--Everyone has blown a whole day playing one game.
+
+--We lose sleep over games---that engaging.
+
+--Who would remain engaged by a movie for a dozen hours straight?
+
+--Plot just isn't powerful enough.
+
+
+[MT slide 13:  Plot in games]
+
+--Plot not enough in games, either.
+
+--So what ingredient leads to massive durational tolerance?
+
+--My only answer:  Challenge.
+
+--Again, may be hard wired engagement response.  Survival value.
+
+
+[MT slide 14:  Challenge in games]
+
+--Passively watching something going down.
+
+--Might learn something.  Pay attention for a while.
+
+--But if something is going down that involves you?
+
+--Something you've gotta overcome?
+
+--Survival value is obvious!
+
+
+[MT slide 15:  two arguments]
+
+--Can watch someone else's argument passively for a few hours.
+
+--Personal argument?  All day!  Days!  Months!
+
+--As long as it lasts.
+
+--That's what challenge does.  Wow.
+
+--Not advocating for long games.
+
+--But it is interesting that they CAN engage so long.
+
+--Monopolize all channels, brain DEMANDS challenge.
+
+
+[MT slide 16:  Boring passage]
+
+--Even for short sessions.
+
+--Even for a five minute game.
+
+
+
+[MT slide 17:  artgames vs. challenge]
+
+--Work monopolizes eyes and ears (watching), brain yearns for plot.
+
+--Work demands that you actively DO something, brain years for activity to be cchallenging.
+
+--We've been fighting against necessity of challenge in games.
+
+--Hopeless:  like fighting against plot in movies.
+
+--Disappointing!  Challenge is old-fashioned and limiting.
+
+
+[MT slide 18:  Synecdoche, NY]
+
+--Filmmakers have embraced plot, not too limiting for them.
+
+--Huge variety of plots.
+
+--Expression woven through these plots.
+
+
+[MT slide 19:  Mario]
+
+--Our problem:  limited spectrum of game challenges invented so far
+
+--Jumping, shooting, racing, pluzzles.
+
+--Weave expression through those?  Not cohesive.
+
+--Challege feels like a spoon full of sugar.
+
+
+[MT slide 20:  Doom vs. Bonnie]
+
+--Imagine if we just knew one movie plot:  Bank Heist
+
+--Imagine filmmakers trying to weave expression through Heist movies.
+
+--Would feel limiting!
+
+--Would want to abandon plot to circumvent limit. 
+
+--But the solution for us:  not throw out challenge.
+
+--We need to INVENT new challenges that complement what we want to express.
+
+--Essentially means inventing new genres.
+
+--Challenge will stop feeling like engaging gimmick
+
+--Will be a potent expressive tool in own right.
+
+
+
+[Slide:  TOT Notgames]
+
+--Several designers and critics have complained about how we cling to "games", like this is historical baggage to be dumped.  
+
+--Holding this interactive medium back.
+
+--Not reaching full potential.
+
+--Their sentiment is dead wrong.
+
+--Games dominate "interactive art" for a reason.
+
+--We subconsciously gravitate toward making games because it's the only way to make non-boring interactive art.
+
+
+
+[Slide:  Minecraft like a box of lego]
+
+--Minecraft often described as a sandbox game.
+
+--Lots of people say Minecraft is like a digital box of legos.
+
+
+
+[Slide:  Minecraft vs. lego cathedral]
+
+--Build whatever you can imagine
+
+--But that can't explain its humongous appeal.
+
+--There are tons of digital tools and toys for building whatever you can imagine.
+
+--No, minecraft is not like a digital box of legos.
+
+
+
+[Slide:  Mincraft like a box of lego with a rat]
+
+--It's like a box of legos that ships with a live rat inside.
+
+--Rate comes out at night and tries to bite your fingers as you work.
+
+--It's this aspect of Minecraft---the incredible challenge you face when trying to build what you imagine--that gives Minecraft its appeal.
+
+
+
+[MT slide 1: boring art games]
+
+--Brings us back to boring, challenge-free artgames.
+
+--We rejected challenge.
+
+--Not just because it is old fashioned, though.
+
+--Because we felt that challenge was driving away diverse audience.
+
+--My wife, my uncle, Roger Ebert, etc.
+
+--Making sophisticated games for non-gamers.
+
+--Non-gamers can't tolerate challenge, right?
+
+--But perhaps challenge is a scapegoat here.
+
+
+
+[Slide:  K+L2 title]
+
+--My first experience with Kane and Lynch 2.
+
+--Inspired by Tom Bissell, started on hardest difficulty.
+
+
+Run through 3 times:
+
+--Run through the beaded curtain (Lynch: "I want him alive")
+
+--Out onto the balcony (Lynch: "I just wanna talk")
+
+--Through someone's apartment (Kane: "I see that you're still insane, Lynch")
+
+--Blocked by an iron gate (Lynch: "Brady goddamit" );
+
+--Through someone else's apartment (Lynch: "Is there a back way in here")
+
+--Out the back door and get shot dead (Lynch:  "Shit").
+
+
+After about six more repetitions, I quit the game and restarted on medium difficulty.
+
+
+
+--So it's not challenge that drives away normal people.
+
+--It's the broken, repetative way that we handle failure in mainstream game design.
+
+--No reasonable person wants to repeat the same damn thing over and over!
+
+--But in a linear game, what else can you do?
+
+--Mainstream design has noticed this.
+
+--Checkpoints have gotten closer and closer together.
+
+--Repetition reduced.
+
+
+
+[Slide: bioshock vita chamber]
+
+--Limit of this trend is BioShock
+
+--Eliminated failure repetition from the game completely.
+
+--Die, go back to last vita chamber SPATIALLY only.
+
+--World state does not rewind when this happens.
+
+--Not a checkpoint---just a physical jump-back point.
+
+--Dead enemies still dead.
+
+--Injured enemies still injured, including bosses.
+
+--Sweet!  never repeat anything!
+
+--Well, except a small bit of walking.
+
+--Weird side-effect:  challenge is elimated too!
+
+
+[Slide:  bioshock wrench]
+
+--Example:  beat the first boss with pipe wrench.
+
+--I did this, no strategy, walk forward, mash trigger, respawn.
+
+--Took 20 respawns, but first boss fell.
+
+--A somewhat engaging game becomes BORING when you figure this out.
+
+--Game is FALSELY engaging.
+
+
+
+
+[Slide:  UC 2 Death]
+
+--But even true checkpointing, as checkpoints become more dense, leads to a similar problem.
+
+--True mastery involves being able to make it through a series of challenges flawlessly.
+
+--Dense checkpoints subvert this.
+
+--Slop your way through, chipping away at each sub-challenge one at a time.
+
+--Richard pushes for checkpoints far enough apart to allow multi-challenge mastery.
+
+--K+L 2, for all my griping, was doing the same thing.  I couldn't slop my way through.
+
+
+--But mainstream games, generally, have subverted challenge.  Put up false challenges in place.
+
+--Health systems in modern games (including UC2 and KL2) are an example of this.  Get shot as much as you want!  As long as you go long enough between each batch of shots to recharge a bit.  Don't need to master the "not ever getting shot" part, but it's at least better than Bioshock, because you still need to master something (getting into cover). 
+
+
+--Artgames and mainstream games have been attacking the same problem (boring repetition) from the same angle (eliminating challenge).
+
+
+
+
+--There have been other approaches to dealing with this problem.
+
+--They embrace challenge fully.
+
+--So fresh and invigorating.
+
+--Most importantly, NOT BORING.
+
+--Hard to not see them as the future of games.
+
+--(I'm grouping them as the Challenge Renaissance)
+
+
+Aproaches:
+
+1. Freedom of Approach  (FC2, Demon's Souls, Minecraft)
+
+--Hallmarks
+
+  --Extremely challenging
+  
+  --Systems heavy
+
+  --You pick what you're trying to do.
+   
+  --Die in the middle of what you're doing.
+
+  --Respawn WAY BACK (effectively no checkpoints)
+
+  --So far back, you might as well pick something else to do next
+
+  --Or approach what you were trying to do in a totally different way.
+
+  --(Whereas linear games make you try approaching by river with a shotgun over and over from the last checkpoint until you succeed, FC2 lets you try the back entrance on foot with a sniper rifle next time---each approach to the same challenge feels fresh)
+
+
+
+2. Roguelike (Spelunky, Shootfirst)
+
+--Hallmarks
+
+  --Extremely challenging.
+
+  --Permadeath, including entire game world and all it's unexplored possibilities.
+
+  --Each new attempt is a brand new game world with new challenges waiting.
+
+
+
+3.  Microchallenge (Flywrench, VVVVVV, Super Meat Boy)
+
+--Hallmarks
+
+  --Extremely hard, small chunks of challenge.
+
+  --Chunks big enough that they require mastery to pass.
+
+  --Explicit checkpoints or boundaries between challenges.
+
+  --Instantly respawn to try again upon failure.
+
+  --Practice your current failure spot dozens of times in one minute.
+
+
+
+--All of these generally share the following important property (which is NOT true of my K+L2 example):  no repetition of linear content!  Seeing the same enemy run to the same spot again or hearing the same quip from your partner.  Repeating that stuff is grating as hell.
+
+
+--These approaches are not at all compatible with linear, pre-authored stories.
+
+--These games feel very pure as games.
+
+--They also feel somehow, strangely, expressive.
+
+--Like a new, alien form of expression.  An expression born out of challenge itself.
+
+--The Microchallenge games, in particular, seem to be expressions about the nature of challenge itself.
+
+
+[Slide:  Bissell photo]
+--And that brings us back to Tom Bissell.
+
+--He's not leaving games because they're too challenging, or because he's sick of pointless challenge.
+
+--On the contrary, he always plays games on the hardest difficulty setting.
+
+--What he's sick of is the bullshit content that is packed around almost every mainstream game.
+
+[Slide:  Bissell Quote]
+"If a game is going to try to tell a full-blown story, I've found I no
+longer have any tolerance for bullshit, whether it's sloppy writing or
+lazily conceived characters."
+
+(got permission)
+
+
+--So keeping Tom Bissell might involve preserving the challenge and dispensing with the rest.
+
+--And exploring challenge, deeply, is what I believe we need to do with games artistically.  That's a boundary that we need to push as artists.  That's how we get to where we want to go.  Challenging games are culturally sophisticated games.  That's what intelligent, game-literate audiences are looking for.
+
+--And we can't push artistic boundaries by pandering to the game-illiterate mainstream.  
+
+[Slide:  grandma playing Wii]
+--Grandma may not be doing Far Cry 2 permadeath runs, but she's not watching Lars von Trier films either.
+
+--But where does that leave us?  Trapped in our niche without the mainstream.
+
+--But its the only way we're ever going to get across that boundary.
+
+
+[SLIDE: line in the cultural sand]
+
+
+--And this seems like a paradox.  In order to transcend into artistic relevance, we need to forget about appealing to the intellectual mainstream.  It doesn't seem like films had to do that, so why should we?  Why can't we have both?
+
+--Chris Hecker has pointed out that comics screwed up, and even the artisically relevant graphic novel can't save comics.  Like, it's too late for comics to shake off the throwaway-culture image.
+
+--But I think he's wrong about that.
+
+[Slide: Chris Ware page]
+
+--Because reading a graphic novel, especially an artistically ambitious one, like something from Chris Ware, is a lot of work.  It definitely not a passive experience.  You have to try, unpack it, figure it out.  Your eyes don't always know where to look next.
+
+--It's not rexlaxing.  Not something to do after a hard day at the office.  
+
+--And just try reading one to your kid!  Trying to read a graphic novel out loud is painful.
+
+--This is not true for books, movies, or music.
+
+--Essentially, there's no way to casually consume even a partially-active medium like graphic novels.
+
+--And here we are making works in the most active medium ever invented.
+

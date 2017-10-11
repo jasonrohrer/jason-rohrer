@@ -1,0 +1,16 @@
+<!--#include virtual="head.html" -->
+
+<table border="0" width="100%"><tr><td align="right">
+<a href="7.html">back</A> ---- <a href="9.html">next</A>
+</td></tr></table>
+
+<br>
+<br>
+
+<center>
+<img src="immersion.jpg" width=600 height=301 ><br>
+<font size=5>The Immersion Project (Robbie Cooper, NYT)</font>
+</center>
+
+
+<!--#include virtual="foot.html" -->

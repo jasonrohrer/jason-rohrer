@@ -1,0 +1,14 @@
+<!--#include virtual="head.html" -->
+
+<table border="0" width="100%"><tr><td align="right">
+<a href="8.html">back</A> ---- <a href="9.html">next</A>
+</td></tr></table>
+
+
+<center>
+<img src="memento.jpg" width=500 height=336><br>
+<i>Memento</i>, 2001, d. Christopher Nolan
+</center>
+
+
+<!--#include virtual="foot.html" -->

@@ -1,0 +1,101 @@
+\documentclass[12pt]{article}
+\usepackage{fullpage, times}
+
+
+\pagestyle{empty}
+
+
+\begin{document}
+
+
+{\bf 15 cards}
+
+Each card has black front and black back.
+
+All use same die cut.
+
+\vspace{1in}
+
+{\bf 30 EPS files}
+
+Each file, except for the back cover, contains a 300 dpi image along with resolution-independent line art.
+The back cover file contains only line art.
+
+\begin{center}
+
+
+% use counters to automatically generate the following table
+
+\newcounter{cardNumber}
+\newcounter{fileNumber}
+
+\setcounter{cardNumber}{1}
+\setcounter{fileNumber}{1}
+
+
+% prints the current counter value and increments the counter
+% syntax:  \printIncrement{counter_name}
+\newcommand{\printCardNumber} {
+	\arabic{cardNumber}
+    \addtocounter{cardNumber}{1}
+}
+
+
+\newcommand{\printFileName} {
+    \ifnum \value{fileNumber} < 10
+        0\arabic{fileNumber}.eps
+    \else
+        \arabic{fileNumber}.eps
+    \fi
+    \addtocounter{fileNumber}{1}
+}
+
+
+
+\newcommand{\lineInTable} {
+    \printCardNumber & \printFileName & \printFileName\\
+    \hline
+}
+
+
+
+\begin{tabular}{l||l|l}
+{\bf card} \# & {\bf front file} & {\bf back file}\\
+\hline
+\hline
+\printCardNumber & cover.eps & \printFileName\\
+\hline
+\lineInTable
+\lineInTable
+\lineInTable
+\lineInTable
+\lineInTable
+\lineInTable
+\lineInTable
+\lineInTable
+\lineInTable
+\lineInTable
+\lineInTable
+\lineInTable
+\lineInTable
+
+\printCardNumber & \printFileName & back\_cover.eps\\
+
+\end{tabular}
+
+\end{center}
+
+
+
+\vspace{1in}
+
+Included printouts are for reference only and are not representative of image quality (our printer was low on toner).
+
+Die lines are drawn on 3 of the cards, though the same cuts are used on the other 12 cards.
+
+
+
+\end{document}
+
+
+

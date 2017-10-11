@@ -1,0 +1,23 @@
+<!--#include virtual="head.html" -->
+
+<table border="0" width="100%"><tr><td align="right">
+<a href="4.html">back</A> ---- <a href="6.html">next</A>
+</td></tr></table>
+
+
+<center>
+
+<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,0,0" width="600" height="450" id="player" align="middle">
+<param name="movie" value="player.swf?file=fullFilm.flv&size=false&aplay=true&autorew=false&title=LostHighway" />
+<param name="menu" value="false" />
+<param name="quality" value="high" />
+<param name="bgcolor" value="#999999" />
+<embed src="player.swf?file=fullFilm.flv&size=false&aplay=true&autorew=false&title=LostHighway" menu="false" quality="high" bgcolor="#999999" width="600" height="450" name="player" align="middle" allowScriptAccess="sameDomain" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" />
+</object>
+<br>
+From <i>Lost Highway</i>, 1997, d. David Lynch
+
+</center>
+
+
+<!--#include virtual="foot.html" -->

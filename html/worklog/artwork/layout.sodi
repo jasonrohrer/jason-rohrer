@@ -1,0 +1,271 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
+"http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg
+   style="fill:#000000;fill-opacity:0.5;stroke:none"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   width="595.275591"
+   height="841.889764"
+   id="svg1"
+   sodipodi:docbase="/var/www/jcr13/worklog/"
+   sodipodi:docname="/var/www/jcr13/worklog/layout.sodi">
+  <defs
+     id="defs3" />
+  <sodipodi:namedview
+     id="base" />
+  <rect
+     style="stroke:#006d92; fill:#7f7f7f; fill-opacity:1; fill-rule:evenodd; stroke-opacity:1; stroke-width:0.5pt; stroke-linejoin:round; stroke-linecap:butt; "
+     id="rect65"
+     x="369.341564"
+     y="303.520248"
+     width="4.000000"
+     height="4.000000"
+     rx="0.000000"
+     ry="0.000000" />
+  <rect
+     style="stroke:#006d92; fill:#7f7f7f; fill-opacity:1; fill-rule:evenodd; stroke-opacity:1; stroke-width:0.5pt; stroke-linejoin:round; stroke-linecap:butt; "
+     id="rect64"
+     x="364.341564"
+     y="303.520248"
+     width="4.000000"
+     height="4.000000"
+     rx="0.000000"
+     ry="0.000000" />
+  <rect
+     style="stroke:#006d92; fill:#7f7f7f; fill-opacity:1; fill-rule:evenodd; stroke-opacity:1; stroke-width:0.5pt; stroke-linejoin:round; stroke-linecap:butt; "
+     id="rect63"
+     x="359.341564"
+     y="303.620248"
+     width="4.000000"
+     height="4.000000"
+     rx="0.000000"
+     ry="0.000000" />
+  <rect
+     style="stroke:#006d92; fill:#7f7f7f; fill-opacity:1; fill-rule:evenodd; stroke-opacity:1; stroke-width:0.5pt; stroke-linejoin:round; stroke-linecap:butt; "
+     id="rect62"
+     x="369.341564"
+     y="299.320248"
+     width="4.000000"
+     height="4.000000"
+     rx="0.000000"
+     ry="0.000000" />
+  <rect
+     style="stroke:#006d92; fill:#7f7f7f; fill-opacity:1; fill-rule:evenodd; stroke-opacity:1; stroke-width:0.5pt; stroke-linejoin:round; stroke-linecap:butt; "
+     id="rect61"
+     x="364.341564"
+     y="299.320248"
+     width="4.000000"
+     height="4.000000"
+     rx="0.000000"
+     ry="0.000000" />
+  <rect
+     style="stroke:#006d92; fill:#7f7f7f; fill-opacity:1; fill-rule:evenodd; stroke-opacity:1; stroke-width:0.5pt; stroke-linejoin:round; stroke-linecap:butt; "
+     id="rect60"
+     x="359.341564"
+     y="299.320248"
+     width="4.000000"
+     height="4.000000"
+     rx="0.000000"
+     ry="0.000000" />
+  <rect
+     style="stroke:none; fill:#56707f; fill-opacity:1; fill-rule:evenodd; stroke-opacity:1; stroke-width:1px; stroke-linejoin:miter; stroke-linecap:butt; "
+     id="rect4"
+     x="318.091564"
+     y="284.120248"
+     width="34.200000"
+     height="39.800000" />
+  <rect
+     style="stroke:none; fill:#ffffff; fill-opacity:1; fill-rule:evenodd; stroke-opacity:1; stroke-width:1px; stroke-linejoin:miter; stroke-linecap:butt; "
+     id="rect5"
+     x="323.591564"
+     y="288.120248"
+     width="22.300000"
+     height="32.400000"
+     rx="0.000000"
+     ry="0.000000" />
+  <text
+     style="fill:#ffffff; stroke:none; font-family:helvetica; font-style:normal; font-weight:normal; font-size:12px; fill-opacity:1; fill-rule:evenodd; stroke-opacity:1; stroke-width:1px; stroke-linejoin:miter; stroke-linecap:butt; "
+     x="2378.718198"
+     y="2084.432144"
+     id="text38"
+     transform="scale(0.137628,0.137628)">interchangeable parts</text>
+  <text
+     style="fill:#ffffff; stroke:none; font-family:Helvetica; font-style:italic; font-weight:normal; font-size:12.000000; fill-opacity:1; fill-rule:evenodd; stroke-opacity:1; stroke-width:1px; stroke-linejoin:miter; stroke-linecap:butt; "
+     x="4199.767698"
+     y="3675.773823"
+     id="text39"
+     transform="scale(0.0782842,0.0782842)">Jason Rohrer's journal of inventions and ideas</text>
+  <text
+     style="fill:#000000; stroke:none; font-family:Helvetica; font-style:normal; font-weight:normal; font-size:12.000000; fill-opacity:1; fill-rule:evenodd; stroke-opacity:1; stroke-width:1px; stroke-linejoin:miter; stroke-linecap:butt; "
+     x="2386.710758"
+     y="2108.409823"
+     id="text40"
+     transform="scale(0.137628,0.137628)">Test body and sidebar
+</text>
+  <rect
+     style="stroke:none; fill:#8cc768; fill-opacity:0.34375; fill-rule:evenodd; stroke-opacity:1; stroke-width:1px; stroke-linejoin:miter; stroke-linecap:butt; "
+     id="rect34"
+     x="339.291564"
+     y="285.620248"
+     width="9.600000"
+     height="36.700000"
+     rx="0.000000"
+     ry="0.000000" />
+  <text
+     style="fill:#000000; stroke:none; font-family:ITC Bookman; font-style:normal; font-weight:bold; font-size:12.000000; fill-opacity:1; fill-rule:evenodd; stroke-opacity:1; stroke-width:1px; stroke-linejoin:miter; stroke-linecap:butt; "
+     x="368.441564"
+     y="296.220248"
+     id="text46">*</text>
+  <rect
+     style="stroke:none; fill:#56707f; fill-opacity:1; fill-rule:evenodd; stroke-opacity:1; stroke-width:1px; stroke-linejoin:miter; stroke-linecap:butt; "
+     id="rect68"
+     x="391.047120"
+     y="287.064692"
+     width="34.200000"
+     height="12.800000"
+     rx="0.000000"
+     ry="0.000000" />
+  <g
+     id="g78"
+     transform="translate(28.3111,-7.75556)">
+    <rect
+       style="stroke:#000000; fill:#ffffff; fill-opacity:1; fill-rule:evenodd; stroke-opacity:1; stroke-width:1px; stroke-linejoin:miter; stroke-linecap:butt; "
+       id="rect77"
+       x="359.491564"
+       y="311.820248"
+       width="14.900000"
+       height="9.400000"
+       rx="0.000000"
+       ry="0.000000" />
+    <text
+       style="fill:#000000; stroke:none; font-family:helvetica; font-style:normal; font-weight:normal; font-size:12px; fill-opacity:1; fill-rule:evenodd; stroke-opacity:1; stroke-width:1px; stroke-linejoin:miter; stroke-linecap:butt; "
+       x="319.336917"
+       y="284.469448"
+       id="text41"
+       transform="matrix(1.11001,0,0,1.11001,5.1,6.3)">*</text>
+    <text
+       style="fill:#000000; stroke:none; font-family:Courier; font-style:normal; font-weight:bold; font-size:12.000000; fill-opacity:1; fill-rule:evenodd; stroke-opacity:1; stroke-width:1px; stroke-linejoin:miter; stroke-linecap:butt; "
+       x="466.788543"
+       y="405.167284"
+       id="text44"
+       transform="matrix(0.769585,0,0,0.769585,5.1,6.3)">*</text>
+    <text
+       style="fill:#000000; stroke:none; font-family:ITC Avant Garde Gothic; font-style:normal; font-weight:normal; font-size:12.000000; fill-opacity:1; fill-rule:evenodd; stroke-opacity:1; stroke-width:1px; stroke-linejoin:miter; stroke-linecap:butt; "
+       x="310.425272"
+       y="281.210359"
+       id="text45"
+       transform="matrix(1.14077,0,0,1.14077,5.09203,6.3)">*</text>
+    <text
+       style="fill:#000000; stroke:none; font-family:Palatino; font-style:normal; font-weight:bold; font-size:12.000000; fill-opacity:1; fill-rule:evenodd; stroke-opacity:1; stroke-width:1px; stroke-linejoin:miter; stroke-linecap:butt; "
+       x="287.094684"
+       y="447.825804"
+       id="text47"
+       transform="matrix(0.868747,-0.261164,0.261164,0.868747,5.1,6.3)">*</text>
+    <text
+       style="fill:#000000; stroke:none; font-family:Times; font-style:normal; font-weight:bold; font-size:12.000000; fill-opacity:1; fill-rule:evenodd; stroke-opacity:1; stroke-width:1px; stroke-linejoin:miter; stroke-linecap:butt; "
+       x="476.104424"
+       y="413.727441"
+       id="text48"
+       transform="matrix(0.765558,0,0,0.765558,5.32702,6.3)">*</text>
+    <text
+       style="fill:#000000; stroke:none; font-family:Utopia; font-style:normal; font-weight:bold; font-size:12.000000; fill-opacity:1; fill-rule:evenodd; stroke-opacity:1; stroke-width:1px; stroke-linejoin:miter; stroke-linecap:butt; "
+       x="427.752911"
+       y="379.761153"
+       id="text49"
+       transform="scale(0.852941,0.852941)">*</text>
+    <rect
+       style="stroke:none; fill:#8cc768; fill-opacity:0.34375; fill-rule:evenodd; stroke-opacity:1; stroke-width:1px; stroke-linejoin:miter; stroke-linecap:butt; "
+       id="rect67"
+       x="359.491564"
+       y="311.720248"
+       width="14.900000"
+       height="4.800000"
+       rx="0.000000"
+       ry="0.000000"
+       transform="translate(0,0.1)" />
+    <rect
+       style="stroke:none; fill:#8cc768; fill-opacity:0.34375; fill-rule:evenodd; stroke-opacity:1; stroke-width:1px; stroke-linejoin:miter; stroke-linecap:butt; "
+       id="rect76"
+       x="370.091564"
+       y="311.820248"
+       width="4.400000"
+       height="9.400000"
+       rx="0.000000"
+       ry="0.000000"
+       transform="translate(-0.1,0)" />
+  </g>
+  <g
+     id="g133">
+    <rect
+       style="stroke:#000000; fill:#ffffff; fill-opacity:1; fill-rule:evenodd; stroke-opacity:1; stroke-width:2pt; stroke-linejoin:miter; stroke-linecap:butt; "
+       id="rect89"
+       x="359.589996"
+       y="319.519761"
+       width="50.417068"
+       height="32.680000"
+       rx="0.000000"
+       ry="0.000000"
+       transform="translate(-1.11111,4.44444)" />
+    <g
+       id="g126">
+      <text
+         style="fill:#000000; stroke:none; font-family:helvetica; font-style:normal; font-weight:normal; font-size:12px; fill-opacity:1; fill-rule:evenodd; stroke-opacity:1; stroke-width:1px; stroke-linejoin:miter; stroke-linecap:butt; "
+         x="92.710808"
+         y="91.550049"
+         id="text90"
+         transform="matrix(3.88258,0,0,3.88258,-1.11111,4.44444)">*</text>
+      <text
+         style="fill:#000000; stroke:none; font-family:Courier; font-style:normal; font-weight:bold; font-size:12.000000; fill-opacity:1; fill-rule:evenodd; stroke-opacity:1; stroke-width:1px; stroke-linejoin:miter; stroke-linecap:butt; "
+         x="466.788543"
+         y="405.167284"
+         id="text91"
+         transform="matrix(2.69185,0,0,2.69185,-882.105,-744.581)">*</text>
+      <text
+         style="fill:#000000; stroke:none; font-family:Times; font-style:normal; font-weight:bold; font-size:12.000000; fill-opacity:1; fill-rule:evenodd; stroke-opacity:1; stroke-width:1px; stroke-linejoin:miter; stroke-linecap:butt; "
+         x="146.874022"
+         y="134.006704"
+         id="text94"
+         transform="matrix(2.67776,0,0,2.67776,-1.11111,4.44444)">*</text>
+      <text
+         style="fill:#000000; stroke:none; font-family:ITC Avant Garde Gothic; font-style:normal; font-weight:normal; font-size:12.000000; fill-opacity:1; fill-rule:evenodd; stroke-opacity:1; stroke-width:1px; stroke-linejoin:miter; stroke-linecap:butt; "
+         x="89.902838"
+         y="93.492793"
+         id="text92"
+         transform="matrix(3.99017,0,0,3.99017,-1.11111,4.44444)">*</text>
+      <text
+         style="fill:#000000; stroke:none; font-family:Palatino; font-style:normal; font-weight:bold; font-size:12.000000; fill-opacity:1; fill-rule:evenodd; stroke-opacity:1; stroke-width:1px; stroke-linejoin:miter; stroke-linecap:butt; "
+         x="88.736799"
+         y="141.699041"
+         id="text93"
+         transform="matrix(3.03869,-0.913497,0.913497,3.03869,-1.11111,4.44444)">*</text>
+      <text
+         style="fill:#000000; stroke:none; font-family:Utopia; font-style:normal; font-weight:bold; font-size:12.000000; fill-opacity:1; fill-rule:evenodd; stroke-opacity:1; stroke-width:1px; stroke-linejoin:miter; stroke-linecap:butt; "
+         x="427.752911"
+         y="379.761153"
+         id="text95"
+         transform="matrix(2.98341,0,0,2.98341,-899.944,-766.617)">*</text>
+    </g>
+    <rect
+       style="stroke:none; fill:#8cc768; fill-opacity:0.34375; fill-rule:evenodd; stroke-opacity:1; stroke-width:1px; stroke-linejoin:miter; stroke-linecap:butt; "
+       id="rect96"
+       x="358.592987"
+       y="318.470357"
+       width="52.419998"
+       height="17.340000"
+       rx="0.000000"
+       ry="0.000000"
+       transform="translate(-1.11111,4.44444)" />
+    <rect
+       style="stroke:none; fill:#8cc768; fill-opacity:0.34375; fill-rule:evenodd; stroke-opacity:1; stroke-width:1px; stroke-linejoin:miter; stroke-linecap:butt; "
+       id="rect97"
+       x="393.219574"
+       y="318.720548"
+       width="17.890276"
+       height="34.679226"
+       rx="0.000000"
+       ry="0.000000"
+       transform="translate(-1.20798,4.19425)" />
+  </g>
+</svg>

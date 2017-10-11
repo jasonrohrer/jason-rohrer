@@ -1,0 +1,14 @@
+<!--#include virtual="head.html" -->
+
+<table border="0" width="100%"><tr><td align="right">
+<a href="5.html">back</A> ---- <a href="7.html">next</A>
+</td></tr></table>
+
+
+<center>
+<img src="Go_board.jpg" width=600 height=317><br>
+<font size=5><i>Go</i> (estimated to be 4000 years old)</font>
+</center>
+
+
+<!--#include virtual="foot.html" -->

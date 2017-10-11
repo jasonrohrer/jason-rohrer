@@ -1,0 +1,12 @@
+<!--#include virtual="head.html" -->
+
+<table border="0" width="100%"><tr><td align="right">
+<a href="1.html">back</A> ---- <a href="3.html">next</A>
+</td></tr></table>
+
+<center>
+<img src="CliffordPossum.jpg" width=761 height=576>
+</center>
+
+
+<!--#include virtual="foot.html" -->

@@ -1,0 +1,130 @@
+66 Million Hands
+
+
+Economic stress, food insecurity, and renewed interest in environmental issues---these factors have converged to give local food more momentum than ever before.  Farmers' markets and CSAs are springing up like mushrooms around the country.
+
+A campaign to drive the food insecure to buy local food seems attractive on the surface.  Better nutrition, motivated by better taste, could be an upshot.  However, for people who are both time and money starved, Farmers' markets and CSAs---which are often more expensive and always more time consuming than grocery stores---are not viable long term options.  A campaign could subsidize these outlets to reduce prices over the short term, but eventually, economic reality would catch up with our efforts.  When it comes to locally grown food, demand dominates supply, keeping prices high and making local food a luxury for the affluent.
+
+The only economically feasible long term option for bringing /affordable/, nutritious food to the financially burdened is to convince them to grow it themselves.  However, because this demographic is also time-starved, a pro-gardening campaign is unlikely to have deep impact on them.  Gardening takes a significant time commitment as well as dedication and perseverance---it is simply out of reach for busy heads-of-household who are even busier during summer months, the peak time for gardening.
+
+Who does have the time to garden during summer months?  We need able-bodied, inspiration-prone individuals who have free time in the summer.  We need lots of them---enough to invert the supply/demand relationship that hinders local food affordability.
+
+There are 33 million people in our nation, mostly idle or with substantial free time during summer months, who are waiting to be inspired by meaningful, fulfilling projects.  These are the teenagers and young adults in the 14-21 age demographic.  A gigantic army yearning for a cause, potential foot-soldiers in a local food revolution.  They care about the future and the planet more than the rest of the population, but they feel powerless and hopeless.  Gardening will empower them---to take their food into their own hands.  Millions of lawns could be turned into backyard gardens.  Teen-built community gardens could rise up in every urban center in America.
+
+Their number dwarfs the size of the current US farming population by a factor of 15.  Even a fraction of them gardening could have a significant impact on food security.  
+
+Our job is to inspire them.
+
+
+
+The campaign will have the following goals:
+
+--Inspire young people to take up summertime gardening to grow food for themselves, their families, and potentially their communities.
+
+--Support both backyard gardeners and would-be urban community gardeners with appropriate resources.
+
+--Inspire young people to take up cooking and teach them how to prepare the foods that they grow.
+
+--Connect these young gardeners together into a national movement.
+
+--Enable information sharing and progress documentation to tap into the DIY online spirit.
+
+--Bring family gardening and local food cooking into food-insecure homes using young people as a vector.
+
+
+
+
+== Campaign tone ==
+
+The campaign will tap into the target demographic's yearning for cause, meaning, and empowerment.  The tone of the campaign will be that of a grassroots revolution for positive change.  It will emphasize both a rugged individualism (taking your food into your own hands) and a communal spirit (young people banding together to help themselves and the nation).
+
+66 Million Hands
+33 Million Hearts
+ 1 Vision:
+TAKE BACK OUR FOOD 
+
+Shepard Fairey posters (http://obeygiant.com/) along with the guerrilla gardening movement (http://www.laguerrillagardening.org/) serve as tonal references.
+
+
+
+== Campaign plan ==
+
+Step 1:  Building Tech Infrastructure
+
+We envision the following infrastructure components:
+
+--An interactive website (www.66millionhands.org) for sharing user-generated videos, photos, how-to guides, recipes, and garden journals/stats.  This website will serve as the hub of the movement and will allow content to be filtered by both topic (sod removal, tomato staking, compost bins) and region (Michigan, New Mexico).  Site users will be given profile pages through which they can document their gardening efforts and link up with their gardening friends.
+
+--Mobile interfaces to the hub and to peripheral features.  This will include SMS auto-responder for fielding poster and ad inquiries as well as mobile video interfaces for posting and watching videos from the field.
+
+
+New Flash-based game about food issues:  "Food Chain"
+
+The purpose of the game is to expose the player to various surprising and distressing aspects of non-local food production, potentially convincing them that growing their own food is a more attractive option.  It will serve as an interactive advertisement for the 66 Million Hands movement.
+
+The game will accomplish this goal by laying the systems of food production bare and allowing the player to examine those systems through direct manipulation.  Thus, the game on its surface will not have any particular message---only through interacting with the system will the player be lead to particular conclusions about non-local food production.  The game, on its surface, will seem like a "fun" strategy game about modern farming.
+
+The player will assume the role of high-level manager of a tomato production and delivery process.  The game will present a complete network of systems involved from seed to table in the life of an industrially grown tomato.  The main interface will feature an assembly-line overview of the various production steps and high level statistics about the current state of the system (resource consumption, production numbers, profits).  By clicking on any one of the production steps, the player will zoom in on a detailed view of that step where they will be able interact with and tweak the parameters of that step.  Steps will include:
+
+--Resource procurement
+--Growing
+--Transporting
+--Processing
+--Distribution
+--Retail
+
+The game systems will run in realtime, with each step advancing in the background as the player tends to other steps.  In the growing step, for example, the player will be able to watch the seasonal cycle and make decisions along the way about field preparation, planting, weed control, watering, pesticide use, and harvesting.  By making different choices in the Growing step, players can observe the impact of these choices further down the line.  For example, harvesting tomatoes when the are red and ripe might result in 50% of them being squashed during transportation and the rest rotting during distribution.  Through their direct manipulation of the system, players will realize that the only way to successfully deliver sellable tomatoes to Retail is to harvest them green in the Growing phase so that they can survive Transporting.  But green tomatoes won't sell at retail, so the player will then need to add force ripening during the Distribution step.
+
+The system will evolve over time as various non-renewable resources are consumed, and players will struggle to keep the system balanced and profitable.  They will naturally need to resort to more and more extreme measures to keep the system afloat (more fertilizer, more pesticides).  Eventually, the imbalances in the system will cause it to fail, and the player will get to interact with this failure all the way down.
+
+Reference:  http://www.mcvideogame.com/
+
+
+
+Step 2:  Pre-populating content
+
+We will document existing gardening efforts by young people through a series of short, 3-5 minute videos.  These videos will be shot by Tool directors and told from the POV of the young people, capturing their forward-thinking spirit.  DIY tips and instructions (e.g., how to build a compost bin) will be emphasized.  We were inspired by the Oscar nominated documentary /The Garden/.  We'd like to accomplish the storytelling and emotional connection of this story, but produced with a younger tone to speak to teenagers.  
+
+We will also recruit teen-favored celebrities (actors, musicians) who are avid gardeners and shoot short documentaries about their gardening efforts.
+
+We will populate the site's recipe database with cooking information from Dan Barber.
+
+
+
+Step 3:  Securing community garden spaces
+
+We will connect with city planners in major urban centers nation-wide and obtain permits for community garden spaces on public lands.  This may also involve the purchase of vacant land where economically feasible (such land could be reserved for gardening use in perpetuity through a land trust).  The availability of these spaces will be documented through the 66 Million Hands website, which will be used to coordinate teen community garden efforts.
+
+
+
+Step 4:  Launch
+
+To spearhead the launch of the movement, we will commission internationally recognized dissent artist Shepard Fairey (Obama HOPE poster) to design a poster and sticker campaign championing the young people's gardening revolution.  These posters will be deployed in major urban centers.  They will also be freely downloadable from the website for printing.
+
+http://obeygiant.com/images/2008/10/labrea-500x301.jpg
+
+http://obeygiant.com/prints/evolve-devolve
+
+We will also create an inspirational launch video about the movement to spread virally through video portals.  Consider this Radiohead/MTV anti-sweatshop vid:
+
+http://www.youtube.com/watch?v=-xHfBAKMcCc
+
+Our launch video will be a riff on this split screen, parallel narrative idea, showing the stark contrast between local and non-local food and highlighting the empowerment and beauty of a teenaged backyard gardener:
+
+--On the left side of the screen, we would show the path from seed-to-table of a factory-farm grown tomato.  Big mechanical plow, sprayed fertilizer, huge fields covered in plastic, sprayed pesticides, masses of Latino workers harvesting them green, dumptrucks full of green tomatoes, the processing plant where they're put into boxes, semi trucks driving them across the country, distribution centers gassing them to force-ripen them, stocking them in a grocery store, consumer woman putting them in a plastic bag, weighing/checkout, drive home, unpack groceries, throw bag away, cut tomato open and see how pale it is on the inside.  
+
+--On the right side of the screen, we would show the same process as carried out by a teenager working in her back yard (digging hole by hand, planting seed, watering, weeding by hand, watching it grow, letting it ripen on the vine, picking it red, walking it across the backyard and into the kitchen, handing it to mom, mom cutting it open and see how dark, juicy red it is on the inside).
+
+--Both sides of the video could be shot from the POV of the tomato plant, showing all of the various things that are done to it along the way.
+
+
+
+
+
+
+
+
+
+
+
+

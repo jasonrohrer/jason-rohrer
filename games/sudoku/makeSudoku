@@ -1,0 +1,2 @@
+g++ -I/data4/jcr13/cpp -g -Wall -o sudoku sudoku.cpp solver.cpp remover.cpp adder.cpp hillClimb.cpp /data4/jcr13/cpp/minorGems/io/file/linux/PathLinux.o /data4/jcr13/cpp/minorGems/util/stringUtils.o /data4/jcr13/cpp/minorGems/util/StringBufferOutputStream.o  /data4/jcr13/cpp/minorGems/formats/encodingUtils.o  /data4/jcr13/cpp/minorGems/system/unix/TimeUnix.o # -O9
+

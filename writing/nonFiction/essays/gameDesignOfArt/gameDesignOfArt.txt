@@ -1,0 +1,69 @@
+"The Game Design of Art."
+
+by Jason Rohrer
+
+
+
+"Anything can be art.  Even a can of Campbell's soup."
+
+So admitted Roger Ebert, world-famous movie reviewer and notorious video game detractor, back in July of 2007 (link:  http://rogerebert.suntimes.com/apps/pbcs.dll/article?AID=/20070721/COMMENTARY/70721001 ).  However, continued Ebert, video games will never be "high art."
+
+Ebert has held fast to his games-cannot-be-art position for two and a half years, braving an e-firestorm of responses from passionate game fans.  The game community has folded this fight into itself---we haven't just argued with Ebert, we've also debated endlessly with each other.
+
+Many of Ebert's opponents, those who believe that games are art, have unwittingly invoked a fragment of Ebert's argument in defense of games:  Anything can be art, therefore games are art.  End of discussion.
+
+Of course, these game proponents don't state their position so baldly but instead say something about cultural products that have no utilitarian value for survival.  If humans make it, but you can't eat it, keep warm with it, or sit on it, then it's art.   I've even heard this argument expanded to lasso *sports* into the art corral.
+
+This "utilitarian test" stands as a nice thought experiment but ends up derailing the games-as-art debate.  We need to be honest with ourselves:  deep down inside, putting our indignations aside, we all understand where Ebert is coming from, no?  Not even a little bit?
+
+Let's face it:  games, in general, suck.  Most games are repetitive and shallow.  Most games eat up precious moments of our lives without giving us anything more than idle entertainment in return.  The *really good* games, the ones that we would only be half-embarrassed to show Roger Ebert as art samples, are few an far between---maybe one game per console generation, if that.  This is hardly what we would recognize as an "art-full" medium.  Yes, games pass the zero-utility test, but that's not enough to stand them up proudly next to a Kandinsky painting.
+
+So Ebert is right, at least so far.  We should not dismiss his position but instead tackle it head-on with the explicit goal of proving him wrong.  We must present him with an art game that makes him eat his hat.  That is our main task as game designers over the next decade.  I hereby decree it.
+
+But if we cling to the notion that "anything is art" or throw our hands in the air when we attempt to define art, where can we start in our quest to make art games?  Since I've already narrowed the task down to convincing Ebert, we only need to satisfy his definition of "high art" to succeed.  He has never given us an explicit, concise definition, but he left us a few crumbs to nibble on.
+
+Art might help us "make ourselves more cultured, civilized and empathetic." (link: http://rogerebert.suntimes.com/apps/pbcs.dll/section?category=ANSWERMAN&date=20051127 )  Art might cause us to become more "complex, thoughtful, insightful, witty, empathetic, intelligent, philosophical (and so on)." (link: http://rogerebert.suntimes.com/apps/pbcs.dll/article?AID=/20070721/COMMENTARY/70721001 )
+
+Those lofty laundry lists won't feel like direct hits for everyone, but they make a fine starting point.  How many existing games do something even remotely like this?  Not many.  So our goal is clear, the field is wide open, and we can set to work.
+
+Now we've ready for the central question:  How can we make a game that hits some of those lofty targets?  How do we deliver artistic expression through our games?
+
+Since we've already taken this battle to Ebert's doorstep, we can use film as our starting point.  Film is certainly capable of high art, and the films-cannot-be-art argument is 60-years dead.  Games have been frequently compared with films in contemporary discussions, especially in the games-as-art debate.  Ebert is infamous for his negative comparisons, but even the positive comparisons have seen games as asymptotically approaching films---someday, we're supposed to hope, games will become indistinguishable from films and perhaps even replace films as the chosen expressive medium of modern culture.
+
+But if we pursue artistic expression by making our games more film-like and less game-like, we simply reinforce the notion that films are more art-capable than games.  Instead, we should be comparing games and films to identify their fundamental differences and then pushing games away from films as hard as we can.  We need to stop aping films and start tapping into the unique expressive powers of our medium.
+
+The film toolbox is pretty full, essentially making it a superset of almost all the mediums that came before it.  A film maker can use camera angles, camera motion, cuts, lighting, coloring, sound, music, scripting, acting, set design, costume design, animation, and so on.  The very best films, and in particular high art films, are the ones that employ all of their chosen tools in a way that resonates with what they are trying to express.
+
+A game maker's toolbox contains a complete set of the film maker's tools, and ignoring technical limitations, the game medium can be seen a superset of film.  In other words, a game can do anything that a film can do.  But games have one additional feature that sets them apart from any other medium:  gameplay.
+
+I shouldn't use a vague term like "gameplay" without reigning it in a bit.  By gameplay, I mean the collection of game mechanics in a given game, and by game mechanics, I mean the rules that govern the interaction of the various game components.  That's a pretty dry definition, but I find it to be more useful than a looser one like "gameplay is whatever the player does."
+
+Now brace yourself as I reissue an ancient piece of game design wisdom and pretend that it's novel:  Gameplay is the most important part of a game.  
+
+Yes, we've been reciting this mantra for decades.  Designers know it, reviewers know it, and players know it.  However, we generally worship gameplay for a rather uninspiring reason:  it's the "fun" part of the game, the part that hooks you.  Here's a more interesting reason that gameplay is important:  because it sets games apart from other mediums and makes games unique.  If you're not there for the gameplay, why are you playing a game instead of watching a film or reading a book?  
+
+Regardless of our reasons, we can all agree that gameplay is key.  The funny thing, given this general acknowledgment, is that gameplay rarely resonates with what a game is trying to express.  It's not that gameplay is an afterthought in the design process.  In fact, the exact opposite is usually true:  gameplay is the forethought, and everything else, including the artistic expression, the slapped on top of it.  Consider the standard list of game genres (FPS, stealth, platformer, RPG, RTS, and adventure), and notice how it's really a list of game mechanics.  This differs substantially from film categorization, where the genres are based on content and intended emotional effect.
+
+Many modern, mainstream games deliver expressions that might pass muster for Ebert, but because these expressions are an afterthought to the gameplay, they are shoehorned in through cut scenes and linear storylines.  The result is that the gameplay, the very heart of the game, is out of sync with the game's overall artistic expression.  
+
+*Bioshock* presents a perfect example of this kind of dissonance.  Through it's non-gameplay elements (city decor, audio diaries, and linear story), the game successfully explores the shortcomings of an extreme Randian philosophy.  The gameplay, on the other hand, involves upgrade-heavy first-person shooting.  
+
+If we're making a game that deals with individual freedom versus the good of society, as *Bioshock* does, why not devise game mechanics that explore these issues directly?  Why have the expression manifested just in the the linear storyline and environment design?  The answer, looking at *Bioshock*'s development history, is that the designers set out to make an FPS long before they figured out what they wanted to say with it.  Thus, *Bioshock* is yet another victim of the misguided "gameplay first" design philosophy.
+
+To make true art games, we should be taking the exact opposite approach.  We should figure out what we want to express with our games and then devise game mechanics that best deliver those artistic expressions.  The heart of our games, the gameplay, should be the primary vehicle for expression.  
+
+Once we leverage gameplay to communicate more and more, we will need to rely on tools borrowed from other mediums, such as cut scenes, less and less.  We may someday look back on this era and chuckle---the old days of game design, back when we were still using cut scenes and linear storylines---just as we chuckle over old movies that relied on title cards to communicate something as simple as "Later that afternoon..."
+
+How far are we away from delivering meaningful, Ebert-worthy expression directly through gameplay?  There are a handful of game designers---and I mean a literal handful---that have started to do this already.  The list is so short that I will present it here in its entirety.  
+
+Rod Humble has used game mechanics to express how his marriage feels in *The Marriage* and how the creative process feels in *Stars Over Half Moon Bay*.  Jonathan Blow has used time-manipulation mechanics as a metaphor about mistakes, loss, pursuit, realization, and resignation in *Braid*.  Danny Ledonne has tweaked standard RPG mechanics to load his game's turning point with complex meaning in *Super Columbine Massacre RPG!*.  Ignoring my own design efforts, that's the complete list of known games that use their gameplay directly to make us more cultured, civilized, empathetic, complex, thoughtful, insightful, witty, intelligent, philosophical (and so on).
+
+And that brings us back to the Ebert challenge.  Will any of the games on my list make him eat his hat?  Sadly, no.  My list calls out valiant attempts, not necessarily resounding successes.  We're still learning how to express through gameplay, and we're not quite there yet.   
+
+For me as a game-savvy person, *Braid* does stand among humanity's highest artistic achievements, but I still couldn't show it to Ebert without wincing.  He would probably fumble with the controls, be stumped by the puzzles, and abandon *Braid* in frustration long before he put in the seven or more hours necessary to unveil the game's deeper artistic payload.
+
+Here we might feel like calling "foul":  as a non-gamer with no game literacy, Ebert would trip over the basics, so how can he possibly judge a game's artistic merit?  However, Ebert's gaming handicap is one of the factors that makes this challenge worthwhile.  After all, what are "the basics" that might hinder him?  Difficult controls?  Mind-straining puzzles?  A time investment measured in hours rather than minutes?  What other medium places such high hurdles in the way of simple start-to-finish consumption?
+
+Yes, we've already produced games that strike the high-art chord with game-savvy folks, but that's not enough.  In order to make games that everyone might appreciate as high art, we first need to figure out how to make games that are playable---start-to-finish---by everyone.  
+
+Only with such a game in hand would I approach Ebert without fear of embarrassment and watch over his shoulder as he played.  I would listen quietly for that single word issued almost inaudibly under his breath:  "Wow."  In hearing that word, I would know that we had won.

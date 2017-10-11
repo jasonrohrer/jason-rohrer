@@ -1,0 +1,6 @@
+
+FMOD_API = /home/jcr13/fmodapi42808linux/api
+
+LINK_LIBS  = -lSDL ${FMOD_API}/lib/libfmodex.so 
+
+POST_LINK =

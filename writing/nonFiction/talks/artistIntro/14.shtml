@@ -1,0 +1,14 @@
+<!--#include virtual="head.html" -->
+
+<table border="0" width="100%"><tr><td align="right">
+<a href="13.html">back</A> ---- <a href="index.html">next</A>
+</td></tr></table>
+
+
+<center>
+<img src="diamondTrustMemo.png" width=656 height=401><br>
+<font size=5><i>Diamond Trust of London</i>, expected 2010</font>
+</center>
+
+
+<!--#include virtual="foot.html" -->

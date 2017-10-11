@@ -1,0 +1,12 @@
+#!/bin/bash
+
+mkdir $1-cvsroot
+
+echo "Fetching from rsync://$1.cvs.sf.net/cvsroot/$1/"
+
+rsync -az rsync://$1.cvs.sf.net/cvsroot/$1/ ./$1-cvsroot
+
+echo "Making tarball $1-cvsroot.tar.gz"
+
+tar czf $1-cvsroot.tar.gz $1-cvsroot
+rm -rf $1-cvsroot

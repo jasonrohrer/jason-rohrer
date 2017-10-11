@@ -1,0 +1,13 @@
+<!--#include virtual="head.html" -->
+
+<table border="0" width="100%"><tr><td align="right">
+<a href="10.html">back</A> ---- <a href="12.html">next</A>
+</td></tr></table>
+
+
+<center>
+<img src="boomBlox.jpg" width=512 height=354>
+</center>
+
+
+<!--#include virtual="foot.html" -->

@@ -1,0 +1,15 @@
+<!--#include virtual="head.html" -->
+
+<table border="0" width="100%"><tr><td align="right">
+<a href="10.html">back</A> ---- <a href="12.html">next</A>
+</td></tr></table>
+
+
+
+<center>
+<img src="pollockBarn.jpg" width=1024 height=576>
+</center>
+
+
+
+<!--#include virtual="foot.html" -->

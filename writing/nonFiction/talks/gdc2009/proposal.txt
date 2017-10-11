@@ -1,0 +1,113 @@
+Submitted to GDC on August 8, 2008
+https://upload.cmpevents.com/?M=$FGH1JDJMIK1L1D1D1FGF1GGKHH1EGJKJ1D1D
+
+
+
+Session Title
+Single Player:  An Artistic Dead-end?
+
+
+
+Session Focus (400 words)
+
+How can video games gain the cultural legitimacy of other mediums like film, novels, paintings, and music?  Each of these mediums supports artistic expression in its own, unique way, and we need to find games' expressive niche.  Aping movies with cut scenes just reinforces the "wannabe" status of games.
+
+Creators in the burgeoning indie "art game" scene have recently shined light on an expressive tool that is unique to our medium:  game mechanics.  By crafting games that explore the human condition at the gameplay level, art game designers have made expressive and moving works that could only exist as games.  Are meaningful game mechanics the key to games' legitimacy?
+
+What about Go, an ancient folk game revered for its simple mechanics and extraordinary, emergent depth?  Though it's not "about" anything in particular, Go purportedly reveals deep mysteries about the nature of our universe.  Is Go our /Ulysses/, our greatest and most profound work?  Why don't these so-called "art games"---or any modern video games, for that matter---hold a candle to Go in terms of gameplay depth?
+
+For thousands of years, games have existed mainly as a multi-player form.  Though some of the earliest video games, like /Tennis For Two/ and /Spacewar!/, required two players, we quickly headed down the single-player path for various technological and social reasons.  That path has involved a number of techniques that make games interesting for one person---randomization, reflex challenges, and puzzles.  Even in today's networked world, almost all the artistically noteworthy works are single-player affairs, from mainstream critical darlings like /Ico/ and /BioShock/ to indie art games like /The Marriage/ and /Braid/.
+
+Like great works from other mediums, these games can be revisited endlessly for additional contemplation and interpretation, but they don't provide endless gameplay depth the way that Go and many other multi-player board games do.  In fact, multiple players is *the* factor that enables deep gamplay to blossom.  Game theory doesn't even deal with single-player "games," as they aren't games at all, by definition, nor are they of any theoretical interest.
+
+You can watch a movie, read a book, listen to music, or look at a painting by yourself, but you can't play Go by yourself.  Isn't that a defining feature of the game medium?  It was---up until 30 years ago when we started making loads of strange, single-player games for computers.  
+
+If gameplay is our artistic bread-and-butter, why do we cling so fiercely to the single-player branch of the design tree?  Are we mimicking other art-capable mediums, which are all fundamentally single-viewer?  Have we unwittingly chorded ourselves off in the shallow end of the gameplay pool?  
+
+Assuming that multi-player interaction is what makes games unique, how can we harness this feature for the purpose of deep, culturally-relevant expression?  Can we push online gaming deeper than deathmatches and MMORPG grinds?  Are we ready for the first multi-player "art game," and what would such a game be like?  Should we completely abandon single-player designs, or do they still have their place? 
+
+
+
+Attendee Take-away (100 words)
+
+Attendees will gain a deeper appreciation of games' struggle for legitimacy---how the most obvious answers don't necessarily end the discussion and how we still have a long way to go in understanding our own medium.  They'll leave with big questions about their current single-player projects;  they'll be encouraged to go back to games' multi-player roots and see what they've missed;  and they'll be challenged to squeeze more out of the current online-gaming trend than what they've been getting so far.  Most importantly, they'll be inspired push their own work in a more expressive, artistically-potent direction.
+
+
+
+Track
+Game Design
+
+
+
+Format
+60-minute lecture (20-minute lectures are few)
+
+
+Theme
+Inspirational
+
+
+Audience Level
+All
+
+
+Upload Images
+--huh?
+
+
+Company 
+(independent)
+
+
+Job Title:
+Independent Game Designer
+
+
+Speaker Bio (250 words)
+
+Jason Rohrer is an independent game artist, programmer, and critic.  With game designs that explore complex and subtle aspects of the human condition, his work has bolstered the acceptance of games as a serious art form.  Rohrer's games have been shown at festivals and art exhibitions in Park City, Toronto, Montreal, Pittsburgh, Los Angeles, and Lleida, Spain.  His 2007 release, /Passage/, received widespread industry and critical acclaim, with /God of War/ creator David Jaffe calling it "one of the most emotional video games I've ever played" and /Wired/'s Clive Thompson writing, "More than any game I've ever played, it illustrates how a game can be a fantastically expressive, artistic vehicle for exploring the human condition."  His 2008 release, /Gravitation/, was selected for the IndieCade festival and has been shown at E3.  More recently, he has been working as a design consultant for the Spielberg LMNO project with EA-LA.  Parallel with Rohrer's design efforts, his review and interview site Arthouse Games has served as the lone hub of in-depth art game criticism since 2006.  Rohrer lives with his spouse and two children in the rural town of Potsdam, New York, where they pursue a simple, frugal lifestyle.
+
+
+
+Industry Credits
+
+
+--Design consultant, Spielberg LMNO Project, EA, 2008 (ongoing)
+
+For all games below, I served as the sole creator, doing all design, programming, graphics, sound, and music.
+
+Independent Games:
+--Gravitation, Windows/Mac/Unix, 2008
+--Passage, Windows/Mac/Unix, 2007
+--Cultivation, Windows/Mac/Unix, 2006
+--Transcend, Windows/Mac/Unix, 2005
+
+Games commissioned by The Escapist (Windows platform, 2008):
+--i45hg 
+--Regret
+--Immortality
+--Police Brutality
+--Idealism
+--Perfectionism
+
+All ten games can be downloaded from my homepage,  www.jasonrohrer.n3.net
+
+
+
+Past Speaking Engagements (100 words)
+
+--New York University, Invited Lecture, May 2008
+(Reference:  Prof. Jean-Marc Gauthier,  jean-marc.gauthier@nyu.edu )
+
+--Carnegie Mellon, Art of Play Conference, April 2008
+(Reference:  Heather Kelley,  moboid@gmail.com )
+
+--Clarkson University, Invited Lecture, February 2008
+(Reference:  Prof. Dave Beck,  dbeck@clarkson.edu )
+
+
+Scheduled engagements (between now and GDC 2009):
+
+--MIT, Invited Lecture, October 8, 2008
+--New Museum of Contemporary Art, Panel Discussion, October 10, 2008
+--Project Horseshoe, Invited Speaker, November 6-9, 2008 

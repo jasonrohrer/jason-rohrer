@@ -1,0 +1,52 @@
+<!--#include virtual="head.html" -->
+
+<table border="0" width="100%"><tr><td align="right">
+<a href="4.html">back</A> ---- <a href="6.html">next</A>
+</td></tr></table>
+
+<br>
+<center>
+<table border=0 width=100%>
+<tr>
+<td VALIGN=TOP>
+<font size="5">
+Oliver Stone<br>
+Christopher Nolan<br>
+Cohen Brothers<br>
+David Cronenberg<br>
+Martin Scorsese<br>
+John Carpenter<br>
+Clive Barker<br>
+</font>
+</td>
+<td VALIGN=TOP>
+<font size="5">
+Woody Allen<br>
+Spike Lee<br>
+Wes Craven<br>
+Ang Lee<br>
+Tim Burton<br>
+Mel Brooks<br>
+David Lynch<br>
+Mel Gibson<br>
+</font>
+</td>
+<td VALIGN=TOP>
+<font size="5">
+Steven Spielberg<br>
+Paul Thomas Anderson<br>
+Christopher Guest<br>
+Francis Ford Coppola<br>
+M. Night Shyamalan<br>
+Sylvester Stallone<br>
+Quentin Tarantino<br>
+</font>
+</td>
+<tr>
+
+</table>
+
+</center>
+
+
+<!--#include virtual="foot.html" -->

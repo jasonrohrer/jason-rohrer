@@ -1,0 +1,13 @@
+<!--#include virtual="head.html" -->
+
+<table border="0" width="100%"><tr><td align="right">
+<a href="5.shtml">back</A> ---- <a href="7.shtml">next</A>
+</td></tr></table>
+
+
+<center>
+<img src="notmickey.gif">
+</center>
+
+
+<!--#include virtual="foot.html" -->

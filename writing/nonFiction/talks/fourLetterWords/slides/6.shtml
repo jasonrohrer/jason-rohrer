@@ -1,0 +1,17 @@
+<!--#include virtual="head.html" -->
+
+<table border="0" width="100%"><tr><td align="right">
+<a href="5.html">back</A> ---- <a href="7.html">next</A>
+</td></tr></table>
+
+<br>
+<br>
+<br>
+<br>
+
+<center>
+<img src="ign_hours.png" width=640 height=236>
+</center>
+
+
+<!--#include virtual="foot.html" -->

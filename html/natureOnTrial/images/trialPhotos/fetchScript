@@ -1,0 +1,8 @@
+
+START=44
+LIMIT=68
+
+for ((a=START; a <= LIMIT ; a++))
+do
+   wget "http://ia310119.us.archive.org/1/items/NatureOnTrial/DSC027$a.JPG"
+done

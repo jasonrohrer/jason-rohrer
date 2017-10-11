@@ -1,0 +1,17 @@
+dvips essay.dvi
+
+ps2pdf essay.ps
+
+rm -r cueFolder
+
+mkdir cueFolder
+
+pdftoppm essay.pdf cueFolder/cue
+
+cd cueFolder
+
+mogrify -format png *.ppm
+
+rm *.ppm
+
+cd ..

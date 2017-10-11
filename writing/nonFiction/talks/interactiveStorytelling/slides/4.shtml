@@ -1,0 +1,17 @@
+<!--#include virtual="head.html" -->
+
+<table border="0" width="100%"><tr><td align="right">
+<a href="3.html">back</A> ---- <a href="5.html">next</A>
+</td></tr></table>
+
+<br>
+<br>
+<br>
+<br>
+
+<center>
+<font size=7>"Interactivity"</font>
+</center>
+
+
+<!--#include virtual="foot.html" -->

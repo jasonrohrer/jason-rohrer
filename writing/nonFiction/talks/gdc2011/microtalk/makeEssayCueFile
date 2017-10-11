@@ -1,0 +1,2 @@
+./essayToLatexCuePages.pl essay.txt essay.tex
+latex essay.tex

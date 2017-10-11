@@ -1,0 +1,8 @@
+# 5 in may
+./makePuzzlePDF 268  125
+./makePuzzlePDF 269  200
+./makePuzzlePDF 270  320
+./makePuzzlePDF 271   50
+./makePuzzlePDF 272   70
+
+

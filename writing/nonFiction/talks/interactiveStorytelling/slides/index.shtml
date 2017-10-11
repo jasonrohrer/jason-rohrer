@@ -1,0 +1,22 @@
+<!--#include virtual="head.html" -->
+
+
+<table border="0" width="100%"><tr><td align="right">
+<a href="25.html">back</A> ---- <a href="1.html">next</A>
+</td></tr></table>
+
+<br>
+<br>
+<br>
+<br>
+
+<center>
+<font size="7">
+Interactive Storytelling<br><br>
+</font>
+<font size="6">
+is our Project Xanadu
+</font>
+</center>
+
+<!--#include virtual="foot.html" -->

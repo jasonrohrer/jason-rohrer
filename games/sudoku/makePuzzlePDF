@@ -1,0 +1,16 @@
+# calls the EPS script, then converts the result to PDF
+
+./makePuzzleEPS $1 $2
+
+
+# read the actual score (which may be slightly lower than the target score $2
+# in from the score file.
+read score < "$1_score.txt"
+
+
+# if generation succeeded, we should have this eps file
+if [ -e "$1_puzzle_${score}_layout.eps" ]
+then
+  epstopdf $1_solution.eps
+  epstopdf $1_puzzle_${score}_layout.eps
+fi

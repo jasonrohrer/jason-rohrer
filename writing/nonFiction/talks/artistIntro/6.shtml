@@ -1,0 +1,14 @@
+<!--#include virtual="head.html" -->
+
+<table border="0" width="100%"><tr><td align="right">
+<a href="5.html">back</A> ---- <a href="7.html">next</A>
+</td></tr></table>
+
+
+<center>
+<img src="policeBrutality.png" width=672 height=498><br>
+<font size=5><i>Police Brutality</i>, May 2008</font>
+</center>
+
+
+<!--#include virtual="foot.html" -->

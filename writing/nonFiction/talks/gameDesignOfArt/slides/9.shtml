@@ -1,0 +1,24 @@
+<!--#include virtual="head.html" -->
+
+<table border="0" width="100%"><tr><td align="right">
+<a href="8a.html">back</A> ---- <a href="10.html">next</A>
+</td></tr></table>
+
+
+<center>
+<table border=0 width="100%">
+<tr>
+<td width=50% align=center>
+<img src="snakeMGS1.jpg" width=238 height=400><br>
+<font size=5><i>Metal Gear Solid</i>, 1998</font>
+</td>
+<td width=50% align=center>
+<img src="snakeMGS2.jpg" width=269 height=400><br>
+<font size=5><i>MGS 2</i>, 2001, d. Hideo Kojima</font>
+</td>
+</tr>
+</table>
+</center>
+
+
+<!--#include virtual="foot.html" -->

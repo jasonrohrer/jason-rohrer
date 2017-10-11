@@ -1,0 +1,16 @@
+<!--#include virtual="head.html" -->
+
+<table border="0" width="100%"><tr><td align="right">
+<a href="18.html">back</A> ---- <a href="20.html">next</A>
+</td></tr></table>
+
+
+
+
+
+<center>
+<img src="minecraft.jpg" width=1024 height=543>
+</center>
+
+
+<!--#include virtual="foot.html" -->

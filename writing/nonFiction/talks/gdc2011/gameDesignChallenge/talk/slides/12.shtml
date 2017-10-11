@@ -1,0 +1,15 @@
+<!--#include virtual="head.html" -->
+
+<table border="0" width="100%"><tr><td align="right">
+<a href="11.html">back</A> ---- <a href="13.html">next</A>
+</td></tr></table>
+
+
+
+<center>
+<img src="stonehenge.jpg" width=1024 height=576>
+</center>
+
+
+
+<!--#include virtual="foot.html" -->

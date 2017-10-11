@@ -1,0 +1,9 @@
+
+START=44
+LIMIT=68
+
+for ((a=START; a <= LIMIT ; a++))
+do
+   echo "Shrinking DSC027$a.JPG ..."
+   convert -verbose -quality 90 -resize 400x400 "./DSC027$a.JPG" "./small_DSC027$a.JPG"
+done

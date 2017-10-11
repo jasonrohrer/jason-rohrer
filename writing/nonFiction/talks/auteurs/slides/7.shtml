@@ -1,0 +1,42 @@
+<!--#include virtual="head.html" -->
+
+<table border="0" width="100%"><tr><td align="right">
+<a href="6.html">back</A> ---- <a href="8.html">next</A>
+</td></tr></table>
+
+
+
+<br>
+<center>
+<table border=0 width=75%>
+<tr>
+<td VALIGN=TOP>
+<font size="6">
+Hideo Kojima<br>
+<font color=#444444>Fumito Ueda</font><br>
+Shigeru Miyamoto<br>
+Will Wright<br>
+American McGee<br>
+<font color=#444444>John Carmack</font><br>
+</font>
+</td>
+<td VALIGN=TOP>
+<font size="6">
+<font color=#444444>Ken Levine</font><br>
+<font color=#444444>David Jaffe</font><br>
+Tim Schafer<br>
+<font color=#444444>Doug Church</font><br>
+<font color=#444444>Warren Spector</font><br>
+Sid Meier<br>
+Peter Molyneux<br>
+</font>
+</td>
+<tr>
+
+
+</table>
+
+</center>
+
+
+<!--#include virtual="foot.html" -->

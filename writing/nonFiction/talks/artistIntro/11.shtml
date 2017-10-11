@@ -1,0 +1,14 @@
+<!--#include virtual="head.html" -->
+
+<table border="0" width="100%"><tr><td align="right">
+<a href="10.html">back</A> ---- <a href="12.html">next</A>
+</td></tr></table>
+
+
+<center>
+<img src="between.png" width=640 height=480><br>
+<font size=5><i>Between</i>, November 2008</font>
+</center>
+
+
+<!--#include virtual="foot.html" -->

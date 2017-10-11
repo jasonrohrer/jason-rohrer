@@ -1,0 +1,13 @@
+<!--#include virtual="head.html" -->
+
+<table border="0" width="100%"><tr><td align="right">
+<a href="index.html">back</A> ---- <a href="0a.html">next</A>
+</td></tr></table>
+
+
+<center>
+<img src="definitionDiagram.png" width=429 height=400>
+</center>
+
+
+<!--#include virtual="foot.html" -->

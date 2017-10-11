@@ -1,0 +1,14 @@
+<!--#include virtual="head.html" -->
+
+<table border="0" width="100%"><tr><td align="right">
+<a href="2.html">back</A> ---- <a href="4.html">next</A>
+</td></tr></table>
+
+
+<center>
+<img src="gravitation.png" width=396 height=400><br>
+<font size=5><i>Gravitation</i>, February 2008</font>
+</center>
+
+
+<!--#include virtual="foot.html" -->

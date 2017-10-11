@@ -1,0 +1,13 @@
+<!--#include virtual="head.html" -->
+
+<table border="0" width="100%"><tr><td align="right">
+<a href="6.shtml">back</A>
+</td></tr></table>
+
+<center>
+<img src="muteLogo.png"><br>
+<img src="muteLogoText.png"><br>
+</center>
+
+
+<!--#include virtual="foot.html" -->

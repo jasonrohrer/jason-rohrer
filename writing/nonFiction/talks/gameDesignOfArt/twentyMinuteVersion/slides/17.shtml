@@ -1,0 +1,15 @@
+<!--#include virtual="head.html" -->
+
+<table border="0" width="100%"><tr><td align="right">
+<a href="11.html">back</A> ---- <a href="18.html">next</A>
+</td></tr></table>
+
+
+<center>
+Memento Mori circa 1671:<br>
+<img src="vanitas.jpg" width=500 height=370><br>
+<i>Vanitas</i> by Philippe de Champaigne
+</center>
+
+
+<!--#include virtual="foot.html" -->

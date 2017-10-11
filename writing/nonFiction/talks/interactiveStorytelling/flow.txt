@@ -1,0 +1,118 @@
+
+starting point:  legitimacy problem [slide]
+
+
+something about *video* games makes us think about them differently than we think about board games.... the whole premise of this conference.  [Slide VIDEOgames]
+
+Maybe because they're on screens?  hearts between games and movies on legitimacy chart. [slide]
+
+
+We readily admit---if not demand---that games are different from movies, somehow.  But how?  Board games and film coexisted for about 90 years without anyone ever pointing them out as being similar.  Even today, we don't make the boardgame/movie connection.  
+
+But we think about video games differently, as I said before.  We don't think about them in terms of rules and systems.  We talk that way as designers... but in big picture terms, as far as the medium is concerned, it's all about something else. "Interactivity."  [Slide]
+
+So then we stumble into a kind of default mode of thinking about video games.  They're like movies, but interactive.  [Slide, interactive movie]
+
+And how do movies explore the human condition and do other art-type stuff?  By telling stories.  Thus, we think about video games becoming art-like, we think of them as a storytelling medium.
+
+As designers, we generally *hate* that games have moved in this direction.  We hate cut scenes and other movie-copycat techniques.
+
+But we're not really complaining about the goal.  More like we're thinking, "Wait, you're doing it wrong."  Because, you see, many of us secretly have dreams about cracking the real problem---how to make interactive movies without borrowing any of the non-interactive baggage from movies.  How to make "totally interactive movies". [Slide, totally interactive movie]
+
+
+These ideas usually involve a ton of hand-waving.  Set up systems of emotion and relationship mechanics and let them churn against each other and somehow, through a really intricate mechanical webwork, some kind of interesting, interactive story will emerge.  [slide:  gears]  Call this the clockwork approach.
+
+The other approach involves a similar amount of hand-waving.  Set up an AI for each character, and another AI to "direct" the whole thing and maintain the story arc, and let them all churn against each other, and somehow, some kind of interesting story will emerge.  [slide:  hal] Call this the Hal approach.
+
+In both cases, we're banking on emergence.  We love emergence---it's like a game designer religion.
+
+But when the rubber hits the road, it's really hard to envision how either approach would end up producing interesting stories.
+
+For whatever reason, this has been mostly vaccuous hand-waving, and no one has spent too much time on it.  Except Chris Crawford, who sunk 17 years into the clockwork approach with negligible success. [slide, dragon speech charge]
+
+And while he was doing that, sure, a number of us thought he was a little nuts or on a road to nowhere.  But far more of us saw a glimmer of hope there... that he would actually be able to do it. Thank goodness *someone* is working on this important game design problem. And wouldn't it be awesome if he did it?  I mean, who wouldn't want to delve into one of these clockwork storyworlds?
+
+Let's not forget about the Facade guys, who spent 5 years hammering away at the Hal approach. [slide, Facade]. At least they released something, and it was loads of hilarious fun to play, but it failed at it's primary goal of making characters that respond in believable ways, even if you play totally straight and go along with the story.
+
+But Facade (july 2005) was enough to pack more opium into our dream pipes.  Shine light on the incredible mountain before us.  Show us a faint path through the foothills.
+
+
+And this is where we start talking about our reasons for failure, so far.  Quote from Jaffee...  
+
+Regarding the potential of a Saving Private Ryan-like, emotionally-compelling simulation game:
+
+"Unless that AI is capable of recognizing what I'm doing as I'm trying to break the simulation, and it can kind of fold around me and kind of continue to craft the intended story of the artist while still, you know, taking care of the fact that I'm fucking around because I know there's no real danger, you're always going to have the problem of at least trying to create emotion literally, like, by basically creating what you see in a film and making it interactive."
+
+"When you mention SPR, I think that really is probably barking up the wrong tree until the AI gets sophisticated enough that it literally becomes like the holodeck."
+
+Regarding failure of his Heartland project:
+
+"The minute I give you a gasoline can, or the minute I say go up after the teenage son who's running to his room, [you think] 'Oh maybe I'll go up here.  Oh what's in this room over here?' or 'Oh, hey look at the mother down there on her knees.  What if I shoot her?  Oh, well I can't shoot her, that will fuck up the story.'"
+
+"So many things come into play with that whole playground mentality that I was talking about that all of that carefully plotted, carefully intended thematic and storytelling, it just crumbles."
+
+
+Massaged quote:
+
+"The minute I give you a gasoline can, or the minute I say go up after the teenage son who's running to his room, [you think] 'Oh maybe I'll go up here.  Oh what's in this room over here?' or 'Oh, hey look at the mother down there on her knees.  What if I shoot her?  Oh, well I can't shoot her, that will fuck up the story.'"
+
+"So many things come into play with that whole playground mentality that all of that carefully plotted, carefully intended thematic and storytelling, it just crumbles."
+
+"Unless that AI is capable of recognizing what I'm doing as I'm trying to break the simulation, and it can fold around me and continue to craft the intended story of the artist while still taking care of the fact that I'm fucking around because I know there's no real danger, you're always going to have a problem creating emotion literally by creating what you see in a film and making it interactive."
+
+"I think that really is barking up the wrong tree until the AI gets sophisticated enough that it literally becomes like the holodeck."
+
+
+
+
+
+
+Quote from Hecker:
+
+"Unfortunately for those of us who want games to earn a place in the pantheon of important and emotionally compelling art and entertainment forms---alongside film, literature, music, and visual art---I think the grain of games and interactivity is in some sense running the wrong way; it leads us away from this goal."
+
+Easiest game to make vs. the hardest game to make.
+
+Checker, again:
+
+"I think that's possible in the very long run, but for the next 10 to 20 years we need to be discovering the building blocks of interactivity that will let us communicate with players on an emotional level."
+
+Essentially, we don't know how to do this yet.  We're kinda stuck for the time being.  Chris Crawford has been working on this for 17 years, and we still have 20 more years to go.
+
+20 more years before we can start making emotionally compelling art.  Yikes.
+
+Okay, but baby steps.  We're not going to take a nap until Ray Kurzweil's AI singularity, are we?  
+
+First, let's drop dialog, because for the time being, making dialog work well interactively is impossible.  Let's design simple systems and tell simple interactive stories with them.  Why am I here?  Because I made a dialog-free, totally-interactive game that many people found to be emotionally compelling [slide, Passage].  Wow, people said, I love the story that was told *through* the game mechanics in Passage.
+
+Another example of this can be found in Far Cry 2 [slide, FC2]
+
+And the game of the year, 2009?  Derek Yu's Spelunky [slide, Spelunky].  As you play, your choices, meshed with emergent properties of the mechanics, lead to a gripping, interesting, always different story about a guy exploring a dangerous cave.  Sometimes, the situations you encounter and the follies that lead to your death speak directly to the human condition.  Spelunky is funny, but funny because it's true.
+
+Sure, there aren't really interactive *characters* in these games.  It's mostly about physical objects, and navigating spaces, and perhaps a mechanical metaphor or two.  But hey, at least games like these are Totally interactive and consistent, and at least they touch on the human condition.  I guess they're the best we've got.  Baby steps on the stairway to Chris Hecker's pantheon.
+
+
+
+I neglected to mention one more Interactive Storytelling game.  Masq [slide] (2002, major coverage in 2007), which also consumed 5 years of development time and slowly rose to popular attention 5 years after its release.  Most of us played it after Facade.  Totally different approach.  Not clockwork or Hal---just a simple, branching story web, like a very fine-grained choose-your-own adventure book---but it actually worked, which was really weird.  And in the process of actually working, it pissed a lot of people off, because it worked without making any progress on the technical holy grail problems that we're all dreaming about.
+
+Yes, the Masq characters responded in realistic ways to your every action.  Yes, you could pretty much do whatever you wanted most of the time (5 disparate choices per mini-node is a heck of a lot).  But there was no illusion there.  These were just pre-authored characters baked into a story web.  They weren't artificial people, clockwork people.
+
+And that's what we want, when it boils down to it.  THAT is what we're dreaming about.  Clockwork people. [slide, humanoid].  We see that the AI world has failed at its own 50-year windmill quest.  We see that the robotics world has failed at its own ceturies-old quest. [slide, turk]  We see a glimmer of hope in our medium to help make clockwork people.
+
+
+But why?  Why would anyone want a mechanical turk?  
+
+Note that throughout this entire talk, through all the games discussed, and all the quotes, we have never once mentioned something, and it's a strange omission, given that we're talking about games.  We've never once talked about the *OTHER PLAYER*.  [slide, chess playing men]
+
+What *IS* the grain of our medium?
+
+Sit down with some friends around your kitchen table.
+
+What's the easiest game to make?  One where you talk to each other a lot, negotiate, promise, befriend, betray, and so on. [Slide, werewolf]
+
+What's the hardest game to make?  One where spaceships fly around and shoot things. [slide, starwars board game]
+
+So I think these hearts are flowing in the wrong direction. [Slide:  hearts toward movies].  If we really want to make games that deal with the human condition.  If we want to make games that have meaningful, interactive characters.  And if we want to do it NOW, without waiting for the technology to arrive that will allow Ray Kurzweil to upload his brain to the Internet. (or:  without waiting for the AI singularity). [Slide, hearts toward theater].
+
+Better:
+And if we want to do it NOW, without waiting for some hypothetical strong AI singularity in the distant future.

@@ -1,0 +1,24 @@
+./getRsyncBackup gca
+./getRsyncBackup konspire
+./getRsyncBackup minorgems
+./getRsyncBackup subreal
+./getRsyncBackup tangle
+./getRsyncBackup ctf
+./getRsyncBackup geolink
+./getRsyncBackup hcsoftware
+./getRsyncBackup wwwdocshare
+./getRsyncBackup hypertext
+./getRsyncBackup mute-net
+./getRsyncBackup monolith
+./getRsyncBackup transcend
+./getRsyncBackup primrose
+./getRsyncBackup cultivation
+
+wget http://northcountrynotes.org/jason-rohrer/worklog/jason_rohrer_worklog.mysql.gz
+wget http://northcountrynotes.org/jason-rohrer/arthouseGames/arthouseGames.mysql.gz
+
+wget http://northcountrynotes.org/north_country_notes.mysql.gz
+wget http://potsdamgreenhouse.com/green_house.mysql.gz
+
+
+lftp -f /data5/jcr13/backups/backupSeedcorn

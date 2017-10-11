@@ -1,0 +1,87 @@
+\documentclass[12pt]{article}
+\usepackage{fullpage,times}
+
+%\pagestyle{empty}
+
+\newcommand{\gtitle}{{\it Deception}}
+
+\title{Design concept: \gtitle\ (working title)}
+\author{Jason Rohrer}
+
+
+\begin{document}
+
+\maketitle
+
+
+\begin{abstract}
+\gtitle\ for the Nintendo DSi is a two-player, turn-based strategy game about spying and counter-spying that takes place during the final week of a marriage doomed by the secret affairs of both spouses.  Each spouse wants to catch the other in the act without being caught, thus gaining the upper hand in the divorce settlement at the end of the game.  The gameplay is fast, tense, psychological, and slightly unsettling.
+\end{abstract}
+
+\section{Overview}
+\subsection{Thematic overview}
+You're having an affair, that much you know for sure.  And you want out of this doomed marriage.  You know that, too.  But how can you leave him without committing financial and social suicide?  What if he knows about your affair and gains the upper hand in the divorce?  You suspect that he is also guilty of infidelity, but you can't prove it---yet.
+
+Then you find something that turns your idle thinking into frantic action:  while rifling through one of his locked desk drawers---you had a key copy made for yourself years ago---you unearth a letter from Gary Pease, Esq.  He has all the papers ready to file a divorce on behalf of your husband on Monday.  Wait, that's {\it next Monday}, in exactly one week.  The letter doesn't mention your affair, but the seeds of paranoia have been planted and watered.  What if he knows?
+
+You spend the next hour flipping through the phone book and making calls.  You find an attorney who is willing to deliver an express divorce filing by next Monday, but you'll have to meet him several times this week without your husband knowing.  You also find Tony Riedel, a PI who tracks cheating spouses, and you set up a rush appointment with him today at three.  With all the gears in motion, you sink into the couch and reach for the TV remote, but the phone rings.  You snatch up the receiver, wondering who it could be.  You almost don't recognize the voice.  ``Can you talk?''  In your frenzy, you'd completely forgotten about him.  Jeff.  Your love, your emotional escape route.  He wants to meet you tomorrow for lunch and then take you to the usual spot.  You can't help but agree to the appointment.  After you hang up, that frenzied feeling returns:  how are you going to keep all these balls in the air this week?
+
+At quarter to three, you start the drive through town to Riedel's office.  Parking across the street, you study his building through your rolled-up window.  Fittingly sleazy---a check-cashing shop to the left and a bail bondsman to the right.  No wait, the bail bondsman shares an office with Riedel.  They must be partners.  You realize that you've never driven down this street before.
+
+You're about to get out of your car when you see him.  {\it Him}.  Your husband is stepping out of Riedel's office.  You hunker down in your seat and steer your car out into the road.  As you drive away, you glance at your husband in your rear view mirror.  He didn't see you.  At least you think he didn't see you.
+
+But why would he be hiring a PI?  Who would he need to spy on?  The obvious answer hits you so suddenly that you almost slam on the breaks.  {\it You}.  He's spying on you.  Maybe already.  Maybe right now.  You glance in your rear view mirror at the gray sedan behind you.  Did Riedel follow you to Riedel's office?  Does your husband know that you know he has hired Riedel?  One thing is for sure:  it's time to call a different PI.  Not to follow your husband---that would be too obvious.  Better to have him tail Riedel instead.  
+
+\gtitle: Play it with someone you love.
+
+\subsection{Mechanical overview}
+
+Play spans seven in-game days, where each day is split up into four turns.  Each player controls one of the spouses in the marriage, and a turn consists of choosing how the spouse spends those two in-game hours.  Players select their moves in secret, and their turns are executed simultaneously.
+
+Play takes place on a map of the town populated with various locations of interest, including the location of employment for each spouse, lawyers' offices, PI offices, restaurants, and motels.
+
+Players accumulate points in two categories by performing actions during their turns.  For example, on his Monday 11:00am - 1:00pm turn, the husband might chose to visit his lawyer to sign papers (gaining 1 legal point), stop by his PI to schedule surveillance, or meet his mistress for lunch (gaining 1 emotional point).
+
+Money is an expendable resource in the game.  Money is gained by spending time at work.  Various actions consume different amounts of money.  Some restaurants and motels are cheap while others are expensive.  Some PIs charge more than others.
+
+Players are invisible to each other unless they are in the same physical location (for example, both eating lunch at the same restaurant).  PIs can be hired to set up surveillance at particular locations and secretly tail a player who stops at that location.  A tailed player becomes visible to the other player.  PIs are only visible to the player who hired them.
+
+PIs can also secretly tail other PIs, making their location and movements visible to the hiring player.  Thus, through appropriate deployment of a PI, a player can determine if he or she is actively being tailed and play accordingly.  For example, if the husband realized that he was being tailed, he might take a {\it different} woman than his mistress to lunch to feed false information to his spying wife.
+
+At the end of each day (after 4 turns), the players return to their common home and reveal their monetary balances to each other.
+
+At the end of the week, the two players file for divorce.  To be successful, they need to each bring a week's worth of balanced preparation with them---legal points, emotional points, and a supply of money.  They also have the chance to accuse each other of infidelity.  They are given a line-up of potential lovers to chose from and must pick an accusation based on what they have learned during the week.  A correct accusation wins the game.
+
+If both players make correct accusations or neither does (an accusation tie), the winner is chosen based on a category-by-category (legal, emotional, money) point comparison.  Whoever wins in more categories wins the game.
+
+\section{Platform}
+
+\gtitle\ is designed for the Nintendo DSi.  The bottom screen shows the map and player locations.  Stylus input is used to specify moves.  The top screen shows context-sensitive information about various locations.
+
+\subsection{Multiplayer}
+
+The game makes use of ad hoc WiFi for 2-player games between two nearby DSi units.  The game also supports single player against various skill levels of AI.
+
+\subsection{Camera integration}
+The game makes use of the DSi's cameras in the following ways:
+\begin{enumerate}
+
+\item If you are being secretly tailed by your opponent's PI, your DSi's inner camera will be used to secretly snap a picture of your face at each in-game stop that you make.  This picture will be sent across the WiFi connection and displayed to your opponent as part of their PI's surveillance report.
+
+\item If you have a PI tailing the PI that is tailing you, your PI will let you know when you are about to have your picture secretly taken.  ``Smile, you're being watched!''  The picture will still be sent to your opponent who may not know that you know you're being watched.  Thus, you need to avoid smiling in the photo and maintain a bluffing face.
+
+\item During the accusation phase at the end of the game, your opponent is shown a lineup of your potential infidelity partners.  You are first shown the lineup, one by one, and your picture is taken while you're looking at each one.  Those pictures are sent to your opponent to help them with their accusation (they can look for your guilty face).
+\end{enumerate}
+
+\section{References}
+
+\subsection{Conceptual references}
+The mechanical concepts of \gtitle\ are primarily inspired by the work of Joe Halpern on reasoning about knowledge and uncertainty.  A particularly important touch-point is the Muddy Children Puzzle, a thought experiment with surprising implications.
+
+\subsection{Thematic references}
+The game makes nods to Polanski's film {\it Chinatown} through the portrayal of private eyes.  Soderbergh's {\it Sex, Lies, and Videotape} informs the notion of knowing something about your spouse that they don't know you know.  Kubrick's {\it Eyes Wide Shut} presents an ironic view of a marriage gone haywire, and \gtitle\ will have a similarly ironic tone.
+
+
+
+
+\end{document}

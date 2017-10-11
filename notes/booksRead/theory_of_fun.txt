@@ -1,0 +1,438 @@
+by Raph Koster
+
+Notes that are relevant to my game design pursuits
+
+---- Chapter 2 ----  How the brain works.
+
+What is fun?  What is a game?
+
+Koster's answer:  ...the human brain is mmostly a voracious consuer of patters, a soft pudgy gray Pac-Man of concepts.  Games are just exceptionally tasty patterns to eat up.
+
+What we've learned from cognitive science:
+
+--The brain is good a cutting out the irrelevant.
+
+--The brain notices a lot more than we think it does.
+
+--The brain is actively hiding the real world from us.
+
+
+Noise is any pattern that we don't understand.
+
+
+---- Chapter 3 ----  What games are
+
+Games might seem abstracted from reality because they are iconic depictions of patterns in the world.  They have more in common with how our brain visualizes things than they do with how reality is actually formed.
+
+The pattern depicted may or may not exist in reality.  Nobody is claiming that tic-tac-toe is a decent mimicry of warfare, for example.
+
+[Games are] concentrated chunks ready for our brains to chew on.  Since they are abstract and iconic, they are readily absorbed.  Since they are formal systems, they exclude distracting extra details.  Usually, our brains have to do hard work to turn messy reality into something as clear as a game is.
+
+"Play make-believe" vs. "game":  both belong in the same category of "iconified representations of human experience that we can practice with and learn patterns from.
+
+Book vs. game:  Good readers can slurp info directly into the subconscious, intuitive mind.  But what a book will never be able to do is accelerate the grokking process to the degree that games do, because you cannot practice a pattern and run permutations on it with a book.
+
+Almost all games fall prey to eventually becoming boring.  Individual games are disposable, and boredom is inevitable.
+
+Insight:  the more formally constructed your game is, the more limited it will be.  To make games more long-lasting, they need to integrate more variables (and less predictable ones) such as human psychology, physics, and so on.
+
+Fun from games arises ouut of mastery.  It arises out of comprehension.
+
+Brain doesn't necessarily crave new experiences (which might force a whole new system on the brain), but instead craves new data.
+
+Ways games become boring:
+
+--Player groks how game works in first five minutes, game dismissed as trivial  "Too easy."
+
+--Player might grok a ton of depth to game and its possible permutations, but concluded that the permutations are below their level of interest.
+
+--Player might fail to see any pattern at all.  "Too hard"
+
+--Pacing of unveiling variations are too slow.  Dismissed as trivial too early.  "Too easy now, it's repetative."
+
+--Unveil variations too quickly.  "This got too hard too fast."
+
+--Player masters everything in pattern.  "I beat it."
+
+
+Define a good game:  One that teaches everything it has to offer before the player stops playing.
+
+Why is learning so boring then?  Wrong method of transmission.  Good teachers "make learning fun."  Games are very good teachers... of something.
+
+
+----Chapter 4 ----  What games teach us.
+
+Stories and games teach different things.  Games don't usually have a moral.  They don't have a theme in the sense that a novel has a theme.
+
+What games teach:
+
+--Underlying mathematical structures (graph theory).
+
+--Calculation of odds, predicting events.
+
+--Simulation of combat (even those about building are competitive).
+
+--The importance of power and status.
+
+--How to examine environment or space.
+
+--Territory (fitting together odd shapes, invisible lines of power projection,
+tic-tac-toe).
+
+--Mapping spaces (and interpreting symbols on a map).
+
+--How to fit things together (shapes, or even concepts)
+
+--Spatial reasoning.
+
+--Exploring the possibility space mentally (chess, counting cards)
+
+--Reaction times, tactical wareness, assessing the weakness of an opponent, and judging when to strike.
+
+--Teamwork.
+
+--Network building (a relatively modern game idea---not a caveman concept).
+
+Games convey a few things well:  controlling, projecting, surrounding, matching, remembering, counting, etc.  Also good at quantification.
+
+"Diplomacy" shows that remarkably subtle interactions can be modeled within the confines of a ruleset.
+
+Uphill battle:  games at their core are about teaching survival skills.
+
+Example games and what they teach:
+
+Horse shoes:  aiming
+
+Jacks:  timing
+
+Hide and seek:  hunting
+
+Go:  territory
+
+Chess:  projecting power
+
+Most games demonize the opponent and encourage a scorched-earth victory.  The dislike of other groups is no longer a survival trait.  Can games teach us otherwise?
+
+List of obsolete game lessons:
+
+-- Blind obedience to leaders and cultism
+
+-- Rigid hierarchies
+
+-- Binary thinking
+
+-- The use of force to resolve problems
+
+-- Like seeking like, and its converse, xenophobia
+
+
+Topology:  study of shape and the way in which apparent shapes can change but remain the same.  Many games, though superficially different, are topologically identical.
+
+Why do the popular games teach obsolete skills while the more sophisticated ones that teach subtler skills tend to reach smaller markets?
+
+Games have these characterisics:
+
+--They present us with models of real things---often highly abstracted
+
+--They are generally quantified or even quantized models
+
+--They primarily teach us things that we can absorb into the unconscious ans opposed to things designed to be tackled by the conscious, logical mind.
+
+--They mostly teach us things that are fairly primitive behaviors, but they don't have to.
+
+
+
+
+
+
+
+All shmups after a certain point were topologically identical:  shmups have been losing market share ever since.
+
+Alg for innovation:  find a new dimension to add to the gameplay.
+
+Puzzle game evolution after Tetris:  hexagons, 3d, then pattern matching of colors replaced spacial analysis.  If we want to innovate on puzzle games now, how about basing them on time rather than space?  (and what would that mean?  I haven't been able to come up with anything here)
+
+
+---- Chapter 5 ----  What games aren't
+
+Fiction in games (and word problems):  trains you to see past it to the underlying math problem, and it also trains you to recognize real world situations where that math problem might be lurking.
+
+Deathrace does not teach you to run over pedestrians any more than Pac-Man teaches youu to eat dots and be scared of ghosts.
+
+Games vs. Stories:
+
+-- Games tend to be experiential teaching.  Stories teach vicariously.
+
+-- Games are good at objectification.  Stories are good at empathy.
+
+-- Games tend to quantize, reduce, and classify.  Stories tend to blur, deepen, and make subtle distinctions.
+
+-- Games are external---they are about people's actions.  Stories (good ones, anyway) are internal---they are about people's emotions and thoughts.
+
+
+Koster's breakdown of game emotions:
+
+-- Fun -- is the act of mastering a problem mentally.
+
+-- Aesthetic appreciation -- isn't always fun, but it's certainly enjoyable.
+
+-- Visceral reactions -- are generally physical in nature and relate to physical mastery of a problem.
+
+-- Social status maneuvers -- of various sorts are intrinsic to our self-image and our standing in a community.
+
+
+List of social emotions:
+
+-- Schadenfreude -- the gloating feeling you get when a rival fails at something.
+
+-- Fiero -- expression of triumph when you achieve something significant (pumping fist).  A sign to others that you are valuable.
+
+-- Naches -- the feeling you get when someone you mentor succeeds.  Feedback for tribal continuance.
+
+-- Kvell -- the feeling you get while bragging about someone you mentor.  Sign to others that you are valuable.
+
+-- Grooming behaviors -- signals intimacy, represents relative social status.
+
+-- Feeding others -- important social signal in human societies.
+
+
+Delight:  stems from aesthetic appreciation.  About recognizing patterns, not learning new ones.  Delight strikes when we recognize patterns but are suprised by them.  A beautiful landscape meets are expectations and exceeds them.  Ideal image, with a wrinkle.  The wrinkle sends us chasing after new patterns.  Beauty is found in the tension between our expectation and reality.  Only found where there is extreme order.  Delight doesn't last---recognition is not an extended process.  You can regain delight by going away for a while and returning to same delightful object.
+
+Recap:  Games aren't stories.  Games aren't about beauty or delight.  Games aren't about jockeying for social status.  Fun is learning in a context where there is no pressure.  That's why games matter.  
+
+
+
+
+
+
+
+---- Chapter 6 ----  Different fun for different folks
+
+People are not likely to tackle patterns or puzzles that appear as noise to them.
+
+Most book puurchases in the US are made by women, and half are made by individuals over the ager of 45.
+
+Brains of young males work well with abstract systems (most games):
+
+-- Female players would like games with simpler abstract systems and less spatial reasoning.  More emphasis on relationships, narrative, and empathy.  Simpler spacial topologies.
+
+-- Hardcore gamers of different genders:  males like projection of power and territory control, females like games that permit modeling behavior (multiplayer) and do not demand strict hierarchies.
+
+-- As males age, their game choices migrate towards those of women.  Older females would like games more after menopause.
+
+-- Fewer female gamers in general.
+
+
+
+---- Chapter 7 ----  The problem with learning
+
+People search for shortest and easiest route to victory.  They will route around gameplay if they can.
+
+We should make games that don't prescribe specific solutions.  We're fighting a losing battle against a natural human tendency:  to get better at things.
+
+The destiny of games is to become boring, not to be fun.  For the brain, fun is a process and routine is a destination.
+
+Basic units of gameplay are called ludemes.  Example:  explore every area, get to other side.
+
+Successful games have these elements:
+
+-- Preparation -- before challenge, player makes choices that effect odds of success.
+
+-- A sense of space -- e.g., landscape in a war game, a chess board, network of relationships during bridge.
+
+-- A solid core mechanic -- The puzzle to solve, and intrinsically interesting rule set into which content can be poured.  Example:  moving a piece in chess.  Core mechanic is usually a fairly small rule.  The intricacies of the game come from either having lots of mechanics or having few, very elegantly chosen ones.
+
+-- A range of challenges --  Basically content.  It does not change the rules, it operates within the rules and brings slightly different parameters to the table.  Example:  each enemy you encounter.
+
+-- A range of abilities required to solve the encounter --  Unfold new abilities over time, until at a high level, you have many possible strategems to choose from.
+
+-- Skill required for using the abilities --  Bad choices lead to failure.  Skill can be any sort:  resource management, timing, physical dexterity, monitoring all variables in motion.
+
+
+Features that make a learning experience:
+
+-- Variable feedback system --  Result of encounter not completely predictable.  Greater skill should lead to better rewards.  In chess, variable feedback comes from opponent's response to your move.
+
+-- The mastery problem must be dealt with --  High level players cannot accumulate big benefits from easy encounters or they will bottom-feed.  Inexpert players will be unable to get the most out of the game.
+
+-- Failure must have a cost -- At very least, opportunity cost.
+
+Most games in history have been head-to-head---the easiest way to constantly provide a new flow of challenges and content.
+
+Because of Mastery problem (experienced players squeeze out beginners in the first round), lots of people prefer games that take no skill.
+
+Not requiring skill from a player should be considered a cardinal sin in game design.
+
+Checklist for absence of fun:
+
+-- Do you have to prepare before taking on the challenge?
+
+-- Can you prepare in different ways and still succeed?
+
+-- Does the environment in which the challenge takes place affect the challenge?
+
+-- Are there solid rules defined for the challenge you undertake?
+
+-- Can the rule set support multiple types of challenges?
+
+-- Can the player bring multiple abilities to bear on the challenge?
+
+-- At high levels of difficulty, does the player *have to* bring multiple abilities to bear?
+
+-- Is there skill involved in using an ability?  (If not, is it a fundamental "move" in the game, like moving one checker piece?)
+
+-- Are there multiple success states to overcoming the challenge?  (In other words, success should not have a single, guaranteed result.)
+
+-- Do advanced players get no benefit from tackling easy challenges?
+
+-- Does failing at the challenge at the very least make you have to try again?
+
+If you answer "no" to any, the game system needs addressing.
+
+
+Game will eventually become boring.  As designer, your responsibility is to know what game is about and ensure that the game teaches that thing.  Teaching this core, this heart, may require many systems or few.  But no system should be in the game that does not contribute toward that lesson.
+
+
+
+---- Chapter 8 ---- The problem with people
+
+Holy grail is to make game where the challenges are never ending.
+
+Designers feel proudest of good, abstract systems that contain self-generating challenges (chess, go, Othello, etc.)
+
+Techniques that have been tried:
+
+-- Emergent behavior -- New patterns emerge out of the rules, player can do things designer didn't forsee.  Mostly leads to loopholes and exploits.
+
+-- Storytelling -- Easier to construct a story with more than one interpretation than to construct a game with the same property.  Games melded with stories are Frankenstein monsters.  Players skip the story or skip the gameplay.
+
+-- Head-to-head -- Other players are and endless source of new content.  Problem:  the mastery problem.  Players hate to lose
+
+-- Player-generated content -- 
+
+Designers are trying to expand the possibility space, while players are trying to reduce it as fast as they can.
+
+The problem with people:  people are lazy.
+
+Players often replay mastered challenges to live out a power fantasy.  At this point, the game is betraying its own purpose.  Games should encourage you to move one after mastery.
+
+New genre of game starts out simple and then follows trajectory where increasing complexity is added to it.  Eventually, games in that genre on the market are so complex that newcomers cannot get into them.  The jargon factor.  Priesthood develops, only educated few can hack it.
+
+
+---- Chapter 9 --- Games in context
+
+Koster's take on art:
+
+-- Media provide information.
+
+-- Entertainment provides comforting, simplistic information.
+
+-- Art provides challenging information, stuff that you have to think about in order to absorb.
+
+Art uses a particular medium to communicate, and sometimes even communicates about the medium itself (much of modern art).
+
+Upper reaches of art are pieces that you can return to again and again and learn new things.  For a game, this would be one that you can play again and again and keep discovering new things.
+
+We need to decide what we want to say with a given game:  something big, complex, open to interpretation, and with no right answer.
+
+What would this game be?  Thought provoking, revelatory, contribute to betterment of society, force us to reexamine our assumptions, different experiences each time we tried it, allow each of us to approach it in different ways, forgive misinterpretation (might encourage it), immerse and impose a world view.
+
+Games are not alone as abstract, formal systems.  All media are.  Other media can achieve the heights of art, so can games.
+
+Can you make an impressionist game:
+
+-- Object you seek to understand is not visible.
+
+-- Negative space more important than shape
+
+-- Repetition with variation important to understanding.
+
+Minesweeper fits this bill.
+
+All media are caged in formal systems.  Consider the rules for a sonnet.  Consider music theory.
+
+Games are not good at specifics, only generalities.
+
+Game can show that small groups can prevail over larger ones.
+
+Much harder to convey a specific struggle of a specific group, like Saving Private Ryan.
+
+But it would also be hard to convey this with an instrumental piece of music. 
+
+Designer must learn strengths of medium, what messages are best conveyed.
+
+
+
+---- Chapter 10 ----  The ethics of entertainment
+
+The best test of a game's fun, in the strict sense, will therefore be playing the game with no graphics, no music, no sound, no story, no nothing.  If that is fun, then everything elese will serve to focus, refine, empower, and magnify.  All the dressing in the world cannot change iceberg lettuce into roast turkey.
+
+Dressing is very important, however, to provide subtle shading.  Costume, lighting, stage, casting, and music are important to the presentation of the dance, but the choreography is at the core.
+ 
+
+---- Chapter 11 ----  Where games should go
+
+Mechanics themselves must reveal the human condition.
+
+How to express "it's lonely at the top" with a mechanic:  game where you gain power to act based on how many people you control, but power to heal yourself from attacks based on how many friends you have.  Then add a rule that friends fall away as you gain power.  This can be modeled with an abstract, formal system.  Now make the victory condition not about being most powerful or having most friends.  Instead, the goal should be something else---overall survival of the tribe.
+
+This is a start toward games that don't just simulate power projection, but duty, love, honor, and responsibility.  What about "I want my children to have a better life than mine."?
+
+
+---- Chapter 12 ---- Taking their rightful place
+
+It's time to move on from only teaching patterns about territory, aiming, timing, and the rest.  These are not the main challenges of our day.
+
+Games do not need to:
+
+-- evoke an unexpected tear
+
+-- rouse us to anger against injustice
+
+-- send us spiraling into awe
+
+-- leave us hovering at the boundary of understanding
+
+-- record the history of our souls.
+
+We wouldn't ask architecture or dance to accomplish all of these either.
+
+But games do need to illuminate aspects of ourselves that we did not understand fully.
+
+The point at which our game puzzles approach the complexity of the puzzles in other art forms is the point at which the game art form becomes mature (starry night vs. chess).
+
+Games do need to:
+
+-- present problems/patterns that do not have one solution (these problems deepen our understanding of ourselves)
+
+-- be created with formal systems that have authorial intent
+
+-- wrestle with the issue of social responsibility.
+
+-- attempt to apply our understanding of human nature to the formal aspects of game design
+
+-- develop a critical vocabulary so that understanding of our field can be shared.
+
+-- push at the boundaries.
+
+
+---- Notes ---
+
+Books cited:
+
+Johan Huizinga:  Homo Ludens (1938)
+
+Roger Caillois:  Man, Play, and Games (1958)
+
+Katie Salen and Eric Zimmerman:  Rules of Play (2003)
+
+Jared Diamond:  Guns, Germs, and Steel
+
+Our short-term memory can keep track of 7 (+/- 2) units of information
+
+Nearly 50% of books sold in US are romance novels.  93% of these sell to women.
+
+Nomic, a game b Peter Suber, allows you to change the rules as you play.
+
+
+ 

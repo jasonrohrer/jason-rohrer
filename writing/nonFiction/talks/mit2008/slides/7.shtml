@@ -1,0 +1,14 @@
+<!--#include virtual="head.html" -->
+
+<table border="0" width="100%"><tr><td align="right">
+<a href="6.html">back</A> ---- <a href="8.html">next</A>
+</td></tr></table>
+
+
+<center>
+<img src="klondike.jpg" width=499 height=232><br>
+<font size=5>Card Solitaire (Klondike variant)</font>
+</center>
+
+
+<!--#include virtual="foot.html" -->

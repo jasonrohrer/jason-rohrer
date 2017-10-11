@@ -1,0 +1,67 @@
+This document uses the some of the goals and ideas from the original MVS 
+document as a foundation.  That document can be found in PDF form here: 
+
+http://finance.groups.yahoo.com/group/vkr2005/files/
+
+I am also taking a bit of inspiration from Russell Beattie's start-up bashing rant, which was posted to the vkr Yahoo group and is online here:
+
+http://www.russellbeattie.com/notebook/1008665.html
+
+
+
+We are trying to develop a product that combines video, existing mobile devices, peer-to-peer, and social networking.
+
+In the original MVS document, I described in great detail what end-users still cannot do with digital video.  Here I will describe a software-only system that will let them do many of these things.  This system also fits nicely into the existing Veeker Plan.
+
+
+The main goal is to design a system that will let any individual broadcast a video to an audience of unlimited potential size.
+
+Some individuals try to do this already using existing software systems.  For example, they might set up a simple web server for their video or a QuickTime streaming server.  Of course, bandwidth limitations will prevent them from reaching many people in this way.
+
+They also might try setting up some sort of BitTorrent seed node.  This would help with some of the bandwidth issues, but it would spread the distribution out over time in an undesirable fashion.  They would need to leave their seed node running indefinitely to ensure that all chunks of the video are available whenever new downloaders come along.  If the stream of downloaders is slow and steady, the original broadcaster will still bear most of the bandwidth burden.
+
+Any kind of general-purpose p2p file sharing system has several undesirable properties, especially from the end-user's perspective.  First, to "do your part" to keep the network going, you must leave your node running for extended periods of time.  Second, you must give a certain portion of your valuable bandwidth to the network.  Much of this bandwidth "donation" will be consumed by the downloads of complete strangers.
+
+If we design a special-purpose p2p network for streaming video, and we build it around the idea of a true social network, then we can overcome these problems.  Such a network would be a kind of micro video station (MVS) that runs on a PC and connects to other MVSs over the Internet.
+
+An MVS would be a piece of software that would act both as a streaming video player and a node in a p2p network.  From the end-user's perspective, here is how an MVS would work:
+
+--You tell the software about your friends (send out email invites, etc.)
+
+--Your MVS connects directly to whatever friends you have that are currently online (similar to an instant messaging client)
+  
+--You can instantly flip through streaming videos from channel-to-channel.
+
+--The number of channels available to you is limited by the number your friends who are also online watching MVS video streams.
+
+--Whatever channel you are watching is re-broadcast to your friends as a channel that they can also watch.
+
+--You can also override this auto-re-broadcasting by picking a video (or series of videos) from your hard drive to broadcast in the background to your friends.
+
+--You can hit a "record" button in the interface an grab a lossless copy of whatever stream you are currently watching.
+
+--Some kind of "My Captured Videos" interface would let you browse the videos you have captured (those on your hard drive) and let you trim/combine these clips into new videos for broadcasting.  For example, it would be easy to create an Ebert-like review show that gives highlights from various MVS broadcasts that have been going around.
+
+
+How can a system like this allow an individual to broadcast a video to a limitless audience?  Because videos can be passed from friend-to-friend through a true social network.  If a video is interesting enough, many people will watch it and automatically re-broadcast it to their friends.  Some will even record the video and loop-re-broadcast it later.  The most interesting videos will be able to spread very quickly throughout the entire network.
+
+Furthermore, a widely-announced "scheduled" broadcast could potentially reach a very large group of people in near-realtime.  After only 10 six-friends-each hops, the video will have reached millions of people.  Since each hop is simply a realtime stream relay, there is very little latency added.
+
+The first advantage over a general-purpose p2p file sharing system is that users do not need to leave their nodes on for extended periods of time (unless they are actively streaming/broadcasting their own videos).  The second advantage is that their bandwidth is only shared with their personal friends.  
+
+The social network aspect is also an incentive toward active content sharing.  It is not hard to imagine one friend IM-ing another and saying, "Turn on your MVS... you've just got to see this video that I'm watching right now."
+
+Since this system focuses on realtime streaming, and each node will be sending out a single stream to a small group of friend nodes, many of the bandwidth problems associated with serving video from the desktop are solved.  For example, compare this system to one in which you have a browsable collection of 100 videos hosted on every desktop machine.  Even if you restricted sharing to immediate friends in such a system, you could potentially be serving six different video streams to six different friends at the same time.  
+
+In the MVS network described here, even if one friend's stream slots fill up for a popular video, it would be easy to instead grab the stream from another friend in the same circle.  In a true social network, friends often share friends in common.  So, if I have 6 friends watching my video, and my machine/connection cannot handle serving to a 7th, that extra friend's channel-flipping interface would simply not present a channel from me and instead present the same video stream from one of the friends we have in common (one of the 6 who is getting the stream directly from me).
+
+To summarize it in one sentence, we would have a true social network of realtime video relay nodes.  This particular idea is quite different from anything else that is out there right now.  It has the potential to work well because realtime video watching is already seen as a social activity.
+
+How does this idea fit with the current Veeker Plan?  Veeker's video hosting service could serve as a gateway between mobile-phone video producers and an MVS relay network.  Users could "flick" their mobile videos online and have them instantly streamed as available channels to their friends in the MVS network.
+
+Users could also specify a series of videos that could be streamed on repeat to their friends, and they could add new videos to the series as they shoot them with their phones.
+
+Veeker would essentially serve as an MVS node for whatever mobile users were currently away from their PCs and out shooting videos.  Thus, your friend list might show certain friends as "currently mobile," which would mean that you are actually connected to a Veeker relay node that will be streaming your friend's videos to you.
+
+Thus, you could imagine flipping from channel-to-channel and seeing a near-realtime video presentation that shows you what your various mobile friends are currently doing.
+    

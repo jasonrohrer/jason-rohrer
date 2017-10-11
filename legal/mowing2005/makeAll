@@ -1,0 +1,31 @@
+latex brief.tex
+latex photo_legend.tex
+latex photo_map_page.tex
+latex witness_list.tex
+latex Richard_Grover_questions.tex
+latex trial_notes.tex
+
+dvips -t letter -o rohrer_memorandum.ps brief.dvi
+ps2pdf rohrer_memorandum.ps
+
+
+dvips -t letter -o photo_legend.ps photo_legend.dvi
+ps2pdf photo_legend.ps
+
+
+dvips -t letter -o photo_map_page.ps photo_map_page.dvi
+ps2pdf photo_map_page.ps
+
+
+dvips -t letter -o witness_list.ps witness_list.dvi
+ps2pdf witness_list.ps
+
+
+
+dvips -t letter -o Richard_Grover_questions.ps Richard_Grover_questions.dvi
+ps2pdf Richard_Grover_questions.ps
+
+
+dvips -t letter -o trial_notes.ps trial_notes.dvi
+ps2pdf trial_notes.ps
+

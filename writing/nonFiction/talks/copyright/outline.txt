@@ -1,0 +1,122 @@
+What is copyright?
+--Constitution  (SLIDE 1)
+--Initial incarnation (14 years, +14 year renewal)   (SLIDE 3)
+
+History of copyright
+--Graph showing extensions   (SLIDE 4)
+  1787  Power granted, but not used (0 years of protection)
+  1790  14 + 14 year renewal
+  1831  28 + 14 year renewal
+  1909  28 + 28 year renewal
+  1976  75 years  (or life of author +50)
+  1998  95 years  (or life of authoer +70)
+
+
+--Line shows Mickey's age
+  --Created in 1928 (Plane Crazy)  (SLIDE 4b)
+  --56 Years of copyright protection (28 years, plus 28 year renewal) (SLIDE 4)
+  --Scheduled for public domain in 1984
+  --Copyright protection extended to 75 years in 1976
+  --Mickey now slated for public domain in 2003
+  --Copyright protection extended to 95 years in 1998
+  --New public domain birthday:  2023
+
+So, Disney wants to maintain control of Mickey forever (it would be in their
+best interest, of course---only natural).
+
+But can they really control Mickey?
+
+--Thomas Jefferson quote  (SLIDE 2) 
+
+--Home taping (mix tapes, full album dubs, etc.)
+--New threat:  digital home taping (lossless) (DAT 1987)
+--Audio home recording act (blank media taxes)  (SLIDE 5)
+  --In exchange, consumers cannot be sued for making copies at home.
+
+
+
+Pre-Internet Analysis:
+--Original purpose of copyright:  to ensure that creator of a work is the 
+  only one who can reap commercial benefit from the work (for a limited time)
+
+--Easy to enforce this version of copyright, especially in the pre-Internet
+  world.  How many in the class have their own:  printing press?  Vinyl 
+  stamping machine for making records?  Radio station?  TV station?
+
+--Only large corporations had the capital needed to copy works on a mass scale,
+  so copyright really just protected corporations from each other.
+
+--Copying at home started to become more viable (cassette dubbing, DAT)
+
+--How many in class have ever made a mix tape?
+
+--Corporations began pushing to apply copyright against non-commercial, private
+  copying.
+
+
+
+The Internet:
+--How many in class have their own:  website?  blog?  MySpace page?  YouTube 
+  videos?  How many have ever used p2p software like KaZaA, LimeWire, or 
+  Morpheus?
+
+--Internet puts mass communication in the hands of "everyone," and with mass
+  communication comes the ability to copy and distribute copyrighted works
+  on a mass scale.
+
+--Almost all "illegal" copying on the internet is non-commercial.
+
+--A strong argument can be made that copyright was never intended to limit
+  non-commercial, private copying.
+
+--Works that should certainly be in the public domain now, such as Mickey 
+  Mouse, may never become public.  Almost all the folks who saw Plane Crazy
+  as children are dead now.  We're being denied access to our own cultural
+  heritage.
+
+--We have the tools.  Let's revolt.  (SLIDE 6)
+
+
+--History of online copying:
+
+  --Generation 0:  FTP and web sites  1991--? (draw picture)
+  --Mostly trading software
+  --MP3 (suddenly, music is fair game)
+  --RIAA:  shut them all down (cease-and-desist letters to hosting companies)
+  
+  --Generation 1:  Napster  (1999)
+  --Central indexing for searches, decentralized storage (draw picture)
+  --Less reliable and scalable than FTP/Web
+  --The first true boom in online music sharing
+  --RIAA:  shut the index (Napster) down  (2001)
+
+  --Generation 2:  Gnutella (March 2000) (and then KaZaA, October 2000)
+  --Decentralized storage *and* searches (draw picture)
+  --Direct user-to-user file transfers
+  --Slower and less reliable than central indexing
+  --RIAA:  Can't shut down the index
+  --RIAA:  sue the end users, one-by-one (September 2003)
+
+  --Generation 3:  MUTE  (December 2003)
+  --Anonymous, indirect searches and file transfers (draw picture)
+  --Slower and less reliable than direct file transfers
+  --RIAA:  ?
+  --Downloaded by over 860,000 people (Still being downloaded by about 
+    400 people per day)
+
+--Lesson:  we can use technology to "route around" whatever obstacles the RIAA
+  throws at us.
+
+Notes and discussion:  
+
+--Companies have largely been sued out of the p2p business (Napster,
+  KaZaA, Morpheus, Grokster, etc.)
+
+--Hard to make money off of decentralized technologies (no control-- e.g.,
+  KaZaA Lite)
+
+--Newest business ventures are centralized (Blogger, MySpace, YouTube).
+
+--YouTube as a copyright nightmare
+  
+--Will pay-per-download services like iTunes replace p2p file sharing?

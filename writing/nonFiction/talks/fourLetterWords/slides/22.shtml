@@ -1,0 +1,13 @@
+<!--#include virtual="head.html" -->
+
+<table border="0" width="100%"><tr><td align="right">
+<a href="21.html">back</A> ---- <a href="index.html">next</A>
+</td></tr></table>
+
+
+<center>
+<img src="menChess.jpg" width=640 height=482>
+</center>
+
+
+<!--#include virtual="foot.html" -->

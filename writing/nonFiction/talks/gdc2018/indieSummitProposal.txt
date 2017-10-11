@@ -1,0 +1,83 @@
+
+
+Don't Break the Chain:  Maintaining Productivity on Your 19th Game 
+
+
+With 18 shipped games behind me, I got ambitious.  One Hour One Life was going to have infinite worlds, realtime networking, 200-player servers, and a laughably-large content target:  10,000 fully interactive objects.
+
+During the first two years, I coded a client/server/editor, partnered with my best friend, rented an office, bought equipment, presented at EGW, moved to a different office, put up a website, released a teaser video, turned 39, developed 300 fully interactive objects, started moving offices a third time, broke up with my best friend, moved back to my home office, scrapped the existing content/website/video, remade the content by myself from scratch over three months, had a nervous breakdown, and released the game to alpha testers.
+
+Toward the end, however, my net productivity had declined severely.  I was getting only 2-3 hours of "real" work done during each 10-hour day in front of the computer.  With my family's financial and emotional future on the line, I had to confront the issue of productivity head-on.
+
+As indies, many of us are doing this instead of having a "real" job.  That means we're doing this because we love it, right?  And that means we should be enjoying ourselves and not feeling too structured or stressed, right?
+
+Unfortunately, this lax indie attitude can fatally undermine productivity, as evidenced by the plague of delayed or never-shipped games.  Ask those folks how much they enjoyed the process.
+
+On the other hand, a few indies seem to be cranking away like unstoppable productivity machines.  Until my recent debacle, I even counted myself among them.  But what's the big secret?  How do they do it?  Or more importantly, how DID I do it before, and how could I get back to doing it again, two and a half years into my 19th game?
+
+This talk serves as a crib-sheet, summarizing what I've learned during my decades-long quest for a highly productive yet low-stress work life.
+
+I'll discuss the importance of ample sleep and dreams, regular and severely limited work hours, and a sharp division between true work time, "other work" time, and leisure time.  I'll cover the importance of regular scheduled break times, including Pomodoro Method timers, and the flow fallacy.  I'll discuss paper vs. digital notes, note management techniques, and the importance of physical lists.
+
+At this point, you will know what you need to do to be productive on a given day.  The hard part will be continuing to do it day after productive day.  To tie everything together, I'll cover the simple yet effective daily behavior modification system attributed to Jerry Seinfeld, Don't Break the Chain.  Chain calendars will be provided to all audience members.
+
+By taking productivity seriously---as if your life depended on it, which it does---you can ensure that making games is actually the life priority that you want it to be and enjoy the process more than ever.  Don't break the chain.
+
+
+
+
+
+
+
+
+
+
+Short Description:
+
+100 words
+
+Ever notice how a few developers seem like unstoppable productivity machines, releasing game after game, while many others leave a trail of abandoned projects behind them before eventually returning to a dreaded "real" job?  While some aspects of game development are unexplainable mysteries, productivity is not one of them.  Tired of losing focus and having weeks go by with no progress on your game?  This talk presents tested techniques that I've used over the past 12 years, working alone, to ship 18 games.  How did I keep going during the bleakest times?  I'm going to tell you.
+
+
+
+
+
+
+Takeaway:
+
+50 words
+
+Attendees will be given a full set of tested productivity tools that they can put into use immediately to experience their own productivity renaissance, and to maintain high productively permanently into the future.
+
+
+
+
+
+
+Speaking history and links:
+
+Presented at GDC EGW three times over the years (r=4.89 in 2011, 77% excellent in 2013, 66% excellent in 2016)
+Won the final GDC Game Design Challenge in 2013 with A Game for Someone (86% excellent)
+GDC Game Design Challenge 2012 (87% excellent, included in GDC card deck)
+Keynote at MIGS, 2011
+Won the GDC Game Design Challenge in 2011 with Chain World (r=4.73)
+GDC Microtalk in 2011(r=4.72)
+Keynote at GDC Serious Games Summit, 2010
+Spoke at GDC Indie Summit in 2009
+
+Invited speaker at MIT, Yale, Berkeley, NYU, CMU, Drexel, GATech, Hastings, Champlain, Hallmark, Clarkson, GDX, Project Horseshoe.
+
+Links:
+http://hcsoftware.sourceforge.net/jason-rohrer/
+http://onehouronelife.com/
+
+
+
+Bio:
+
+I've been making games for thirteen years. Along the way, I started a religion, made Clint Hocking cry, and buried an $8000 hunk of titanium in the Nevada desert.
+
+
+Game Credits:
+
+Since 2004, I have designed, programmed, and released 18 games: Transcend, Cultivation, Passage, Gravitation, Perfectionism, Idealism, Police Brutality, Immortality, Regret, i45hg, Crude Oil, Between, Primrose, Sleep Is Death, Inside a Star-filled Sky, and Diamond Trust of London, The Castle Doctrine, and Cordial Minuet.

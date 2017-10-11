@@ -1,0 +1,12 @@
+<!--#include virtual="head.html" -->
+
+<table border="0" width="100%"><tr><td align="right">
+<a href="3.shtml">back</A> ---- <a href="4b.shtml">next</A>
+</td></tr></table>
+
+<center>
+<img src="copyrightExtension.png">
+</center>
+
+
+<!--#include virtual="foot.html" -->

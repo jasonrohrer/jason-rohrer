@@ -1,0 +1,68 @@
+
+# make main images
+echo "Making web images"
+convert -verbose -quality 90 -resize 400x400 ../cover.eps ./cover.jpg
+convert -verbose -quality 90 -resize 400x400 ../01.eps ./01.jpg
+convert -verbose -quality 90 -resize 400x400 ../02.eps ./02.jpg
+convert -verbose -quality 90 -resize 400x400 ../03.eps ./03.jpg
+convert -verbose -quality 90 -resize 400x400 ../04.eps ./04.jpg
+convert -verbose -quality 90 -resize 400x400 ../05.eps ./05.jpg
+convert -verbose -quality 90 -resize 400x400 ../06.eps ./06.jpg
+convert -verbose -quality 90 -resize 400x400 ../07.eps ./07.jpg
+convert -verbose -quality 90 -resize 400x400 ../08.eps ./08.jpg
+convert -verbose -quality 90 -resize 400x400 ../09.eps ./09.jpg
+convert -verbose -quality 90 -resize 400x400 ../10.eps ./10.jpg
+convert -verbose -quality 90 -resize 400x400 ../11.eps ./11.jpg
+convert -verbose -quality 90 -resize 400x400 ../12.eps ./12.jpg
+convert -verbose -quality 90 -resize 400x400 ../13.eps ./13.jpg
+convert -verbose -quality 90 -resize 400x400 ../14.eps ./14.jpg
+convert -verbose -quality 90 -resize 400x400 ../15.eps ./15.jpg
+convert -verbose -quality 90 -resize 400x400 ../16.eps ./16.jpg
+convert -verbose -quality 90 -resize 400x400 ../17.eps ./17.jpg
+convert -verbose -quality 90 -resize 400x400 ../18.eps ./18.jpg
+convert -verbose -quality 90 -resize 400x400 ../19.eps ./19.jpg
+convert -verbose -quality 90 -resize 400x400 ../20.eps ./20.jpg
+convert -verbose -quality 90 -resize 400x400 ../21.eps ./21.jpg
+convert -verbose -quality 90 -resize 400x400 ../22.eps ./22.jpg
+convert -verbose -quality 90 -resize 400x400 ../23.eps ./23.jpg
+convert -verbose -quality 90 -resize 400x400 ../24.eps ./24.jpg
+convert -verbose -quality 90 -resize 400x400 ../25.eps ./25.jpg
+convert -verbose -quality 90 -resize 400x400 ../26.eps ./26.jpg
+convert -verbose -quality 90 -resize 400x400 ../27.eps ./27.jpg
+convert -verbose -quality 90 -resize 400x400 ../28.eps ./28.jpg
+# for some reason, this is shifted down (eps looks fine when opened with GIMP)
+convert -verbose -quality 90 -resize 400x400 ../back_cover.eps ./back_cover.jpg
+
+
+# make thumbs
+echo "Making thumbnails"
+convert -verbose -quality 90 -resize 100x100 ./cover.jpg ./cover_thumb.jpg
+convert -verbose -quality 90 -resize 100x100 ./01.jpg ./01_thumb.jpg
+convert -verbose -quality 90 -resize 100x100 ./02.jpg ./02_thumb.jpg
+convert -verbose -quality 90 -resize 100x100 ./03.jpg ./03_thumb.jpg
+convert -verbose -quality 90 -resize 100x100 ./04.jpg ./04_thumb.jpg
+convert -verbose -quality 90 -resize 100x100 ./05.jpg ./05_thumb.jpg
+convert -verbose -quality 90 -resize 100x100 ./06.jpg ./06_thumb.jpg
+convert -verbose -quality 90 -resize 100x100 ./07.jpg ./07_thumb.jpg
+convert -verbose -quality 90 -resize 100x100 ./08.jpg ./08_thumb.jpg
+convert -verbose -quality 90 -resize 100x100 ./09.jpg ./09_thumb.jpg
+convert -verbose -quality 90 -resize 100x100 ./10.jpg ./10_thumb.jpg
+convert -verbose -quality 90 -resize 100x100 ./11.jpg ./11_thumb.jpg
+convert -verbose -quality 90 -resize 100x100 ./12.jpg ./12_thumb.jpg
+convert -verbose -quality 90 -resize 100x100 ./13.jpg ./13_thumb.jpg
+convert -verbose -quality 90 -resize 100x100 ./14.jpg ./14_thumb.jpg
+convert -verbose -quality 90 -resize 100x100 ./15.jpg ./15_thumb.jpg
+convert -verbose -quality 90 -resize 100x100 ./16.jpg ./16_thumb.jpg
+convert -verbose -quality 90 -resize 100x100 ./17.jpg ./17_thumb.jpg
+convert -verbose -quality 90 -resize 100x100 ./18.jpg ./18_thumb.jpg
+convert -verbose -quality 90 -resize 100x100 ./19.jpg ./19_thumb.jpg
+convert -verbose -quality 90 -resize 100x100 ./20.jpg ./20_thumb.jpg
+convert -verbose -quality 90 -resize 100x100 ./21.jpg ./21_thumb.jpg
+convert -verbose -quality 90 -resize 100x100 ./22.jpg ./22_thumb.jpg
+convert -verbose -quality 90 -resize 100x100 ./23.jpg ./23_thumb.jpg
+convert -verbose -quality 90 -resize 100x100 ./24.jpg ./24_thumb.jpg
+convert -verbose -quality 90 -resize 100x100 ./25.jpg ./25_thumb.jpg
+convert -verbose -quality 90 -resize 100x100 ./26.jpg ./26_thumb.jpg
+convert -verbose -quality 90 -resize 100x100 ./27.jpg ./27_thumb.jpg
+convert -verbose -quality 90 -resize 100x100 ./28.jpg ./28_thumb.jpg
+convert -verbose -quality 90 -resize 100x100 ./back_cover.jpg ./back_cover_thumb.jpg

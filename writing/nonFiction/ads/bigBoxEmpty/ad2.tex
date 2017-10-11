@@ -1,0 +1,134 @@
+\documentclass[12pt]{article}
+\usepackage{epsfig,fullpage,multicol,times,color,rotating,array,numprint}
+
+% hint:  \usepackage{newcent} to access Avant-Garde sans-serif font
+% then turn on sf mode with {\sf  }
+
+
+\usepackage[dvips]{geometry}
+
+% full page in NCTW
+% cost:  $480
+\newlength{\paperWidth}
+\setlength{\paperWidth}{10.83in}
+\newlength{\paperHeight}
+\setlength{\paperHeight}{16in}
+
+% trim a bit more to reduce bottom whitespace
+%\setlength{\paperHeight}{0.987\paperHeight}
+
+\geometry{papersize={\paperWidth,\paperHeight},scale=1.0, vmargin={0.05in,0.0in}, hmargin={0.0in,0.0in}, headheight=0in, headsep=0in, footskip=0in}
+%total={6.5in,5in}}
+
+
+
+\begin{document}
+
+\setlength{\columnsep}{0.2in}
+\setlength{\columnseprule}{0.4pt}
+
+\makeatletter
+\newcommand\HeadingSize{\@setfontsize\HeadingSize{60}{60}}
+\makeatother
+
+\makeatletter
+\newcommand\TextSize{\@setfontsize\TextSize{12}{13}}
+\makeatother
+
+\makeatletter
+\newcommand\BottomTextSize{\@setfontsize\BottomTextSize{13}{14}}
+\makeatother
+
+\makeatletter
+\newcommand\SaidNoTextSize{\@setfontsize\SaidNoTextSize{10}{10}}
+\makeatother
+
+
+
+\pagestyle{empty}
+
+\pagecolor{black}
+
+
+
+{ \color{white}
+
+\begin{center}
+
+\newlength{\headerSpacing}
+\setlength{\headerSpacing}{0.5in}
+
+{\SaidNoTextSize $\downarrow$ NY towns that said ``no'' to at least one big box} 
+\hspace{\headerSpacing}
+\underline{Paid for by North Country Citizens for Responsible Growth}
+\hspace{\headerSpacing}
+{\SaidNoTextSize NY towns that said ``no'' to at least one big box $\downarrow$}
+
+
+\vspace{0.05in}
+
+
+\newlength{\sideListSpacing}
+\setlength{\sideListSpacing}{0.64in}
+
+\newcommand{\sideSpace}{\hspace{\sideListSpacing}}
+
+
+% m is special column specifier for array package
+% makes contents vertically centered
+% @{} between columns suppresses extra column spacing
+\noindent\begin{tabular}{@{}m{0.125in}@{}c@{}m{0.125in}@{}}
+\begin{sideways}
+Amherst \sideSpace 
+Aurora \sideSpace 
+Ballston \sideSpace 
+Buffalo \sideSpace 
+Cazenovia \sideSpace 
+East Aurora \sideSpace 
+Hornell \sideSpace 
+Hyde Park \sideSpace 
+Ithaca \sideSpace 
+Lake Placid \sideSpace 
+Lansingburgh
+\end{sideways}&
+%\lenprint[in]{\textwidth}
+\begin{minipage}{0.96\textwidth}\input{centerContent}\end{minipage}&
+\begin{turn}{-90}
+Leeds \sideSpace 
+Lima \sideSpace 
+Montgomery \sideSpace
+Mount Pleasant \sideSpace 
+New Paltz \sideSpace 
+New Rochelle \sideSpace 
+North Greenbush \sideSpace 
+Queens \sideSpace 
+Rotterdam \sideSpace
+Saranac Lake \sideSpace % extra space here
+\end{turn}
+\end{tabular}
+
+
+
+
+\vspace{0.05in}
+
+{\huge Let's do something better!}
+
+\vspace{0.05in}
+
+\begin{minipage}{0.95\textwidth}
+{\BottomTextSize
+You want to improve the quality of life in our community, but what can you do to help?
+We're holding a {\bf big community meeting} in the Potsdam Civic Center Community Room (upstairs from the police station) on November 16 at 7:30pm, and every concerned citizen is invited. 
+What will we do at the meeting?
+We'll craft a vision of a better future for Potsdam, a future in which we keep economic power in local hands.  
+There's a lot of work to do, but it will be easy if we each take on a small part of it---how does {\bf one hour per person} sound?
+}
+\end{minipage}
+
+\end{center}
+
+
+}
+
+\end{document}

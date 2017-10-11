@@ -1,0 +1,18 @@
+<!--#include virtual="head.html" -->
+
+<table border="0" width="100%"><tr><td align="right">
+<a href="1.html">back</A> ---- <a href="3.html">next</A>
+</td></tr></table>
+
+<br>
+<br>
+<br>
+<br>
+
+<center>
+<img src="passage.png" width=600 height=96><br>
+<font size=5><i>Passage</i>, November 2007</font>
+</center>
+
+
+<!--#include virtual="foot.html" -->

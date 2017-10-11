@@ -1,0 +1,68 @@
+"The Game Design of Art."
+20-minute version 
+
+The base essay for a talk by Jason Rohrer
+
+
+
+A lot of people are talking about whether or not games can be art.  The base assumption for this conference is that games can be art.  I, personally, am finished thinking about that question.  So this is a talk about making art---how can we make art with our games?
+
+Let's start by looking at film for a bit.
+
+Games are compared to films a lot in contemporary discussion.  Some of that comparison is wrongheaded---where people are wondering whether games will ever be as "good as movies," or where people are claiming that movies can be art but games cannot be art, or where people imagine a future in which games are essentially just interactive movies.  But there's another kind of comparison with films that I think is much more useful.  We can examine how films can be used to communicate, and that will give us some insight into how we might use games to communicate.  Not by aping film, but by taking a hard look at how games are different from film and pushing in that direction.
+
+We can start off by talking about what makes a film a film.  The very best films use all of the tools available in the toolbox---for example, camera angles, cuts, camera motion, coloring, lighting, sound, music, and acting---and they use these tools in such a way that all of these various dimensions resonate with what the film is trying to express.  Regardless of whether we're trying to make art, I think that resonance of all of our various aspects of the work is important.  Resonance is really the key.  
+
+As an example, let's examine the film "Memento."  We can read into this film and find all sorts of subtle messages that it may be trying to express, but to keep things simple, I am going to stick with a surface-level interpretation.  The film is trying to express what it's like to have a particular type of brain damage.
+
+With that core purpose in mind, we can examine the film's various dimensions and look for resonance.  The reverse scene order---the most famous aspect of this film---certainly resonates.  The choice of black and white versus color for different sections of the movie resonates.  The story resonates (we have people manipulating the main character, we have the main character killing John G. over and over again without knowing it).  The production resonates (the main character's tattoos, anonymous motel rooms, attention to extreme detail of particular daily actions of the main character).  The music resonates---it's alienating.
+
+All of these aspects that I've listed above feed into the core point to the film.  They helped to put you into the shoes of this brain-damaged individual.
+
+Okay, so that's films.  How are games different?  Games can have cuts, and lighting, and camera angles, and music, and potentially acting.  But games have one more additional feature that makes them unique and sets them apart from any other medium:  gameplay and the game mechanics that underpin it.  
+
+Sure, we can use game technology to produce works without gameplay, just like we can use movie technology to put a series of words up on the screen.  But we all acknowledge that gameplay is very important---we're not really trying to make movies.  I'll push this point a bit further:  because it sets games apart and makes them unique, gameplay is the most important tool of our medium.  But so what?  Everyone knows this.  People have been beating the "gameplay is key" drum for decades.
+
+The funny thing, given this general acknowledgment, is that gameplay rarely resonates with what the game is trying to express.  It's not that gameplay is an afterthought.  In fact, the exact opposite is usually true---the gameplay is the forethought, and everything else, including the game's message, the slapped on top of it.  As proof of this, notice how we often see a huge variety of different themes and story-lines slapped on top of the same underlying gameplay---for example, first-person shooters and sneaking games.  In fact, even our so-called game genres are based around mechanics.  Stealth, platformer, shooter, etc.  This differs substantially from films, where the genres are instead based on content (Romance, thriller, comedy, etc). 
+
+Going back to the film Memento briefly:  imagine if they had approached the project knowing that they wanted to make a movie where the scenes were shown in reverse chronological order, and from that point they asked, "What's this movie going to be about?"   That sounds rather backward, doesn't it?  The point is that they didn't approach it this way.  They started with an idea about a character who had this particular kind of brain damage---loss of the ability to make new memories, and everything else, including the reverse scene order, flowed from there.  But when we make games, we generally use a process very close to what we just called "backwards":  we select a particular kind of gameplay and then ask "What's this game going to be about?"
+
+So we have a fundamental dissonance in our games between what we are trying to express and our gameplay.  This is similar to a film where the camera work is a bit off.
+
+But the dissonance in games is worse than what is suggested by analogies from film.  We can't forget that the core of the game is the gameplay.  That's what the players are actually doing moment-to-moment.  That's their point of focus.  After they pick their jaws of off the floor, and their delight in your realistic virtual world fades, they see right past all the icing to the core gameplay, to what they are actually doing.
+
+There really isn't a similar core focal point in a film.  One particular lack of resonance won't necessarily spoil a film's power to express.  But if gameplay doesn't resonate, then the heart of the game is out of sync.
+
+So, this is the challenge, and it's a tough one:  to construct gameplay mechanics that truly resonate with what we are trying to express.
+
+Furthermore, we might find that if we can leverage gameplay to communicate more and more, we will need to rely on tools from other mediums (like cut-scenes from film) less and less.  
+
+These days, we rarely see films that rely on lots of text to communicate.  We've figured out how to communicate all sorts are rather subtle things using film-specific tools.  We no longer need to cut to text in a film and say, "Later that afternoon..."  Instead, we show context shots, like a neighborhood scene with the sun at a lower angle and longer shadows.  But we did see quite a bit of text in the "old days" of film.
+
+Part of the reason we feel the need to include so many cut scenes and linear stories in our games is that our core gameplay communicates very little of true human interest.  But someday, we will look back on these days as the "old days" of game design---back in the days when we had to lift techniques from other, less powerful mediums to express anything worthwhile with our games.  Back before we learned how to express through gameplay directly.
+
+How far are we away from actually expressing meaningful things through gameplay?  There are a handful of game designers---and I mean a literal handful---that are starting to do this.  These are what I call artgames:  games that deliver artistic expression through gameplay.  My artgame list is very short, so I'll give it to you in complete form:
+
+Braid, by Jonathan Blow
+The Marriage, by Rod Humble
+Stars Over Half Moon Bay, by Rod Humble
+Super Columbine Massacre RPG!, by Danny Ledonne
+
+So what's the working method for making an artgame?  Given that we want to make a game about a particular subject, how do we craft game mechanics that resonate?
+
+I think part of the problem is that we haven't learned the limitations or medium yet.  There are certain corners of the human condition that can easily be explored using games, but there are other corners that are much more difficult to explore.  We might even be wasting our time by trying to explore certain subjects with games.  But if we're simply using games to ape movies, we might miss that nuance altogether.  
+
+We might be trying to make a game about Subject X, and we might observe that there's simply no appropriate mechanics that resonate well with our subject.  So, we might continue making the game about that subject, and just forget about finding a resonant mechanic.  But if it's true that there really are no resonant mechanics, then perhaps we shouldn't be making a game about that subject in the first place.  Maybe we've picked a subject that works well for a movie but makes for a bad game.
+
+But if we're not trying to use game mechanics to communicate in the first place, will have no way of noticing that our subject works poorly for a game.  So, that might be an additional benefit of using gameplay for expression:  to reign us in a bit and help us pick topics that are game-worthy.
+
+
+
+From email to Brenda Brathwaite on December 23, 2007
+>>>>
+As I was trying to come up with my next game design, I realized something interesting about games as an art form.  Games are certainly a powerful form, perhaps even more powerful than other mediums in certain cases.  For example, Passage seems to have hit many people harder than an equivalent memento mori painting or film would.  But the thing is, memento mori is not just about saying, "hey, you're going to die."  It's really about the question that follows:  "so what are you going to do with the time that you have left?"  Thus, the heart of memento mori is really about this process of realization and about how the realization affects your own personal choices.  Whenever we're dealing with corners of the human condition that involve processes and the resulting choices, games soar in comparison to other mediums in terms of power.  A painting or film might leave the aforementioned question floating in your mind as you leave the museum or theater, but a game allows you to explore your own personal answer to that question right within the context of the work itself.
+
+The other half of my realization is that games pale in comparison to other mediums when dealing with aspects of the human condition that don't involve processes and choices.  For example, I don't think we could make a good game that was *just* about the loss of a loved one.  Noticed that Passage is not just about that.
+
+So, as I'm combing my own personal experience and feelings for new game design ideas, I've been throwing lots of ideas out when I determine that they don't involve processes and choices.  As it turns out, most of the personal things that I'm really itching to express as an artist don't fit this bill.  This is then a bit frustrating, and it made me question games as a medium a bit, but now I think I understand that each medium has its own strengths and weaknesses.  We shouldn't hate our medium for its weaknesses, but instead love it for its strengths.
+>>>>

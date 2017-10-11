@@ -1,0 +1,3 @@
+open seedcorn.org -u scn_jason,nuvair3teR
+cd backups
+mget *

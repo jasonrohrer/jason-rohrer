@@ -1,0 +1,35 @@
+<!--#include virtual="head.html" -->
+
+<table border="0" width="100%"><tr><td align="right">
+<a href="9.html">back</A> ---- <a href="11.html">next</A>
+</td></tr></table>
+
+
+<br>
+<br>
+<br>
+"I don't think we've ever put Will Wright's name on a box."
+
+<br>
+
+<table width=100%>
+<tr>
+<td align=right>
+
+<table>
+<tr>
+<td>
+<font size=5>
+John Riccitiello<br>
+CEO<br>
+Electronic Arts
+</font>
+</td>
+</tr>
+</table>
+
+</td>
+</tr>
+</table>
+
+<!--#include virtual="foot.html" -->

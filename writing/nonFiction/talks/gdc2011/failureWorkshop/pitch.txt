@@ -1,0 +1,7 @@
+Synopsis:
+"I peered down again and I felt the old longing to go farther, although it looked like the black pit-mouth of hell itself."  So reported William Beebe, the first human to reach a sea depth of 1400 feet and live to report.  His story captured a feeling that I had been having about the abyss.  I made a game about dropping into the sea, hanging from a long yellow hose, and eventually detaching to free-sink to your death.  A bottomless game, where the primary activity was navigating the crevasses of a procedurally-generated sea floor.  A game where mood and environment were the main course and gameplay was minimal.  This formula failed to make a game that I felt was worth finishing.  
+
+
+Materials:
+
+As background for the failed project, I'll present historical photos and drawings documenting William Beebe's 1930 mission a quarter mile down beneath the Bermuda sea.  I'll show a working prototype of my game, including a demonstration of the procedural sea floor generation system.

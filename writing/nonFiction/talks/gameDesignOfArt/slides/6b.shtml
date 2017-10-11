@@ -1,0 +1,14 @@
+<!--#include virtual="head.html" -->
+
+<table border="0" width="100%"><tr><td align="right">
+<a href="6.html">back</A> ---- <a href="7.html">next</A>
+</td></tr></table>
+
+
+<center>
+<img src="chris_ware.jpg" width=1000 height=1261><br>
+<i>The ACME Novelty Library #18</i>, 2007, by Chris Ware
+</center>
+
+
+<!--#include virtual="foot.html" -->

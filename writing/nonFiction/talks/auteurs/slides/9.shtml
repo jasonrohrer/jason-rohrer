@@ -1,0 +1,13 @@
+<!--#include virtual="head.html" -->
+
+<table border="0" width="100%"><tr><td align="right">
+<a href="8.html">back</A> ---- <a href="10.html">next</A>
+</td></tr></table>
+
+
+<center>
+<img src="sporeBox.jpg" width=640 height=346>
+</center>
+
+
+<!--#include virtual="foot.html" -->

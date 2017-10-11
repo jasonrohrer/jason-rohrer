@@ -1,0 +1,35 @@
+<!--#include virtual="head.html" -->
+
+<table border="0" width="100%"><tr><td align="right">
+<a href="11.html">back</A> ---- <a href="12b.html">next</A>
+</td></tr></table>
+
+
+<br>
+<br>
+<br>
+"And there are people who bring their sort of entourage of fame with them. At times that makes sense to put their name forward."
+
+<br>
+
+<table width=100%>
+<tr>
+<td align=right>
+
+<table>
+<tr>
+<td>
+<font size=5>
+John Riccitiello<br>
+CEO<br>
+Electronic Arts
+</font>
+</td>
+</tr>
+</table>
+
+</td>
+</tr>
+</table>
+
+<!--#include virtual="foot.html" -->

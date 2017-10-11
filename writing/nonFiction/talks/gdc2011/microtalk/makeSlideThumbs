@@ -1,0 +1,15 @@
+rm -r slideThumbs
+mkdir slideThumbs
+
+cp slides/*.jpg slides/*.png slideThumbs
+
+cd slideThumbs
+
+mogrify -filter Hermite -thumbnail 160x90 *.png *.jpg
+
+
+mogrify -format eps *.png *.jpg
+
+
+
+cd ..

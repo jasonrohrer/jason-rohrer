@@ -1,0 +1,49 @@
+1.
+
+Name:  Inside a Star-filled Sky
+
+Description:  An infinite, recursive, procedurally-generated tactical shooter.
+
+http://insideastarfilledsky.net/
+
+
+
+2. What makes this submission experimental?
+
+
+The game has a fully-recursive, nesting/branching structure.  Every object in the gameworld has another gameworld inside of it, and every object in that subworld has a sub-subworld inside of it.  And so on, all the way down.  Also all the way up.  It's both bottomless and topless.
+
+The game experiments with the under-explored roguelike/shooter hybrid, using procedural level generation and power-up systems to produce an infinite variety of interesting tactical situations. 
+
+The game has a novel way of dealing with player punishment and death that eliminates tedium and repetition.  Dying knocks the player down into a freshly-generated sub-world with fresh tactical challenges.  After overcoming the challenges in the "knock-down" world, the player resumes exactly where she left off---every bullet in the same spot---back in the super-world.
+
+
+3. Describe to us:
+
+
+--The initial idea/inspiration for this experiment:
+
+What if you could enter everything?  What if a game was based around that core mechanic as a foundation?
+
+Thematically, inspiration comes false awakenings (dreams within dreams) and the subjective experience of recursive subtasks from real life.  The goal was to reproduce the aesthetic experience of getting lost in a subtask and forgetting why you embarked on the subtask in the first place.
+
+Consider the one-layer-deep "item world" in Disgaea.  What if you took that idea and ran with it?  Not just monsters living inside your sword, but monsters living inside those monsters.
+
+
+--The experiments you did before arriving at the current submission:
+
+Most of the experimentation involved trying to make a deep, interesting game around the core concept.  You can enter things, but what for?  Why would you want to?  Why would you need to as part of your gameplay strategy?  After answering that question, further experiments concerned balancing all the systems against each other so that entering things was indeed a necessary gameplay strategy but also was not tedious.
+
+
+--How you feel about the current results:
+
+I'm happy with the results so far, and initial playtesting has gone pretty well.  I'm still in the process of balancing and polishing the game.
+
+
+Demo can be downloaded here:
+
+http://insideastarfilledsky.net/testDemo/
+
+Write this code down (game runs full-screen) and enter it when the game starts:
+
+CFMPNTJMME

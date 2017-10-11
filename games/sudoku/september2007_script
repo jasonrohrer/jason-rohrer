@@ -1,0 +1,7 @@
+# 4 in september
+./makePuzzlePDF 77  70
+./makePuzzlePDF 78  125
+./makePuzzlePDF 79  200
+./makePuzzlePDF 80  320
+
+

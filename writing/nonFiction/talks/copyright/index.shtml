@@ -1,0 +1,16 @@
+<!--#include virtual="head.html" -->
+
+
+<table border="0" width="100%"><tr><td align="right">
+<a href="1.shtml">next</A>
+</td></tr></table>
+
+<center>
+<font size="7">
+The Rise<br>
+and Fall<br>
+of<br>
+Copyright
+</center>
+
+<!--#include virtual="foot.html" -->

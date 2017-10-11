@@ -1,0 +1,24 @@
+ 1. Run Chain World via one of the included "run_ChainWorld" launchers.
+
+ 2. Start a single-player game and pick "Chain World".
+
+ 3. Play until you die exactly once.
+
+    3a. Erecting wooden signs with text is forbidden
+
+    3b. Suicide is permissible.
+
+ 4. Immediately after dying and respawning, quit to the menu.
+
+ 5. Allow the world to save.
+
+ 6. Exit the game and wait for your launcher to automatically copy 
+    Chain World back to the USB stick.
+
+ 7. Pass the USB stick to someone else who expresses interest.
+
+ 8. Never discuss what you saw or did in Chain World with anyone.
+
+ 9. Never play again.
+
+

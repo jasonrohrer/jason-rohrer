@@ -1,0 +1,22 @@
+<!--#include virtual="head.html" -->
+
+<table border="0" width="100%"><tr><td align="right">
+<a href="8.html">back</A> ---- <a href="10.html">next</A>
+</td></tr></table>
+
+
+
+<table border="0" width="100%">
+<tr>
+<td>
+<img src="iconJoe.jpg" width=451 height=576 align=middle>
+</td>
+<td width="100%" align=center><font size="7">:</font></td> 
+<td>
+<img src="iconMary.jpg" width=451 height=576 align=middle>
+</td>
+</tr>
+</table>
+
+
+<!--#include virtual="foot.html" -->

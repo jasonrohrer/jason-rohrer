@@ -1,0 +1,13 @@
+<!--#include virtual="head.html" -->
+
+<table border="0" width="100%"><tr><td align="right">
+<a href="14.html">back</A> ---- <a href="16.html">next</A>
+</td></tr></table>
+
+
+<center>
+<img src="Braid_another_castle.jpg" width=600 height=400><br>
+</center>
+
+
+<!--#include virtual="foot.html" -->

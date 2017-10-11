@@ -1,0 +1,13 @@
+<!--#include virtual="head.html" -->
+
+<table border="0" width="100%"><tr><td align="right">
+<a href="12b.html">back</A> ---- <a href="14.html">next</A>
+</td></tr></table>
+
+
+<center>
+<img src="napoleon_dynamite.jpg" width=304 height=451>
+</center>
+
+
+<!--#include virtual="foot.html" -->

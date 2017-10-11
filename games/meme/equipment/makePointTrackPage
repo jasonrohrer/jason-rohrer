@@ -1,0 +1,3 @@
+latex point_track_page.tex
+dvips -t letter -o point_track_page.ps point_track_page.dvi
+ps2pdf point_track_page.ps

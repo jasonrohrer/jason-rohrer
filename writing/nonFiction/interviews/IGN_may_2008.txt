@@ -1,0 +1,187 @@
+Questions
+
+1. Do you think of yourself as an "independent?" What does the term mean to you?
+When people ask me what I do, I usually say that I'm an independent game designer.  So yes, I do think of myself as an independent.  I make whatever games I want to make, with no one above me calling any of the shots.  The benefit of this setup is that I have complete creative control over my work, and I can take huge risks with the projects and topics that I choose to explore.  On the other hand, I don't get paid.  I'm currently squeaking by on donations from the public and patronage from one generous individual.  For my *Escapist* games, I am getting paid, but so far they have left me with complete creative control.  They are essentially commissioning me each month to make whatever game I want to make, so the arrangement leaves me feeling pretty independent.
+
+
+
+2. What originally drew you to game design? You released Transcend, your first game, in 2005, but you had been active in writing and music for a decade prior. Describe the creative process that drew your attention to gaming.
+
+I'd been interested in games my whole life and had always dreamed about making my own game.  For a long time, I simply did not have the necessary skills or patience.  Creating a game is much more involved than recording a piece of music.  Over the years, I became a better and better programmer, and my attention span also grew as I aged.  I got to the point where I could focus for an entire year on a single programming project, like one of my peer-to-peer applications, so I decided to direct that kind of endurance toward making a game.
+
+Of course, as a team of one, I was limited in terms of what kind of game I could make.  My first attempt at a game-like project involved an elaborate 3-D world.  I got hung up on something as simple as collision detection, even before I started implementing the gameplay.  A few years later, I gave it another try, this time taking inspiration from the golden age of arcade games---tiny, gameplay-focused endeavors that were created by a single person or a small team.  I set out to invent a new, simple gameplay mechanic and base the game around that.  I came up with the collage mechanic that's at the core of *Transcend*.
+
+
+
+3. You describe Transcend as a multimedia sculpture. It's a beautiful game that allows players to experience the beauty they can create in the game environment by interacting. But it stands out in contrast to all your other games, which have some concrete philosophy or rhetorical fundaments behind them. Have you lost interest in making something beautiful just for the sake of it?
+
+With Transcend, I think that I was trying to make in art game, but I didn't exactly know what that meant the time.  I ended up making something that was visually beautiful and said, "Hey, it's art!"  Since then, I've done a lot of reading and thinking about both game design and art.  I now believe that great works of art are more about personal enlightenment than beauty.  Some works may enlighten you through their profound beauty, but beauty itself is not necessary or sufficient for a work to be considered great art.  Instead, art is about that "aha!" moment, a moment that has the potential to permanently change the way you understand yourself or some aspect of the world around you.  Art is a form of communication, but it involves expressing something complex and subtle that cannot easily be expressed directly through other means.
+
+In terms of game design, I have also come to believe that art games must deliver their artistic expression directly through gameplay and not through beautiful graphics or non-interactive story segments.  Transcend was primarily interesting because of its visual splendor.  I'm no longer interested in making games like that.
+
+
+
+4. As someone with a more traditional Computer Science education (from Cornell), what are your thoughts on the phenomenon of game design schools becoming popular now. Do they provide a useful service? Are they necessary?
+
+Back when I was in college and up until I left graduate school in 2003, there was no such thing as a game program in mainstream academia.  As someone interested in games, I essentially had to push my interest aside while I was in school---no one around me seemed to be taking games seriously.  Shortly after I left graduate school at UCSC, they started a flagship game major for undergrads there, and the irony was palpable.
+
+It's misleading to describe any of these efforts as "game design" programs.  Sadly, they are more like mills that churn out industry-ready cubicle drones.  Students learn various elements of modern game production, like 3-D modeling, environment design, and animation, but they don't learn much about how to make compelling games.  In fact, many of these programs skip the topic of game design altogether.  Granted, the focus of these programs is very practical.  For each team of 100 in an industry game studio, there are only a handful of people involved directly in game design.  The students that come out of these programs are perfect candidates for average industry jobs.  
+
+However, this is not the way that the rest of academia works.  Instead, academia usually shoots for the stars and focuses on theory, seemingly assuming that everyone in the class will someday do research in the field at hand.  Film schools churn out scores of wannabe directors, even though most of them will end up as key grips or footage editors in TV studios.  I would like to see these game programs switch into this gear a little bit more---train students to make interesting games, and then maybe we'll have more interesting games coming out of the industry.
+
+
+
+5. You seem extraordinarily adept at creating games around a specific idea, either literal (like Police Brutality) or metaphorically (like Passage and Cultivation). Do you tend to design from inspiration about an idea, or come up with gameplay mechanics first and then figure out how they could best resonate with the player thematically?
+
+I always determine what subject I want to explore first and then design mechanics to express what I'm trying to express.  Over the years, I've come to believe that this is the "right" way to approach art game design.
+
+Mainstream industry, on the other hand, takes the exact opposite approach.  They usually settle on a basic set of mechanics early on in the design process, like first-person shooter mechanics, and then try to build some sort of expression on top of those mechanics.  The result is often that the expression does not resonate at all with the underlying mechanics.  Bioshock is a perfect example of this.
+
+
+
+6. This is a question you asked Rod Humble in an interview for Arthouse Games. I want to ask it to you, now. "Can you give us a one-sentence definition of art? In other words do you differentiate works of entertainment from works of art?"
+
+Ah... a taste of my own medicine!  Here's my attempt:
+
+Art expresses something complex and subtle, requires substantial thought in order to be fully absorbed, and has the power to invoke deep and lasting changes in the viewer.
+
+
+
+7. How did you develop the interface for Cultivation? It's the most complicated design of any of your games, how challenging was it to squeeze all that gameplay into an icon system that would stay simple and approachable?
+
+Cultivation was not simple and approachable, and that was one of its biggest flaws.  A lot of people who played it simply gave up before they understood what was going on or what they were supposed to do.  The tutorial, which was added in a later release, helped quite a bit, but it still required a substantial time investment from players before they could understand how to play the game.  The initial release of the game, the one that got rejected soundly by the IGF, had no tool tips and no tutorial.  The judges found it completely incomprehensible.
+
+The interface for Cultivation was constrained by a number of different factors.  First of all, I wanted the entire game to be playable using only a single-button mouse.  Second, I had time constraints due to festival deadlines, so wanted to keep the programming as simple as possible.  Thus, I avoided an interface design that involved clicking to select game objects.  For example, you can imagine clicking on the water to pick up water and then clicking on a plant to dump the water on that plant, but that would involve some relatively complicated click intersection tests.  Instead, I added a water button to the toolbar that could be clicked to pick up water and clicked again to dump water on the nearest plant.  As I implemented additional game mechanics, the number of buttons on the toolbar mushroomed.
+
+The final constraint for the interface affected the icons on the buttons.  I was really set on the idea of procedurally generating all of the graphics in Cultivation, including the button icons.  I readily admit that some of the icons are not as clear as they would have been if I had painted them by hand in a graphics application.
+
+
+
+8. Where did the idea for presenting Passage as a narrow rectangular band surround by darkness on all sides come from? I've never seen a game presented like that before?
+
+Passage was designed for the Kokoromi GAMMA256 event.  Along with the low-resolution requirement---game screens could be no larger than 256 pixels square---they also encouraged game screens with weird aspect ratios.  I thought for a while about a game that was very short and wide.  What could that screen space represent?  I started thinking about that space as a time-line of one person's life:  the person is young at the left edge of the screen, they age as they move right, and they die when they reach the right edge of the screen.  The rest of the game design grew from there.
+
+
+
+9. You got a lot of recognition for Passage. David Jaffe called out the game multiple times as something that really moved him. How did that affect you?
+
+Passage was a very personal game for me.  I was moved close to tears several times while making and testing it.  I didn't know whether it would resonate with anybody else, but I felt that it was good, and I was proud of it, so I didn't really care.
+
+The first enthusiastic response came from the Kokoromi folks, and then I got a few more positive responses in person at the GAMMA event.  After that, Passage got discussed on a couple of blogs, and then the publicity just exploded.  Over the past six months, I've received dozens of tear-soaked thank-you e-mails from people who claim that the game has changed their lives.  Being on the receiving end of e-mails like that has been a little bit unsettling (one fellow harassed me for a whole week about how the game had ruined his life), but I've been happy about the fact that people felt what I was trying to express through Passage so strongly.
+
+The positive response from so many industry folks has also been very exciting.  Many of my game design heroes have talked about how much they like Passage.  All I can say is: wow.
+
+
+
+10. Do you ever get feedback about your games from people who aren't already game fans? Do you test your games with people outside the traditional demographics of videogame fans?
+
+I've heard about a number of non-gamers who have enjoyed my games.  Most of these anecdotes come in the form of, "I showed Passage to my game-hating girlfriend and she loved it too."
+
+The primary test group for my games is my spouse Lauren.  She can run circles around me in Pac Man, but she has openly hated every game released in the last 20 years, and she is completely game-illiterate when it comes to something a bit complicated like dual-thumbstick FPS controls.  My first aim is to make a game that she can actually control and play, so I try to keep away from interfaces that require highly tuned twitch reflexes.  My second aim is to make a game that she doesn't hate.  If I show her a new game, and she can actually play it and doesn't hate it, then I know I'm onto something.
+
+
+
+11. What are you playing now?
+
+I'm so busy these days with my work and family that I have very little time to play games.  One of my favorite game-related quotes is, "The PS2 is the last game system that I will ever buy."  I can't remember who said it, but I've come to believe that it applies to me.
+
+Aside from my lack of time, there are very few new games out there that I'm really interested in playing.  I have a short list of older games that I still need to play, like Shadow of the Colossus and Psychonauts.  I recently borrowed a friend's Xbox 360 and rented Bioshock and Portal.  I was somewhat disappointed by both games, and those two games represented an exhaustive list of the next-gen games that I was even remotely interested in playing.
+
+
+
+12. Where did the idea for Saturday with Mez come from? Was there ever any thought to addressing to making it in some kind of interactive form?
+
+We believe strongly in extended breastfeeding and child-lead weaning, and Mez was still nursing when he was old enough to enjoy books.  The problem was that none of the books at our library showed babies nursing.  We decided to make a book that breastfeeding children could relate to.
+
+We never considered making an interactive version of it.  The physical form---a board book that can be handled by young children---is very important.
+
+
+
+13. Can Mez play any of your games?
+
+Yes, he has played my games from time to time, and he has been excited by the fact that they include members of our family.  Most of them are still too difficult for him to really play effectively, though.
+
+Mez had been telling me for a several months that he wanted to make a game of his own.  A few weeks ago, we sat down together with GameMaker and started making one.  He painted all of the sprites and did all of the room layout and object placement.  He also told me what he wanted each object to do and how the objects should interact.  I helped him with the more complicated parts of GameMaker, but the design, artwork, and creative direction came 100% from him.  The resulting game was pretty interesting---clearly something that I couldn't have come up with myself.  I would never think to make a game where monsters catch on fire and firefighters run out of a red door to put the fire out.  He's not quite done with it yet, but we may release it to the world when it's finished.
+
+
+
+14. You wrote a piece of fiction in hypertext called "six and a half seconds." In light of the interactive text/dialogue in games like Mass Effect or The Marriage, have you thought about continuing to develop that kind of approach to fiction by adding art and music, and maybe a linear story?
+
+[Note:  you must mean "Facade" and not "The Marriage"]
+
+I have been interested in interactive drama for a long time, but as I've thought about it over the years, I've repeatedly concluded that it would be impossible to do really well.  Facade, despite being a very entertaining stroke of technological genius, is incredibly broken.  Less dynamic systems, like the dialogue trees in Mass Effect or the story trees in Masq, are interesting, but they seem a bit stiff and tend to spoil our suspension of disbelief.
+
+Chris Crawford, a master game designer, has been working on this stuff for decades without much to show for it.  For all we know, interactive drama is his Project Xanadu.  I've seen too many great people throw their lives away chasing dragons, and I don't want to get sucked into that kind of pursuit.
+
+On the other hand, there are certain things that I want to express with games that can't be expressed without dialog.  In fact, my next game pushes in this direction quite a bit.
+
+
+
+15. You're a proponent of free distribution models for software. How do you feel the fight is going four years after you originally published your essay on the subject?
+
+Since I wrote that essay, I've migrated from the internet systems community to the game design community, and I seem to have left any potential free distribution allies behind in the process.  Yes, there are lots of free games out there, but almost no open source games.  Game programmers are peculiarly protective over their source code, and the entire industry is built around the idea of selling copies.
+
+The music industry, meanwhile, has made some serious progress.  Radiohead's "name your price" model for *In Rainbows* was particularly noteworthy.  They pulled in something like $8 million in the first day through essentially voluntary contributions (you could name the price of $0 if you wanted to download the album for free).
+
+Most people are still confused about free distribution revenue models.  "Voluntary contributions?  You'd need a huge audience before you could make a living that way!"  What they don't realize is that you need a pretty huge audience before you can make a living the old way, by selling copies.  1000 copies is a lot for a garage band to sell in a year, but nowhere close to the number that would enable them to quite their day jobs.  If you can't make a living from your creations anyway, as most people can't, why bother charging money for them?  That only results in reducing the number of people who experience your work.
+
+My stance is that free distribution is inevitable, and copyright is dying.  A slow and drawn-out death, perhaps, but dying nevertheless.
+
+
+
+16. Do you ever think about making games with a larger team of people? Does that inspire you?
+
+I'm a bit of an unusual creature in that I can do all aspects of game production pretty well.  I can program, design game mechanics, draw graphics, compose music, and so on.  Thus, there's very little that someone else might bring to the table, besides a different creative sensibility.  But a cohesive sensibility is often the missing ingredient in games produced by larger teams.  If one person designs the game mechanics and another creates the graphics, it's much harder to get the two components to resonate.
+
+My only reason for collaboration would be to work on something "bigger" than what I could produce in a timely fashion on my own.  But "bigger" in which dimension?  Probably not in terms of game design or game mechanics, so we must be talking about bigger graphics.  You know, massive virtual worlds.  But I'm interested in designing games, not in creative massive virtual worlds.
+
+On the other hand, there's also the matter of audience size.  Those massive virtual worlds seem to attract a lot of eyeballs and a lot of thumbs.  Passage has been downloaded 100,000 times, and that's a pretty big hit as far as free 2D games go.  If I want to reach more people, like the 8 million that Halo 3 reached, I may have to consider making a game that at least looks mainstream, and to do that, I would certainly need to collaborate.
+
+
+
+17. What are your thoughts on game journalism? Does it interest you? Is it doing a good job, collectively, of covering the industry and the medium?
+
+Game journalism is generally lacking when it comes to true game criticism as opposed to consumer-oriented product reviews.  If games are to be taken seriously as an art form, we need to start treating them like art from a journalism perspective.  You wouldn't rate a Picasso painting on a scale of 1 to 10 for various features, like "8.5 for brushwork, 3.5 for composition, 6.2 for color selection, 7.7 for re-view value.  7.2 overall (not an average)".  Heck, you wouldn't even break a movie down in this way, not even in a consumer-oriented review.
+
+Granted, most games are so terrible overall that they don't warrant serious criticism, but there are a handful of games that have made considerable artistic headway.  Such games often receive disappointing scores when they are cranked through the numerical review machine.
+
+The All Movie Guide, for example, tags movies for "high artistic value" and "high historical importance."  When are we going to start considering similar labels in our game reviews?
+
+
+
+18. What sort of music are you listening to these days?
+
+I don't have much time to listen to music, either.  I catch a bit of college radio here in my town.  I also comb Pitchfork from time to time to find out about the latest art music.  Recent finds have included Animal Collective and The Knife.  I've also listened to Radiohead's In Rainbows exhaustively while bouncing my newborn to sleep at night---it seems to sooth him.
+
+
+
+19. You started a non-profit record label earlier in your career. Do you think a similar model might work for game distribution?
+
+It didn't work for music distribution, mostly because it was so hard to get anyone to notice us.  There's simply too much music out there.  Getting noticed with games is much easier, because there are far fewer people making games.
+
+During the APN records heyday, we were still trying to sell CDs---we just weren't taking a profit for the label and were giving all of the profits to the artists.  I no longer believe that selling copies is a viable long-term business model---not for music, and not for games.
+
+
+
+20. Where would you like to be with your life in 5 years?
+
+Generally in the same place I am now:  doing work that impacts a large number of people in a positive way, and having a close, positive relationship with my family.
+
+
+
+21. Have you had any interest in your games or ideas from game publishers?
+
+Hmm... how can you sell a 5-minute game?  How much would such a game cost?  Even $5 means $1 per minute.  No, I haven't had any interest at all from publishers.  I've had job offers to work on other projects, though.
+
+
+
+22. How did your game sketch series with The Escapist come about?
+
+I wrote to them with a few article ideas, and they wrote back expressing interest---not in my article pitches, but instead in my game design activities.  After a lot of back-and-forth negotiations, we settled on monthly 1-week game sketches as a good way to get started.
+
+
+
+23. What will you be working on next?
+
+I'm working on a somewhat riskier, longer-term project.  Another biographical game centered around personal expression, but this time about experiences that I had long ago.  Since the project is still in its infancy, I really don't want to say more than that.
+

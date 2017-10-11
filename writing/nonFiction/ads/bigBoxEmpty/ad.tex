@@ -1,0 +1,69 @@
+\documentclass[12pt]{article}
+\usepackage{epsfig,fullpage,multicol,times}
+
+
+\usepackage[dvips]{geometry}
+
+% full page in NCTW
+% cost:  $480
+\newlength{\paperWidth}
+\setlength{\paperWidth}{10.83in}
+\newlength{\paperHeight}
+\setlength{\paperHeight}{16in}
+
+% trim a bit more to reduce bottom whitespace
+%\setlength{\paperHeight}{0.987\paperHeight}
+
+\geometry{papersize={\paperWidth,\paperHeight},scale=1.0, vmargin={0in,0in}, headheight=0in, headsep=0in, footskip=0in}
+%total={6.5in,5in}}
+
+
+
+\begin{document}
+
+\setlength{\columnsep}{0.7in}
+
+\makeatletter
+\newcommand\HeadingSize{\@setfontsize\HeadingSize{63}{63}}
+\makeatother
+
+\makeatletter
+\newcommand\TextSize{\@setfontsize\TextSize{18}{18}}
+\makeatother
+
+
+\pagestyle{empty}
+
+\begin{center}
+
+\includegraphics[width=\textwidth]{diagram.eps}
+
+\vspace{0.8in}
+
+{\HeadingSize A big box can be pretty empty.}
+\end{center}
+
+\vspace{0.05in}
+
+
+{\TextSize
+\begin{multicols}{2}{
+
+\input{bodyText}
+
+	
+}
+\end{multicols}
+}
+
+\begin{center}
+
+\rule{0.75\textwidth}{0.1ex}
+
+\vspace{0.15in}
+
+Learn more about big box stores and about what you can do to help at http://www.nccrg.org
+
+\end{center}
+
+\end{document}

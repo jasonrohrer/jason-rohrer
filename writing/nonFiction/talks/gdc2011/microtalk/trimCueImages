@@ -1,0 +1,5 @@
+cd cueFolder
+
+mogrify -crop 1275x990+0+0 *.png
+
+cd ..

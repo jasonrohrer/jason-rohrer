@@ -1,0 +1,2 @@
+latex layout.tex
+dvips -E -o layout.eps layout.dvi

@@ -1,0 +1,42 @@
+PATH=/bin:/usr/bin:/usr/local/procmail/bin
+VERBOSE=off
+#VERBOSE=on
+SHELL=/bin/sh
+MAILDIR=$HOME/Mail
+VACFILE=$HOME/Mail/vacation.cache
+LOGFILE=$MAILDIR/procmail.log
+DEFAULT=/var/mail/rohrer
+SENDMAIL=/usr/lib/sendmail
+
+#VERBOSE=on
+#LOGFILE=$HOME/procmail.log
+
+
+# The message that we send on autoreply
+
+BOUNCE_MESSAGE="Since this email address has been overrun by spam (200 spam messages per day), I have switched to a different address for personal correspondence.  This new address, in robot-proof form, is
+jcr13 AT users DOT sf DOT net
+Translate this into a real address by pretending that I just read that over the phone to you:  replace AT with @ and each DOT with a period.  If you are having trouble with the new address, a variety of other pieces of contact information are available on my web page:  http://jasonrohrer.n3.net"
+
+
+# Auto reply to all message to rohrer@cse.ucsc.edu or rohrer@soe.ucsc.edu
+# DO NOT autoreply to messages from other "ucsc" addresses (like sysadmins)
+# DO NOT autoreply to messages from daemons
+# DO NOT autoreply to messages that may be looping from this autoreply aready
+#
+# the "c" flag makes sure that this message is passed on to the next recipe
+# no matter what (even if it is delivered by this recipe)
+# In this case, since there are no other recipes, we still deliver all
+# messages to the default location.
+#
+# After testing, and determining that this actually works, I am turning the
+# c flag off so that messages that are autoreplied are not actually delivered.
+
+:0 w
+* !^From:.*ucsc.edu
+* !^FROM_DAEMON
+* !^X-Loop: rohrer@cse.ucsc.edu
+* ^TO_rohrer@(cse|soe).ucsc.edu
+| ( formail -r -I"Precedence: junk" \
+               -A"X-Loop: rohrer@cse.ucsc.edu" ; \
+    echo "$BOUNCE_MESSAGE" ) | $SENDMAIL -t

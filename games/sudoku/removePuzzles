@@ -1,0 +1,7 @@
+rm *puzzle*.eps
+rm *puzzle*_page.ps
+rm *puzzle*_layout.*
+rm *solution*.eps
+rm *solution*page.ps
+rm *_score.txt
+rm *solution*.pdf
