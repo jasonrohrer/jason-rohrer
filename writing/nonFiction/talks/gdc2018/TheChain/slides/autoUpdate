@@ -1,1 +1,6 @@
-dnotify . -e make
+
+while true; do
+   inotifywait .
+   echo "Sources change, remaking."
+   make
+done
