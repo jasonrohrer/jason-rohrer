@@ -1,0 +1,13 @@
+set output "dollarsPerWeek.eps"
+
+call 'graphSetup.gnuplot'
+
+set boxwidth 0.5
+set style fill solid border 0
+set yrange [-800:5000]
+set xtics rotate by -45
+
+set xzeroaxis lt 1 lc rgb "#000000"
+unset yzeroaxis
+
+plot "dollarsPerWeek.dat" using 1:3:xtic(2) with boxes fillcolor rgb "#888888"
