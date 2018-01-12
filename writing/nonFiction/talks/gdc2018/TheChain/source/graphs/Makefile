@@ -6,6 +6,7 @@ dollarsPerWeek.gnuplot \
 locPerGame.gnuplot \
 locPerWeek.gnuplot \
 weeksPerGame.gnuplot \
+locPerWeek_time.gnuplot \
 
 GRAPHS_DAT = ${GRAPHS:.gnuplot=.dat}
 GRAPHS_EPS = ${GRAPHS:.gnuplot=.eps}
@@ -14,7 +15,7 @@ GRAPHS_PNG = ${GRAPHS:.gnuplot=.png}
 
 all:  ${GRAPHS_PNG}
 
-%.eps: %.gnuplot %.dat
+%.eps: %.gnuplot %.dat graphSetup.gnuplot
 	gnuplot $<
 
 %.png: %.eps

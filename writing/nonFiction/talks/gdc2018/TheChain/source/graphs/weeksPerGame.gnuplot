@@ -16,4 +16,4 @@ show grid
 set lmargin 10
 
 
-plot "weeksPerGame.dat" using 1:3:xtic(2) with boxes fillcolor rgb "#888888"
+plot "weeksPerGame.dat" using 1:3:xtic(2) with boxes fillcolor rgb "#666666"

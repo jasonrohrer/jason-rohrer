@@ -12,6 +12,9 @@ typedef struct Commit {
         time_t utcTime;
         struct tm localTime;
         int linesAdded;
+        
+        char *rawLogLine;
+        char *logName;
     } Commit;
 
 MinPriorityQueue<Commit> commitQueue;
@@ -51,7 +54,6 @@ struct tm *myLocalTime( time_t inUTCTime ) {
         return localtime( &inUTCTime );
         }
 
-    printf( "Potsdam\n" );
     // else in Potsdam, NY
 
     inUTCTime += 3600 * 3;
@@ -63,11 +65,13 @@ struct tm *myLocalTime( time_t inUTCTime ) {
 // started making games on June 10, 2004
 char isInGameRange( time_t inUTCTime ) {
     struct tm *tm = myLocalTime( inUTCTime );
+
+    int year = tm->tm_year + 1900;
     
-    if( tm->tm_year > 2004 ) {
+    if( year > 2004 ) {
         return true;
         }
-    if( tm->tm_year < 2004 ) {
+    if( year < 2004 ) {
         return false;
         }
     if( tm->tm_mon < 5 ) {
@@ -131,7 +135,7 @@ time_t parseHgGitTimeString( char *inTimeString ) {
     
     
 
-    char *s = strptime( inTimeString, "%c %z", &tm );
+    char *s = strptime( inTimeString, "%c", &tm );
 
     if( s != NULL ) {
         return my_timegm( &tm ) - utcOffsetSeconds;
@@ -159,21 +163,33 @@ time_t parseCVSTimeString( char *inTimeString ) {
     }
 
 
-void addCommit( time_t inT, int inNumLines ) {
+double currentPriority = 0;
+
+// commits that all happened at the same time
+SimpleVector<Commit> currentCommitBin;
+
+
+void addCommit( time_t inT, int inNumLines, char *inLogLine, char *inName ) {
     if( isInGameRange( inT ) ) {
+
+        double priority = difftime( inT, 0 );
+
+            
         struct tm *locTime = myLocalTime( inT );
         
         Commit c;
         c.utcTime = inT;
-        c.localtime = *locTime;
+        c.localTime = *locTime;
         c.linesAdded = inNumLines;
+        c.rawLogLine = stringDuplicate( inLogLine );
+        c.logName = stringDuplicate( inName );
         
-        commitQueue.insert( c, difftime( inC.gmtTime, 0 ) );
+        commitQueue.insert( c, priority );
         }
     }
 
 
-void processGit( char **inLines, int inNumLines ) {
+void processGit( char **inLines, int inNumLines, char *inName ) {
     for( int i=0; i<inNumLines; i++ ) {
         char *atLoc = strstr( inLines[i], "@" );
         char *insertionLoc = strstr( inLines[i], "insertion" );
@@ -187,12 +203,12 @@ void processGit( char **inLines, int inNumLines ) {
             
             sscanf( commaLoc, ", %d insertion", &n );
             
-            addCommit( t, n );
+            addCommit( t, n, inLines[i], inName );
             }
         }
     }
 
-void processHg( char **inLines, int inNumLines ) {
+void processHg( char **inLines, int inNumLines, char *inName ) {
     for( int i=0; i<inNumLines; i++ ) {
         
         char *plusLoc = strstr( inLines[i], "+" );
@@ -203,13 +219,13 @@ void processHg( char **inLines, int inNumLines ) {
             
             sscanf( plusLoc, "+%d", &n );
             
-            addCommit( t, n );
+            addCommit( t, n, inLines[i], inName );
             }
         }
     }
 
 
-void processCVS( char **inLines, int inNumLines ) {
+void processCVS( char **inLines, int inNumLines, char *inName ) {
     for( int i=0; i<inNumLines; i++ ) {
         
         char *plusLoc = strstr( inLines[i], "+" );
@@ -219,8 +235,10 @@ void processCVS( char **inLines, int inNumLines ) {
             int n = 0;
             
             sscanf( plusLoc, "+%d ", &n );
-            
-            addCommit( t, n );
+            if( n > 1000 ) {
+                printf( "Huge commit:  %s\n", inLines[i] );
+                }
+            addCommit( t, n, inLines[i], inName );
             }
         }
     }
@@ -234,30 +252,37 @@ void processFile( File *inFile ) {
         
         char *name = inFile->getFileName();
         
-        char *contents = inFile->readFileContents();
-
-        int numLines;
-        char **lines = split( contents, "\n", &numLines );
-
-        if( strstr( name, ".git" ) != NULL ) {
-            printf( "Processing git log:  %s\n", name );
-            processGit( lines, numLines );
-            }
-        else if( strstr( name, ".hg" ) != NULL ) {
-            printf( "Processing hg log:  %s\n", name );
-            processHg( lines, numLines );
-            }
-        if( strstr( name, ".cvs" ) != NULL ) {
-            printf( "Processing cvs log:  %s\n", name );
-            processCVS( lines, numLines );
-            }
+        if( strstr( name, ".git" ) != NULL ||
+            strstr( name, ".hg" ) != NULL ||
+            strstr( name, ".cvs" ) != NULL ) {
             
-        for( int i=0; i<numLines; i++ ) {
-            delete [] lines[i];
-            }
-        delete [] lines;
 
-        delete [] contents;
+            char *contents = inFile->readFileContents();
+            
+            int numLines;
+            char **lines = split( contents, "\n", &numLines );
+            
+            if( strstr( name, ".git" ) != NULL ) {
+                printf( "Processing git log:  %s\n", name );
+                processGit( lines, numLines, name );
+                }
+            else if( strstr( name, ".hg" ) != NULL ) {
+                printf( "Processing hg log:  %s\n", name );
+                processHg( lines, numLines, name );
+                }
+            if( strstr( name, ".cvs" ) != NULL ) {
+                printf( "Processing cvs log:  %s\n", name );
+                processCVS( lines, numLines, name );
+                }
+            
+            for( int i=0; i<numLines; i++ ) {
+                delete [] lines[i];
+                }
+            delete [] lines;
+
+            delete [] contents;
+            }
+        
         delete [] name;
 
         printf( "Growing commit list size = %d\n", commitQueue.size() );
@@ -277,13 +302,14 @@ void testTime() {
     
     // Wed Jan 10 10:59:23 2018 -0800
 
-    time_t t = parseHgGitTimeString( "Fri Jan 12 10:51:56 2009 -0500" );
+    time_t t = parseHgGitTimeString( (char*)"Fri Jan 12 10:51:56 2009 -0500" );
     
 
     //    time_t t = parseCVSTimeString( "date: 2006/11/26 20:32:23" );
 
 
-    printf( "time = %u (string=%s)\n", (unsigned int)t, asctime( myLocalTime(t) ) );
+    printf( "time = %u (string=%s)\n", 
+            (unsigned int)t, asctime( myLocalTime(t) ) );
     printf( "sec passed = %d\n", (int)( time(NULL) - t ) );
     
     exit(1);
@@ -291,11 +317,110 @@ void testTime() {
 
 
 
+typedef struct WeekBin {
+        time_t weekStartTime;
+        int numLines;
+    } WeekBin;
+        
+
+void countWeeklyLines() {
+    const char *outName = "../locPerWeek_time.dat";
+    
+    FILE *outFile = fopen( outName, "w" );
+    
+    if( outFile == NULL ) {
+        printf( "Failed to open output file %s\n", outName );
+        return;
+        }
+
+    struct tm tm;
+    
+    // first week to consider
+    strptime( "Sun Jun 06 00:00:00 2004", "%c", &tm );
+    
+    // of current week
+    time_t startTime = my_timegm( &tm );
+
+    int weekSec = 3600 * 24 * 7;
+    
+    time_t endTime = startTime + weekSec;
+    
+    int index = 0;
+    
+    SimpleVector<WeekBin> weekBins;
+    
+
+    while( index < sortedList.size() ) {
+        
+        WeekBin b = { startTime, 0 };
+                    
+        char binOfInterest = false;
+        
+        time_t t = startTime;
+        
+        struct tm *binTM = localtime( &startTime );
+        
+        if( binTM->tm_mon == 7 && 
+            binTM->tm_year + 1900 == 2004 &&
+            binTM->tm_mday == 28 ) {
+            binOfInterest = true;
+            }
+  
+        
+        Commit *c = sortedList.getElement( index );
+        
+        while( index < sortedList.size() && 
+               c->utcTime >= startTime && 
+               c->utcTime < endTime ) {
+            
+            // commit in this week
+            
+            // any single commits with more than 500 lines aren't handwritten
+            // code (code imports, boilerplate, text databases, etc).
+            if( c->linesAdded < 500 ) {    
+                b.numLines += c->linesAdded;
+                
+                if( binOfInterest ) {
+                    printf( "adding %d lines to 8/28/04, new total %d\n",
+                            c->linesAdded, b.numLines );
+                    }
+                }
+            
+            index++;
+            if( index < sortedList.size() ) {
+                c = sortedList.getElement( index );
+                }
+            }
+        
+        weekBins.push_back( b );
+        
+        startTime = endTime;
+        endTime = startTime + weekSec;
+        }
+    
+
+
+    for( int i=0; i<weekBins.size(); i++ ) {
+        char buff[100];
+        WeekBin *b = weekBins.getElement(i);
+        
+        time_t t = b->weekStartTime;
+        
+        strftime( buff, 100, "%x", localtime( &t ) );
+        fprintf( outFile, "%s %d\n", buff, b->numLines );
+        }
+
+    fclose( outFile );
+    }
+
+
+
+
 
 
 
 int main() {
-    testTime();
+    //testTime();
     File dir( NULL, "." );
     
     if( dir.isDirectory() ) {
@@ -313,10 +438,61 @@ int main() {
 
         
         while( commitQueue.size() > 0 ) {
-            sortedList.push_back( commitQueue.removeMin() );
+            double priority = commitQueue.checkMinPriority();
+            Commit c = commitQueue.removeMin();
+
+            if( priority != currentPriority ) {
+                currentCommitBin.deleteAll();
+                currentPriority = priority;
+                }
+        
+            // make sure we haven't already seen a commit at this time
+            // with this exact number of lines
+            // CVS logs contain repeats, it seems
+            // and Transcend log contains duplicates of some minorGems logs
+
+            char found = false;
+            for( int i=0; i<currentCommitBin.size(); i++ ) {
+                if( currentCommitBin.getElement( i )->linesAdded == 
+                    c.linesAdded ) {
+                    found = true;
+                    break;
+                    }
+                }
+        
+
+            if( ! found ) {
+                sortedList.push_back( c );
+                currentCommitBin.push_back( c );
+                }
+            else {
+                delete [] c.rawLogLine;
+                delete [] c.logName;
+                }
+            
             }
+        
+        countWeeklyLines();
         }
     
+    
+    FILE *allLogsOut = fopen( "allLogs.txt", "w" );
+    
+    for( int i=0; i<sortedList.size(); i++ ) {
+        if( allLogsOut != NULL ) {
+            fprintf( allLogsOut, "%s %s\n", 
+                     sortedList.getElement( i )->rawLogLine,
+                     sortedList.getElement( i )->logName );
+            }
+        delete [] sortedList.getElement( i )->rawLogLine;
+        delete [] sortedList.getElement( i )->logName;
+        }
+    
+    if( allLogsOut != NULL ) {    
+        fclose( allLogsOut );
+        }
+    
+
 
     return 1;
     }
