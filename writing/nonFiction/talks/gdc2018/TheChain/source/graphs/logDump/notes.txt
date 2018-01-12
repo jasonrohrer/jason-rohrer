@@ -1,0 +1,36 @@
+For CVS repos, this seems to work:
+
+cvs log | grep "date: " | grep "lines:"
+
+
+Produces:
+date: 2004/07/17 23:15:52;  author: jcr13;  state: Exp;  lines: +3 -1
+date: 2004/07/17 21:03:00;  author: jcr13;  state: Exp;  lines: +0 -0
+date: 2004/07/17 21:01:53;  author: jcr13;  state: dead;  lines: +0 -0
+
+
+Note that dates seem to be in GMT time.
+
+
+
+For mercurial, working on this:
+
+hg log --template '{date|date}: {diffstat}\n'
+
+
+Mon Oct 23 09:26:14 2017 -0700: 3: +64/-4
+Thu Nov 20 08:12:47 2014 -0800: 1: +1/-1
+
+Dates are in timezone adjusted time.
+
+
+For git:
+
+git log --oneline --shortstat --pretty=format:"%ad @" | awk '/@$/ { printf("%s", $0); next } 1' | grep "@"
+
+Tue Jan 9 10:13:16 2018 -0800 @ 1 file changed, 1 insertion(+)
+Tue Jan 9 08:58:06 2018 -0800 @ 1 file changed, 1 insertion(+), 1 deletion(-)
+Tue Jan 9 08:54:17 2018 -0800 @ 2 files changed, 2 insertions(+), 2 deletions(-)
+Tue Jan 9 08:45:34 2018 -0800 @ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+
