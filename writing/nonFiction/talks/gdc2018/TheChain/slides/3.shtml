@@ -2,6 +2,26 @@
 
 <table border=0 cellspacing=20>
 
+
+
+<tr>
+<td><u>Passage</u><br><br>
+November<br>
+2007</td>
+<td><img src="passageThumb.png" width=150 height=24></td>
+<td>4,700 LOC</td>
+<td>Initial Release:<br>
+Final Release:</td>
+<td>14 Days<br>
+2 Months</td>
+<td>DLs:<br>
+Rev:</td>
+<td>500,000<br>
+$0</td>
+</tr>
+
+<tr><td bgcolor=#333333 colspan=7></td></tr>
+
 <tr>
 <td><u>Gravitation</u><br><br>
 February<br>
@@ -21,23 +41,23 @@ $0</td>
 <tr><td bgcolor=#333333 colspan=7></td></tr>
 
 
-
-
-
 <tr>
-<td><u>Game<br>Design<br>Sketchbook</u><br><br>
-March - <br>
-September<br>
+<td><u>Between</u><br><br>
+November<br>
 2008</td>
-<td><img src="escapistThumb.png" width=150 height=112></td>
-<td>7 games<br><br>??? LOC</td>
-<td>Initial Release:</td>
-<td>1 week each</td>
+<td><img src="betweenThumb.png" width=150 height=113></td>
+<td>10,600 LOC</td>
+<td>Initial Release:<br>
+Final Release:</td>
+<td>2 Months<br>
+2 Months</td>
 <td>DLs:<br>
 Rev:</td>
-<td>???<br>
-$200/ea</td>
+<td>126,000<br>
+$0</td>
 </tr>
+
+
 
 
 </table>
