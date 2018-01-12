@@ -435,9 +435,27 @@ void countMonthlyLines() {
         printf( "Failed to open output file %s\n", outName );
         return;
         }
-    int monthSec = 2628000;
+    int monthSec = lrint( 365.25 * 24 * 3600 ) / 12;
     countBinnedLines( "Tue Jun 01 00:00:00 2004",
                       monthSec,
+                      outFile );
+    fclose( outFile );
+    }
+
+
+
+void countYearlyLines() {
+    const char *outName = "../locPerYear_time.dat";
+    
+    FILE *outFile = fopen( outName, "w" );
+    
+    if( outFile == NULL ) {
+        printf( "Failed to open output file %s\n", outName );
+        return;
+        }
+    int yearSec = lrint( 365.25 *24*3600 );
+    countBinnedLines( "Thu Jan 01 00:00:00 2004",
+                      yearSec,
                       outFile );
     fclose( outFile );
     }
@@ -501,6 +519,7 @@ int main() {
         
         countWeeklyLines();
         countMonthlyLines();
+        countYearlyLines();
         }
     
     
