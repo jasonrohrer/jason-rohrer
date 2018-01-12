@@ -317,42 +317,39 @@ void testTime() {
 
 
 
-typedef struct WeekBin {
-        time_t weekStartTime;
+typedef struct TimeBin {
+        time_t binStartTime;
         int numLines;
-    } WeekBin;
+    } TimeBin;
         
 
-void countWeeklyLines() {
-    const char *outName = "../locPerWeek_time.dat";
+
     
-    FILE *outFile = fopen( outName, "w" );
+void countBinnedLines( const char *inStartTimeString,
+                       int inSecPerBin,
+                       FILE *inOutputFile ) {
     
-    if( outFile == NULL ) {
-        printf( "Failed to open output file %s\n", outName );
-        return;
-        }
 
     struct tm tm;
     
     // first week to consider
-    strptime( "Sun Jun 06 00:00:00 2004", "%c", &tm );
+    strptime( inStartTimeString, "%c", &tm );
     
     // of current week
     time_t startTime = my_timegm( &tm );
 
-    int weekSec = 3600 * 24 * 7;
     
-    time_t endTime = startTime + weekSec;
+    
+    time_t endTime = startTime + inSecPerBin;
     
     int index = 0;
     
-    SimpleVector<WeekBin> weekBins;
+    SimpleVector<TimeBin> bins;
     
 
     while( index < sortedList.size() ) {
         
-        WeekBin b = { startTime, 0 };
+        TimeBin b = { startTime, 0 };
                     
         char binOfInterest = false;
         
@@ -392,28 +389,58 @@ void countWeeklyLines() {
                 }
             }
         
-        weekBins.push_back( b );
+        bins.push_back( b );
         
         startTime = endTime;
-        endTime = startTime + weekSec;
+        endTime = startTime + inSecPerBin;
         }
     
 
 
-    for( int i=0; i<weekBins.size(); i++ ) {
+    for( int i=0; i<bins.size(); i++ ) {
         char buff[100];
-        WeekBin *b = weekBins.getElement(i);
+        TimeBin *b = bins.getElement(i);
         
-        time_t t = b->weekStartTime;
+        time_t t = b->binStartTime;
         
         strftime( buff, 100, "%x", localtime( &t ) );
-        fprintf( outFile, "%s %d\n", buff, b->numLines );
+        fprintf( inOutputFile, "%s %d\n", buff, b->numLines );
         }
+    }
 
+
+void countWeeklyLines() {
+    const char *outName = "../locPerWeek_time.dat";
+    
+    FILE *outFile = fopen( outName, "w" );
+    
+    if( outFile == NULL ) {
+        printf( "Failed to open output file %s\n", outName );
+        return;
+        }
+    int weekSec = 3600 * 24 * 7;
+    countBinnedLines( "Sun Jun 06 00:00:00 2004",
+                      weekSec,
+                      outFile );
     fclose( outFile );
     }
 
 
+void countMonthlyLines() {
+    const char *outName = "../locPerMonth_time.dat";
+    
+    FILE *outFile = fopen( outName, "w" );
+    
+    if( outFile == NULL ) {
+        printf( "Failed to open output file %s\n", outName );
+        return;
+        }
+    int monthSec = 2628000;
+    countBinnedLines( "Tue Jun 01 00:00:00 2004",
+                      monthSec,
+                      outFile );
+    fclose( outFile );
+    }
 
 
 
@@ -473,6 +500,7 @@ int main() {
             }
         
         countWeeklyLines();
+        countMonthlyLines();
         }
     
     
