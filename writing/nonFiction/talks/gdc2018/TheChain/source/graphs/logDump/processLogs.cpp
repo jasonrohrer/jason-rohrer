@@ -471,6 +471,57 @@ void countDayOfWeekLines() {
 
 
 
+void countHourOfDayLines() {
+    int bins[24];
+    for( int i=0; i<24; i++ ) {
+        bins[i] = 0;
+        }
+    
+    char *binNames[24];
+    
+    binNames[0] = stringDuplicate( "Midnight" );
+    binNames[12] = stringDuplicate( "Noon" );
+    
+    for( int i=0; i<24; i++ ) {
+        if( i != 0 && i != 12 ) {
+            if( i < 12 ) {
+                binNames[i] = autoSprintf( "%d AM", i );
+                }
+            else {
+                binNames[i] = autoSprintf( "%d PM", i - 12 );
+                }
+            }
+        }
+    
+
+
+    for( int i=0; i<sortedList.size(); i++ ) {
+        Commit *c = sortedList.getElement( i );
+        
+        bins[ c->localTime.tm_hour ] += c->linesAdded;
+        }
+    const char *outName = "../locPerHourOfDay.dat";
+    
+    FILE *outFile = fopen( outName, "w" );
+
+    if( outFile != NULL ) {
+        for( int i=0; i<24; i++ ) {
+            fprintf( outFile, "%d \"%s\" %d\n",
+                     i, binNames[i], bins[i] );
+            }
+        fclose( outFile );
+        }
+
+    for( int i=0; i<24; i++ ) {
+        delete [] binNames[i];
+        }
+    }
+
+
+
+
+
+
 int main() {
     //testTime();
     File dir( NULL, "." );
@@ -530,6 +581,7 @@ int main() {
         countMonthlyLines();
         countYearlyLines();
         countDayOfWeekLines();
+        countHourOfDayLines();
         }
     
     

@@ -10,6 +10,7 @@ locPerWeek_time.gnuplot \
 locPerMonth_time.gnuplot \
 locPerYear_time.gnuplot \
 locPerWeekday.gnuplot \
+locPerHourOfDay.gnuplot \
 
 GRAPHS_DAT = ${GRAPHS:.gnuplot=.dat}
 GRAPHS_EPS = ${GRAPHS:.gnuplot=.eps}
