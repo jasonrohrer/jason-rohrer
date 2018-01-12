@@ -235,9 +235,6 @@ void processCVS( char **inLines, int inNumLines, char *inName ) {
             int n = 0;
             
             sscanf( plusLoc, "+%d ", &n );
-            if( n > 1000 ) {
-                printf( "Huge commit:  %s\n", inLines[i] );
-                }
             addCommit( t, n, inLines[i], inName );
             }
         }
@@ -351,18 +348,6 @@ void countBinnedLines( const char *inStartTimeString,
         
         TimeBin b = { startTime, 0 };
                     
-        char binOfInterest = false;
-        
-        time_t t = startTime;
-        
-        struct tm *binTM = localtime( &startTime );
-        
-        if( binTM->tm_mon == 7 && 
-            binTM->tm_year + 1900 == 2004 &&
-            binTM->tm_mday == 28 ) {
-            binOfInterest = true;
-            }
-  
         
         Commit *c = sortedList.getElement( index );
         
@@ -372,16 +357,7 @@ void countBinnedLines( const char *inStartTimeString,
             
             // commit in this week
             
-            // any single commits with more than 500 lines aren't handwritten
-            // code (code imports, boilerplate, text databases, etc).
-            if( c->linesAdded < 500 ) {    
-                b.numLines += c->linesAdded;
-                
-                if( binOfInterest ) {
-                    printf( "adding %d lines to 8/28/04, new total %d\n",
-                            c->linesAdded, b.numLines );
-                    }
-                }
+            b.numLines += c->linesAdded;
             
             index++;
             if( index < sortedList.size() ) {
@@ -462,6 +438,37 @@ void countYearlyLines() {
 
 
 
+void countDayOfWeekLines() {
+    int bins[7];
+    for( int i=0; i<7; i++ ) {
+        bins[i] = 0;
+        }
+    
+    const char *binNames[7] = { "Sunday", "Monday",
+                                "Tuesday", "Wednesday", "Thursday",
+                                "Friday", "Saturday" };
+    
+
+    for( int i=0; i<sortedList.size(); i++ ) {
+        Commit *c = sortedList.getElement( i );
+        
+        bins[ c->localTime.tm_wday ] += c->linesAdded;
+        }
+    const char *outName = "../locPerWeekday.dat";
+    
+    FILE *outFile = fopen( outName, "w" );
+
+    if( outFile != NULL ) {
+        for( int i=0; i<7; i++ ) {
+            fprintf( outFile, "%d %s %d\n",
+                     i, binNames[i], bins[i] );
+            }
+        fclose( outFile );
+        }
+    
+    }
+
+
 
 
 int main() {
@@ -506,7 +513,9 @@ int main() {
                 }
         
 
-            if( ! found ) {
+            // any single commits with more than 500 lines aren't handwritten
+            // code (code imports, boilerplate, text databases, etc).
+            if( ! found && c.linesAdded < 500 ) {
                 sortedList.push_back( c );
                 currentCommitBin.push_back( c );
                 }
@@ -520,6 +529,7 @@ int main() {
         countWeeklyLines();
         countMonthlyLines();
         countYearlyLines();
+        countDayOfWeekLines();
         }
     
     

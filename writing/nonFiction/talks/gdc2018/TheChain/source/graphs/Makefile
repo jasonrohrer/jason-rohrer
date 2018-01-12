@@ -7,6 +7,9 @@ locPerGame.gnuplot \
 locPerWeek.gnuplot \
 weeksPerGame.gnuplot \
 locPerWeek_time.gnuplot \
+locPerMonth_time.gnuplot \
+locPerYear_time.gnuplot \
+locPerWeekday.gnuplot \
 
 GRAPHS_DAT = ${GRAPHS:.gnuplot=.dat}
 GRAPHS_EPS = ${GRAPHS:.gnuplot=.eps}
