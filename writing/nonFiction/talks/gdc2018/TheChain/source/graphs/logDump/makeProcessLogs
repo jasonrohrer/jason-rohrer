@@ -1,0 +1,4 @@
+
+ROOT_PATH=../../../../../../../../..
+
+g++ -g -o processLogs -I$ROOT_PATH processLogs.cpp $ROOT_PATH/minorGems/io/file/linux/PathLinux.cpp $ROOT_PATH/minorGems/util/stringUtils.cpp
