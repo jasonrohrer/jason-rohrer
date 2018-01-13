@@ -11,6 +11,7 @@ locPerMonth_time.gnuplot \
 locPerYear_time.gnuplot \
 locPerWeekday.gnuplot \
 locPerHourOfDay.gnuplot \
+locPerYearWednesdayFriday.gnuplot \
 
 GRAPHS_DAT = ${GRAPHS:.gnuplot=.dat}
 GRAPHS_EPS = ${GRAPHS:.gnuplot=.eps}
@@ -21,6 +22,10 @@ all:  ${GRAPHS_PNG}
 
 %.eps: %.gnuplot %.dat graphSetup.gnuplot
 	gnuplot $<
+
+locPerYearWednesdayFriday.eps: locPerYearWednesdayFriday.gnuplot locPerYearWednesday.dat locPerYearFriday.dat graphSetup.gnuplot
+	gnuplot locPerYearWednesdayFriday.gnuplot
+
 
 %.png: %.eps
 	convert -density 100 $< -flatten -negate -rotate 90 $@

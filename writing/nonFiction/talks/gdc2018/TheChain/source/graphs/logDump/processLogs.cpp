@@ -15,6 +15,8 @@ typedef struct Commit {
         
         char *rawLogLine;
         char *logName;
+
+        char considerFlag;
     } Commit;
 
 MinPriorityQueue<Commit> commitQueue;
@@ -355,9 +357,12 @@ void countBinnedLines( const char *inStartTimeString,
                c->utcTime >= startTime && 
                c->utcTime < endTime ) {
             
-            // commit in this week
+            // commit in this time bin
             
-            b.numLines += c->linesAdded;
+            if( c->considerFlag ) {
+                // and this commit is flagged as under consideration
+                b.numLines += c->linesAdded;
+                }
             
             index++;
             if( index < sortedList.size() ) {
@@ -386,6 +391,10 @@ void countBinnedLines( const char *inStartTimeString,
 
 
 void countWeeklyLines() {
+    for( int i=0; i<sortedList.size(); i++ ) {
+        sortedList.getElement( i )->considerFlag = true;
+        }
+    
     const char *outName = "../locPerWeek_time.dat";
     
     FILE *outFile = fopen( outName, "w" );
@@ -403,6 +412,10 @@ void countWeeklyLines() {
 
 
 void countMonthlyLines() {
+    for( int i=0; i<sortedList.size(); i++ ) {
+        sortedList.getElement( i )->considerFlag = true;
+        }
+    
     const char *outName = "../locPerMonth_time.dat";
     
     FILE *outFile = fopen( outName, "w" );
@@ -421,6 +434,10 @@ void countMonthlyLines() {
 
 
 void countYearlyLines() {
+    for( int i=0; i<sortedList.size(); i++ ) {
+        sortedList.getElement( i )->considerFlag = true;
+        }
+    
     const char *outName = "../locPerYear_time.dat";
     
     FILE *outFile = fopen( outName, "w" );
@@ -520,6 +537,55 @@ void countHourOfDayLines() {
 
 
 
+void countYearlyWednesdayLines() {
+    for( int i=0; i<sortedList.size(); i++ ) {
+        Commit *c = sortedList.getElement( i );
+        c->considerFlag = 
+            ( c->localTime.tm_wday == 3 );
+        }
+    
+    const char *outName = "../locPerYearWednesday.dat";
+    
+    FILE *outFile = fopen( outName, "w" );
+    
+    if( outFile == NULL ) {
+        printf( "Failed to open output file %s\n", outName );
+        return;
+        }
+    int yearSec = lrint( 365.25 *24*3600 );
+    countBinnedLines( "Thu Jan 01 00:00:00 2004",
+                      yearSec,
+                      outFile );
+    fclose( outFile );
+    }
+
+
+
+void countYearlyFridayLines() {
+    for( int i=0; i<sortedList.size(); i++ ) {
+        Commit *c = sortedList.getElement( i );
+        c->considerFlag = 
+            ( c->localTime.tm_wday == 5 );
+        }
+    
+    const char *outName = "../locPerYearFriday.dat";
+    
+    FILE *outFile = fopen( outName, "w" );
+    
+    if( outFile == NULL ) {
+        printf( "Failed to open output file %s\n", outName );
+        return;
+        }
+    int yearSec = lrint( 365.25 *24*3600 );
+    countBinnedLines( "Thu Jan 01 00:00:00 2004",
+                      yearSec,
+                      outFile );
+    fclose( outFile );
+    }
+
+
+
+
 
 
 int main() {
@@ -582,6 +648,10 @@ int main() {
         countYearlyLines();
         countDayOfWeekLines();
         countHourOfDayLines();
+
+        countYearlyWednesdayLines();
+        countYearlyFridayLines();
+        
         }
     
     
