@@ -12,6 +12,7 @@ locPerYear_time.gnuplot \
 locPerWeekday.gnuplot \
 locPerHourOfDay.gnuplot \
 locPerYearWednesdayFriday.gnuplot \
+locPerYearNineOne.gnuplot \
 
 GRAPHS_DAT = ${GRAPHS:.gnuplot=.dat}
 GRAPHS_EPS = ${GRAPHS:.gnuplot=.eps}
@@ -25,6 +26,9 @@ all:  ${GRAPHS_PNG}
 
 locPerYearWednesdayFriday.eps: locPerYearWednesdayFriday.gnuplot locPerYearWednesday.dat locPerYearFriday.dat graphSetup.gnuplot
 	gnuplot locPerYearWednesdayFriday.gnuplot
+
+locPerYearNineOne.eps: locPerYearNineOne.gnuplot locPerYearNineAM.dat locPerYearOnePM.dat graphSetup.gnuplot
+	gnuplot locPerYearNineOne.gnuplot
 
 
 %.png: %.eps

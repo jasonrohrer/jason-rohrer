@@ -1,4 +1,4 @@
-set output "locPerYearWednesdayFriday.eps"
+set output "locPerYearNineOne.eps"
 
 call 'graphSetup.gnuplot'
 
@@ -23,4 +23,4 @@ set style fill solid noborder
 set size 1, .8
 
 
-plot "locPerYearWednesday.dat" using 1:3 with lines lt 1 lw 5 linecolor rgb "#FF0000", "locPerYearFriday.dat" using 1:3 with lines lt 1 lw 5 linecolor rgb "#00FFFF"
+plot "locPerYearNineAM.dat" using 1:3 with lines lt 1 lw 5 linecolor rgb "#FF0000", "locPerYearOnePM.dat" using 1:3 with lines lt 1 lw 5 linecolor rgb "#00FFFF"

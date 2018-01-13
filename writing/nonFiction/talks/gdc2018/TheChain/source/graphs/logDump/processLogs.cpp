@@ -318,7 +318,8 @@ void testTime() {
 
 typedef struct TimeBin {
         time_t binStartTime;
-        int numLines;
+        int numLinesIn;
+        int numLinesOut;
     } TimeBin;
         
 
@@ -361,7 +362,11 @@ void countBinnedLines( const char *inStartTimeString,
             
             if( c->considerFlag ) {
                 // and this commit is flagged as under consideration
-                b.numLines += c->linesAdded;
+                b.numLinesIn += c->linesAdded;
+                }
+            else {
+                // also track total of commits NOT considered
+                b.numLinesOut += c->linesAdded;
                 }
             
             index++;
@@ -385,7 +390,8 @@ void countBinnedLines( const char *inStartTimeString,
         time_t t = b->binStartTime;
         
         strftime( buff, 100, "%x", localtime( &t ) );
-        fprintf( inOutputFile, "%s %d\n", buff, b->numLines );
+        fprintf( inOutputFile, "%s %d %f\n", buff, b->numLinesIn,
+                 b->numLinesIn / (double)( b->numLinesIn + b->numLinesOut ) );
         }
     }
 
@@ -585,6 +591,52 @@ void countYearlyFridayLines() {
 
 
 
+void countYearlyOnePMLines() {
+    for( int i=0; i<sortedList.size(); i++ ) {
+        Commit *c = sortedList.getElement( i );
+        c->considerFlag = 
+            ( c->localTime.tm_hour == 13 );
+        }
+    
+    const char *outName = "../locPerYearOnePM.dat";
+    
+    FILE *outFile = fopen( outName, "w" );
+    
+    if( outFile == NULL ) {
+        printf( "Failed to open output file %s\n", outName );
+        return;
+        }
+    int yearSec = lrint( 365.25 *24*3600 );
+    countBinnedLines( "Thu Jan 01 00:00:00 2004",
+                      yearSec,
+                      outFile );
+    fclose( outFile );
+    }
+
+
+
+void countYearlyNineAMLines() {
+    for( int i=0; i<sortedList.size(); i++ ) {
+        Commit *c = sortedList.getElement( i );
+        c->considerFlag = 
+            ( c->localTime.tm_hour == 9 );
+        }
+    
+    const char *outName = "../locPerYearNineAM.dat";
+    
+    FILE *outFile = fopen( outName, "w" );
+    
+    if( outFile == NULL ) {
+        printf( "Failed to open output file %s\n", outName );
+        return;
+        }
+    int yearSec = lrint( 365.25 *24*3600 );
+    countBinnedLines( "Thu Jan 01 00:00:00 2004",
+                      yearSec,
+                      outFile );
+    fclose( outFile );
+    }
+
 
 
 
@@ -652,6 +704,8 @@ int main() {
         countYearlyWednesdayLines();
         countYearlyFridayLines();
         
+        countYearlyOnePMLines();
+        countYearlyNineAMLines();
         }
     
     
