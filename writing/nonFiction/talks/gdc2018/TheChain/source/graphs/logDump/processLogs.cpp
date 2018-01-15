@@ -404,7 +404,7 @@ void countBinnedLines( const char *inStartTimeString,
 
         int total = b->numLinesIn + b->numLinesOut;
         
-        double fraction = 1.0;
+        double fraction = 0;
         
         if( total > 0 ) {
             fraction = b->numLinesIn / (double)( total );
@@ -736,6 +736,112 @@ void countYearlyNineAMLines() {
 
 
 
+
+void countWeeklyWednesdayLines() {
+    for( int i=0; i<sortedList.size(); i++ ) {
+        Commit *c = sortedList.getElement( i );
+        c->considerFlag = 
+            ( c->localTime.tm_wday == 3 );
+        }
+    
+    const char *outName = "../locPerWeekWednesday_ohol.dat";
+    
+    FILE *outFile = fopen( outName, "w" );
+    
+    if( outFile == NULL ) {
+        printf( "Failed to open output file %s\n", outName );
+        return;
+        }
+    int yearSec = lrint( 30 *24*3600 );
+    countBinnedLines( "Thu Jun 01 00:00:00 2017",
+                      "Sun Jun 06 00:00:00 2019",
+                      yearSec,
+                      outFile );
+    fclose( outFile );
+    }
+
+
+
+void countWeeklyFridayLines() {
+    for( int i=0; i<sortedList.size(); i++ ) {
+        Commit *c = sortedList.getElement( i );
+        c->considerFlag = 
+            ( c->localTime.tm_wday == 5 );
+        }
+    
+    const char *outName = "../locPerWeekFriday_ohol.dat";
+    
+    FILE *outFile = fopen( outName, "w" );
+    
+    if( outFile == NULL ) {
+        printf( "Failed to open output file %s\n", outName );
+        return;
+        }
+    int yearSec = lrint( 30 *24*3600 );
+    countBinnedLines( "Thu Jun 01 00:00:00 2017",
+                      "Sun Jun 06 00:00:00 2019",
+                      yearSec,
+                      outFile );
+    fclose( outFile );
+    }
+
+
+
+void countWeeklyOnePMLines() {
+    for( int i=0; i<sortedList.size(); i++ ) {
+        Commit *c = sortedList.getElement( i );
+        c->considerFlag = 
+            ( c->localTime.tm_hour == 13 );
+        }
+    
+    const char *outName = "../locPerWeekOnePM_ohol.dat";
+    
+    FILE *outFile = fopen( outName, "w" );
+    
+    if( outFile == NULL ) {
+        printf( "Failed to open output file %s\n", outName );
+        return;
+        }
+    int yearSec = lrint( 30 *24*3600 );
+    countBinnedLines( "Thu Jun 01 00:00:00 2017",
+                      "Sun Jun 06 00:00:00 2019",
+                      yearSec,
+                      outFile );
+    fclose( outFile );
+    }
+
+
+
+void countWeeklyNineAMLines() {
+    for( int i=0; i<sortedList.size(); i++ ) {
+        Commit *c = sortedList.getElement( i );
+        c->considerFlag = 
+            ( c->localTime.tm_hour == 9 );
+        }
+    
+    const char *outName = "../locPerWeekNineAM_ohol.dat";
+    
+    FILE *outFile = fopen( outName, "w" );
+    
+    if( outFile == NULL ) {
+        printf( "Failed to open output file %s\n", outName );
+        return;
+        }
+    int yearSec = lrint( 30 *24*3600 );
+    countBinnedLines( "Thu Jun 01 00:00:00 2017",
+                      "Sun Jun 06 00:00:00 2019",
+                      yearSec,
+                      outFile );
+    fclose( outFile );
+    }
+
+
+
+
+
+
+
+
 typedef struct HourBin {
         time_t binStartTime;
         int numHoursIn;
@@ -842,7 +948,7 @@ void countBinnedHours( const char *inStartTimeString,
 
         int total = b->numHoursIn + b->numHoursOut;
         
-        double fraction = 1.0;
+        double fraction = 0;
         
         if( total > 0 ) {
             fraction = b->numHoursIn / (double)( total );
@@ -968,6 +1074,13 @@ int main() {
                              "Sun Jun 06 00:00:00 2019", 
                              "../locPerHourOfDay_oholAfter.dat" );
         
+
+        countWeeklyWednesdayLines();
+        countWeeklyFridayLines();
+        
+        countWeeklyOnePMLines();
+        countWeeklyNineAMLines();
+
         }
     
     

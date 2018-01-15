@@ -19,6 +19,9 @@ locPerWeekday_oholBefore.gnuplot \
 locPerHourOfDay_oholBefore.gnuplot \
 locPerWeekday_oholAfter.gnuplot \
 locPerHourOfDay_oholAfter.gnuplot \
+locPerWeekWednesdayFriday_ohol.gnuplot \
+locPerWeekNineOne_ohol.gnuplot \
+
 
 GRAPHS_DAT = ${GRAPHS:.gnuplot=.dat}
 GRAPHS_EPS = ${GRAPHS:.gnuplot=.eps}
@@ -35,6 +38,16 @@ locPerYearWednesdayFriday.eps: locPerYearWednesdayFriday.gnuplot locPerYearWedne
 
 locPerYearNineOne.eps: locPerYearNineOne.gnuplot locPerYearNineAM.dat locPerYearOnePM.dat graphSetup.gnuplot
 	gnuplot locPerYearNineOne.gnuplot
+
+
+
+locPerWeekWednesdayFriday_ohol.eps: locPerWeekWednesdayFriday_ohol.gnuplot locPerWeekWednesday_ohol.dat locPerWeekFriday_ohol.dat graphSetup.gnuplot
+	gnuplot locPerWeekWednesdayFriday_ohol.gnuplot
+
+locPerWeekNineOne_ohol.eps: locPerWeekNineOne_ohol.gnuplot locPerWeekNineAM_ohol.dat locPerWeekOnePM_ohol.dat graphSetup.gnuplot
+	gnuplot locPerWeekNineOne_ohol.gnuplot
+
+
 
 
 %.png: %.eps
