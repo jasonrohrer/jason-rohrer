@@ -18,3 +18,4 @@ logs
 locPerWeek_time
 locPerMonth_time
 locPerMonth_time_colored
+locPerWeek_ohol

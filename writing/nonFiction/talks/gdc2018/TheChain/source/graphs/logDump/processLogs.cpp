@@ -346,6 +346,12 @@ void countBinnedLines( const char *inStartTimeString,
     
     SimpleVector<TimeBin> bins;
     
+    // skip any that are before first start time
+    while( index < sortedList.size() &&
+           sortedList.getElement( index )->utcTime < startTime ) {
+        index ++;
+        }
+
 
     while( index < sortedList.size() ) {
         
@@ -390,8 +396,16 @@ void countBinnedLines( const char *inStartTimeString,
         time_t t = b->binStartTime;
         
         strftime( buff, 100, "%x", localtime( &t ) );
-        fprintf( inOutputFile, "%s %d %f\n", buff, b->numLinesIn,
-                 b->numLinesIn / (double)( b->numLinesIn + b->numLinesOut ) );
+
+        int total = b->numLinesIn + b->numLinesOut;
+        
+        double fraction = 1.0;
+        
+        if( total > 0 ) {
+            fraction = b->numLinesIn / (double)( total );
+            }
+        
+        fprintf( inOutputFile, "%s %d %f\n", buff, b->numLinesIn, fraction );
         }
     }
 
@@ -415,6 +429,29 @@ void countWeeklyLines() {
                       outFile );
     fclose( outFile );
     }
+
+
+
+void countWeeklyLinesOHOL() {
+    for( int i=0; i<sortedList.size(); i++ ) {
+        sortedList.getElement( i )->considerFlag = true;
+        }
+    
+    const char *outName = "../locPerWeek_ohol.dat";
+    
+    FILE *outFile = fopen( outName, "w" );
+    
+    if( outFile == NULL ) {
+        printf( "Failed to open output file %s\n", outName );
+        return;
+        }
+    int weekSec = 3600 * 24 * 7;
+    countBinnedLines( "Thu May 28 00:00:00 2015",
+                      weekSec,
+                      outFile );
+    fclose( outFile );
+    }
+
 
 
 void countMonthlyLines() {
@@ -696,6 +733,7 @@ int main() {
             }
         
         countWeeklyLines();
+        countWeeklyLinesOHOL();
         countMonthlyLines();
         countYearlyLines();
         countDayOfWeekLines();
