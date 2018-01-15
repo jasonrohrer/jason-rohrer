@@ -1,4 +1,4 @@
-set output "locPerWeekday.eps"
+set output "locPerWeekday_oholBefore.eps"
 
 call 'graphSetup.gnuplot'
 
@@ -13,4 +13,4 @@ show grid
 set lmargin 10
 
 
-plot "locPerWeekday.dat" using 1:4:xtic(2) with boxes fillcolor rgb "#666666"
+plot "locPerWeekday_oholBefore.dat" using 1:4:xtic(2) with boxes fillcolor rgb "#666666"

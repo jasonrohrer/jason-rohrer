@@ -15,6 +15,10 @@ locPerYearWednesdayFriday.gnuplot \
 locPerYearNineOne.gnuplot \
 locPerWeek_ohol.gnuplot \
 hoursPerWeek_ohol.gnuplot \
+locPerWeekday_oholBefore.gnuplot \
+locPerHourOfDay_oholBefore.gnuplot \
+locPerWeekday_oholAfter.gnuplot \
+locPerHourOfDay_oholAfter.gnuplot \
 
 GRAPHS_DAT = ${GRAPHS:.gnuplot=.dat}
 GRAPHS_EPS = ${GRAPHS:.gnuplot=.eps}

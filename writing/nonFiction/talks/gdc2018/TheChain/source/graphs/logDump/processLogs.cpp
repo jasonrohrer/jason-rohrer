@@ -326,6 +326,7 @@ typedef struct LOCBin {
 
     
 void countBinnedLines( const char *inStartTimeString,
+                       const char *inEndTimeString,
                        int inSecPerBin,
                        FILE *inOutputFile ) {
     
@@ -337,6 +338,10 @@ void countBinnedLines( const char *inStartTimeString,
     
     // of current week
     time_t startTime = my_timegm( &tm );
+
+    // cut-off time
+    strptime( inEndTimeString, "%c", &tm );    
+    time_t finalEndTime = my_timegm( &tm );
 
     
     
@@ -353,7 +358,7 @@ void countBinnedLines( const char *inStartTimeString,
         }
 
 
-    while( index < sortedList.size() ) {
+    while( index < sortedList.size() && endTime < finalEndTime ) {
         
         LOCBin b = { startTime, 0 };
                     
@@ -425,6 +430,7 @@ void countWeeklyLines() {
         }
     int weekSec = 3600 * 24 * 7;
     countBinnedLines( "Sun Jun 06 00:00:00 2004",
+                      "Sun Jun 06 00:00:00 2019",
                       weekSec,
                       outFile );
     fclose( outFile );
@@ -447,6 +453,7 @@ void countWeeklyLinesOHOL() {
         }
     int weekSec = 3600 * 24 * 7;
     countBinnedLines( "Thu May 28 00:00:00 2015",
+                      "Sun Jun 06 00:00:00 2019",
                       weekSec,
                       outFile );
     fclose( outFile );
@@ -469,6 +476,7 @@ void countMonthlyLines() {
         }
     int monthSec = lrint( 365.25 * 24 * 3600 ) / 12;
     countBinnedLines( "Tue Jun 01 00:00:00 2004",
+                      "Sun Jun 06 00:00:00 2019",
                       monthSec,
                       outFile );
     fclose( outFile );
@@ -491,6 +499,7 @@ void countYearlyLines() {
         }
     int yearSec = lrint( 365.25 *24*3600 );
     countBinnedLines( "Thu Jan 01 00:00:00 2004",
+                      "Sun Jun 06 00:00:00 2019",
                       yearSec,
                       outFile );
     fclose( outFile );
@@ -498,7 +507,24 @@ void countYearlyLines() {
 
 
 
-void countDayOfWeekLines() {
+
+void countDayOfWeekLines( const char *inStartTimeString, 
+                          const char *inEndTimeString,
+                          const char *inOutFileName ) {
+
+    struct tm tm;
+    
+    strptime( inStartTimeString, "%c", &tm );
+    
+    // of current week
+    time_t startTime = my_timegm( &tm );
+
+    
+    // cut-off time
+    strptime( inEndTimeString, "%c", &tm );    
+    time_t finalEndTime = my_timegm( &tm );
+
+
     int bins[7];
     for( int i=0; i<7; i++ ) {
         bins[i] = 0;
@@ -508,20 +534,24 @@ void countDayOfWeekLines() {
                                 "Tuesday", "Wednesday", "Thursday",
                                 "Friday", "Saturday" };
     
-
+    int total = 0;
+    
     for( int i=0; i<sortedList.size(); i++ ) {
         Commit *c = sortedList.getElement( i );
         
-        bins[ c->localTime.tm_wday ] += c->linesAdded;
+        if( c->utcTime >= startTime && c->utcTime < finalEndTime ) {
+            bins[ c->localTime.tm_wday ] += c->linesAdded;
+            total += c->linesAdded;
+            }
         }
-    const char *outName = "../locPerWeekday.dat";
+    const char *outName = inOutFileName;
     
     FILE *outFile = fopen( outName, "w" );
 
     if( outFile != NULL ) {
         for( int i=0; i<7; i++ ) {
-            fprintf( outFile, "%d %s %d\n",
-                     i, binNames[i], bins[i] );
+            fprintf( outFile, "%d %s %d %f\n",
+                     i, binNames[i], bins[i], (double)( bins[i] ) / total );
             }
         fclose( outFile );
         }
@@ -531,7 +561,22 @@ void countDayOfWeekLines() {
 
 
 
-void countHourOfDayLines() {
+void countHourOfDayLines( const char *inStartTimeString, 
+                          const char *inEndTimeString,
+                          const char *inOutFileName ) {
+    struct tm tm;
+
+    strptime( inStartTimeString, "%c", &tm );
+    
+    // of current week
+    time_t startTime = my_timegm( &tm );
+
+    
+    // cut-off time
+    strptime( inEndTimeString, "%c", &tm );    
+    time_t finalEndTime = my_timegm( &tm );
+
+
     int bins[24];
     for( int i=0; i<24; i++ ) {
         bins[i] = 0;
@@ -554,20 +599,26 @@ void countHourOfDayLines() {
         }
     
 
+    int total = 0;
 
     for( int i=0; i<sortedList.size(); i++ ) {
         Commit *c = sortedList.getElement( i );
         
-        bins[ c->localTime.tm_hour ] += c->linesAdded;
+        if( c->utcTime >= startTime && c->utcTime < finalEndTime ) {
+            bins[ c->localTime.tm_hour ] += c->linesAdded;
+            total += c->linesAdded;
+            }
         }
-    const char *outName = "../locPerHourOfDay.dat";
+
+    const char *outName = inOutFileName;
     
     FILE *outFile = fopen( outName, "w" );
 
     if( outFile != NULL ) {
         for( int i=0; i<24; i++ ) {
-            fprintf( outFile, "%d \"%s\" %d\n",
-                     i, binNames[i], bins[i] );
+            fprintf( outFile, "%d \"%s\" %d %f\n",
+                     i, binNames[i], bins[i],
+                     (double)( bins[i] ) / total );
             }
         fclose( outFile );
         }
@@ -597,6 +648,7 @@ void countYearlyWednesdayLines() {
         }
     int yearSec = lrint( 365.25 *24*3600 );
     countBinnedLines( "Thu Jan 01 00:00:00 2004",
+                      "Sun Jun 06 00:00:00 2019",
                       yearSec,
                       outFile );
     fclose( outFile );
@@ -621,6 +673,7 @@ void countYearlyFridayLines() {
         }
     int yearSec = lrint( 365.25 *24*3600 );
     countBinnedLines( "Thu Jan 01 00:00:00 2004",
+                      "Sun Jun 06 00:00:00 2019",
                       yearSec,
                       outFile );
     fclose( outFile );
@@ -645,6 +698,7 @@ void countYearlyOnePMLines() {
         }
     int yearSec = lrint( 365.25 *24*3600 );
     countBinnedLines( "Thu Jan 01 00:00:00 2004",
+                      "Sun Jun 06 00:00:00 2019",
                       yearSec,
                       outFile );
     fclose( outFile );
@@ -669,6 +723,7 @@ void countYearlyNineAMLines() {
         }
     int yearSec = lrint( 365.25 *24*3600 );
     countBinnedLines( "Thu Jan 01 00:00:00 2004",
+                      "Sun Jun 06 00:00:00 2019",
                       yearSec,
                       outFile );
     fclose( outFile );
@@ -691,6 +746,7 @@ typedef struct HourBin {
 
     
 void countBinnedHours( const char *inStartTimeString,
+                       const char *inEndTimeString,
                        int inSecPerBin,
                        FILE *inOutputFile ) {
     
@@ -702,6 +758,12 @@ void countBinnedHours( const char *inStartTimeString,
     
     // of current week
     time_t startTime = my_timegm( &tm );
+
+    
+    // cut-off time
+    strptime( inEndTimeString, "%c", &tm );    
+    time_t finalEndTime = my_timegm( &tm );
+
 
     
     
@@ -722,7 +784,7 @@ void countBinnedHours( const char *inStartTimeString,
     lastCounted.tm_year = 0;
     lastCounted.tm_yday = 1;
 
-    while( index < sortedList.size() ) {
+    while( index < sortedList.size() && endTime < finalEndTime ) {
         
         HourBin b = { startTime, 0 };
                     
@@ -808,6 +870,7 @@ void countWeeklyHoursOHOL() {
         }
     int weekSec = 3600 * 24 * 7;
     countBinnedHours( "Thu May 28 00:00:00 2015",
+                      "Sun Jun 06 00:00:00 2019",
                       weekSec,
                       outFile );
     fclose( outFile );
@@ -875,8 +938,12 @@ int main() {
         countWeeklyLinesOHOL();
         countMonthlyLines();
         countYearlyLines();
-        countDayOfWeekLines();
-        countHourOfDayLines();
+        countDayOfWeekLines( "Thu Jan 01 00:00:00 2004",
+                             "Sun Jun 06 00:00:00 2019", 
+                             "../locPerWeekday.dat" );
+        countHourOfDayLines( "Thu Jan 01 00:00:00 2004",
+                             "Sun Jun 06 00:00:00 2019", 
+                             "../locPerHourOfDay.dat");
 
         countYearlyWednesdayLines();
         countYearlyFridayLines();
@@ -885,6 +952,22 @@ int main() {
         countYearlyNineAMLines();
 
         countWeeklyHoursOHOL();
+
+        
+        countDayOfWeekLines( "Thu Jun 01 00:00:00 2017",
+                             "Sun Sep 03 00:00:00 2017", 
+                             "../locPerWeekday_oholBefore.dat" );
+        countHourOfDayLines( "Thu Jun 01 00:00:00 2017",
+                             "Sun Sep 03 00:00:00 2017", 
+                             "../locPerHourOfDay_oholBefore.dat" );
+
+        countDayOfWeekLines( "Sun Sep 03 00:00:00 2017",
+                             "Sun Jun 06 00:00:00 2019", 
+                             "../locPerWeekday_oholAfter.dat" );
+        countHourOfDayLines( "Sun Sep 03 00:00:00 2017", 
+                             "Sun Jun 06 00:00:00 2019", 
+                             "../locPerHourOfDay_oholAfter.dat" );
+        
         }
     
     
