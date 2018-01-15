@@ -316,11 +316,11 @@ void testTime() {
 
 
 
-typedef struct TimeBin {
+typedef struct LOCBin {
         time_t binStartTime;
         int numLinesIn;
         int numLinesOut;
-    } TimeBin;
+    } LOCBin;
         
 
 
@@ -344,7 +344,7 @@ void countBinnedLines( const char *inStartTimeString,
     
     int index = 0;
     
-    SimpleVector<TimeBin> bins;
+    SimpleVector<LOCBin> bins;
     
     // skip any that are before first start time
     while( index < sortedList.size() &&
@@ -355,7 +355,7 @@ void countBinnedLines( const char *inStartTimeString,
 
     while( index < sortedList.size() ) {
         
-        TimeBin b = { startTime, 0 };
+        LOCBin b = { startTime, 0 };
                     
         
         Commit *c = sortedList.getElement( index );
@@ -391,7 +391,7 @@ void countBinnedLines( const char *inStartTimeString,
 
     for( int i=0; i<bins.size(); i++ ) {
         char buff[100];
-        TimeBin *b = bins.getElement(i);
+        LOCBin *b = bins.getElement(i);
         
         time_t t = b->binStartTime;
         
@@ -677,6 +677,145 @@ void countYearlyNineAMLines() {
 
 
 
+
+
+
+
+typedef struct HourBin {
+        time_t binStartTime;
+        int numHoursIn;
+        int numHoursOut;
+    } HourBin;
+        
+
+
+    
+void countBinnedHours( const char *inStartTimeString,
+                       int inSecPerBin,
+                       FILE *inOutputFile ) {
+    
+
+    struct tm tm;
+    
+    // first week to consider
+    strptime( inStartTimeString, "%c", &tm );
+    
+    // of current week
+    time_t startTime = my_timegm( &tm );
+
+    
+    
+    time_t endTime = startTime + inSecPerBin;
+    
+    int index = 0;
+    
+    SimpleVector<HourBin> bins;
+    
+    // skip any that are before first start time
+    while( index < sortedList.size() &&
+           sortedList.getElement( index )->utcTime < startTime ) {
+        index ++;
+        }
+
+    struct tm lastCounted;
+    lastCounted.tm_hour = 0;
+    lastCounted.tm_year = 0;
+    lastCounted.tm_yday = 1;
+
+    while( index < sortedList.size() ) {
+        
+        HourBin b = { startTime, 0 };
+                    
+        
+        Commit *c = sortedList.getElement( index );
+        
+        while( index < sortedList.size() && 
+               c->utcTime >= startTime && 
+               c->utcTime < endTime ) {
+            
+            // commit in this time bin
+            
+            if( c->localTime.tm_hour == lastCounted.tm_hour &&
+                c->localTime.tm_year == lastCounted.tm_year &&
+                c->localTime.tm_yday == lastCounted.tm_yday ) {
+                // already saw a commit this hour
+                }
+            else {
+                // new hour
+                
+                lastCounted = c->localTime;
+                
+
+                if( c->considerFlag ) {
+                    // and this commit is flagged as under consideration
+                    b.numHoursIn ++;
+                    }
+                else {
+                    // also track total of commits NOT considered
+                    b.numHoursOut ++;
+                    }
+                }
+            
+            index++;
+            if( index < sortedList.size() ) {
+                c = sortedList.getElement( index );
+                }
+            }
+        
+        bins.push_back( b );
+        
+        startTime = endTime;
+        endTime = startTime + inSecPerBin;
+        }
+    
+
+
+    for( int i=0; i<bins.size(); i++ ) {
+        char buff[100];
+        HourBin *b = bins.getElement(i);
+        
+        time_t t = b->binStartTime;
+        
+        strftime( buff, 100, "%x", localtime( &t ) );
+
+        int total = b->numHoursIn + b->numHoursOut;
+        
+        double fraction = 1.0;
+        
+        if( total > 0 ) {
+            fraction = b->numHoursIn / (double)( total );
+            }
+        
+        fprintf( inOutputFile, "%s %d %f\n", buff, b->numHoursIn, fraction );
+        }
+    }
+
+
+
+
+void countWeeklyHoursOHOL() {
+    for( int i=0; i<sortedList.size(); i++ ) {
+        sortedList.getElement( i )->considerFlag = true;
+        }
+    
+    const char *outName = "../hoursPerWeek_ohol.dat";
+    
+    FILE *outFile = fopen( outName, "w" );
+    
+    if( outFile == NULL ) {
+        printf( "Failed to open output file %s\n", outName );
+        return;
+        }
+    int weekSec = 3600 * 24 * 7;
+    countBinnedHours( "Thu May 28 00:00:00 2015",
+                      weekSec,
+                      outFile );
+    fclose( outFile );
+    }
+
+
+
+
 int main() {
     //testTime();
     File dir( NULL, "." );
@@ -744,6 +883,8 @@ int main() {
         
         countYearlyOnePMLines();
         countYearlyNineAMLines();
+
+        countWeeklyHoursOHOL();
         }
     
     
