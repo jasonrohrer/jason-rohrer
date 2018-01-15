@@ -18,6 +18,9 @@ set timefmt "%m/%d/%y"
 #set xtics rotate by -45
 #set xtic 52
 
+set decimal locale
+set format y "%'g"
+
 set style fill solid noborder
 
 set size 1, .8

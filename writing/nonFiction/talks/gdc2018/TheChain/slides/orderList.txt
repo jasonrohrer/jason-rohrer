@@ -1,5 +1,8 @@
 index
 1
+officeHell
+bedroom
+officeHell2
 2
 3
 4
@@ -7,3 +10,11 @@ index
 5
 6
 7
+locPerGame
+weeksPerGame
+locPerWeek
+dollarsPerWeek
+logs
+locPerWeek_time
+locPerMonth_time
+locPerMonth_time_colored

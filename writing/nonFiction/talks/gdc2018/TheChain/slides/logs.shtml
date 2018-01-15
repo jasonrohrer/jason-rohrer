@@ -1,0 +1,28 @@
+
+
+<table border=0><tr><td>
+
+<font size=6><pre>
+#> git log --oneline --shortstat --pretty=format:"%ad @"
+
+
+Wed Jan 10 10:59:23 2018 -0800 @
+ 1 file changed, <font color=#ffff00>7 insertions(+)</font>, 6 deletions(-)
+
+Tue Jan 9 13:04:30 2018 -0800 @
+ 8 files changed, <font color=#ffff00>155 insertions(+)</font>
+
+Tue Jan 9 10:59:20 2018 -0800 @
+ 3 files changed, <font color=#ffff00>9 insertions(+)</font>, 2 deletions(-)
+
+Tue Jan 9 10:13:16 2018 -0800 @
+ 1 file changed, <font color=#ffff00>1 insertion(+)</font>
+
+Tue Jan 9 08:58:06 2018 -0800 @
+ 1 file changed, <font color=#ffff00>1 insertion(+)</font>, 1 deletion(-)
+
+Tue Jan 9 08:54:17 2018 -0800 @
+ 2 files changed, <font color=#ffff00>2 insertions(+)</font>, 2 deletions(-)
+</pre></font>
+
+</td></tr></table>
