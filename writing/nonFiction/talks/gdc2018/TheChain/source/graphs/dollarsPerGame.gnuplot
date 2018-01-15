@@ -11,7 +11,7 @@ set xtics rotate by -45
 #unset yzeroaxis
 
 set decimal locale
-set format y "%'g"
+set format y "$%'g"
 
 set grid ytics linewidth 4
 show grid

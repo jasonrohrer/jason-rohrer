@@ -23,4 +23,4 @@ set style fill solid noborder
 set size 1, .8
 
 
-plot "locPerYearWednesday.dat" using 1:3 with lines lt 1 lw 5 linecolor rgb "#FF0000", "locPerYearFriday.dat" using 1:3 with lines lt 1 lw 5 linecolor rgb "#00FFFF"
+plot "locPerYearWednesday.dat" using 1:3 with lines lt 1 lw 5 linecolor rgb "#FF00FF", "locPerYearFriday.dat" using 1:3 with lines lt 1 lw 5 linecolor rgb "#00FFFF"
