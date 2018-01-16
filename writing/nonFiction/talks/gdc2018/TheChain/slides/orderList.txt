@@ -38,5 +38,7 @@ locPerWeek_ohol_overlayM
 locPerWeek_ohol_overlayN
 locPerHourOfDay
 locPerHourOfDay_ohol_crunch
+locPerHourOfDay_ohol_rebirth
 locPerWeekday
 locPerWeekday_ohol_crunch
+locPerWeekday_ohol_rebirth
