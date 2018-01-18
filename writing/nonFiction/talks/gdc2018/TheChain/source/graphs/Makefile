@@ -21,7 +21,7 @@ locPerWeekday_oholAfter.gnuplot \
 locPerHourOfDay_oholAfter.gnuplot \
 locPerWeekWednesdayFriday_ohol.gnuplot \
 locPerWeekNineOne_ohol.gnuplot \
-
+nutritionSearch.gnuplot \
 
 GRAPHS_DAT = ${GRAPHS:.gnuplot=.dat}
 GRAPHS_EPS = ${GRAPHS:.gnuplot=.eps}
