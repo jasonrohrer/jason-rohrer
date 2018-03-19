@@ -53,11 +53,6 @@ complexDiagram
 clipboard
 paperNotes
 nutritionSearch
-workEveryday
-toothbrush
-habits
-trueHabits
-gameHabits
 chainCalendar
 methodSummary
 locPerHourOfDay_ohol_crunch2
