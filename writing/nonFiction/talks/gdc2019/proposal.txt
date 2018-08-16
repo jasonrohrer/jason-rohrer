@@ -21,18 +21,15 @@ How is this possible in real life?  After all, we're all born as helpless babies
 
 Here's the key insight:  the usual negative social behaviors of people in games and other online systems is not an inevitable consequence of human nature, but instead a rational response to characteristics inherent in the design of those systems.  People aren't idiots.  If negative social behavior is optimal, they will choose that behavior.
 
-But if you design a system where a different kind of behavior is optimal, they will naturally gravitate toward that behavior.  If caring for each other is optimal, and only idiots won't care for each other, than everyone will generally care for each other.
+But if you design a system where a different kind of behavior is optimal, they will naturally gravitate toward that behavior.  If caring for each other is optimal, so that only idiots won't care for each other, then everyone will gravitate toward caring behavior.
 
 The design of One Hour One Life makes caring optimal by reducing the long-term individual benefit of individual accomplishment.  Everyone only lives for an hour before they get old and die.  All of their progress is lost---unless the next generation survives to carry that progress forward.
 
-Thus, the only meaning in the game comes from being part of a bigger picture:  from being a branch in a family tree.  A hermit's life is gone without a trace in an hour, and so is the life of a player who let all of their babies starve to death.
+Thus, the only meaning in the game comes from being part of a bigger picture, as a branch in the family tree.  A hermit's life is gone without a trace in an hour, and so is the life of a player who lets all of their babies starve to death.
 
-The end result is scene that would seem impossible in an online game filled with total strangers:  at the end of their hour play session, a more experienced player walks around the playfield, says goodbye to everyone, gives the newer players kindly advice, and eventually says, "I love you all," before logging off.
+The end result is scene that would seem impossible in an online game filled with total strangers:  at the end of their hour play session, a more experienced player walks around a playfield full to total strangers, says goodbye to everyone, gives the newer players kindly advice, and eventually says, "I love you all," before logging off.
 
-It sounds more plausible when we think of an elderly person at the end of their life, walking around their village, saying goodbye, giving advice to their grandchildren, and eventually saying, "I love you all," before dying.
-
-It's not impossible---if your design makes it optimal.
-
+Recast the above situation as an elderly person at the end of their life, walking around their village, saying goodbye, giving advice to their grandchildren, and eventually saying, "I love you all," before dying, and we can see that leaning thematically on real-life situations and traditions helps to make the optimal behavior all that more obvious to players.
 
 
 
