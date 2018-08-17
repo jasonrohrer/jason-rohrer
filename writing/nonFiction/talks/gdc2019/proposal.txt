@@ -9,27 +9,31 @@ http://gdc2019.callforsubmission.gdc4p.com/edit.php?s=0ZP5OnyGIb76R95MPZ1b
 
 People online hate each other.  This is taken as an axiom.  Behind a digital mask, and through a limited channel of communication, the worst elements of human nature are given room to unfurl.
 
-Add game systems into the online mix, along with their usual player demographic, and it only gets worse, with many online games suffering from player communities that are notoriously negative.  Something must be done!  So report systems are added to punish bad behavior, and reward systems are put in place to encourage good behavior.  But it doesn't really work.  Human nature just can't be tamed, it seems.
+Add game systems into the online mix, along with their usual player demographic, and it only gets worse, with many online games suffering from player communities that are notoriously negative.
 
 But what if it's not human nature?
 
-When the design of my game One Hour One Life first came to public attention a few years ago, it was met with skeptical jeers.  A game where you're born online as a helpless baby, dependent on the good will of a total stranger for your very survival?  Good luck with that, pal!  Every baby will be left to starve---or even worse, murdered outright by trolls-turned-parents---and your budding online civilization will never even get off the ground.  Why would strangers take care of each other?  Human nature will prevail, and this game is obviously doomed.
+When the design of my game One Hour One Life first came to public attention a few years ago, it was met with skeptical jeers.  A game where you're born online as a helpless baby, dependent on the good will of a total stranger for your very survival?  Good luck with that, pal!
 
-But the exact opposite happened.  Players were generally good to each other.  Total strangers helped each other, taught each other, and cared for each other.  Some of them even felt and expressed familial love for each other.  At the time of writing, the longest continuous family line lasted 288 generations, more than four solid days of total strangers caring for each other.  How is this possible, given human nature?
+Every baby will be left to starve---or even worse, murdered outright by trolls-turned-parents.  Why would strangers take care of each other?
 
-How is this possible in real life?  After all, we're all born as helpless babies to total strangers (our parents) who we depend on for survival.  Of course, real life gets to lean on biology, instinct, and tradition, which aren't factors in a game world.
+But the exact opposite happened.  Players were generally good to each other.  Total strangers helped each other, taught each other, and cared for each other.  Some of them even expressed feelings of familial love.
 
-Here's the key insight:  the usual negative social behaviors of people in games and other online systems is not an inevitable consequence of human nature, but instead a rational response to characteristics inherent in the design of those systems.  People aren't idiots.  If negative social behavior is optimal, they will choose that behavior.
+At the time of writing, the longest continuous family line lasted 288 generations, more than four solid days of total strangers caring for each other.  How is this possible, given human nature?
 
-But if you design a system where a different kind of behavior is optimal, they will naturally gravitate toward that behavior.  If caring for each other is optimal, so that only idiots won't care for each other, then everyone will gravitate toward caring behavior.
+Here's the key insight:  the usual negative social behaviors of people in online systems is not an inevitable consequence of human nature, but instead a rational response to characteristics inherent in the design of those systems.  People aren't idiots.  If negative social behavior is optimal, they will choose that behavior.
+
+But if you design a system where a different kind of behavior is optimal, they will naturally gravitate toward that behavior.
 
 The design of One Hour One Life makes caring optimal by reducing the long-term individual benefit of individual accomplishment.  Everyone only lives for an hour before they get old and die.  All of their progress is lost---unless the next generation survives to carry that progress forward.
 
 Thus, the only meaning in the game comes from being part of a bigger picture, as a branch in the family tree.  A hermit's life is gone without a trace in an hour, and so is the life of a player who lets all of their babies starve to death.
 
-The end result is scene that would seem impossible in an online game filled with total strangers:  at the end of their hour play session, a more experienced player walks around a playfield full to total strangers, says goodbye to everyone, gives the newer players kindly advice, and eventually says, "I love you all," before logging off.
+The end result is scene that would seem impossible in an online game filled with total strangers:  at the end of their hour play session, a more experienced player walks around a playfield, says goodbye to everyone, gives the newer players kindly advice, and eventually says, "I love you all," before logging off.
 
-Recast the above situation as an elderly person at the end of their life, walking around their village, saying goodbye, giving advice to their grandchildren, and eventually saying, "I love you all," before dying, and we can see that leaning thematically on real-life situations and traditions helps to make the optimal behavior all that more obvious to players.
+Recast the above situation as an elderly person at the end of their life, and we can see how leaning thematically on real-life situations and traditions helps to make the optimal behavior all that more obvious to players.
+
+But theme is not enough, if the underlying systems encourage thematically-inconsistent behaviors.
 
 
 
@@ -37,31 +41,32 @@ Recast the above situation as an elderly person at the end of their life, walkin
 
 Short Description:
 
-FIXME
+Supposed axiom:  People online hate each other.  Behind a digital mask, and through a limited channel of communication, the worst elements of human nature are given room to unfurl.  But what if our designs our to blame, instead of human nature?  People are generally rational, so their behavior in the online systems is likely to be a rational response.  That means we can we can potentially design different systems that foster other social behaviors.  The experimental multiplayer civilization-building game "One Hour one Life" does exactly this.  By throwing total online strangers into gameplay situations where they inherently depend on each other, and by redefining success in terms of long-term group endeavors that are out of reach for any individual player acting alone, the game brings out the best in people.  They even say "I love you" to each other, and mean it.
+
+ 
 
 Takeaway:
 
-FIXME
+Online games don't necessarily spell doom for positive social interactions between strangers.  We can change our designs to fix these problems.  We need to make the desired behaviors optimal.
 
 
 Intended Audience:
 
-FIXME
+Anyone looking to improve social behavior in their online systems.
 
 
 
 Speaking history and links:
 
-FIXME add 2018
-
-Presented at GDC EGW three times over the years (r=4.89 in 2011, 77% excellent in 2013, 66% excellent in 2016)
-Won the final GDC Game Design Challenge in 2013 with A Game for Someone (86% excellent)
-GDC Game Design Challenge 2012 (87% excellent, included in GDC card deck)
-Keynote at MIGS, 2011
-Won the GDC Game Design Challenge in 2011 with Chain World (r=4.73)
-GDC Microtalk in 2011(r=4.72)
-Keynote at GDC Serious Games Summit, 2010
-Spoke at GDC Indie Summit in 2009
+--GDC 2018, 3rd highest rated talk in all summits, out of 113 talks.  (Don't Break the Chain, 85% Excellent)
+--Presented at GDC EGW three times over the years (r=4.89 in 2011, 77% excellent in 2013, 66% excellent in 2016)
+--Won the final GDC Game Design Challenge in 2013 with A Game for Someone (86% excellent)
+--GDC Game Design Challenge 2012 (87% excellent, included in GDC card deck)
+--Keynote at MIGS, 2011
+--Won the GDC Game Design Challenge in 2011 with Chain World (r=4.73)
+--GDC Microtalk in 2011(r=4.72)
+--Keynote at GDC Serious Games Summit, 2010
+--Spoke at GDC Indie Summit in 2009
 
 Invited speaker at MIT, Yale, Berkeley, NYU, CMU, Drexel, GATech, Hastings, Champlain, Hallmark, Clarkson, GDX, Project Horseshoe.
 
