@@ -1,4 +1,4 @@
-Your Players Don't Have to Hate Each Other:  Making Complete Strangers Say 'I Love You,' and Mean It
+Your Players Don't Have to Hate Each Other
 
 
 Working on submission here:
@@ -29,7 +29,7 @@ The design of One Hour One Life makes caring optimal by reducing the long-term i
 
 Thus, the only meaning in the game comes from being part of a bigger picture, as a branch in the family tree.  A hermit's life is gone without a trace in an hour, and so is the life of a player who lets all of their babies starve to death.
 
-The end result is scene that would seem impossible in an online game filled with total strangers:  at the end of their hour play session, a more experienced player walks around a playfield, says goodbye to everyone, gives the newer players kindly advice, and eventually says, "I love you all," before logging off.
+The end result is a scene that would seem impossible in an online game filled with total strangers:  at the end of their hour play session, a more experienced player walks around a playfield, says goodbye to everyone, gives the newer players kindly advice, and eventually says, "I love you all," before logging off.
 
 Recast the above situation as an elderly person at the end of their life, and we can see how leaning thematically on real-life situations and traditions helps to make the optimal behavior all that more obvious to players.
 
@@ -41,7 +41,7 @@ But theme is not enough, if the underlying systems encourage thematically-incons
 
 Short Description:
 
-Supposed axiom:  People online hate each other.  Behind a digital mask, and through a limited channel of communication, the worst elements of human nature are given room to unfurl.  But what if our designs our to blame, instead of human nature?  People are generally rational, so their behavior in the online systems is likely to be a rational response.  That means we can we can potentially design different systems that foster other social behaviors.  The experimental multiplayer civilization-building game "One Hour one Life" does exactly this.  By throwing total online strangers into gameplay situations where they inherently depend on each other, and by redefining success in terms of long-term group endeavors that are out of reach for any individual player acting alone, the game brings out the best in people.  They even say "I love you" to each other, and mean it.
+Supposed axiom:  People online hate each other.  Behind a digital mask, and through a limited channel of communication, the worst elements of human nature are given room to unfurl.  But what if our designs are to blame, instead of human nature?  People are generally rational, so their behavior in the online systems is likely to be a rational response.  That means we can potentially design different systems that foster other social behaviors.  The experimental multiplayer civilization-building game "One Hour one Life" does exactly this.  By throwing total online strangers into gameplay situations where they inherently depend on each other, and by redefining success in terms of long-term group endeavors that are out of reach for any individual player acting alone, the game brings out the best in people.  They even say "I love you" to each other, and mean it.
 
  
 
