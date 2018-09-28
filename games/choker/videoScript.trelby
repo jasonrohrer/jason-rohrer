@@ -1,0 +1,444 @@
+﻿#Version 3
+#Begin-Auto-Completion 
+AutoCompletion/Scene/Enabled:True
+AutoCompletion/Scene/Items:0
+AutoCompletion/Character/Enabled:True
+AutoCompletion/Character/Items:0
+AutoCompletion/Transition/Enabled:True
+AutoCompletion/Transition/Items:12
+AutoCompletion/Transition/Items/1:BACK TO:
+AutoCompletion/Transition/Items/2:CROSSFADE:
+AutoCompletion/Transition/Items/3:CUT TO:
+AutoCompletion/Transition/Items/4:DISSOLVE TO:
+AutoCompletion/Transition/Items/5:FADE IN:
+AutoCompletion/Transition/Items/6:FADE OUT
+AutoCompletion/Transition/Items/7:FADE TO BLACK
+AutoCompletion/Transition/Items/8:JUMP CUT TO:
+AutoCompletion/Transition/Items/9:MATCH CUT TO:
+AutoCompletion/Transition/Items/10:SLOW FADE TO BLACK
+AutoCompletion/Transition/Items/11:SMASH CUT TO:
+AutoCompletion/Transition/Items/12:TIME CUT:
+#End-Auto-Completion 
+#Begin-Config 
+FontSize:12
+Margin/Bottom:25.40
+Margin/Left:38.10
+Margin/Right:25.40
+Margin/Top:12.70
+Paper/Height:297.00
+Paper/Width:210.00
+PageBreakActionLines:2
+PageBreakDialogueLines:2
+SceneContinueds:False
+SceneContinuedIndent:45
+ShowSceneNumbers:False
+IncludeTOC:True
+ShowTOC:True
+OpenOnCurrentPage:True
+RemoveNotes:False
+OutlineNotes:True
+ShowMargins:False
+ShowLineNumbers:False
+Cursor/Line:263
+Cursor/Column:18
+String/MoreDialogue:(MORE)
+String/ContinuedPageEnd:(CONTINUED)
+String/ContinuedPageStart:CONTINUED:
+String/DialogueContinued: (cont'd)
+Element/Scene/BeforeSpacing:10
+Element/Scene/IntraSpacing:0
+Element/Scene/Indent:0
+Element/Scene/Width:60
+Element/Scene/Screen/AllCaps:True
+Element/Scene/Screen/Bold:True
+Element/Scene/Screen/Italic:False
+Element/Scene/Screen/Underlined:False
+Element/Scene/Export/AllCaps:True
+Element/Scene/Export/Bold:False
+Element/Scene/Export/Italic:False
+Element/Scene/Export/Underlined:False
+Element/Action/BeforeSpacing:10
+Element/Action/IntraSpacing:0
+Element/Action/Indent:0
+Element/Action/Width:60
+Element/Action/Screen/AllCaps:False
+Element/Action/Screen/Bold:False
+Element/Action/Screen/Italic:False
+Element/Action/Screen/Underlined:False
+Element/Action/Export/AllCaps:False
+Element/Action/Export/Bold:False
+Element/Action/Export/Italic:False
+Element/Action/Export/Underlined:False
+Element/Character/BeforeSpacing:10
+Element/Character/IntraSpacing:0
+Element/Character/Indent:22
+Element/Character/Width:38
+Element/Character/Screen/AllCaps:True
+Element/Character/Screen/Bold:False
+Element/Character/Screen/Italic:False
+Element/Character/Screen/Underlined:False
+Element/Character/Export/AllCaps:True
+Element/Character/Export/Bold:False
+Element/Character/Export/Italic:False
+Element/Character/Export/Underlined:False
+Element/Dialogue/BeforeSpacing:0
+Element/Dialogue/IntraSpacing:0
+Element/Dialogue/Indent:10
+Element/Dialogue/Width:35
+Element/Dialogue/Screen/AllCaps:False
+Element/Dialogue/Screen/Bold:False
+Element/Dialogue/Screen/Italic:False
+Element/Dialogue/Screen/Underlined:False
+Element/Dialogue/Export/AllCaps:False
+Element/Dialogue/Export/Bold:False
+Element/Dialogue/Export/Italic:False
+Element/Dialogue/Export/Underlined:False
+Element/Parenthetical/BeforeSpacing:0
+Element/Parenthetical/IntraSpacing:0
+Element/Parenthetical/Indent:16
+Element/Parenthetical/Width:25
+Element/Parenthetical/Screen/AllCaps:False
+Element/Parenthetical/Screen/Bold:False
+Element/Parenthetical/Screen/Italic:False
+Element/Parenthetical/Screen/Underlined:False
+Element/Parenthetical/Export/AllCaps:False
+Element/Parenthetical/Export/Bold:False
+Element/Parenthetical/Export/Italic:False
+Element/Parenthetical/Export/Underlined:False
+Element/Transition/BeforeSpacing:10
+Element/Transition/IntraSpacing:0
+Element/Transition/Indent:45
+Element/Transition/Width:20
+Element/Transition/Screen/AllCaps:True
+Element/Transition/Screen/Bold:False
+Element/Transition/Screen/Italic:False
+Element/Transition/Screen/Underlined:False
+Element/Transition/Export/AllCaps:True
+Element/Transition/Export/Bold:False
+Element/Transition/Export/Italic:False
+Element/Transition/Export/Underlined:False
+Element/Shot/BeforeSpacing:10
+Element/Shot/IntraSpacing:0
+Element/Shot/Indent:0
+Element/Shot/Width:60
+Element/Shot/Screen/AllCaps:True
+Element/Shot/Screen/Bold:False
+Element/Shot/Screen/Italic:False
+Element/Shot/Screen/Underlined:False
+Element/Shot/Export/AllCaps:True
+Element/Shot/Export/Bold:False
+Element/Shot/Export/Italic:False
+Element/Shot/Export/Underlined:False
+Element/Note/BeforeSpacing:10
+Element/Note/IntraSpacing:0
+Element/Note/Indent:5
+Element/Note/Width:55
+Element/Note/Screen/AllCaps:False
+Element/Note/Screen/Bold:False
+Element/Note/Screen/Italic:True
+Element/Note/Screen/Underlined:False
+Element/Note/Export/AllCaps:False
+Element/Note/Export/Bold:False
+Element/Note/Export/Italic:True
+Element/Note/Export/Underlined:False
+Element/Act break/BeforeSpacing:10
+Element/Act break/IntraSpacing:0
+Element/Act break/Indent:25
+Element/Act break/Width:10
+Element/Act break/Screen/AllCaps:True
+Element/Act break/Screen/Bold:True
+Element/Act break/Screen/Italic:False
+Element/Act break/Screen/Underlined:True
+Element/Act break/Export/AllCaps:True
+Element/Act break/Export/Bold:False
+Element/Act break/Export/Italic:False
+Element/Act break/Export/Underlined:True
+Font/Bold-Italic/Name:
+Font/Bold-Italic/Filename:
+Font/Bold/Name:
+Font/Bold/Filename:
+Font/Italic/Name:
+Font/Italic/Filename:
+Font/Normal/Name:
+Font/Normal/Filename:
+#End-Config 
+#Begin-Locations 
+Locations:0
+#End-Locations 
+#Begin-Spell-Checker-Dict 
+Words:0
+#End-Spell-Checker-Dict 
+#Title-String 0.000000,105.000000,12,cb,Courier,,CHOKER VIDEO
+#Title-String 0.000000,120.460000,12,c,Courier,,by\n\nJason Rohrer
+#Title-String 15.000000,248.460000,12,,Courier,,530-756-4491\njasonrohrer@fastmail.fm
+#Header-String 1,0,r,,${PAGE}.
+#Header-Empty-Lines 1
+#Start-Script 
+.\BLACK Screen
+._Jason (v.o.)
+.:Hi.  This is Jason Rohrer.  
+./FADE TO:
+.\TITLE CARD
+..Jason Rohrer
+..Independed Game Designer
+._JASON (V.O.)
+>:I'm an independent game designer,
+>:and over the past 15 years, I've
+>:designed, programmed, and released
+.:ninteen video games.
+.((beat)
+>:This brief video will show you how
+>:to play my new chess-poker hybrid
+.:game--
+.((dramatic pause)
+.:Choker.
+./Fade to:
+.\TITLE CARD
+..CHOKER
+._JASON (V.O.)
+>:My goal with this project was to
+>:design the simplest possible game
+>:that involved all aspects of both
+>:chess and poker.  I wanted a game
+>:where players' existing chess and
+>:poker skills were valuable in equal
+>:measure, and I didn't want to pile
+>:on a bunch of additional rules and
+>:systems.  Is a truly elegant
+>:chess-poker hybrid possible?  I
+.:think I've discovered one.
+./Cut to:
+.\Int. Home office
+>.The camera peers down from a fixed angle at a blonde
+..hardwoood floor.
+._JASON (V.O.)
+>:To play Choker, you need a standard
+>:chess board, set up in the usual
+.:way.
+..A chess board sets itself up in stop-motion fashion.
+._JASON (V.O.)
+>:You also need a standard deck of 52
+.:cards.
+..The deck pops into view next to the board.
+._JASON (V.O.)
+>:All standard chess rules apply, and
+>:players take turns making moves as
+.:they usually do.
+..The board starts playing itself, stop-motion style.  
+._JASON (V.O.)
+>:The only special rule in the game
+.:comes into play during a capture.
+..A capture happens, black Knight to d4.
+._JASON (V.O.)
+>:The two involved pieces remain on
+>:the board, and the capturing piece
+>:serves as the big blind for a
+>:standard hand of Texas Hold'em. 
+>:The owner of the captured piece has
+.:the Dealer button--
+..A DEALER button pops into view on White's side of the board.
+._JASON (V.O.)
+>:Each player is dealt two hole
+.:cards.
+..Two cards each appear.  
+._JASON (V.O.)
+>:Action is on the DEALER, who may
+>:now fold, call, or raise.  If the
+>:Dealer folds, the capture takes
+>:place as it would in a normal chess
+>:game, and play continues from
+.:there.
+..Show capture happen.
+._JASON (V.O.)
+>:That's an interesting property of
+>:this design.  Every ordinary chess
+>:game is actually a special case of
+>:a Choker game---a Choker game where
+.:both players always fold.
+..Captured piece jumps back.
+._JASON (V.O.)
+>:But things get more interesting if
+>:the Dealer decides to call or raise
+>:in response to this capture. 
+>:Calling requires that the dealer
+>:lay down one of their own pieces
+>:that matches the value of the
+>:capturing piece---in other words,
+.:they must match the big blind.
+..White lays down a knight at b1.
+._JASON (V.O.)
+>:In this case, White would have to
+>:lay down one of its knights to
+>:call.  But White doesn't have to
+>:stop there.  Let's take a look at
+.:White's hand.
+..White's cards flip to reveal King Jack.
+._JASON (V.O.)
+>:That's a strong Heads-Up hand. 
+>:White is likely ahead of Black's
+>:limping call.  White can raise by
+>:laying down any number of
+>:additional pieces.  Let's say white
+>:calls the knight and raises two
+.:more pawns.
+..White lays down two additonal pawns at a2 and h2
+._JASON (V.O.)
+>:Now the action is back on the
+>:Dealer, who can fold, call, or
+>:raise again.  Let's say the dealer
+.:calls.
+..Black lays down two more pawns at g7 and h7.
+._JASON (V.O.)
+>:So now the pot is good, and we're
+.:ready to see the flop.
+..Flop comes out Q87 suited.
+._JASON (V.O.)
+>:This is not a great flop for White,
+>:and White is first to act.  White
+>:can bet, by laying down additional
+>:pieces, or check.  Let's say White
+>:checks here from out of position,
+>:hoping to check raise a likely
+>:continuation bet from Black.  The
+>:action passes to Black, and Black
+>:can now check, or bet by laying
+>:down additional pieces.  Suppose
+>:black makes a weak continuation
+.:bet.
+..Black lays down a pawn at a7.
+._JASON (V.O.)
+>:Action now passes back to White,
+>:who can fold, call, or raise.  To
+>:call, White would have to lay down
+>:another pawn.  It's a pretty weak
+>:continuation bet, and maybe White
+>:smells a trap.  Let's say White
+>:loses their nerve to check-raise,
+>:and folds instead.  What happens
+>:then?  Well, the pot goes to Black,
+>:which means that all of White's
+>:pieces that were in the pot are
+>:taken off the board, including the
+>:target pawn from the original
+.:capture.
+>.The board jumps to a configuration with those pieces
+..removed.
+._JASON (V.O.)
+>:Suppose that Black foolishly
+.:flashes their cards before mucking.
+..Black's cards flip to reveal Q7.
+._JASON (V.O.)
+>:White had a good read throught the
+>:hand, and cut their losses
+>:substantially. If White han't
+>:folded, the players would be able
+>:to place additional bets on
+>:additional poker streets, and
+>:eventually reach showdown.  Let's
+>:rewind time and see what would have
+.:happened.
+..Board jumps back returning pieces.
+._JASON (V.O.)
+>:Suppose that White hits a monster
+>:by the river, but was tying to trap
+>:with checks from out of position,
+>:and Black didn't take the bait, so
+>:no more pieces were committed by
+>:showdown.  White would win, meaning
+>:that all of black's committed
+>:pieces, including the original
+>:capturing Knight, are removed from
+.:the board.
+..Pieces are removed from the board again.
+._JASON (V.O.)
+>:That's right, the target pawn from
+>:Black's original capture survives
+>:the capture, and the Knight is
+>:removed instead.  So that's the
+>:essential design of Choker.  We
+>:resolve captures by playing a poker
+>:hand, and betting with additional
+.:pieces from the board.
+..Diagram showing capturing piece as big blind.
+._JASON (V.O.)
+>:All you have to remember is that
+>:the capturing piece is the big
+>:blind---a bet that you're making
+>:before you even get see your cards. 
+>:It makes sense that, in order to
+>:reverse the outcome of this
+>:otherwise natural capture, the
+>:defending player would need to put
+.:an equal value piece on the line.
+..Diagram showing matching piece laid down.
+._JASON (V.O.)
+>:You can also remember that value of
+>:the target piece in the capture is
+.:irrelevant to the call--
+..Diagram showing an X over the captured piece.
+._JASON (V.O.)
+>:--in an ordinary chess game, it
+>:would be dead and buried already. 
+>:So that's it for the core design. 
+>:But I still need to explain a few
+.:special cases.
+>.Board jumps to a different configuration, where a king is
+..about to capture.
+._JASON (V.O.)
+>:First, a King makes for a very poor
+>:blind bet.  Thus, whenever a King
+>:captures a piece, the capture
+>:happens normally, and is not
+.:resolved by a poker hand.
+..The piece the King is attacking is removed.
+._JASON (V.O.)
+>:Otherwise, that one hand alone
+>:would end the game---if the small
+.:blind were to call with their King.
+>.The board jumps back to the capture, and both players lay
+..down their kings  
+._JASON (V.O.)
+>:Second, Kings cannot ever be part
+.:of a bet or a raise.
+>.The board jumps to a new position, the same one from earlier
+..with the knight capture, and White lays down their king.
+._JASON (V.O.)
+>:The only way to win a Choker game
+>:is through checkmate.  You can't
+>:win the opponent's king in a poker
+>:hand.  Any other piece, however,
+.:can be bet.
+>.The board now jumps to a new position, Move 29 from the 1834
+..beautiful game.
+._JASON (V.O.)
+>:Finally, what happens if you need
+>:to call a bet, but you don't have
+>:the matching pieces?  In this case,
+>:the big blind is Black's Bishop,
+>:but White doesn't have a Bishop to
+.:call with.
+..Board jumps to this state.
+._JASON (V.O.)
+>:If you're in this situation, you
+>:can call the bet by laying down a
+>:piece of the next lower value.  So
+>:Black doesn't have to lay down a
+>:Rook, but instead can lay down a
+.:Pawn.
+..Pawn lays down.
+._JASON (V.O.)
+>:What about a case where you have no
+>:lower-value pieces?  How can you
+.:call then?
+>.Board jumps to another situation, where a missing bishop is
+..needed to call, but white has no pawns.
+._JASON (V.O.)
+>:In that situaton, to call a bet,
+>:you must lay down a higher-value
+>:piece of your choice.  In this
+>:case, if White wants to call
+>:instead of folding, they must use a
+.:a Rook or a Queen.
+..The White Rook lays down.
+._JASON (V.O.)
+.:
