@@ -39,8 +39,8 @@ RemoveNotes:False
 OutlineNotes:True
 ShowMargins:False
 ShowLineNumbers:False
-Cursor/Line:256
-Cursor/Column:20
+Cursor/Line:173
+Cursor/Column:8
 String/MoreDialogue:(MORE)
 String/ContinuedPageEnd:(CONTINUED)
 String/ContinuedPageStart:CONTINUED:
@@ -341,12 +341,13 @@ Words:0
 .:committed until the river.
 ..Turn and River come Q-10.
 ._JASON (V.O.)
->:Suppose White bets a Rook--a
-.:substantial bet--and Black calls.
+>:Suppose White bets a Rook on the
+>:river--a substantial bet--and Black
+.:calls.
 ..White lays down rook, and then black lays down a rook too.
 ._JASON (V.O.)
 >:White wins the hand, meaning that
->:all of black's committed pieces,
+>:all of Black's committed pieces,
 >:including the original capturing
 .:Knight, are removed from the board.
 ..Pieces are removed from the board again.
