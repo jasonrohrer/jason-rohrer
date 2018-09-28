@@ -39,8 +39,8 @@ RemoveNotes:False
 OutlineNotes:True
 ShowMargins:False
 ShowLineNumbers:False
-Cursor/Line:264
-Cursor/Column:0
+Cursor/Line:205
+Cursor/Column:28
 String/MoreDialogue:(MORE)
 String/ContinuedPageEnd:(CONTINUED)
 String/ContinuedPageStart:CONTINUED:
@@ -379,7 +379,7 @@ Words:0
 ._JASON (V.O.)
 >:You can also remember that value of
 >:the target piece in the capture is
-.:irrelevant to the blinds.
+.:irrelevant to the blind size.
 ..Diagram showing an X over the captured piece.
 ._JASON (V.O.)
 >:In an ordinary chess game, it would
