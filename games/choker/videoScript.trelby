@@ -39,8 +39,8 @@ RemoveNotes:False
 OutlineNotes:True
 ShowMargins:False
 ShowLineNumbers:False
-Cursor/Line:205
-Cursor/Column:28
+Cursor/Line:150
+Cursor/Column:17
 String/MoreDialogue:(MORE)
 String/ContinuedPageEnd:(CONTINUED)
 String/ContinuedPageStart:CONTINUED:
@@ -243,7 +243,7 @@ Words:0
 ..A DEALER button pops into view on White's side of the board.
 ._JASON (V.O.)
 >:The deck is shuffled, and each
-.:player is dealt two hole cards.
+.:player is dealt two cards.
 ..Two cards each appear.  
 ._JASON (V.O.)
 >:Action is on the DEALER, who may
@@ -254,7 +254,7 @@ Words:0
 .:there.
 ..Show capture happen.
 ._JASON (V.O.)
->:That's an interesting property of
+>:And that's an interesting aspect of
 >:this design.  Every ordinary chess
 >:game is actually a special case of
 >:a Choker game---a Choker game where
@@ -300,7 +300,7 @@ Words:0
 >:but Black is first to act.  Black
 >:can bet, by laying down additional
 >:pieces, or check.  Let's say Black
->:makes an small out-of-position bet
+>:makes a small out-of-position bet
 .:here.
 ..Black lays down a pawn at a7.
 ._JASON (V.O.)
@@ -309,15 +309,14 @@ Words:0
 >:call, White would have to lay down
 >:another pawn.  It's a pretty weak
 >:bet, and maybe White smells a trap. 
->:Let's say White loses their nerve
->:to raise, and folds instead.  What
->:happens then?  Well, White loses
->:the hand, and the pot goes to
->:Black, which means that all of
->:White's pieces that were in the pot
->:are taken off the board, including
->:the target pawn from the original
-.:capture.
+>:Let's say White loses their nerve,
+>:and folds instead.  What happens
+>:then?  Well, White loses the hand,
+>:and the pot goes to Black, which
+>:means that all of White's pieces
+>:that were in the pot are taken off
+>:the board, including the target
+.:pawn from the original capture.
 >.The board jumps to a configuration with those pieces
 ..removed.
 ._JASON (V.O.)
@@ -325,11 +324,11 @@ Words:0
 .:flashes their cards before mucking.
 ..Black's cards flip to reveal A7.
 ._JASON (V.O.)
->:Aha.  White made a good read, and
->:cut their losses substantially
->:here. If White han't folded,
->:though, the players would be able
->:to place additional bets on
+>:You can see that White made a good
+>:read here, and cut their losses
+>:substantially. If White han't
+>:folded, though, the players would
+>:be able to place additional bets on
 >:additional poker streets, and
 >:eventually reach showdown.  Let's
 >:rewind time and see what would have
@@ -347,10 +346,11 @@ Words:0
 .:substantial bet--and Black calls.
 ..White lays down rook, and then black lays down a rook too.
 ._JASON (V.O.)
->:White wins the hand, meaning that
->:all of Black's committed pieces,
->:including the original capturing
-.:Knight, are removed from the board.
+>:White wins the showdown, meaning
+>:that all of Black's committed
+>:pieces, including the original
+>:capturing Knight, are removed from
+.:the board.
 ..Pieces are removed from the board again.
 ._JASON (V.O.)
 >:That's right, the target pawn from
@@ -368,23 +368,23 @@ Words:0
 >:All you have to remember is that
 >:the capturing piece is the big
 >:blind---a bet that you're making
->:before you even get see your cards. 
->:It makes sense that, in order to
->:reverse the outcome of this
->:otherwise natural chess capture,
->:the defending player would need to
->:put a piece of equal value on the
-.:line.
+>:before you even get see your own
+>:cards.  It makes sense that, in
+>:order to reverse the outcome of
+>:this otherwise natural chess
+>:capture, the defending player would
+>:need to put a piece of equal value
+.:on the line.
 ..Diagram showing matching piece laid down.
 ._JASON (V.O.)
 >:You can also remember that value of
 >:the target piece in the capture is
-.:irrelevant to the blind size.
+>:irrelevant to the blind size,
+>:because in an ordinary chess game,
+>:it would be dead and buried
+.:already.
 ..Diagram showing an X over the captured piece.
 ._JASON (V.O.)
->:In an ordinary chess game, it would
-.:be dead and buried already.
-.((beat)
 >:So that's it for the core
 >:design---it's pretty simple.  But I
 >:still need to explain one special
@@ -418,8 +418,8 @@ Words:0
 >:you must lay down a higher-value
 >:piece of your choice.  In this
 >:case, if White wants to call
->:instead of folding, they must use a
-.:a Rook or a Queen.
+>:instead of folding, they must lay
+.:down a Rook or a Queen.
 ..The White Rook lays down.
 ._JASON (V.O.)
 >:I said before that Choker becomes a
@@ -439,7 +439,9 @@ Words:0
 >:the game equal attention will win
 .:in the long run.
 .((beat)
-.:Thanks for watching.
+>:That's everything you need to know
+>:about my new game Choker.  Thanks
+.:for watching.
 ./CUT TO:
 .\TITLE CARD
 ..CHOKER
