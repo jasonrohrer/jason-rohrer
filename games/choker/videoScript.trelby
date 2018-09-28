@@ -39,8 +39,8 @@ RemoveNotes:False
 OutlineNotes:True
 ShowMargins:False
 ShowLineNumbers:False
-Cursor/Line:263
-Cursor/Column:18
+Cursor/Line:229
+Cursor/Column:16
 String/MoreDialogue:(MORE)
 String/ContinuedPageEnd:(CONTINUED)
 String/ContinuedPageStart:CONTINUED:
@@ -184,8 +184,8 @@ Words:0
 ._JASON (V.O.)
 >:I'm an independent game designer,
 >:and over the past 15 years, I've
->:designed, programmed, and released
-.:ninteen video games.
+>:designed and programmed ninteen
+.:games.
 .((beat)
 >:This brief video will show you how
 >:to play my new chess-poker hybrid
@@ -232,10 +232,13 @@ Words:0
 ._JASON (V.O.)
 >:The two involved pieces remain on
 >:the board, and the capturing piece
->:serves as the big blind for a
->:standard hand of Texas Hold'em. 
->:The owner of the captured piece has
-.:the Dealer button--
+>:lays down to serves as the big
+>:blind for a standard hand of Texas
+.:Hold'em.
+..The black Knight lays down.
+._JASON (V.O.)
+>:The owner of the target piece has
+.:the Dealer button.
 ..A DEALER button pops into view on White's side of the board.
 ._JASON (V.O.)
 >:Each player is dealt two hole
@@ -261,7 +264,7 @@ Words:0
 >:the Dealer decides to call or raise
 >:in response to this capture. 
 >:Calling requires that the dealer
->:lay down one of their own pieces
+>:lays down one of their own pieces
 >:that matches the value of the
 >:capturing piece---in other words,
 .:they must match the big blind.
@@ -275,12 +278,11 @@ Words:0
 ..White's cards flip to reveal King Jack.
 ._JASON (V.O.)
 >:That's a strong Heads-Up hand. 
->:White is likely ahead of Black's
->:limping call.  White can raise by
->:laying down any number of
->:additional pieces.  Let's say white
->:calls the knight and raises two
-.:more pawns.
+>:White is likely ahead of Black. 
+>:White can raise by laying down any
+>:number of additional pieces.  Let's
+>:say white calls the knight and
+.:raises two more pawns.
 ..White lays down two additonal pawns at a2 and h2
 ._JASON (V.O.)
 >:Now the action is back on the
@@ -291,7 +293,7 @@ Words:0
 ._JASON (V.O.)
 >:So now the pot is good, and we're
 .:ready to see the flop.
-..Flop comes out Q87 suited.
+..Flop comes out A87 suited.
 ._JASON (V.O.)
 >:This is not a great flop for White,
 >:and White is first to act.  White
@@ -315,40 +317,42 @@ Words:0
 >:smells a trap.  Let's say White
 >:loses their nerve to check-raise,
 >:and folds instead.  What happens
->:then?  Well, the pot goes to Black,
->:which means that all of White's
->:pieces that were in the pot are
->:taken off the board, including the
->:target pawn from the original
-.:capture.
+>:then?  Well, White loses the hand,
+>:and the pot goes to Black, which
+>:means that all of White's pieces
+>:that were in the pot are taken off
+>:the board, including the target
+.:pawn from the original capture.
 >.The board jumps to a configuration with those pieces
 ..removed.
 ._JASON (V.O.)
 >:Suppose that Black foolishly
 .:flashes their cards before mucking.
-..Black's cards flip to reveal Q7.
+..Black's cards flip to reveal A7.
 ._JASON (V.O.)
 >:White had a good read throught the
 >:hand, and cut their losses
 >:substantially. If White han't
->:folded, the players would be able
->:to place additional bets on
+>:folded, though, the players would
+>:be able to place additional bets on
 >:additional poker streets, and
 >:eventually reach showdown.  Let's
 >:rewind time and see what would have
 .:happened.
 ..Board jumps back returning pieces.
 ._JASON (V.O.)
->:Suppose that White hits a monster
->:by the river, but was tying to trap
+>:Suppose that White hit a monster by
+>:the river, but was tying to trap
 >:with checks from out of position,
->:and Black didn't take the bait, so
+>:but Black didn't take the bait, so
 >:no more pieces were committed by
->:showdown.  White would win, meaning
->:that all of black's committed
->:pieces, including the original
->:capturing Knight, are removed from
-.:the board.
+.:showdown.
+..Turn and River come Q-10.
+._JASON (V.O.)
+>:White would win, meaning that all
+>:of black's committed pieces,
+>:including the original capturing
+.:Knight, are removed from the board.
 ..Pieces are removed from the board again.
 ._JASON (V.O.)
 >:That's right, the target pawn from
@@ -367,21 +371,24 @@ Words:0
 >:before you even get see your cards. 
 >:It makes sense that, in order to
 >:reverse the outcome of this
->:otherwise natural capture, the
->:defending player would need to put
-.:an equal value piece on the line.
+>:otherwise natural chess capture,
+>:the defending player would need to
+>:put a piece of equal value on the
+.:line.
 ..Diagram showing matching piece laid down.
 ._JASON (V.O.)
 >:You can also remember that value of
 >:the target piece in the capture is
-.:irrelevant to the call--
+.:irrelevant to the call.
 ..Diagram showing an X over the captured piece.
 ._JASON (V.O.)
->:--in an ordinary chess game, it
->:would be dead and buried already. 
->:So that's it for the core design. 
->:But I still need to explain a few
-.:special cases.
+>:In an ordinary chess game, it would
+.:be dead and buried already.
+.((beat)
+>:So that's it for the core
+>:design---it's pretty simple.  But I
+>:still need to explain a few special
+.:cases.
 >.Board jumps to a different configuration, where a king is
 ..about to capture.
 ._JASON (V.O.)
@@ -398,16 +405,16 @@ Words:0
 >.The board jumps back to the capture, and both players lay
 ..down their kings  
 ._JASON (V.O.)
->:Second, Kings cannot ever be part
-.:of a bet or a raise.
+>:Second, Kings can never be part of
+.:a bet or a raise.
 >.The board jumps to a new position, the same one from earlier
 ..with the knight capture, and White lays down their king.
 ._JASON (V.O.)
 >:The only way to win a Choker game
 >:is through checkmate.  You can't
 >:win the opponent's king in a poker
->:hand.  Any other piece, however,
-.:can be bet.
+>:hand to win the game.  Any other
+.:piece can be part of a bet, though.
 >.The board now jumps to a new position, Move 29 from the 1834
 ..beautiful game.
 ._JASON (V.O.)
@@ -441,4 +448,26 @@ Words:0
 .:a Rook or a Queen.
 ..The White Rook lays down.
 ._JASON (V.O.)
-.:
+>:I said before that Choker becomes a
+>:normal chess game, if both players
+>:always fold in response to a
+>:capture.  A highly skilled chess
+>:player might be tempted to play
+>:that way.  However, that strategy
+>:is dominated by a player who raises
+>:in good spots from the small blind
+>:in response to a capture attempt,
+>:thus leveraging good poker
+>:situations to capture even more of
+>:their opponent's pieces than they
+>:otherwise would.  As a result, only
+>:players who give both aspects of
+>:the game equal attention will win
+.:in the long run.
+.((beat)
+.:Thanks for watching.
+./CUT TO:
+.\TITLE CARD
+..CHOKER
+..(AKA Texas Choke 'Em)
+.(
