@@ -39,8 +39,8 @@ RemoveNotes:False
 OutlineNotes:True
 ShowMargins:False
 ShowLineNumbers:False
-Cursor/Line:169
-Cursor/Column:25
+Cursor/Line:264
+Cursor/Column:0
 String/MoreDialogue:(MORE)
 String/ContinuedPageEnd:(CONTINUED)
 String/ContinuedPageStart:CONTINUED:
@@ -206,8 +206,8 @@ Words:0
 >:on a bunch of additional rules and
 >:systems for people to learn.  Is a
 >:truly elegant chess-poker hybrid
->:possible?  I think I've discovered
-.:one.
+>:possible?  I think that I've
+.:discovered one.
 ./Cut to:
 .\Int. Home office
 >.The camera peers down from a fixed angle at a blonde
@@ -264,7 +264,7 @@ Words:0
 >:But things get more interesting if
 >:the Dealer decides to call or raise
 >:in response to this capture. 
->:Calling requires that the dealer
+>:Calling requires that the Dealer
 >:lays down one of their own pieces
 >:that matches the value of the
 >:capturing piece---in other words,
@@ -279,7 +279,7 @@ Words:0
 ..White's cards flip to reveal King Jack.
 ._JASON (V.O.)
 >:That's a strong Heads-Up hand. 
->:White is likely ahead of Black. 
+>:White is likely ahead of Black, and 
 >:White can raise by laying down any
 >:number of additional pieces.  Let's
 >:say white calls the knight and
@@ -340,10 +340,10 @@ Words:0
 >:the river, but Black was tying to
 >:trap with checks from out of
 >:position, so no more pieces were
-.:committed until the river---
+.:committed until the river.
 ..Turn and River come Q-10.
 ._JASON (V.O.)
->:---when White bets a Rook--a
+>:Let's say that White bets a Rook--a
 .:substantial bet--and Black calls.
 ..White lays down rook, and then black lays down a rook too.
 ._JASON (V.O.)
@@ -379,7 +379,7 @@ Words:0
 ._JASON (V.O.)
 >:You can also remember that value of
 >:the target piece in the capture is
-.:irrelevant to the call.
+.:irrelevant to the blinds.
 ..Diagram showing an X over the captured piece.
 ._JASON (V.O.)
 >:In an ordinary chess game, it would
