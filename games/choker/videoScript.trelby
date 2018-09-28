@@ -39,8 +39,8 @@ RemoveNotes:False
 OutlineNotes:True
 ShowMargins:False
 ShowLineNumbers:False
-Cursor/Line:229
-Cursor/Column:16
+Cursor/Line:256
+Cursor/Column:20
 String/MoreDialogue:(MORE)
 String/ContinuedPageEnd:(CONTINUED)
 String/ContinuedPageStart:CONTINUED:
@@ -237,7 +237,7 @@ Words:0
 .:Hold'em.
 ..The black Knight lays down.
 ._JASON (V.O.)
->:The owner of the target piece has
+>:The owner of the target piece gets
 .:the Dealer button.
 ..A DEALER button pops into view on White's side of the board.
 ._JASON (V.O.)
@@ -296,33 +296,27 @@ Words:0
 ..Flop comes out A87 suited.
 ._JASON (V.O.)
 >:This is not a great flop for White,
->:and White is first to act.  White
+>:but Black is first to act.  Black
 >:can bet, by laying down additional
->:pieces, or check.  Let's say White
->:checks here from out of position,
->:hoping to check raise a likely
->:continuation bet from Black.  The
->:action passes to Black, and Black
->:can now check, or bet by laying
->:down additional pieces.  Suppose
->:black makes a weak continuation
-.:bet.
+>:pieces, or check.  Let's say Black
+>:makes an small out-of-position bet
+.:here.
 ..Black lays down a pawn at a7.
 ._JASON (V.O.)
 >:Action now passes back to White,
 >:who can fold, call, or raise.  To
 >:call, White would have to lay down
 >:another pawn.  It's a pretty weak
->:continuation bet, and maybe White
->:smells a trap.  Let's say White
->:loses their nerve to check-raise,
->:and folds instead.  What happens
->:then?  Well, White loses the hand,
->:and the pot goes to Black, which
->:means that all of White's pieces
->:that were in the pot are taken off
->:the board, including the target
-.:pawn from the original capture.
+>:bet, and maybe White smells a trap. 
+>:Let's say White loses their nerve
+>:to raise, and folds instead.  What
+>:happens then?  Well, White loses
+>:the hand, and the pot goes to
+>:Black, which means that all of
+>:White's pieces that were in the pot
+>:are taken off the board, including
+>:the target pawn from the original
+.:capture.
 >.The board jumps to a configuration with those pieces
 ..removed.
 ._JASON (V.O.)
@@ -330,27 +324,29 @@ Words:0
 .:flashes their cards before mucking.
 ..Black's cards flip to reveal A7.
 ._JASON (V.O.)
->:White had a good read throught the
->:hand, and cut their losses
->:substantially. If White han't
->:folded, though, the players would
->:be able to place additional bets on
->:additional poker streets, and
->:eventually reach showdown.  Let's
->:rewind time and see what would have
-.:happened.
+>:White made a good read, and cut
+>:their losses substantially. If
+>:White han't folded, though, the
+>:players would be able to place
+>:additional bets on additional poker
+>:streets, and eventually reach
+>:showdown.  Let's rewind time and
+.:see what would have happened.
 ..Board jumps back returning pieces.
 ._JASON (V.O.)
 >:Suppose that White hit a monster by
->:the river, but was tying to trap
->:with checks from out of position,
->:but Black didn't take the bait, so
->:no more pieces were committed by
-.:showdown.
+>:the river, but Black was tying to
+>:trap with checks from out of
+>:position, so no more pieces were
+.:committed until the river.
 ..Turn and River come Q-10.
 ._JASON (V.O.)
->:White would win, meaning that all
->:of black's committed pieces,
+>:Suppose White bets a Rook--a
+.:substantial bet--and Black calls.
+..White lays down rook, and then black lays down a rook too.
+._JASON (V.O.)
+>:White wins the hand, meaning that
+>:all of black's committed pieces,
 >:including the original capturing
 .:Knight, are removed from the board.
 ..Pieces are removed from the board again.
@@ -358,11 +354,13 @@ Words:0
 >:That's right, the target pawn from
 >:Black's original capture survives
 >:the capture, and the Knight is
->:removed instead.  So that's the
->:essential design of Choker.  We
->:resolve captures by playing a poker
->:hand, and betting with additional
-.:pieces from the board.
+.:removed instead.  
+.((beat)
+>:So that's the essential design of
+>:Choker.  We resolve captures by
+>:playing a poker hand, and betting
+>:with additional pieces from the
+.:board.
 ..Diagram showing capturing piece as big blind.
 ._JASON (V.O.)
 >:All you have to remember is that
@@ -387,51 +385,25 @@ Words:0
 .((beat)
 >:So that's it for the core
 >:design---it's pretty simple.  But I
->:still need to explain a few special
-.:cases.
->.Board jumps to a different configuration, where a king is
-..about to capture.
-._JASON (V.O.)
->:First, a King makes for a very poor
->:blind bet.  Thus, whenever a King
->:captures a piece, the capture
->:happens normally, and is not
-.:resolved by a poker hand.
-..The piece the King is attacking is removed.
-._JASON (V.O.)
->:Otherwise, that one hand alone
->:would end the game---if the small
-.:blind were to call with their King.
->.The board jumps back to the capture, and both players lay
-..down their kings  
-._JASON (V.O.)
->:Second, Kings can never be part of
-.:a bet or a raise.
->.The board jumps to a new position, the same one from earlier
-..with the knight capture, and White lays down their king.
-._JASON (V.O.)
->:The only way to win a Choker game
->:is through checkmate.  You can't
->:win the opponent's king in a poker
->:hand to win the game.  Any other
-.:piece can be part of a bet, though.
+>:still need to explain one special
+.:case.
 >.The board now jumps to a new position, Move 29 from the 1834
 ..beautiful game.
 ._JASON (V.O.)
->:Finally, what happens if you need
->:to call a bet, but you don't have
->:the matching pieces?  In this case,
->:the big blind is Black's Bishop,
->:but White doesn't have a Bishop to
-.:call with.
-..Board jumps to this state.
+>:What happens if you need to call a
+>:bet, but you don't have the
+>:matching pieces?  In this case, the
+>:big blind is Black's Bishop, but
+>:White doesn't have a Bishop to call
+.:with.
+..Board jumps to this state, black Bishop lays down.
 ._JASON (V.O.)
 >:If you're in this situation, you
 >:can call the bet by laying down a
->:piece of the next lower value.  So
->:Black doesn't have to lay down a
->:Rook, but instead can lay down a
-.:Pawn.
+>:piece of the next available lower
+>:value.  So Black doesn't have to
+>:lay down a Rook, but instead can
+.:lay down a Pawn.
 ..Pawn lays down.
 ._JASON (V.O.)
 >:What about a case where you have no
@@ -456,9 +428,9 @@ Words:0
 >:that way.  However, that strategy
 >:is dominated by a player who raises
 >:in good spots from the small blind
->:in response to a capture attempt,
+>:in response to capture attempts,
 >:thus leveraging good poker
->:situations to capture even more of
+>:situations to remove even more of
 >:their opponent's pieces than they
 >:otherwise would.  As a result, only
 >:players who give both aspects of
