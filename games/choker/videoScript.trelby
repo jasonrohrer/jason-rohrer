@@ -39,8 +39,8 @@ RemoveNotes:False
 OutlineNotes:True
 ShowMargins:False
 ShowLineNumbers:False
-Cursor/Line:173
-Cursor/Column:8
+Cursor/Line:169
+Cursor/Column:25
 String/MoreDialogue:(MORE)
 String/ContinuedPageEnd:(CONTINUED)
 String/ContinuedPageStart:CONTINUED:
@@ -204,9 +204,10 @@ Words:0
 >:poker skills were valuable in equal
 >:measure, and I didn't want to pile
 >:on a bunch of additional rules and
->:systems.  Is a truly elegant
->:chess-poker hybrid possible?  I
-.:think I've discovered one.
+>:systems for people to learn.  Is a
+>:truly elegant chess-poker hybrid
+>:possible?  I think I've discovered
+.:one.
 ./Cut to:
 .\Int. Home office
 >.The camera peers down from a fixed angle at a blonde
@@ -226,8 +227,8 @@ Words:0
 .:they usually do.
 ..The board starts playing itself, stop-motion style.  
 ._JASON (V.O.)
->:The only special rule in the game
-.:comes into play during a capture.
+>:The only special rule comes into
+.:play during a capture.
 ..A capture happens, black Knight to d4.
 ._JASON (V.O.)
 >:The two involved pieces remain on
@@ -241,8 +242,8 @@ Words:0
 .:the Dealer button.
 ..A DEALER button pops into view on White's side of the board.
 ._JASON (V.O.)
->:Each player is dealt two hole
-.:cards.
+>:The deck is shuffled, and each
+.:player is dealt two hole cards.
 ..Two cards each appear.  
 ._JASON (V.O.)
 >:Action is on the DEALER, who may
@@ -324,26 +325,26 @@ Words:0
 .:flashes their cards before mucking.
 ..Black's cards flip to reveal A7.
 ._JASON (V.O.)
->:White made a good read, and cut
->:their losses substantially. If
->:White han't folded, though, the
->:players would be able to place
->:additional bets on additional poker
->:streets, and eventually reach
->:showdown.  Let's rewind time and
-.:see what would have happened.
+>:Aha.  White made a good read, and
+>:cut their losses substantially
+>:here. If White han't folded,
+>:though, the players would be able
+>:to place additional bets on
+>:additional poker streets, and
+>:eventually reach showdown.  Let's
+>:rewind time and see what would have
+.:happened.
 ..Board jumps back returning pieces.
 ._JASON (V.O.)
 >:Suppose that White hit a monster by
 >:the river, but Black was tying to
 >:trap with checks from out of
 >:position, so no more pieces were
-.:committed until the river.
+.:committed until the river---
 ..Turn and River come Q-10.
 ._JASON (V.O.)
->:Suppose White bets a Rook on the
->:river--a substantial bet--and Black
-.:calls.
+>:---when White bets a Rook--a
+.:substantial bet--and Black calls.
 ..White lays down rook, and then black lays down a rook too.
 ._JASON (V.O.)
 >:White wins the hand, meaning that
@@ -359,7 +360,7 @@ Words:0
 .((beat)
 >:So that's the essential design of
 >:Choker.  We resolve captures by
->:playing a poker hand, and betting
+>:playing a poker hand, and we bet
 >:with additional pieces from the
 .:board.
 ..Diagram showing capturing piece as big blind.
