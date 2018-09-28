@@ -39,8 +39,8 @@ RemoveNotes:False
 OutlineNotes:True
 ShowMargins:False
 ShowLineNumbers:False
-Cursor/Line:150
-Cursor/Column:17
+Cursor/Line:270
+Cursor/Column:0
 String/MoreDialogue:(MORE)
 String/ContinuedPageEnd:(CONTINUED)
 String/ContinuedPageStart:CONTINUED:
@@ -446,4 +446,3 @@ Words:0
 .\TITLE CARD
 ..CHOKER
 ..(AKA Texas Choke 'Em)
-.(
