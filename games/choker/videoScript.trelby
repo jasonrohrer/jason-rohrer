@@ -39,8 +39,8 @@ RemoveNotes:False
 OutlineNotes:True
 ShowMargins:False
 ShowLineNumbers:False
-Cursor/Line:270
-Cursor/Column:0
+Cursor/Line:114
+Cursor/Column:20
 String/MoreDialogue:(MORE)
 String/ContinuedPageEnd:(CONTINUED)
 String/ContinuedPageStart:CONTINUED:
@@ -286,10 +286,9 @@ Words:0
 .:raises two more pawns.
 ..White lays down two additonal pawns at a2 and h2
 ._JASON (V.O.)
->:Now the action is back on the
->:Dealer, who can fold, call, or
->:raise again.  Let's say the dealer
-.:calls.
+>:Now the action  passes to Black,
+>:who can fold, call, or raise again. 
+.:Let's say that Black calls.
 ..Black lays down two more pawns at g7 and h7.
 ._JASON (V.O.)
 >:So now the pot is good, and we're
