@@ -1,0 +1,58 @@
+2014 vs. 2018: The Shape of Financial Success Before and After the Indiepocalypse
+
+
+
+Proposal
+
+I didn't submit anything this year because I didn't have any ideas at the time, and was in the middle of preparing for a Steam launch.
+
+Now an idea is forming.... another data-driven talk (in line with last year) about how sales patterns have changed, and how money is being made, in the new world. The post-apocalypse world. Essentially, I'm noticing that my sales graphs are shaped differently than they were four years ago. And this different shape helps to explain some of the high-profile flops of the past two years (they were games that were depending on the old graph shape to make money).
+
+But it's easy to underestimate just how many big successes there are on Steam---they're just not the successes that we are expecting or looking for. Relative to my previous games, One Hour One Life has been a "huge" success on Steam, and brought in close to an order of magnitude more money than my previous games. It currently has, at this moment, 283 concurrent players, nearly a month after launch.
+
+But here's the crazy thing.... there are 738---I repeat: SEVEN HUNDRED THIRTY EIGHT---other games with MORE concurrent players than OHOL at this very moment. This is a full 30 pages down on SteamCharts. A real backwater. A bunch of games you've never even heard of. But they are attracting large groups of players, and making lots of money, on Steam. In fact, there are 320 games with more than 1000 concurrent players. Any game with that many players (4x what OHOL has) is doing just fine, if not rolling in money. In other words, we are talking about hundreds of huge successes.
+
+Yes, that is balanced by thousands of total failures. But there's still way more success than we've ever seen before.
+
+There's also a big difference in the amount of media coverage, and the impact of that coverage, which I think is driving the change in graph shape. I'd gather a bunch of hard data on that as well.
+
+
+
+
+Description
+
+The Indiepocalypse has happened. No one is making money on Steam anymore. No wait, there are more than 300 games with more than 1000 concurrent players each. You haven't even heard of most of them. High profile flops have normalized failure. Meanwhile, we forget that more games are making more money on Steam than ever before. This talk will dig into that data, and help you figure out how NOT to waste the next four years of your life on the next high profile flop.
+
+
+
+Attendee Takeaway
+
+Learn how making and selling games has changed over the past for years, and learn what kinds of games you can make to minimize your chances of failing.
+
+
+
+Intended Audience
+
+Anyone who is skeptical about the Indieapocalypse. Anyone who isn't ready to roll over and die just yet.
+
+
+
+
+
+Public Speaking History & Web Links
+
+--GDC 2018, 3rd highest rated talk in all summits, out of 113 talks. (Don't Break the Chain, 85% Excellent)
+--Presented at GDC EGW three times over the years (r=4.89 in 2011, 77% excellent in 2013, 66% excellent in 2016)
+--Won the final GDC Game Design Challenge in 2013 with A Game for Someone (86% excellent)
+--GDC Game Design Challenge 2012 (87% excellent, included in GDC card deck)
+--Keynote at MIGS, 2011
+--Won the GDC Game Design Challenge in 2011 with Chain World (r=4.73)
+--GDC Microtalk in 2011(r=4.72)
+--Keynote at GDC Serious Games Summit, 2010
+--Spoke at GDC Indie Summit in 2009
+
+Invited speaker at MIT, Yale, Berkeley, NYU, CMU, Drexel, GATech, Hastings, Champlain, Hallmark, Clarkson, GDX, Project Horseshoe.
+
+Links:
+http://hcsoftware.sourceforge.net/jason-rohrer/
+http://onehouronelife.com/
