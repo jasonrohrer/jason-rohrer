@@ -16,3 +16,16 @@ avePerGame
 appleJob
 longTerm
 game18
+planOverview
+planTitle
+plan1
+plan2
+plan5
+plan6
+plan3
+prologueEnd
+indiepocalypse
+aztez
+scanner
+wine
+tacoma
