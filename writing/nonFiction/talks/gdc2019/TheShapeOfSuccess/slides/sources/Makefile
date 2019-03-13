@@ -1,7 +1,6 @@
 
 
 GRAPHS = \
-firstMonth.gnuplot \
 firstMonthA.gnuplot \
 firstMonthB.gnuplot \
 firstMonthC.gnuplot \
@@ -15,6 +14,8 @@ secondMonthB.gnuplot \
 secondMonthC.gnuplot \
 secondMonthD.gnuplot \
 secondMonthE.gnuplot \
+secondMonthD2.gnuplot \
+secondMonthE2.gnuplot \
 
 GRAPHS_DAT = ${GRAPHS:.gnuplot=.dat}
 GRAPHS_EPS = ${GRAPHS:.gnuplot=.eps}
