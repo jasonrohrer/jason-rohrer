@@ -1,0 +1,25 @@
+
+
+GRAPHS = \
+firstMonth.gnuplot \
+firstMonthA.gnuplot \
+firstMonthB.gnuplot \
+firstMonthC.gnuplot \
+firstMonthD.gnuplot \
+firstMonthE.gnuplot \
+firstMonthF.gnuplot \
+firstMonthG.gnuplot \
+firstMonthH.gnuplot \
+
+GRAPHS_DAT = ${GRAPHS:.gnuplot=.dat}
+GRAPHS_EPS = ${GRAPHS:.gnuplot=.eps}
+GRAPHS_PNG = ${GRAPHS:.gnuplot=.png}
+
+
+all:  ${GRAPHS_PNG}
+
+%.eps: %.gnuplot graphSetup.gnuplot
+	gnuplot $<
+
+%.png: %.eps
+	convert -density 100 $< -flatten -negate -rotate 90 $@
