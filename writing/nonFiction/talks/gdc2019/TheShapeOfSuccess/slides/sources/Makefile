@@ -10,6 +10,11 @@ firstMonthE.gnuplot \
 firstMonthF.gnuplot \
 firstMonthG.gnuplot \
 firstMonthH.gnuplot \
+secondMonthA.gnuplot \
+secondMonthB.gnuplot \
+secondMonthC.gnuplot \
+secondMonthD.gnuplot \
+secondMonthE.gnuplot \
 
 GRAPHS_DAT = ${GRAPHS:.gnuplot=.dat}
 GRAPHS_EPS = ${GRAPHS:.gnuplot=.eps}
