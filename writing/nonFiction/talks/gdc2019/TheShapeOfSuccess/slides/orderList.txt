@@ -1,18 +1,11 @@
 index
-17v19
-bigPicture
 15years
+17v19
 6years
 14games
 13games
-lastYear
-lastYear2
-avePerYear
-avePerGame
-appleJob
 longTerm
 game18
-title2
 prologueEnd
 indiepocalypse
 aztez
@@ -45,6 +38,7 @@ firstMonthE
 firstMonthF
 firstMonthG
 firstMonthH
+firstMonthI
 compareWeekA
 compareWeekB
 compareWeekC
