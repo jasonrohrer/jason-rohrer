@@ -9,6 +9,7 @@ firstMonthE.gnuplot \
 firstMonthF.gnuplot \
 firstMonthG.gnuplot \
 firstMonthH.gnuplot \
+firstMonthI.gnuplot \
 secondMonthA.gnuplot \
 secondMonthB.gnuplot \
 secondMonthC.gnuplot \
