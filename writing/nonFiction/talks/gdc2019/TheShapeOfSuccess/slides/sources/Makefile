@@ -17,6 +17,9 @@ secondMonthD.gnuplot \
 secondMonthE.gnuplot \
 secondMonthD2.gnuplot \
 secondMonthE2.gnuplot \
+witnessSubnauticaA.gnuplot \
+witnessSubnauticaB.gnuplot \
+witnessSubnauticaC.gnuplot \
 
 GRAPHS_DAT = ${GRAPHS:.gnuplot=.dat}
 GRAPHS_EPS = ${GRAPHS:.gnuplot=.eps}
