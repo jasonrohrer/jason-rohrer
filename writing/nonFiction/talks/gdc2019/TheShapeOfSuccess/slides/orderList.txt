@@ -86,6 +86,7 @@ witnessSubnauticaA2
 witnessSubnauticaB
 witnessSubnauticaC
 nonIndieHits
+ytHow
 twisted
 consumable
 generators
