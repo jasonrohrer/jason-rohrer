@@ -78,11 +78,14 @@ rust
 finch2
 rust2
 risky
+indieHits
 witness
-subnautica
 witnessSubnauticaA
+subnautica
+witnessSubnauticaA2
 witnessSubnauticaB
 witnessSubnauticaC
+nonIndieHits
 twisted
 consumable
 generators
