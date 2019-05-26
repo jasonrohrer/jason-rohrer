@@ -1,0 +1,54 @@
+\documentclass[12pt,dvipsnames]{article}
+\usepackage{fullpage,times,amssymb}
+
+\usepackage[margin=0.5in]{geometry}
+%\usepackage{tabularx}
+
+\renewcommand{\familydefault}{cmtt}
+
+\newcommand*{\logoFont}{\fontfamily{pbk}\selectfont}
+
+\usepackage{xcolor}
+
+\definecolor{orange}{RGB}{255,127,0}
+
+\pagestyle{empty}
+
+\begin{document}
+
+\colorbox{black}{\textcolor{white}{\logoFont\Huge{ARCADIA SCHOOL}}} {\logoFont DAVIS, CALIFORNIA }
+
+
+\vspace{0.5in}
+
+\begin{tabular}{l l}
+STUDENT NAME:&
+%NAME%
+\\
+GENDER:&
+%GENDER%
+\\
+DATE OF BIRTH:&
+%DOB%
+\\
+&\\
+ADDRESS:&
+%ADDR_A%
+\\
+&
+%ADDR_B%
+
+\end{tabular}
+
+\vspace{0.5in}
+
+
+\begin{tabular}{|p{1in}p{3in}p{1in}p{.5in}p{.5in}|}
+\hline
+DATE&COURSE TITLE&SUBJ&UNITS&GRADE\\
+\hline
+%COURSE_LINES%
+\hline 
+\end{tabular}
+
+\end{document}
