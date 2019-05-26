@@ -55,3 +55,5 @@ dvips transcriptWorking.dvi
 ps2pdf transcriptWorking.ps
 
 evince transcriptWorking.pdf &
+
+rm *Working*.tex *Working.log *Working.dvi *Working.aux *Working.ps
