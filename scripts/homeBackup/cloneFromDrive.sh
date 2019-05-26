@@ -1,0 +1,1 @@
+rsync -axHAX --info=progress2 --modify-window=1 /home/jasonrohrer/backups/BACKUP_A/ . 

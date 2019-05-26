@@ -1,0 +1,26 @@
+Idea:
+
+Files stored on Linux computer in:
+
+/home/jasonrohrer/backups/BACKUP_A
+
+Two USB thumb drives, BACKUP_A and BACKUP_B mounted at:
+
+/media/jasonrohrer/BACKUP_A
+/media/jasonrohrer/BACKUP_B
+
+LaCie Rugged Raid Pro mounted at:
+/media/jasonrohrer/LaCie
+
+At least one full archive copy (cp -a) of BACKUP_A in top level of LaCie drive.
+
+
+First, clone to sticks:
+cd /media/jasonrohrer/BACKUP_A
+bash cloneFromDrive.sh
+bash cloneToB.sh
+
+Then, make incremental backup to LaCie:
+
+cd ~/backups/BACKUP_A
+bash incrementalToLaCie.sh
