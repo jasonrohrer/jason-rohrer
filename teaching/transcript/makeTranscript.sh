@@ -22,16 +22,20 @@ curBlock=""
 while read p; do
 
 	if [ "$lineCount" -gt "4" ]; then
-		if [ "$p" != "" ]; then
-			p=`echo -n "$p" | awk '{print toupper($0)}'`
-			
-			curBlock="$curBlock$p"
-			curBlockCount=$((curBlockCount+1))
-			if [ "$curBlockCount" -gt "4" ]; then
-				curBlock="$curBlock\\\\$newline"
-				curBlockCount=0
-			else
-				curBlock="$curBlock&"				
+		if [ "$p" = "line" ]; then
+			curBlock="$curBlock\\hline$newline"
+		else
+			if [ "$p" != "" ]; then
+				p=`echo -n "$p" | awk '{print toupper($0)}'`
+				
+				curBlock="$curBlock$p"
+				curBlockCount=$((curBlockCount+1))
+				if [ "$curBlockCount" -gt "4" ]; then
+					curBlock="$curBlock\\\\$newline"
+					curBlockCount=0
+				else
+					curBlock="$curBlock&"				
+				fi
 			fi
 		fi
 	fi
