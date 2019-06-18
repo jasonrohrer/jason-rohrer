@@ -23,14 +23,14 @@ A
 
 
 2017-2018
-English I
+English 1
 English
 1
 A
 
 
 2017-2018
-Vocal Performance
+Vocal Performance 1
 Music
 1
 A
@@ -42,19 +42,19 @@ Soc
 A
 
 2017-2018
-Cycling
+Cycling 1
 Phys Ed
 1
 A
 
 2017-2018
-Theater Arts 
+Theater Arts 1
 Theater
 1
 A
 
 2017-2018
-Culinary Arts
+Culinary Arts 1
 Home Ec
 1
 A
@@ -73,19 +73,19 @@ A
 
 
 2018-2019
-Film Making
+Film Making 1
 Film
 1
 A
 
 2018-2019
-Screen Writing
+Screen Writing 1
 Film
 1
 A
 
 2018-2019
-English II
+English 2
 English
 1
 A
@@ -97,25 +97,25 @@ Soc
 A
 
 2018-2019
-Vocal Performance
+Vocal Performance 2
 Music
 1
 A
 
 2018-2019
-Cycling
+Cycling 2
 Phys Ed
 1
 A
 
 2018-2019
-Theater Arts
+Theater Arts 2
 Theater
 1
 A
 
 2018-2019
-Culinary Arts
+Culinary Arts 2
 Home Ec
 1
 A
