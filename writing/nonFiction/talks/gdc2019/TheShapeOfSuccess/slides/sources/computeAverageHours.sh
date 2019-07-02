@@ -1,0 +1,1 @@
+grep hrs $1 | sed -e "s/ .*//" | awk '{ total += $1; count++ } END { print total/count }'
