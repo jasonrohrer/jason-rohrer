@@ -1,0 +1,26 @@
+Based on Hugging Face code found here:
+
+https://github.com/huggingface/transformers
+
+
+Set up AWS p2 instance.  Connect via ssh with .pem file:
+
+ssh -i aws_gputest_1.pem ubuntu@3.17.70.161
+
+source activate pytorch_p36
+
+pip install --upgrade pip
+
+pip install transformers
+
+git clone https://github.com/huggingface/transformers.git
+
+cd transformers
+
+git clone https://github.com/jasonrohrer/jason-rohrer.git
+
+cd jason-rohrer/ai/text/transformersMod
+
+python ./examples/run_generation.py --model_type=gpt2 --length=20 --model_name_or_path=gpt2
+
+python ./examples/run_generation.py --model_type=gpt2 --length=200 --model_name_or_path=gpt2-xl
