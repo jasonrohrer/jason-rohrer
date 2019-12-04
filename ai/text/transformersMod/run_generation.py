@@ -158,6 +158,7 @@ def main():
                         help="Model type selected in the list: " + ", ".join(MODEL_CLASSES.keys()))
     parser.add_argument("--model_name_or_path", default=None, type=str, required=True,
                         help="Path to pre-trained model or shortcut name selected in the list: " + ", ".join(ALL_MODELS))
+    parser.add_argument("--out_file", type=str, default="", help="Output file for generated text (triggers infinite mode)" )
     parser.add_argument("--prompt", type=str, default="")
     parser.add_argument("--padding_text", type=str, default="")
     parser.add_argument("--xlm_lang", type=str, default="", help="Optional language when used with the XLM model.")
@@ -201,6 +202,8 @@ def main():
         if args.temperature > 0.7:
             logger.info('CTRL typically works better with lower temperatures (and lower top_k).')
 
+    cumu_text = ""
+
     while True:
         xlm_lang = None
         # XLM Language usage detailed in the issues #1414
@@ -221,7 +224,15 @@ def main():
         else:
             xlm_mask_token = None
 
-        raw_text = args.prompt if args.prompt else input("Model prompt >>> ")
+        raw_text = ""
+        
+        if not cumu_text:
+            raw_text = args.prompt if args.prompt else input("Model prompt >>> ")
+        else:
+            raw_text = cumu_text
+
+        cumu_text = raw_text
+
         if args.model_type in ["transfo-xl", "xlnet"]:
             # Models with memory likes to have a long prompt for short inputs.
             raw_text = (args.padding_text if args.padding_text else PADDING_TEXT) + raw_text
@@ -249,9 +260,16 @@ def main():
             text = tokenizer.decode(o, clean_up_tokenization_spaces=True)
             text = text[: text.find(args.stop_token) if args.stop_token else None]
 
-            print(text)
+            if args.out_file:
+                text_file = open( args.out_file, "a" )
+                n = text_file.write( text )
+                text_file.close()
+            else:
+                print(text)
+                
+            cumu_text = cumu_text + text
 
-        if args.prompt:
+        if args.prompt and not args.out_file:
             break
     return text
 
