@@ -18,25 +18,27 @@ int main( int inNumArgs, char **inArgs ) {
     JenkinsRandomSource randSource;
     
 
-    int earnDie[6] = { 1, 2, 3, 0, 0, 0 };
+    //int earnDie[6] = { 1, 2, 3, 0, 0, 0 };
+    //int earnDie[6] = { -1, 3, -3, 5, -5, 7 };
+    int earnDie[6] = { 0, 0, 0, 0, 5, 0 };
     
     int houseBalance = 1000;
     
 
     int dieBuy = 2;
-    int dieSell = 1;
+    int dieSell = 2;
     
     int playerDiceBuy = 12;
 
-    double cashOutChance = 0.1;
+    double cashOutChance = 0.50;
 
-    int cashOutConsider = 24;
+    int cashOutConsider = 11;
     
 
     int lowBalance = houseBalance;
     int highBalance = houseBalance;
 
-    int goldenDiceThreshold = 12;
+    int goldenDiceThreshold = -1;
     
     int goldenDieSell = dieBuy;
     
@@ -78,7 +80,8 @@ int main( int inNumArgs, char **inArgs ) {
             
             playerDice = newPlayerDice;
 
-            if( playerDice > goldenDiceThreshold ) {
+            if( goldenDiceThreshold != -1 && 
+                playerDice > goldenDiceThreshold ) {
                 playerGoldenDice += playerDice - goldenDiceThreshold;
                 playerDice = goldenDiceThreshold;
                 }
