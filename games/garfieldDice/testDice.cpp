@@ -23,16 +23,22 @@ int main( int inNumArgs, char **inArgs ) {
     int houseBalance = 1000;
     
 
-    int dieBuy = 20;
-    int dieSell = 18;
+    int dieBuy = 2;
+    int dieSell = 1;
     
-    int playerDiceBuy = 5;
+    int playerDiceBuy = 12;
 
-    //double cashOutChance = 0.05;
-    double cashOutChance = -0.01;
+    double cashOutChance = 0.1;
+
+    int cashOutConsider = 24;
+    
 
     int lowBalance = houseBalance;
     int highBalance = houseBalance;
+
+    int goldenDiceThreshold = 12;
+    
+    int goldenDieSell = dieBuy;
     
 
     for( int i=0; i<numPlayers; i++ ) {
@@ -43,12 +49,25 @@ int main( int inNumArgs, char **inArgs ) {
 
         int playerBuyIn = playerDiceBuy * dieBuy; 
         
+        int playerGoldenDice = 0;
+        
+
         houseBalance += playerBuyIn;
         
         char cashOut = false;
         
         while( ! cashOut && playerDice > 0 ) {
             roundCount ++;
+
+            int newPlayerGoldenDice = 0;
+            for( int d=0; d<playerGoldenDice; d++ ) {
+                int roll = randSource.getRandomBoundedInt( 0, 5 );
+                
+                newPlayerGoldenDice += earnDie[ roll ];
+                }
+            
+            playerGoldenDice = newPlayerGoldenDice;
+
             
             int newPlayerDice = 0;
             for( int d=0; d<playerDice; d++ ) {
@@ -58,18 +77,25 @@ int main( int inNumArgs, char **inArgs ) {
                 }
             
             playerDice = newPlayerDice;
-            
-            double cashOutRoll = randSource.getRandomBoundedDouble( 0, 1 );
-            
-            if( cashOutRoll <= cashOutChance ) {
-                cashOut = true;
+
+            if( playerDice > goldenDiceThreshold ) {
+                playerGoldenDice += playerDice - goldenDiceThreshold;
+                playerDice = goldenDiceThreshold;
                 }
-            if( playerDice > 100 ) {
-                cashOut = true;
+
+            if( playerDice > cashOutConsider || playerGoldenDice > 0 ) {
+                
+                double cashOutRoll = randSource.getRandomBoundedDouble( 0, 1 );
+                
+                if( cashOutRoll <= cashOutChance ) {
+                    cashOut = true;
+                    }
                 }
             }
 
-        int playerLeftWith = playerDice * dieSell; 
+        int playerLeftWith = 
+            playerDice * dieSell + 
+            playerGoldenDice * goldenDieSell; 
 
         houseBalance -= playerLeftWith;
         
