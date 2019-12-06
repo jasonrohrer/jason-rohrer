@@ -18,19 +18,21 @@ int main( int inNumArgs, char **inArgs ) {
     JenkinsRandomSource randSource;
     
 
-    int earnDie[6] = { 1, 2, 3, 0, 0, 0 };
+    //int earnDie[6] = { 1, 2, 3, 0, 0, 0 };
     //int earnDie[6] = { -1, 3, -3, 5, -5, 7 };
-    //int earnDie[6] = { 0, 0, 0, 0, 5, 0 };
+    // int earnDie[6] = { 0, 0, 0, 0, 5, 0 };
+    int earnDie[6] = { 2, 3, 4, 5, 6, 7 };
+    //int earnDie[6] = { 1, 2, 3, 4, 5, 6 };
     
     int houseBalance = 1000;
     
 
     int dieBuy = 2;
-    int dieSell = 1;
+    int dieSell = 2;
     
     int playerDiceBuy = 12;
 
-    double cashOutChance = 0.50;
+    double cashOutChance = 0.10;
 
     int cashOutConsider = 11;
     
@@ -61,21 +63,49 @@ int main( int inNumArgs, char **inArgs ) {
         while( ! cashOut && playerDice > 0 ) {
             roundCount ++;
 
+
             int newPlayerGoldenDice = 0;
             for( int d=0; d<playerGoldenDice; d++ ) {
                 int roll = randSource.getRandomBoundedInt( 0, 5 );
-                
                 newPlayerGoldenDice += earnDie[ roll ];
                 }
             
             playerGoldenDice = newPlayerGoldenDice;
 
+
+            int specialDie = randSource.getRandomBoundedInt( 0, 5 );
             
             int newPlayerDice = 0;
             for( int d=0; d<playerDice; d++ ) {
-                int roll = randSource.getRandomBoundedInt( 0, 5 );
-                
-                newPlayerDice += earnDie[ roll ];
+
+                // only roll first die if unfavorable
+                // else roll all dice
+
+                // actually, can't get this to work with structure where
+                // each special die state earns at least one die
+                // (very nice to have die face tell you how many extra die
+                //  you win)
+                // SO... to make this work and be profitable, players have
+                // to pick how many dice they roll BEFORE they know what
+                // the special die is (or roll it at the same time as their
+                // chosen die)
+                // This removes a skill from the game, but it was a false
+                // skill anyway, because no player would commit dice after the
+                // special die shows a house edge.
+                if( true || specialDie >= 3 || d == 0 ) {
+                    
+                    int roll = randSource.getRandomBoundedInt( 0, 5 );
+                    
+                    if( roll == specialDie ) {
+                        // only special die earns new dice
+                        // all others croak
+                        newPlayerDice += earnDie[ roll ];
+                        }
+                    }
+                else {
+                    // keep die and don't roll it at all
+                    newPlayerDice ++;
+                    }
                 }
             
             playerDice = newPlayerDice;

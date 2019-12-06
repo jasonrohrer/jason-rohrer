@@ -1,1 +1,3 @@
 g++ -I ../../.. -g -o testDice testDice.cpp ../../../minorGems/system/unix/TimeUnix.cpp
+
+g++ -I ../../.. -g -o testDice2 testDice2.cpp ../../../minorGems/system/unix/TimeUnix.cpp
