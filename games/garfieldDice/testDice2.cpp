@@ -21,8 +21,13 @@ int main( int inNumArgs, char **inArgs ) {
     //int earnDie[6] = { 1, 2, 3, 0, 0, 0 };
     //int earnDie[6] = { -1, 3, -3, 5, -5, 7 };
     // int earnDie[6] = { 0, 0, 0, 0, 5, 0 };
-    int earnDie[6] = { 2, 3, 4, 5, 6, 7 };
-    //int earnDie[6] = { 1, 2, 3, 4, 5, 6 };
+
+    // can have 3 kill dice with this multiplication factor
+    //int earnDie[6] = { 2, 3, 4, 5, 6, 7 };
+    
+    // or 2 kill dice with this multiplication factor
+    int earnDie[6] = { 1, 2, 3, 4, 5, 6 };
+    
     
     int houseBalance = 1000;
     
@@ -73,7 +78,13 @@ int main( int inNumArgs, char **inArgs ) {
             playerGoldenDice = newPlayerGoldenDice;
 
 
-            int specialDie = randSource.getRandomBoundedInt( 0, 5 );
+            int specialDieA = randSource.getRandomBoundedInt( 0, 5 );
+            int specialDieB = randSource.getRandomBoundedInt( 0, 5 );
+            int specialDieC = randSource.getRandomBoundedInt( 0, 5 );
+            int specialDieD = randSource.getRandomBoundedInt( 0, 5 );
+            int specialDieE = randSource.getRandomBoundedInt( 0, 5 );
+
+            int specialDieA2 = randSource.getRandomBoundedInt( 0, 5 );
             
             int newPlayerDice = 0;
             for( int d=0; d<playerDice; d++ ) {
@@ -92,14 +103,21 @@ int main( int inNumArgs, char **inArgs ) {
                 // This removes a skill from the game, but it was a false
                 // skill anyway, because no player would commit dice after the
                 // special die shows a house edge.
-                if( true || specialDie >= 3 || d == 0 ) {
+                if( true || specialDieA >= 3 || d == 0 ) {
                     
                     int roll = randSource.getRandomBoundedInt( 0, 5 );
                     
-                    if( roll == specialDie ) {
+                    if( roll == specialDieB || roll == specialDieC ) {
+                        // hit by kill die, croaks
+                        }
+                    else if( roll == specialDieA ) {
                         // only special die earns new dice
                         // all others croak
                         newPlayerDice += earnDie[ roll ];
+                        }
+                    else {
+                        // just survives
+                        newPlayerDice ++;
                         }
                     }
                 else {
