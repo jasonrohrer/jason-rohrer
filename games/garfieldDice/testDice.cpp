@@ -30,7 +30,7 @@ int main( int inNumArgs, char **inArgs ) {
     
     int playerDiceBuy = 12;
 
-    double cashOutChance = 0.50;
+    double cashOutChance = 0.10;
 
     int cashOutConsider = 11;
     
