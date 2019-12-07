@@ -162,7 +162,23 @@ int main( int inNumArgs, char **inArgs ) {
             int specialDieD = randSource.getRandomBoundedInt( 0, 5 );
             int specialDieE = randSource.getRandomBoundedInt( 0, 5 );
             int specialDieF = randSource.getRandomBoundedInt( 0, 5 );
+
+
+            int specialDieT = randSource.getRandomBoundedInt( 0, 5 );
             
+            
+            // trap wolves
+            if( specialDieT == specialDieB ) {
+                specialDieB = -1;
+                }
+            if( specialDieT == specialDieC ) {
+                specialDieC = -1;
+                }
+            if( specialDieT == specialDieD ) {
+                specialDieD = -1;
+                }
+            
+
             int newPlayerDice = 0;
 
             SimpleVector<int> newPlayerDiceValues;
@@ -195,7 +211,7 @@ int main( int inNumArgs, char **inArgs ) {
                     // gained dice MUST be rerolled
                     for( int e=0; e<earnDie[ roll ]; e++ ) {
                         newPlayerDiceValues.push_back( roll );
-                        newPlayerDiceRerollFlags.push_back( false );
+                        newPlayerDiceRerollFlags.push_back( true );
                         }
                     }
                 else {
