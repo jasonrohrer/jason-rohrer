@@ -260,7 +260,7 @@ def main():
             print( "Overflow! (" + str( l ) + "tokens)\n\n" )
             print( "Old cumu_text = " + cumu_text + "\n\n\n" );
 
-            extra = 1000 - ( l + args.length ) 
+            extra = ( l + args.length )  - 1000 
             context_tokens = context_tokens[ extra: ]
             
             cumu_text = tokenizer.decode( context_tokens, 
