@@ -281,7 +281,7 @@ def main():
                 
                 print( "Generated " + str( wordsWritten ) + " words\n" )
                 if args.gen_words:
-                    if wordsWritten > args.gen_words:
+                    if wordsWritten > int( args.gen_words ):
                         keepGoing = False
             else:
                 print(text)
