@@ -252,7 +252,19 @@ def main():
             raw_text = (args.padding_text if args.padding_text else PADDING_TEXT) + raw_text
         context_tokens = tokenizer.encode(raw_text, add_special_tokens=False)
         
-        print( "context_tokens = " + repr( context_tokens ) + "\n" )
+        
+            
+        print( "context_tokens (len=" 
+               + str( len( context_tokens ) ) + ") = " 
+               + repr( context_tokens ) + "\n" )
+
+        text_tokens = []
+        
+        for c in context_tokens:
+            text_tokens.append( 
+                tokenizer.decode( c, clean_up_tokenization_spaces=False) )
+        
+        print( "text_tokens = " + repr( text_tokens ) + "\n" )
         
         if args.model_type == "ctrl":
             if not any(context_tokens[0] == x for x in tokenizer.control_codes.values()):
