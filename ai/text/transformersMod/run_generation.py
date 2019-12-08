@@ -245,7 +245,7 @@ def main():
 
         cumu_text = raw_text
 
-        print( "Input text has " + raw_text.count( ' ' ) + " words\n" );
+        print( "Input text has " + str( raw_text.count( ' ' ) ) + " words\n" )
 
         if args.model_type in ["transfo-xl", "xlnet"]:
             # Models with memory likes to have a long prompt for short inputs.
