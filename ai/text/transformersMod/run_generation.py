@@ -280,8 +280,8 @@ def main():
                 wordsWritten += text.count( ' ' )
                 
                 print( "Generated " + str( wordsWritten ) + " words\n" )
-                if args.max_length:
-                    if wordsWritten > args.max_length:
+                if args.gen_words:
+                    if wordsWritten > args.gen_words:
                         keepGoing = False
             else:
                 print(text)
