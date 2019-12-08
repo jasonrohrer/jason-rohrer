@@ -118,7 +118,7 @@ int main( int inNumArgs, char **inArgs ) {
 
     double cashOutChance = 0.00;
 
-    int cashOutConsider = 11;
+    int cashOutConsider = 10;
     
     int maxDice = 50;
     
@@ -277,13 +277,13 @@ int main( int inNumArgs, char **inArgs ) {
             // now execute reroll strategy
             //stratRerollAll( &playerDiceValues, &playerDiceRerollFlags );
             //            stratKeepOneSpecific( 6, &playerDiceValues, &playerDiceRerollFlags );
-            //stratKeepSpecific( 6, &playerDiceValues, &playerDiceRerollFlags );
+            stratKeepSpecific( 6, &playerDiceValues, &playerDiceRerollFlags );
             //stratKeepOneSpecific( 6, &playerDiceValues, &playerDiceRerollFlags );
             //stratDiscardSpecific( 1, &playerDiceValues, &playerDiceRerollFlags );
             //stratDiscardSpecific( 2, &playerDiceValues, &playerDiceRerollFlags );
             //stratDiscardSpecific( 3, &playerDiceValues, &playerDiceRerollFlags );
             //stratDiscardSpecific( 4, &playerDiceValues, &playerDiceRerollFlags );
-            stratDiversify( &playerDiceValues, &playerDiceRerollFlags );
+            //stratDiversify( &playerDiceValues, &playerDiceRerollFlags );
             //stratDiscardSpecific( 
             //    2, &playerDiceValues, &playerDiceRerollFlags );
             }
