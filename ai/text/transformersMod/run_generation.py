@@ -252,7 +252,21 @@ def main():
             raw_text = (args.padding_text if args.padding_text else PADDING_TEXT) + raw_text
         context_tokens = tokenizer.encode(raw_text, add_special_tokens=False)
         
-        
+
+        # 1024 is the length limit for context tokens + generated tokens
+        # make it 1000 to give us some wiggle room
+        if len( context_tokens ) + args.length > 1000:
+            l = len( context_tokens )
+            print( "Overflow! (" + str( l ) + "tokens)\n\n" )
+            print( "Old cumu_text = " + cumu_text + "\n\n\n" );
+
+            extra = 1000 - ( l + args.length ) 
+            context_tokens = context_tokens[ extra: ]
+            
+            cumu_text = tokenizer.decode( context_tokens, 
+                                          clean_up_tokenization_spaces=True )
+            print( "trimmed cumu_text = " + cumu_text + "\n\n\n" );
+            
             
         print( "context_tokens (len=" 
                + str( len( context_tokens ) ) + ") = " 
