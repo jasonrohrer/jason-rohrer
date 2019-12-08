@@ -114,18 +114,23 @@ int main( int inNumArgs, char **inArgs ) {
     int dieBuy = 2;
     int dieSell = 2;
     
-    int playerDiceBuy = 12;
+    int playerDiceBuy = 6;
 
-    double cashOutChance = 0.10;
+    double cashOutChance = 0.00;
 
     int cashOutConsider = 11;
     
-    int maxDice = 1000;
+    int maxDice = 50;
     
 
     int lowBalance = houseBalance;
     int highBalance = houseBalance;
 
+    #define NUM_BINS 200
+    int bins[NUM_BINS];
+    for( int i=0; i<NUM_BINS; i++ ) {
+        bins[i] = 0;
+        }
     
 
     for( int i=0; i<numPlayers; i++ ) {
@@ -165,17 +170,45 @@ int main( int inNumArgs, char **inArgs ) {
 
 
             int specialDieT = randSource.getRandomBoundedInt( 0, 5 );
+            int specialDieT2 = randSource.getRandomBoundedInt( 0, 5 );
             
             
-            // trap wolves
-            if( specialDieT == specialDieB ) {
-                specialDieB = -1;
+            char useSingleTrap = false;
+            if( useSingleTrap ) {
+                if( specialDieT == specialDieB ) {
+                    specialDieB = -1;
+                    }
+                else if( specialDieT == specialDieC ) {
+                    specialDieC = -1;
+                    }
+                else if( specialDieT == specialDieD ) {
+                    specialDieD = -1;
+                    }
                 }
-            if( specialDieT == specialDieC ) {
-                specialDieC = -1;
+            char useMultiTrap = true;
+            if( useMultiTrap ) {
+                if( specialDieT == specialDieB ) {
+                    specialDieB = -1;
+                    }
+                if( specialDieT == specialDieC ) {
+                    specialDieC = -1;
+                    }
+                if( specialDieT == specialDieD ) {
+                    specialDieD = -1;
+                    }
                 }
-            if( specialDieT == specialDieD ) {
-                specialDieD = -1;
+
+            char useTrap2 = false;
+            if( useTrap2 ) {
+                if( specialDieT2 == specialDieB ) {
+                    specialDieB = -1;
+                    }
+                if( specialDieT2 == specialDieC ) {
+                    specialDieC = -1;
+                    }
+                if( specialDieT2 == specialDieD ) {
+                    specialDieD = -1;
+                    }
                 }
             
 
@@ -208,10 +241,10 @@ int main( int inNumArgs, char **inArgs ) {
                     newPlayerDiceValues.push_back( roll );
                     newPlayerDiceRerollFlags.push_back( false );
                     
-                    // gained dice MUST be rerolled
+                    // gained dice come in as 1 and can be rerolled
                     for( int e=0; e<earnDie[ roll ]; e++ ) {
-                        newPlayerDiceValues.push_back( roll );
-                        newPlayerDiceRerollFlags.push_back( true );
+                        newPlayerDiceValues.push_back( 0 );
+                        newPlayerDiceRerollFlags.push_back( false );
                         }
                     }
                 else {
@@ -244,14 +277,13 @@ int main( int inNumArgs, char **inArgs ) {
             // now execute reroll strategy
             //stratRerollAll( &playerDiceValues, &playerDiceRerollFlags );
             //            stratKeepOneSpecific( 6, &playerDiceValues, &playerDiceRerollFlags );
-            //stratKeepSixes( &playerDiceValues, &playerDiceRerollFlags );
-            stratKeepSpecific( 6, &playerDiceValues, &playerDiceRerollFlags );
+            //stratKeepSpecific( 6, &playerDiceValues, &playerDiceRerollFlags );
             //stratKeepOneSpecific( 6, &playerDiceValues, &playerDiceRerollFlags );
             //stratDiscardSpecific( 1, &playerDiceValues, &playerDiceRerollFlags );
             //stratDiscardSpecific( 2, &playerDiceValues, &playerDiceRerollFlags );
             //stratDiscardSpecific( 3, &playerDiceValues, &playerDiceRerollFlags );
             //stratDiscardSpecific( 4, &playerDiceValues, &playerDiceRerollFlags );
-            //stratDiversify( &playerDiceValues, &playerDiceRerollFlags );
+            stratDiversify( &playerDiceValues, &playerDiceRerollFlags );
             //stratDiscardSpecific( 
             //    2, &playerDiceValues, &playerDiceRerollFlags );
             }
@@ -273,6 +305,20 @@ int main( int inNumArgs, char **inArgs ) {
             highBalance = houseBalance;
             if( false )printf( "New hight balance in round %d:  %d\n", i, highBalance );
             }
-        printf( "%d %d\n", i, houseBalance );
+        printf( "%d %d %d\n", i, houseBalance, roundCount );
+
+        if( roundCount < NUM_BINS ) {
+            bins[ roundCount ] ++;
+            }
+        else {
+            bins[ NUM_BINS - 1 ] ++;
+            }
         }
+
+    FILE *binFile = fopen( "bins3.txt", "w" );
+    
+    for( int i=0; i<NUM_BINS; i++ ) {
+        fprintf( binFile, "%d %d\n", i, bins[i] );
+        }
+    fclose( binFile );
     }

@@ -28,9 +28,9 @@ int main( int inNumArgs, char **inArgs ) {
     int dieBuy = 2;
     int dieSell = 1;
     
-    int playerDiceBuy = 12;
+    int playerDiceBuy = 6;
 
-    double cashOutChance = 0.10;
+    double cashOutChance = 0.0;
 
     int cashOutConsider = 11;
     
@@ -42,6 +42,14 @@ int main( int inNumArgs, char **inArgs ) {
     
     int goldenDieSell = dieBuy;
     
+    int maxDice = 50;
+
+    #define NUM_BINS 200
+    int bins[NUM_BINS];
+    for( int i=0; i<NUM_BINS; i++ ) {
+        bins[i] = 0;
+        }
+
 
     for( int i=0; i<numPlayers; i++ ) {
 
@@ -94,6 +102,9 @@ int main( int inNumArgs, char **inArgs ) {
                     cashOut = true;
                     }
                 }
+            if( playerDice >= maxDice ) {
+                cashOut = true;
+                }
             }
 
         int playerLeftWith = 
@@ -114,6 +125,20 @@ int main( int inNumArgs, char **inArgs ) {
             highBalance = houseBalance;
             if( false )printf( "New hight balance in round %d:  %d\n", i, highBalance );
             }
-        printf( "%d %d\n", i, houseBalance );
+        printf( "%d %d %d\n", i, houseBalance, roundCount );
+        
+        if( roundCount < NUM_BINS ) {
+            bins[ roundCount ] ++;
+            }
+        else {
+            bins[ NUM_BINS - 1 ] ++;
+            }
         }
+
+    FILE *binFile = fopen( "bins.txt", "w" );
+    
+    for( int i=0; i<NUM_BINS; i++ ) {
+        fprintf( binFile, "%d %d\n", i, bins[i] );
+        }
+    fclose( binFile );
     }

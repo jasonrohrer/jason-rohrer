@@ -8,3 +8,4 @@ bash makeTestDice
 ./testDice3 $1 > data3.txt
 
 gnuplot data.gnuplot
+gnuplot dataBin.gnuplot
