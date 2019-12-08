@@ -22,3 +22,8 @@ cd jason-rohrer/ai/text/transformersMod
 python ./run_generation.py --model_type=gpt2 --length=20 --model_name_or_path=gpt2
 
 python ./run_generation.py --model_type=gpt2 --length=200 --model_name_or_path=gpt2-xl
+
+
+python ./run_generation.py --model_type=gpt2 --length=20 --model_name_or_path=gpt2-xl --out_file=out.txt --in_file=sampleInput.txt --max_length=500
+
+

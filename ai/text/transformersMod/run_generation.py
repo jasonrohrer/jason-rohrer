@@ -159,6 +159,8 @@ def main():
     parser.add_argument("--model_name_or_path", default=None, type=str, required=True,
                         help="Path to pre-trained model or shortcut name selected in the list: " + ", ".join(ALL_MODELS))
     parser.add_argument("--out_file", type=str, default="", help="Output file for generated text (triggers infinite mode)" )
+    parser.add_argument("--in_file", type=str, default="", help="Input file for prompt text." )
+    parser.add_argument("--gen_words", type=str, default="", help="(For infinite mode with --out_file) How many words to generate." )
     parser.add_argument("--prompt", type=str, default="")
     parser.add_argument("--padding_text", type=str, default="")
     parser.add_argument("--xlm_lang", type=str, default="", help="Optional language when used with the XLM model.")
@@ -204,7 +206,11 @@ def main():
 
     cumu_text = ""
 
-    while True:
+    keepGoing = True
+    
+    wordsWritten = 0
+
+    while keepGoing:
         xlm_lang = None
         # XLM Language usage detailed in the issues #1414
         if args.model_type in ["xlm"] and hasattr(tokenizer, 'lang2id') and hasattr(model.config, 'use_lang_emb') \
@@ -227,7 +233,13 @@ def main():
         raw_text = ""
         
         if not cumu_text:
-            raw_text = args.prompt if args.prompt else input("Model prompt >>> ")
+            if args.in_file:
+                raw_text = open( args.in_file ).read()
+            else:
+                if args.prompt:
+                    raw_text = args.prompt
+                else:
+                    raw_text = input("Model prompt >>> ")
         else:
             raw_text = cumu_text
 
@@ -264,6 +276,13 @@ def main():
                 text_file = open( args.out_file, "a" )
                 n = text_file.write( text )
                 text_file.close()
+
+                wordsWritten += text.count( ' ' )
+                
+                print( "Generated " + str( wordsWritten ) + " words\n" )
+                if args.max_length:
+                    if wordsWritten > args.max_length:
+                        keepGoing = False
             else:
                 print(text)
                 
