@@ -245,7 +245,7 @@ def main():
 
         cumu_text = raw_text
 
-        print( "Input text has " + str( raw_text.count( ' ' ) ) + " words\n" )
+        #print( "Input text has " + str( raw_text.count( ' ' ) ) + " words\n" )
 
         if args.model_type in ["transfo-xl", "xlnet"]:
             # Models with memory likes to have a long prompt for short inputs.
@@ -257,28 +257,28 @@ def main():
         # make it 1000 to give us some wiggle room
         if len( context_tokens ) + args.length > 1000:
             l = len( context_tokens )
-            print( "Overflow! (" + str( l ) + "tokens)\n\n" )
-            print( "Old cumu_text = " + cumu_text + "\n\n\n" );
+            #print( "Overflow! (" + str( l ) + "tokens)\n\n" )
+            #print( "Old cumu_text = " + cumu_text + "\n\n\n" );
 
             extra = ( l + args.length )  - 1000 
             context_tokens = context_tokens[ extra: ]
             
             cumu_text = tokenizer.decode( context_tokens, 
                                           clean_up_tokenization_spaces=True )
-            print( "trimmed cumu_text = " + cumu_text + "\n\n\n" );
+            #print( "trimmed cumu_text = " + cumu_text + "\n\n\n" );
             
             
-        print( "context_tokens (len=" 
-               + str( len( context_tokens ) ) + ") = " 
-               + repr( context_tokens ) + "\n" )
+        #print( "context_tokens (len=" 
+        #       + str( len( context_tokens ) ) + ") = " 
+        #       + repr( context_tokens ) + "\n" )
 
-        text_tokens = []
-        
-        for c in context_tokens:
-            text_tokens.append( 
-                tokenizer.decode( c, clean_up_tokenization_spaces=False) )
-        
-        print( "text_tokens = " + repr( text_tokens ) + "\n" )
+        #text_tokens = []
+        #
+        #for c in context_tokens:
+        #    text_tokens.append( 
+        #        tokenizer.decode( c, clean_up_tokenization_spaces=False) )
+        #
+        #print( "text_tokens = " + repr( text_tokens ) + "\n" )
         
         if args.model_type == "ctrl":
             if not any(context_tokens[0] == x for x in tokenizer.control_codes.values()):
