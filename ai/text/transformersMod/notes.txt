@@ -40,3 +40,18 @@ python ./run_generation.py --model_type=gpt2 --length=200 --model_name_or_path=g
 python ./run_generation.py --model_type=gpt2 --length=20 --model_name_or_path=gpt2-xl --out_file=out.txt --in_file=sampleInputShort.txt --gen_words=500
 
 
+
+
+After initial run to warm up caches, running this test:
+
+time python ./run_generation.py --model_type=gpt2 --length=20 --model_name_or_path=gpt2-xl --out_file=out.txt --in_file=sampleInputShort.txt --gen_words=500
+
+
+p3 instance completes it in:
+4m43.613s
+
+p2 instance completes it in:
+22m16.647s
+
+
+p3 is almost 5x faster.  Really worth the cost!
