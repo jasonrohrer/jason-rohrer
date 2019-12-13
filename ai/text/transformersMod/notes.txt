@@ -9,6 +9,19 @@ ssh -i aws_gputest_1.pem ubuntu@3.17.70.161
 
 source activate pytorch_p36
 
+
+Sanity check:  usually not needed, but can test if PyTorch is using GPU:
+
+python3
+
+import torch
+torch.cuda.current_device()
+torch.cuda.device(0)
+torch.cuda.device_count()
+torch.cuda.get_device_name(0)
+torch.cuda.is_available()
+
+
 pip install --upgrade pip
 
 pip install transformers
@@ -24,6 +37,6 @@ python ./run_generation.py --model_type=gpt2 --length=20 --model_name_or_path=gp
 python ./run_generation.py --model_type=gpt2 --length=200 --model_name_or_path=gpt2-xl
 
 
-python ./run_generation.py --model_type=gpt2 --length=20 --model_name_or_path=gpt2-xl --out_file=out.txt --in_file=sampleInput.txt --gen_words=500
+python ./run_generation.py --model_type=gpt2 --length=20 --model_name_or_path=gpt2-xl --out_file=out.txt --in_file=sampleInputShort.txt --gen_words=500
 
 
