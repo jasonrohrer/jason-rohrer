@@ -333,7 +333,14 @@ def main():
             if args.stop_token :
                 loc = text.find(args.stop_token)
                 if loc != -1 :
-                    text = text[:loc]
+                    # actually trimming this block seems to produce
+                    # gibberish after, because some nonsense (footnotes)
+                    # usually proceeds <|endtext|>
+                    # so don't do this:
+                    # text = text[:loc]
+                    # instead, skip the whole text block
+                    # which will effectively regenerate this block again
+                    break
 
             if args.out_file:
                 text_file = open( args.out_file, "a" )
