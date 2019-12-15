@@ -288,7 +288,8 @@ def main():
         # stick whatever we generated on to end of our raw input
         # text, so we can keep generating more after that.
         raw_text = raw_text + cumu_genned_text 
-            
+        
+        context_tokens = tokenizer.encode( raw_text, add_special_tokens=False )
             
         #print( "context_tokens (len=" 
         #       + str( len( context_tokens ) ) + ") = " 
