@@ -204,7 +204,7 @@ def main():
         if args.temperature > 0.7:
             logger.info('CTRL typically works better with lower temperatures (and lower top_k).')
 
-    cumu_text = ""
+    cumu_genned_text = ""
 
     keepGoing = True
     
@@ -231,41 +231,63 @@ def main():
             xlm_mask_token = None
 
         raw_text = ""
+
         
-        if not cumu_text:
-            if args.in_file:
-                raw_text = open( args.in_file ).read()
-            else:
-                if args.prompt:
-                    raw_text = args.prompt
-                else:
-                    raw_text = input("Model prompt >>> ")
+        
+        if args.in_file:
+            raw_text = open( args.in_file ).read()
         else:
-            raw_text = cumu_text
-
-        cumu_text = raw_text
-
+            if args.prompt:
+                raw_text = args.prompt
+            else:
+                raw_text = input("Model prompt >>> ")
+        
+        
         #print( "Input text has " + str( raw_text.count( ' ' ) ) + " words\n" )
 
         if args.model_type in ["transfo-xl", "xlnet"]:
             # Models with memory likes to have a long prompt for short inputs.
             raw_text = (args.padding_text if args.padding_text else PADDING_TEXT) + raw_text
-        context_tokens = tokenizer.encode(raw_text, add_special_tokens=False)
+
+        raw_tokens = tokenizer.encode( raw_text, add_special_tokens=False )
+        cumu_genned_tokens = tokenizer.encode( cumu_genned_tokens, 
+                                               add_special_tokens=False )
         
 
         # 1024 is the length limit for context tokens + generated tokens
         # make it 1000 to give us some wiggle room
-        if len( context_tokens ) + args.length > 1000:
-            l = len( context_tokens )
-            #print( "Overflow! (" + str( l ) + "tokens)\n\n" )
-            #print( "Old cumu_text = " + cumu_text + "\n\n\n" );
+        if len( raw_tokens ) + len( cumu_genned_tokens ) + args.length > 1000:
+            l = len( raw_tokens ) + len( cumu_genned_tokens )
+            print( "Overflow! (" + str( l ) + "tokens)\n\n" )
+            print( "Old cumu_genned_text = " + cumu_genned_text + "\n\n\n" );
 
-            extra = ( l + args.length )  - 1000 
-            context_tokens = context_tokens[ extra: ]
+            extra = ( l + args.length )  - 1000
+            # trim off beginning of cumu genned text
+            cumu_genned_tokens = cumu_genned_tokens[ extra: ]
             
-            cumu_text = tokenizer.decode( context_tokens, 
-                                          clean_up_tokenization_spaces=True )
-            #print( "trimmed cumu_text = " + cumu_text + "\n\n\n" );
+            # now walk forward until we find a token with a period
+            # and trim that.  We don't want to trim in the middle of a
+            # sentence and leave a discontinuity in the middle of our seed
+            # text
+            periodIndex = -1
+            for c in cumu_genned_tokens:
+                periodIndex++
+                tok = tokenizer.decode( c, clean_up_tokenization_spaces=False)
+                if "." in tok:
+                    break
+            if periodIndex >= 0:
+                afterPeriod = periodIndex + 1
+                cumu_genned_tokens = cumu_genned_tokens[ afterPeriod: ]
+                
+            cumu_genned_text = tokenizer.decode( 
+                cumu_genned_tokens, 
+                clean_up_tokenization_spaces=True )
+            print( "trimmed cumu_genned_text = " + cumu_genned_text + "\n\n\n" );
+
+
+        # stick whatever we generated on to end of our raw input
+        # text, so we can keep generating more after that.
+        raw_text = raw_text + cumu_genned_text 
             
             
         #print( "context_tokens (len=" 
@@ -317,7 +339,7 @@ def main():
             else:
                 print(text)
                 
-            cumu_text = cumu_text + text
+            cumu_genned_text = cumu_genned_text + text
 
         if args.prompt and not args.out_file:
             break
