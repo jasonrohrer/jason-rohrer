@@ -324,7 +324,16 @@ def main():
         out = out[:, len(context_tokens):].tolist()
         for o in out:
             text = tokenizer.decode(o, clean_up_tokenization_spaces=True)
-            text = text[: text.find(args.stop_token) if args.stop_token else None]
+            
+            # this trims off final letter of text if stop_token not found in
+            # text.
+            #text = text[: text.find(args.stop_token) if args.stop_token else None]
+
+            # this does the right thing, only trimming if stop_token found
+            if args.stop_token :
+                loc = text.find(args.stop_token)
+                if loc != -1 :
+                    text = text[:loc]
 
             if args.out_file:
                 text_file = open( args.out_file, "a" )
