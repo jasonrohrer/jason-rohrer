@@ -271,7 +271,7 @@ def main():
             # text
             periodIndex = -1
             for c in cumu_genned_tokens:
-                periodIndex++
+                periodIndex += 1
                 tok = tokenizer.decode( c, clean_up_tokenization_spaces=False)
                 if "." in tok:
                     break
