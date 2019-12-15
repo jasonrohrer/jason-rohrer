@@ -250,7 +250,7 @@ def main():
             raw_text = (args.padding_text if args.padding_text else PADDING_TEXT) + raw_text
 
         raw_tokens = tokenizer.encode( raw_text, add_special_tokens=False )
-        cumu_genned_tokens = tokenizer.encode( cumu_genned_tokens, 
+        cumu_genned_tokens = tokenizer.encode( cumu_genned_text, 
                                                add_special_tokens=False )
         
 
