@@ -55,3 +55,21 @@ p2 instance completes it in:
 
 
 p3 is almost 5x faster.  Really worth the cost!
+
+
+
+
+<|endoftext|> token number:
+50256
+
+
+<|endoftext|>Trump on what's next after AG Jeff Sessions:
+
+
+Actually, this seems to help to prevent <|endoftext|> from being generated:
+
+--stop_token="<|endoftext|>"
+
+This says "end each generation before <|endoftext|>, which means that if we keep
+going, generating more, then we trim each segment to not include <|endoftext|>
+and try again from there to generate more.
