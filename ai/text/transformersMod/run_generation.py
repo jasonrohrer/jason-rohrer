@@ -258,8 +258,8 @@ def main():
         # make it 1000 to give us some wiggle room
         if len( raw_tokens ) + len( cumu_genned_tokens ) + args.length > 1000:
             l = len( raw_tokens ) + len( cumu_genned_tokens )
-            print( "Overflow! (" + str( l ) + "tokens)\n\n" )
-            print( "Old cumu_genned_text = " + cumu_genned_text + "\n\n\n" );
+            #print( "Overflow! (" + str( l ) + "tokens)\n\n" )
+            #print( "Old cumu_genned_text = " + cumu_genned_text + "\n\n\n" );
 
             extra = ( l + args.length )  - 1000
             # trim off beginning of cumu genned text
@@ -282,7 +282,7 @@ def main():
             cumu_genned_text = tokenizer.decode( 
                 cumu_genned_tokens, 
                 clean_up_tokenization_spaces=True )
-            print( "trimmed cumu_genned_text = " + cumu_genned_text + "\n\n\n" );
+            #print( "trimmed cumu_genned_text = " + cumu_genned_text + "\n\n\n" );
 
 
         # stick whatever we generated on to end of our raw input
