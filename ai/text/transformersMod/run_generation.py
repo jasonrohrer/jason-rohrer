@@ -324,7 +324,15 @@ def main():
         out = out[:, len(context_tokens):].tolist()
         for o in out:
             text = tokenizer.decode(o, clean_up_tokenization_spaces=True)
-            text = text[: text.find(args.stop_token) if args.stop_token else None]
+            
+            # This doesn't seem to do the right thing
+            # we actually want to stop on this token, not truncate the token
+            # and keep going
+            # text = text[: text.find(args.stop_token) if args.stop_token else None]
+
+            # try this instead:
+            if args.stop_token and text == args.stop_token :
+                break
 
             if args.out_file:
                 text_file = open( args.out_file, "a" )
