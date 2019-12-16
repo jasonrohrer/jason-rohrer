@@ -90,3 +90,14 @@ Added printing of cumu text along the way.
 Testing on both with:
 
 python ./run_generation.py --model_type=gpt2 --length=20 --model_name_or_path=gpt2-xl --out_file=outP2P3.txt --in_file=sampleInputShort.txt --gen_words=5000 > runOut.txt
+
+
+
+Isolated weird input.  Run test with:
+
+python ./run_generation.py --model_type=gpt2 --length=20 --model_name_or_path=gpt2-xl --out_file=outWeird_p2.txt --in_file=weirdInput.txt --gen_words=5000 > runOut_p2_weird.txt
+
+
+Problem:  even with same weird input, output is identical
+Must be something about random seed drifting over time on the different GPUs
+Need to move on and forget about solving this problem.
