@@ -73,3 +73,20 @@ Actually, this seems to help to prevent <|endoftext|> from being generated:
 This says "end each generation before <|endoftext|>, which means that if we keep
 going, generating more, then we trim each segment to not include <|endoftext|>
 and try again from there to generate more.
+
+
+
+
+
+Noticing that p3 and p2 output differ for short text seed on seed 42.
+(With pre-reseed code, commit 5472c5becf6f82b1401bfe90debbd05e2c6cd21d )
+
+
+"hunting a pig" not present in p3 output
+
+
+Added printing of cumu text along the way.
+
+Testing on both with:
+
+python ./run_generation.py --model_type=gpt2 --length=20 --model_name_or_path=gpt2-xl --out_file=outP2P3.txt --in_file=sampleInputShort.txt --gen_words=5000 > runOut.txt
