@@ -232,16 +232,19 @@ def main():
 
         raw_text = ""
         
-        if not cumu_text:
-            if args.in_file:
+        if args.in_file:
+            if not cumu_text:
                 raw_text = open( args.in_file ).read()
             else:
-                if args.prompt:
-                    raw_text = args.prompt
-                else:
-                    raw_text = input("Model prompt >>> ")
+                raw_text = cumu_text
         else:
-            raw_text = cumu_text
+            # we're not in infinit mode
+            # keep applying same prompt for next batch, no accumulation
+            cumu_text = ""
+            if args.prompt:
+                raw_text = args.prompt
+            else:
+                raw_text = input("Model prompt >>> ")
 
         cumu_text = raw_text
 
