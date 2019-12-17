@@ -237,6 +237,9 @@ def main():
         if args.in_file:
             raw_text = open( args.in_file ).read()
         else:
+            # we're in mode where we're generating multiple outputs
+            # from the same prompt
+            cumu_genned_text = ""
             if args.prompt:
                 raw_text = args.prompt
             else:
