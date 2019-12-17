@@ -14,7 +14,7 @@ do
 		echo "Trying to generate Chapter $chapter with seed $seed"
 		fileName=chapter${chapter}_${seed}.txt
 		
-		python ./run_generation.py --model_type=gpt2 --length=20 --model_name_or_path=gpt2-xl --out_file=$fileName --in_file=$4 --gen_words=4000 --seed=$seed --stop_token="<|endoftext|>"
+		python ./run_generation.py --model_type=gpt2 --length=20 --model_name_or_path=gpt2-xl --out_file=$fileName --in_file=$4 --chapter_number=$chapter --gen_words=4000 --seed=$seed --stop_token="<|endoftext|>"
 		
 		if grep -q "END OF CHAPTER" $fileName; then
 			chapterDone="1"
