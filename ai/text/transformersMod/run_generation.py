@@ -333,6 +333,32 @@ def main():
                     # instead, skip the whole text block
                     # which will effectively regenerate this block again
                     break
+            
+            chapterDone = False
+
+            if args.chapter_number > 0:
+                chapterTriggers = [ "Chapter",
+                                    "CHAPTER",
+                                    "\nPart",
+                                    "\nPART",
+                                    "\n*",
+                                    "\n-"]
+                for t in chapterTriggers:
+                    loc = text.find(t)
+                    if loc != -1:
+                        chapterDone = True
+                        # trim off this header from end
+                        text = text[:loc]
+                        
+                        # trim all whitespace that came before this header
+                        text = text.rstrip()
+                        
+                        # now append END OF CHAPTER marker
+                        text = text + "\n\nEND OF CHAPTER"
+
+                        # stop searching, break loop over triggers
+                        break
+                        
 
             if args.out_file:
                 text_file = open( args.out_file, "a" )
@@ -345,9 +371,17 @@ def main():
                 if args.gen_words:
                     if wordsWritten > int( args.gen_words ):
                         keepGoing = False
+                        if args.chapter_number > 0 and ! chapterDone:
+                            print( "Incompltete chapter ran over word limit\n" )
             else:
                 print(text)
                 
+
+            if chapterDone:
+                print( "Compltete chapter with " + 
+                       str( wordsWritten ) + " words\n" )
+                keepGoing = false;
+
             cumu_text = cumu_text + text
 
         if args.prompt and not args.out_file:
