@@ -371,7 +371,7 @@ def main():
                 if args.gen_words:
                     if wordsWritten > int( args.gen_words ):
                         keepGoing = False
-                        if args.chapter_number > 0 and ! chapterDone:
+                        if args.chapter_number > 0 and not chapterDone:
                             print( "Incompltete chapter ran over word limit\n" )
             else:
                 print(text)
