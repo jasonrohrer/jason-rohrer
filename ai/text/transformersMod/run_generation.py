@@ -161,6 +161,7 @@ def main():
     parser.add_argument("--out_file", type=str, default="", help="Output file for generated text (triggers infinite mode)" )
     parser.add_argument("--in_file", type=str, default="", help="Input file for prompt text." )
     parser.add_argument("--gen_words", type=str, default="", help="(For infinite mode with --out_file) How many words to generate." )
+    parser.add_argument("--chapter_number", type=int, default=0, help="Prefaces generated text with chapter header, and auto-ends chapter." )
     parser.add_argument("--prompt", type=str, default="")
     parser.add_argument("--padding_text", type=str, default="")
     parser.add_argument("--xlm_lang", type=str, default="", help="Optional language when used with the XLM model.")
@@ -235,10 +236,21 @@ def main():
         if args.in_file:
             if not cumu_text:
                 raw_text = open( args.in_file ).read()
+
+                if args.chapter_number > 0:
+                    chapterHeader = ( "\n\n\nChapter " + 
+                                      str( args.chapter_number ) +
+                                      "\n\n" );
+                    raw_text = raw_text + chapterHeader 
+                             
+                    if args.out_file:
+                        text_file = open( args.out_file, "a" )
+                        n = text_file.write( chapterHeader )
+                        text_file.close()
             else:
                 raw_text = cumu_text
         else:
-            # we're not in infinit mode
+            # we're not in infinite mode
             # keep applying same prompt for next batch, no accumulation
             cumu_text = ""
             if args.prompt:
