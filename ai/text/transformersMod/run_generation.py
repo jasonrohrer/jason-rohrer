@@ -358,6 +358,8 @@ def main():
                     loc = text.find(t)
                     if loc != -1:
                         chapterDone = True
+                        printf( "Found end of chapter in text chunk: '" 
+                                + text + "'\n" )
                         # trim off this header from end
                         text = text[:loc]
                         
@@ -367,9 +369,43 @@ def main():
                         # now append END OF CHAPTER marker
                         text = text + "\n\nEND OF CHAPTER"
 
+                        printf( "Trimmed to: '" + text + "'\n" )
+
                         # stop searching, break loop over triggers
                         break
-                        
+
+                if not chapterDone and wordsWritten > 500:
+                    # check for case were a new section title appears
+                    # that isn't one of our chapter triggers
+                    loc = text.find( "\n" )
+                    if loc != -1:
+                        line = text[loc+1:]
+                        endLoc = line.find( "\n" )
+                        if endLoc != -1 and endLoc < 80:
+                            trimmedLine = line[:endLoc]
+                            # a very short line
+                            if trimmedLine.find( "\"" ) == -1:
+                                # not dialog
+                                if not trimmedLine.endswith( '.' ):
+                                    # not a very short sentence
+                                    # a custom section heading
+                                    chapterDone = True
+                                    printf( 
+                                        "Found end of chapter in text chunk: '" 
+                                        + text + "'\n" )
+                                    
+                                    # trim off this header from end
+                                    text = text[:loc]
+                                    
+                                    # trim all whitespace that came before 
+                                    # this header
+                                    text = text.rstrip()
+                                    
+                                    # now append END OF CHAPTER marker
+                                    text = text + "\n\nEND OF CHAPTER"
+                                    
+                                    printf( "Trimmed to: '" + text + "'\n" )
+                                    
 
             if args.out_file:
                 text_file = open( args.out_file, "a" )
