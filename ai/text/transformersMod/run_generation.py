@@ -342,7 +342,18 @@ def main():
                                     "\nPart",
                                     "\nPART",
                                     "\n*",
-                                    "\n-"]
+                                    "\n-",
+                                    "\nAdvertisement",
+                                    "\nADVERTISEMENT",
+                                    "\n1",
+                                    "\n2",
+                                    "\n3",
+                                    "\n4",
+                                    "\n5",
+                                    "\n6",
+                                    "\n7",
+                                    "\n8",
+                                    "\n9" ]
                 for t in chapterTriggers:
                     loc = text.find(t)
                     if loc != -1:
