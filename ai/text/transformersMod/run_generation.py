@@ -377,9 +377,15 @@ def main():
                 if not chapterDone and wordsWritten > 500:
                     # check for case were a new section title appears
                     # that isn't one of our chapter triggers
-                    loc = text.find( "\n" )
+                    loc = text.find( "\n\n" )
                     if loc != -1:
-                        line = text[loc+1:]
+                        line = text[loc+2:]
+                        
+                        # remove any additional blank lines
+                        # from in front of would-be chapter break
+                        while line.startswith( '\n' ):
+                            line = line[1:]
+
                         endLoc = line.find( "\n" )
                         if endLoc != -1 and endLoc < 80:
                             trimmedLine = line[:endLoc]
