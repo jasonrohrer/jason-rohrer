@@ -358,7 +358,7 @@ def main():
                     loc = text.find(t)
                     if loc != -1:
                         chapterDone = True
-                        printf( "Found end of chapter in text chunk: '" 
+                        print( "Found end of chapter in text chunk: '" 
                                 + text + "'\n" )
                         # trim off this header from end
                         text = text[:loc]
@@ -369,7 +369,7 @@ def main():
                         # now append END OF CHAPTER marker
                         text = text + "\n\nEND OF CHAPTER"
 
-                        printf( "Trimmed to: '" + text + "'\n" )
+                        print( "Trimmed to: '" + text + "'\n" )
 
                         # stop searching, break loop over triggers
                         break
@@ -390,7 +390,7 @@ def main():
                                     # not a very short sentence
                                     # a custom section heading
                                     chapterDone = True
-                                    printf( 
+                                    print( 
                                         "Found end of chapter in text chunk: '" 
                                         + text + "'\n" )
                                     
@@ -404,7 +404,7 @@ def main():
                                     # now append END OF CHAPTER marker
                                     text = text + "\n\nEND OF CHAPTER"
                                     
-                                    printf( "Trimmed to: '" + text + "'\n" )
+                                    print( "Trimmed to: '" + text + "'\n" )
                                     
 
             if args.out_file:
