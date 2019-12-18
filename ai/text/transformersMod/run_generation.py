@@ -391,7 +391,7 @@ def main():
             if chapterDone:
                 print( "Compltete chapter with " + 
                        str( wordsWritten ) + " words\n" )
-                keepGoing = false;
+                keepGoing = False;
 
             cumu_text = cumu_text + text
 

@@ -24,7 +24,7 @@ do
 
 			python ./run_generation.py --model_type=gpt2 --length=20 --model_name_or_path=gpt2-xl --out_file=$overrunFileName --in_file=$4 --chapter_number=$chapter --gen_words=4000 --seed=$seed --stop_token="<|endoftext|>"
 			
-			if grep -q "END OF CHAPTER" $fileName; then
+			if grep -q "END OF CHAPTER" $overrunFileName; then
 				chapterDone="1"
 				mv $overrunFileName $fileName
 			fi
