@@ -4,7 +4,7 @@ echo "Running $2 chapters, starting with chapter $1, numerical seed $3 and input
 
 for (( c = 0; c < $2; c++ )) 
 do
-	chapter=$(($i + $1))
+	chapter=$(($c + $1))
 
 	seed=$3
 
