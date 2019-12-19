@@ -251,7 +251,9 @@ def main():
             return
         textBlocks = textBlocks[:-numToRewind]
         
-        textWrittenOut = join( textBlocks )
+        glue = ""
+        
+        textWrittenOut = glue.join( textBlocks )
         cumu_text = textWrittenOut
         
         # rewrite file
