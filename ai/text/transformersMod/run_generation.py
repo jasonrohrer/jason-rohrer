@@ -261,7 +261,7 @@ def main():
         n = text_file.write( textWrittenOut )
         text_file.close()
 
-        print( "After rewind, final textBlock = '" + textBlock[-1:] + "'\n" )
+        print( "After rewind, final textBlock = '" + textBlocks[-1:] + "'\n" )
 
 
 
@@ -339,7 +339,7 @@ def main():
         # make it 1000 to give us some wiggle room
         if len( context_tokens ) + args.length > 1000:
             l = len( context_tokens )
-            print( "Overflow with (" + str( l ) + "tokens)\n\n" )
+            print( "Overflow with (" + str( l ) + "tokens)\n" )
             #print( "Old cumu_text = " + cumu_text + "\n\n\n" );
 
             extra = ( l + args.length )  - 1000 
