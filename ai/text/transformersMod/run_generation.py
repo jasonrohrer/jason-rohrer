@@ -283,7 +283,7 @@ def main():
                + lastChar + "'\n" )
         
         lastToken = tokenizer.decode( context_tokens[-1:], 
-                                      clean_up_tokenization_spaces=False) )
+                                      clean_up_tokenization_spaces=False )
         
         print( "During initial tokenization, last token is '" 
                + lastToken + "'\n" )
