@@ -465,7 +465,7 @@ def main():
                 # the end of a chunk)
                 # if we detect one here, just give up on this chapter entirely
                 if args.chapter_number > 0 and keepGoing and not chapterDone:
-                    lines = textWrittenOut.splitLines()
+                    lines = textWrittenOut.splitlines()
                     # don't consider last line for this test, since it
                     # may be in-progress
                     lines.pop()
