@@ -36,6 +36,7 @@ from transformers import CTRLLMHeadModel, CTRLTokenizer
 from transformers import XLMWithLMHeadModel, XLMTokenizer
 
 
+import signal
 # found this technique here:
 # https://stackoverflow.com/questions/25308847/attaching-a-process-with-pdb
 def handle_pdb( sig, frame ):
