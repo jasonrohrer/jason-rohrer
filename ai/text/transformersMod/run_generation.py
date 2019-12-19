@@ -232,6 +232,32 @@ def main():
     if args.chapter_number > 0:
         chapterIntroWritten = False
 
+    
+    # running list of all text blocks that have been written out to
+    # file so far
+    textBlocks = [] 
+    
+    
+    # watch out for infinite loops
+    maxRewinds = 10
+    rewindsSoFar = 0
+
+    # rewinds text written so far by some number of generated blocks
+    # rewrites out file entirely to reflect this
+    def rewindBlocks( numToRewind ):
+        if len( textBlocks ) <= numToRewind:
+            return
+        textBlocks = textBlocks[:-numToRewind]
+        
+        textWrittenOut = join( textBlocks )
+        cumu_text = textWrittenOut
+        
+        # rewrite file
+        text_file = open( args.out_file, "w" )
+        n = text_file.write( textWrittenOut )
+        text_file.close()
+
+
 
     while keepGoing:
         xlm_lang = None
@@ -269,6 +295,7 @@ def main():
                         text_file = open( args.out_file, "a" )
                         n = text_file.write( chapterHeader )
                         textWrittenOut = textWrittenOut + chapterHeader
+                        textBlocks.append( chapterHeader )
                         text_file.close()
             else:
                 raw_text = cumu_text
@@ -356,6 +383,8 @@ def main():
             # text.
             #text = text[: text.find(args.stop_token) if args.stop_token else None]
 
+            rewind = False
+
             # this does the right thing, only trimming if stop_token found
             if args.stop_token :
                 loc = text.find(args.stop_token)
@@ -367,7 +396,33 @@ def main():
                     # text = text[:loc]
                     # instead, skip the whole text block
                     # which will effectively regenerate this block again
+                    rewind = True
+            
+            badTokens = [ "@", "http", ".com" ]
+            
+            for b in badTokens:
+                loc = text.find(b)
+                if loc != -1:
+                    rewind = True
+
+            if rewind:
+                rewindsSoFar += 1
+                if rewindsSoFar > maxRewinds:
+                    print( "Rewound " + str( rewindsSoFar ) +
+                           " times, giving up\n" )
+                    keepGoing = False
                     break
+
+            if args.out_file and rewind:
+                print( "Last block of text, '" + 
+                       text + 
+                       "' contains rejected token.  Rewinding 10 blocks" )
+                rewindBlocks( 10 )
+            elif rewind:
+                # not in infinite mode, just discard this block and try again
+                break
+                
+
             
             if not chapterIntroWritten:
                 # make sure first bit of generated text starts with a capital
@@ -504,6 +559,7 @@ def main():
                 text_file = open( args.out_file, "a" )
                 n = text_file.write( text )
                 textWrittenOut = textWrittenOut + text
+                textBlocks.append( text )
                 text_file.close()
 
                 wordsWritten += text.count( ' ' )
