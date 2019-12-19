@@ -426,6 +426,7 @@ def main():
                        text + 
                        "' contains rejected token.  Rewinding 10 blocks" )
                 rewindBlocks( 10 )
+                break
             elif rewind:
                 # not in infinite mode, just discard this block and try again
                 break
