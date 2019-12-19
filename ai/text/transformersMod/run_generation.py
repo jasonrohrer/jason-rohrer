@@ -359,7 +359,7 @@ def main():
                 if c != "\"" and not c.isupper():
                     # opening with " is okay, or upper case letter
                     print( "Discarding mal-formatted chapter intro: '" +
-                           text + "'\n" )
+                           text + "', bad first char '" + c + "'\n" )
                     break
                 
                 # if we get her, first block passed the test
