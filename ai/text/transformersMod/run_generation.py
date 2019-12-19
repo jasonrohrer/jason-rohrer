@@ -386,8 +386,8 @@ def main():
                        + cumu_text + "'\n" )
             else:
                 lastChar = cumu_text[-1:]
-                printf( "During text cleanup, cumu_text ends with '" 
-                        + lastChar + "'\n" )
+                print( "During text cleanup, cumu_text ends with '" 
+                       + lastChar + "'\n" )
 
             if len( text ) > 0 and text[0] == ' ':
                 # consider case where previous block ended with newlines
