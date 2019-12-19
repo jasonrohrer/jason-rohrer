@@ -356,7 +356,7 @@ def main():
                 if len( text ) == 0:
                     break
                 c = text[0]
-                if ! c == "\"" and ! c.isupper():
+                if c != "\"" and not c.isupper():
                     # opening with " is okay, or upper case letter
                     print( "Discarding mal-formatted chapter intro: '" +
                            text + "'\n" )
