@@ -211,6 +211,16 @@ def main():
     
     wordsWritten = 0
 
+    # total text that has been written out to file
+    textWrittenOut = ""
+
+
+    chapterIntroWritten = True
+
+    if args.chapter_number > 0:
+        chapterIntroWritten = False
+
+
     while keepGoing:
         xlm_lang = None
         # XLM Language usage detailed in the issues #1414
@@ -246,6 +256,7 @@ def main():
                     if args.out_file:
                         text_file = open( args.out_file, "a" )
                         n = text_file.write( chapterHeader )
+                        textWrittenOut = textWrittenOut + chapterHeader
                         text_file.close()
             else:
                 raw_text = cumu_text
@@ -324,7 +335,7 @@ def main():
             # this does the right thing, only trimming if stop_token found
             if args.stop_token :
                 loc = text.find(args.stop_token)
-                if loc != -1 :
+                if loc != -1:
                     # actually trimming this block seems to produce
                     # gibberish after, because some nonsense (footnotes)
                     # usually proceeds <|endtext|>
@@ -334,6 +345,27 @@ def main():
                     # which will effectively regenerate this block again
                     break
             
+            if not chapterIntroWritten:
+                # make sure first bit of generated text starts with a capital
+                # letter or quote.  If not, discard, and try again.
+                
+                # get rid of beginning white space
+                # Chapter header already has right amount of white space
+                text.lstrip()
+                
+                if text.length == 0:
+                    break
+                c = text[0]
+                if c.islower():
+                    # opening with " is okay, doesn't count as lower
+                    print( "Discarding mal-formatted chapter intro: '" +
+                           text + "'\n" )
+                    break
+                
+                # if we get her, first block passed the test
+                chapterIntroWritten = True
+                    
+
             chapterDone = False
 
             if args.chapter_number > 0:
@@ -416,6 +448,7 @@ def main():
             if args.out_file:
                 text_file = open( args.out_file, "a" )
                 n = text_file.write( text )
+                textWrittenOut = textWrittenOut + chapterHeader
                 text_file.close()
 
                 wordsWritten += text.count( ' ' )
@@ -426,6 +459,31 @@ def main():
                         keepGoing = False
                         if args.chapter_number > 0 and not chapterDone:
                             print( "Incompltete chapter ran over word limit\n" )
+
+                # watch for wayward section breaks that weren't caught
+                # in a chunk test above (perhaps because they straddled
+                # the end of a chunk)
+                # if we detect one here, just give up on this chapter entirely
+                if args.chapter_number > 0 and keepGoing and not chapterDone:
+                    lines = textWrittenOut.splitLines()
+                    # don't consider last line for this test, since it
+                    # may be in-progress
+                    lines.pop()
+                    lineI = 0
+                    for l in lines:
+                        if( len( l ) > 3 and 
+                            len( l ) < 80 and
+                            # not dialog
+                            l.find( "\"" ) == -1 and
+                            # not a short sentence
+                            not trimmedLine.endswith( '.' ) ):
+                            print( "Found wayward section header on line "
+                                   + str( lineI ) + 
+                                   " ('" + 
+                                   l + 
+                                   "'), giving up on this chapter\n" )
+                        lineI += 1
+                    
             else:
                 print(text)
                 
