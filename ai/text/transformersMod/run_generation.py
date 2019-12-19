@@ -288,17 +288,6 @@ def main():
 
         # now strip it off
         context_tokens = context_tokens[:-1]
-
-
-        lastChar = cumu_text[-1:]
-        print( "During initial tokenization, cumu_text ends with '" 
-               + lastChar + "'\n" )
-        
-        lastToken = tokenizer.decode( context_tokens[-1:], 
-                                      clean_up_tokenization_spaces=False )
-        
-        print( "During initial tokenization, last token is '" 
-               + lastToken + "'\n" )
         
 
         # 1024 is the length limit for context tokens + generated tokens
@@ -309,18 +298,10 @@ def main():
             #print( "Old cumu_text = " + cumu_text + "\n\n\n" );
 
             extra = ( l + args.length )  - 1000 
-            context_tokens = context_tokens[ extra: ]
-            
-            lastChar = cumu_text[-1:]
-            print( "Before overflow trimming, cumu_text ends with '" 
-                   + lastChar + "'\n" )
+            context_tokens = context_tokens[ extra: ]            
 
             cumu_text = tokenizer.decode( context_tokens, 
                                           clean_up_tokenization_spaces=False )
-
-            lastChar = cumu_text[-1:]
-            print( "After overflow trimming, cumu_text ends with '" 
-                   + lastChar + "'\n" )
 
             #print( "trimmed cumu_text = " + cumu_text + "\n\n\n" );
             
@@ -400,7 +381,6 @@ def main():
 
             # now run some basic cleanup on this latest block
             # First, never allow a space after a newline, at the start of a line
-            print( "Running basic cleanup on text block: '" + text + "'\n" )
             text = text.replace( "\n ", "\n" )
             
             # next, watch for multiple blank lines between paragraphs
@@ -408,17 +388,7 @@ def main():
             text = text.replace( "\n\n\n\n\n", "\n\n" )
             text = text.replace( "\n\n\n\n", "\n\n" )
             text = text.replace( "\n\n\n", "\n\n" )
-
             
-            if cumu_text.endswith( "\n" ):
-                print( "Special cleanup of text '" + 
-                       text + 
-                       "' due to cumu_text ending in newline: '" 
-                       + cumu_text + "'\n" )
-            else:
-                lastChar = cumu_text[-1:]
-                print( "During text cleanup, cumu_text ends with '" 
-                       + lastChar + "'\n" )
 
             if len( text ) > 0 and text[0] == ' ':
                 # consider case where previous block ended with newlines
@@ -436,7 +406,7 @@ def main():
                 text = text.lstrip()
                 text = "\n" + text
 
-            print( "After cleanup, text block: '" + text + "'\n" )
+
 
             chapterDone = False
 
@@ -573,11 +543,6 @@ def main():
                 keepGoing = False;
 
             cumu_text = cumu_text + text
-
-            print( "Appending this to cumu_text: '" + text + "'\n" )
-            lastChar = cumu_text[-1:]
-            print( "After append, cumu_text ends with '" 
-                   + lastChar + "'\n" )
 
 
         if args.prompt and not args.out_file:
