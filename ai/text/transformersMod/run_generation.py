@@ -261,7 +261,8 @@ def main():
         n = text_file.write( textWrittenOut )
         text_file.close()
 
-        print( "After rewind, final textBlock = '" + textBlocks[-1:] + "'\n" )
+        print( "After rewind, final textBlock = '" + 
+               textBlocks[-1:][0] + "'\n" )
 
 
 
