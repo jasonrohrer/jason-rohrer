@@ -363,8 +363,9 @@ def main():
                     break
                 
                 # if we get her, first block passed the test
-                chapterIntroWritten = True
-                    
+                chapterIntroWritten = True                
+                print( "Found well-formed chapter intro: '" + text + "'\n" )
+
 
             chapterDone = False
 
