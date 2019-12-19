@@ -471,17 +471,21 @@ def main():
                     lines.pop()
                     lineI = 0
                     for l in lines:
-                        if( len( l ) > 3 and 
+                        # don't consider first few lines either
+                        # that's our chapter header
+                        if( lineI > 7 and len( l ) > 3 and 
                             len( l ) < 80 and
                             # not dialog
                             l.find( "\"" ) == -1 and
                             # not a short sentence
                             not l.endswith( '.' ) ):
+                            
                             print( "Found wayward section header on line "
                                    + str( lineI ) + 
                                    " ('" + 
                                    l + 
                                    "'), giving up on this chapter\n" )
+                            keepGoing = False
                         lineI += 1
                     
             else:
