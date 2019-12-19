@@ -378,6 +378,23 @@ def main():
             text = text.replace( "\n\n\n\n", "\n\n" )
             text = text.replace( "\n\n\n", "\n\n" )
 
+            
+            if len( text ) > 0 and text[0] == ' ':
+                # consider case where previous block ended with newlines
+                # we don't want to start wit spaces here
+                if cumu_text.endswith( "\n" ):
+                    text = text.lstrip()
+            
+            # if cumu_text ended with end of paragraph, strip
+            # extra lines from this next block
+            if cumu_text.endswith( "\n\n" ):
+                text = text.lstrip()
+            else if cumu_text.endswith( "\n" ):
+                # it ended with a single newline
+                # this text must start with a single newline
+                text = text.lstrip()
+                text = "\n" + text
+
             print( "After cleanup, text block: '" + text + "'\n" )
 
             chapterDone = False
