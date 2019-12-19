@@ -476,7 +476,7 @@ def main():
                             # not dialog
                             l.find( "\"" ) == -1 and
                             # not a short sentence
-                            not line.endswith( '.' ) ):
+                            not l.endswith( '.' ) ):
                             print( "Found wayward section header on line "
                                    + str( lineI ) + 
                                    " ('" + 
