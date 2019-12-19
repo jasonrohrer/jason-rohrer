@@ -379,6 +379,12 @@ def main():
             text = text.replace( "\n\n\n", "\n\n" )
 
             
+            if cumu_text.endswith( "\n" ):
+                print( "Special cleanup of text '" + 
+                       text + 
+                       "' due to cumu_text ending in newline: '" 
+                       + cumu_text + "'\n" )
+
             if len( text ) > 0 and text[0] == ' ':
                 # consider case where previous block ended with newlines
                 # we don't want to start wit spaces here
