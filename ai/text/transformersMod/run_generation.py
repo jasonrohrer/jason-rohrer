@@ -356,8 +356,8 @@ def main():
                 if len( text ) == 0:
                     break
                 c = text[0]
-                if c.islower():
-                    # opening with " is okay, doesn't count as lower
+                if ! c == "\"" and ! c.isupper():
+                    # opening with " is okay, or upper case letter
                     print( "Discarding mal-formatted chapter intro: '" +
                            text + "'\n" )
                     break
@@ -425,7 +425,8 @@ def main():
                             # a very short line
                             if trimmedLine.find( "\"" ) == -1:
                                 # not dialog
-                                if not trimmedLine.endswith( '.' ):
+                                if( not trimmedLine.endswith( '.' ) and
+                                    not trimmedLine.endswith( '?' ) ):
                                     # not a very short sentence
                                     # a custom section heading
                                     chapterDone = True
@@ -480,7 +481,8 @@ def main():
                             # not dialog
                             l.find( "\"" ) == -1 and
                             # not a short sentence
-                            not l.endswith( '.' ) ):
+                            not l.endswith( '.' ) and
+                            not l.endswith( '?' ) ):
                             
                             print( "Found wayward section header on line "
                                    + str( lineI ) + 
