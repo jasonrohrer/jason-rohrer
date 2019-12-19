@@ -543,6 +543,12 @@ def main():
 
             cumu_text = cumu_text + text
 
+            print( "Appending this to cumu_text: '" + text "'\n" )
+            lastChar = cumu_text[-1:]
+            print( "After append, cumu_text ends with '" 
+                   + lastChar + "'\n" )
+
+
         if args.prompt and not args.out_file:
             break
     return text
