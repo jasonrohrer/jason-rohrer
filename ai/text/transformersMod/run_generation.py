@@ -389,7 +389,7 @@ def main():
             # extra lines from this next block
             if cumu_text.endswith( "\n\n" ):
                 text = text.lstrip()
-            else if cumu_text.endswith( "\n" ):
+            elif cumu_text.endswith( "\n" ):
                 # it ended with a single newline
                 # this text must start with a single newline
                 text = text.lstrip()
