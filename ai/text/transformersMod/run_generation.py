@@ -290,7 +290,7 @@ def main():
             context_tokens = context_tokens[ extra: ]
             
             cumu_text = tokenizer.decode( context_tokens, 
-                                          clean_up_tokenization_spaces=True )
+                                          clean_up_tokenization_spaces=False )
             #print( "trimmed cumu_text = " + cumu_text + "\n\n\n" );
             
             
