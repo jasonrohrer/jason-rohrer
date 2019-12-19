@@ -353,7 +353,7 @@ def main():
                 # Chapter header already has right amount of white space
                 text.lstrip()
                 
-                if text.length == 0:
+                if len( text ) == 0:
                     break
                 c = text[0]
                 if c.islower():
