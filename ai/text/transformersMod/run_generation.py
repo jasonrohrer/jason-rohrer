@@ -471,6 +471,7 @@ def main():
                     lines.pop()
                     lineI = 0
                     for l in lines:
+                        print( "Checking line "+str( lineI ) + ": '"+l+"'\n" )
                         # don't consider first few lines either
                         # that's our chapter header
                         if( lineI > 7 and len( l ) > 3 and 
