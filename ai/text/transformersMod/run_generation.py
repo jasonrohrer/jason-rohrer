@@ -36,6 +36,14 @@ from transformers import CTRLLMHeadModel, CTRLTokenizer
 from transformers import XLMWithLMHeadModel, XLMTokenizer
 
 
+# found this technique here:
+# https://stackoverflow.com/questions/25308847/attaching-a-process-with-pdb
+def handle_pdb( sig, frame ):
+    import pdb
+    pdb.Pdb().set_trace( frame )
+
+
+
 logging.basicConfig(format = '%(asctime)s - %(levelname)s - %(name)s -   %(message)s',
                     datefmt = '%m/%d/%Y %H:%M:%S',
                     level = logging.INFO)
@@ -153,6 +161,9 @@ def sample_sequence(model, length, context, num_samples=1, temperature=1, top_k=
 
 
 def main():
+    # if we get a SIGUSR1, we enable the debugger
+    signal.signal( signal.SIGUSR1, handle_pdb )
+
     parser = argparse.ArgumentParser()
     parser.add_argument("--model_type", default=None, type=str, required=True,
                         help="Model type selected in the list: " + ", ".join(MODEL_CLASSES.keys()))
