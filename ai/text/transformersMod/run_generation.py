@@ -365,6 +365,17 @@ def main():
                 # if we get her, first block passed the test
                 chapterIntroWritten = True                
                 print( "Found well-formed chapter intro: '" + text + "'\n" )
+                
+
+            # now run some basic cleanup on this latest block
+            # First, never allow a space after a newline, at the start of a line
+            text = text.replace( "\n ", "\n" )
+            
+            # next, watch for multiple blank lines between paragraphs
+            # start with longest examples first
+            text = text.replace( "\n\n\n\n\n", "\n\n" )
+            text = text.replace( "\n\n\n\n", "\n\n" )
+            text = text.replace( "\n\n\n", "\n\n" )
 
 
             chapterDone = False
