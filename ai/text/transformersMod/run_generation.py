@@ -276,7 +276,19 @@ def main():
         if args.model_type in ["transfo-xl", "xlnet"]:
             # Models with memory likes to have a long prompt for short inputs.
             raw_text = (args.padding_text if args.padding_text else PADDING_TEXT) + raw_text
-        context_tokens = tokenizer.encode(raw_text, add_special_tokens=False)
+
+        # Problem:  tokenization strips trailing white space
+        # but we need that to preserve paragraph structure, etc.
+        
+        # Solution:  add a dummy token at the end, then remove it later
+        # after tokenization is complete.
+        endToken = " *"
+        context_tokens = tokenizer.encode( raw_text + endToken, 
+                                           add_special_tokens=False)
+
+        # now strip it off
+        context_tokens = context_tokens[:-1]
+
 
         lastChar = cumu_text[-1:]
         print( "During initial tokenization, cumu_text ends with '" 
