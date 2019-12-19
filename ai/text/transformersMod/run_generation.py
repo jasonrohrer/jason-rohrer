@@ -369,7 +369,7 @@ def main():
 
             # now run some basic cleanup on this latest block
             # First, never allow a space after a newline, at the start of a line
-            printf( "Running basic cleanup on text block: '" + text + "'\n" )
+            print( "Running basic cleanup on text block: '" + text + "'\n" )
             text = text.replace( "\n ", "\n" )
             
             # next, watch for multiple blank lines between paragraphs
@@ -378,7 +378,7 @@ def main():
             text = text.replace( "\n\n\n\n", "\n\n" )
             text = text.replace( "\n\n\n", "\n\n" )
 
-            printf( "After cleanup, text block: '" + text + "'\n" )
+            print( "After cleanup, text block: '" + text + "'\n" )
 
             chapterDone = False
 
