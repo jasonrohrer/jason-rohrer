@@ -277,6 +277,16 @@ def main():
             # Models with memory likes to have a long prompt for short inputs.
             raw_text = (args.padding_text if args.padding_text else PADDING_TEXT) + raw_text
         context_tokens = tokenizer.encode(raw_text, add_special_tokens=False)
+
+        lastChar = cumu_text[-1:]
+        print( "During initial tokenization, cumu_text ends with '" 
+               + lastChar + "'\n" )
+        
+        lastToken = tokenizer.decode( context_tokens[-1:], 
+                                      clean_up_tokenization_spaces=False) )
+        
+        print( "During initial tokenization, last token is '" 
+               + lastToken + "'\n" )
         
 
         # 1024 is the length limit for context tokens + generated tokens
