@@ -245,6 +245,8 @@ def main():
     # rewinds text written so far by some number of generated blocks
     # rewrites out file entirely to reflect this
     def rewindBlocks( numToRewind ):
+        nonlocal textBlocks, textWrittenOut, cumu_text
+
         if len( textBlocks ) <= numToRewind:
             return
         textBlocks = textBlocks[:-numToRewind]
