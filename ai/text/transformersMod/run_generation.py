@@ -243,6 +243,8 @@ def main():
     maxRewinds = 10
     rewindsSoFar = 0
 
+    rewindJustHappened = False
+
     # rewinds text written so far by some number of generated blocks
     # rewrites out file entirely to reflect this
     # returns False if we would rewind back too close to the beginning
@@ -349,8 +351,10 @@ def main():
         # make it 1000 to give us some wiggle room
         if len( context_tokens ) + args.length > 1000:
             l = len( context_tokens )
-            #print( "Overflow with (" + str( l ) + "tokens)\n" )
-            #print( "Old cumu_text = " + cumu_text + "\n\n\n" );
+            
+            if rewindJustHappened:
+                print( "Overflow with (" + str( l ) + "tokens)\n" )
+                print( "Old cumu_text = {" + cumu_text + "}\n\n\n" );
 
             extra = ( l + args.length )  - 1000 
             context_tokens = context_tokens[ extra: ]            
@@ -358,10 +362,12 @@ def main():
             cumu_text = tokenizer.decode( context_tokens, 
                                           clean_up_tokenization_spaces=False )
 
-            #print( "trimmed cumu_text = " + cumu_text + "\n\n\n" );
-            l = len( context_tokens )
-            #print( "After trimming, have (" + str( l ) + "tokens)\n\n" )
-            
+            if rewindJustHappened:
+                print( "trimmed cumu_text = {" + cumu_text + "}\n\n\n" );
+                l = len( context_tokens )
+                print( "After trimming, have (" + str( l ) + "tokens)\n\n" )
+        
+        rewindJustHappened = false
             
         #print( "context_tokens (len=" 
         #       + str( len( context_tokens ) ) + ") = " 
