@@ -270,6 +270,8 @@ def main():
         n = text_file.write( textWrittenOut )
         text_file.close()
 
+        nonlocal wordsWritten
+
         wordsWritten = textWrittenOut.count( ' ' )
         
         print( "After rewind, final textBlock = '" + 
@@ -408,6 +410,8 @@ def main():
             # this trims off final letter of text if stop_token not found in
             # text.
             #text = text[: text.find(args.stop_token) if args.stop_token else None]
+            
+            skipThisText = False
 
             rewind = False
 
@@ -670,6 +674,8 @@ def main():
                                     print( "Rewind failed, giving up\n" )
                                     keepGoing = False
                                     break
+                                else:
+                                    skipThisText = True
                                 
                         lineI += 1
                     
@@ -682,7 +688,8 @@ def main():
                        str( wordsWritten ) + " words\n" )
                 keepGoing = False;
 
-            cumu_text = cumu_text + text
+            if not skipThisText:
+                cumu_text = cumu_text + text
 
 
         if args.prompt and not args.out_file:
