@@ -250,7 +250,8 @@ def main():
     # returns False if we would rewind back too close to the beginning
     # (10 blocks from chapter header, not leaving enough context to continue)
     def rewindBlocks( numToRewind ):
-        nonlocal textBlocks, textWrittenOut, cumu_text
+        nonlocal textBlocks, textWrittenOut, cumu_text, rewindJustHappened
+
         numBlocks = len( textBlocks )
         minBlocks = numToRewind + 10
         if numBlocks <= minBlocks:
@@ -274,6 +275,7 @@ def main():
         print( "After rewind, final textBlock = '" + 
                textBlocks[-1:][0] + "'\n" )
         
+        rewindJustHappened = True
         return True
 
 
@@ -367,7 +369,7 @@ def main():
                 l = len( context_tokens )
                 print( "After trimming, have (" + str( l ) + "tokens)\n\n" )
         
-        rewindJustHappened = false
+        rewindJustHappened = False
             
         #print( "context_tokens (len=" 
         #       + str( len( context_tokens ) ) + ") = " 
