@@ -30,8 +30,9 @@ do
 			
 			rm $fileName
 			rm $overrunFileName
-
-			python ./run_generation.py --model_type=gpt2 --length=20 --model_name_or_path=gpt2-xl --out_file=$overrunFileName --in_file=$4 --chapter_number=$chapter --gen_words=$maxWords --gen_min_words=$minWords --seed=$seed --stop_token="<|endoftext|>"
+			
+			# unbuffered std out (even if we're redirected to a file externally)
+			stdbuf -o0 python ./run_generation.py --model_type=gpt2 --length=20 --model_name_or_path=gpt2-xl --out_file=$overrunFileName --in_file=$4 --chapter_number=$chapter --gen_words=$maxWords --gen_min_words=$minWords --seed=$seed --stop_token="<|endoftext|>"
 			
 			if grep -q "END OF CHAPTER" $overrunFileName; then
 				
