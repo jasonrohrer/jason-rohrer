@@ -595,7 +595,7 @@ def main():
                         # don't consider first few lines either
                         # that's our chapter header
                         if( lineI > 3 and 
-                            len( l ) > 3 and 
+                            len( l ) >= 1 and 
                             len( l ) < 80 and
                             # not dialog
                             l.find( "\"" ) == -1 and
@@ -607,8 +607,24 @@ def main():
                                    + str( lineI ) + 
                                    " ('" + 
                                    l + 
-                                   "'), giving up on this chapter\n" )
-                            keepGoing = False
+                                   "'), ending this chapter\n" )
+                            # trim off lines from header onward
+                            goodLines = lines[:lineI]
+                            glue = "\n"
+                            textWrittenOut = glue.join( goodLines )
+                            textWrittenOut = textWrittenOut.rstrip()
+                            
+                            textWrittenOut = ( textWrittenOut + 
+                                               "\n\nEND OF CHAPTER" )
+                                    
+                            # rewrite entire file
+                            text_file = open( args.out_file, "w" )
+                            n = text_file.write( textWrittenOut )
+                            text_file.close()
+                            
+                            wordsWritten = textWrittenOut.count( ' ' )
+                            chapterDone = True
+                            break
                         lineI += 1
                     
             else:

@@ -3,8 +3,8 @@ reqWord=`cat $6`
 echo "Running $2 chapters, starting with chapter $1, numerical seed $3 and input text file $4, and generating $5 versions of each chapter, requiring the word from file $6, '$reqWord'"
 
 
-minWords=3000
-maxWords=4500
+minWords=2000
+maxWords=4000
 
 
 for (( c = 0; c < $2; c++ )) 
