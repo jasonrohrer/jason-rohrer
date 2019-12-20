@@ -340,7 +340,7 @@ def main():
         # make it 1000 to give us some wiggle room
         if len( context_tokens ) + args.length > 1000:
             l = len( context_tokens )
-            print( "Overflow with (" + str( l ) + "tokens)\n" )
+            #print( "Overflow with (" + str( l ) + "tokens)\n" )
             #print( "Old cumu_text = " + cumu_text + "\n\n\n" );
 
             extra = ( l + args.length )  - 1000 
@@ -351,7 +351,7 @@ def main():
 
             #print( "trimmed cumu_text = " + cumu_text + "\n\n\n" );
             l = len( context_tokens )
-            print( "After trimming, have (" + str( l ) + "tokens)\n\n" )
+            #print( "After trimming, have (" + str( l ) + "tokens)\n\n" )
             
             
         #print( "context_tokens (len=" 

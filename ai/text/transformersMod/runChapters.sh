@@ -15,7 +15,7 @@ do
 		while [ $chapterDone -ne "1" ]
 		do
 			echo "Trying to generate Chapter $chapter (try $t) with seed $seed"
-			fileName=chapter${chapter}.${t}_${seed}.txt
+			fileName=chapter${chapter}.${t}_${seed}_complete.txt
 			
 			overrunFileName=chapter${chapter}.${t}_${seed}_overrun.txt
 			
