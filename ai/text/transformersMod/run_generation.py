@@ -172,7 +172,8 @@ def main():
                         help="Path to pre-trained model or shortcut name selected in the list: " + ", ".join(ALL_MODELS))
     parser.add_argument("--out_file", type=str, default="", help="Output file for generated text (triggers infinite mode)" )
     parser.add_argument("--in_file", type=str, default="", help="Input file for prompt text." )
-    parser.add_argument("--gen_words", type=str, default="", help="(For infinite mode with --out_file) How many words to generate." )
+    parser.add_argument("--gen_words", type=str, default="", help="(For infinite mode with --out_file) How many words to generate, max." )
+    parser.add_argument("--gen_min_words", type=int, default=0, help="(For infinite mode with --out_file) How many words to generate at minimum." )
     parser.add_argument("--chapter_number", type=int, default=0, help="Prefaces generated text with chapter header, and auto-ends chapter." )
     parser.add_argument("--prompt", type=str, default="")
     parser.add_argument("--padding_text", type=str, default="")
@@ -244,11 +245,16 @@ def main():
 
     # rewinds text written so far by some number of generated blocks
     # rewrites out file entirely to reflect this
+    # returns False if we would rewind back too close to the beginning
+    # (10 blocks from chapter header, not leaving enough context to continue)
     def rewindBlocks( numToRewind ):
         nonlocal textBlocks, textWrittenOut, cumu_text
-
-        if len( textBlocks ) <= numToRewind:
-            return
+        numBlocks = len( textBlocks )
+        minBlocks = numToRewind + 10
+        if numBlocks <= minBlocks:
+            print( "Rewind failed, only " + 
+                   str( numBlocks ) + " left, need " + str( minBlocks ) + "\n" )
+            return False
         textBlocks = textBlocks[:-numToRewind]
         
         glue = ""
@@ -261,9 +267,12 @@ def main():
         n = text_file.write( textWrittenOut )
         text_file.close()
 
+        wordsWritten = textWrittenOut.count( ' ' )
+        
         print( "After rewind, final textBlock = '" + 
                textBlocks[-1:][0] + "'\n" )
-
+        
+        return True
 
 
     while keepGoing:
@@ -426,7 +435,9 @@ def main():
                 print( "Last block of text, '" + 
                        text + 
                        "' contains rejected token.  Rewinding 10 blocks" )
-                rewindBlocks( 10 )
+                if not rewindBlocks( 10 ):
+                    print( "Rewind failed, giving up\n" )
+                    keepGoing = False
                 break
             elif rewind:
                 # not in infinite mode, just discard this block and try again
@@ -487,7 +498,13 @@ def main():
 
             chapterDone = False
 
-            if args.chapter_number > 0:
+            # skip this check here
+            # because it is checking only the latest chunk
+            # it misses a lot of cases, in the case of split headers
+            # also, the other code, which looks for generic non-stentece short
+            # lines, catches these cases and more.
+            # No sense in enumerating these special case headers anymore
+            if False and args.chapter_number > 0:
                 chapterTriggers = [ "Chapter",
                                     "CHAPTER",
                                     "\nPart",
@@ -572,7 +589,7 @@ def main():
                 textBlocks.append( text )
                 text_file.close()
 
-                wordsWritten += text.count( ' ' )
+                wordsWritten = textWrittenOut.count( ' ' )
                 
                 print( "Generated " + str( wordsWritten ) + " words\n" )
                 if args.gen_words:
@@ -584,7 +601,8 @@ def main():
                 # watch for wayward section breaks that weren't caught
                 # in a chunk test above (perhaps because they straddled
                 # the end of a chunk)
-                # if we detect one here, just give up on this chapter entirely
+                # if we detect one here, end the chapter (if we've gone
+                # long enough) or rewind if we can
                 if args.chapter_number > 0 and keepGoing and not chapterDone:
                     lines = textWrittenOut.splitlines()
                     # don't consider last line for this test, since it
@@ -603,28 +621,48 @@ def main():
                             not l.endswith( '.' ) and
                             not l.endswith( '?' ) ):
                             
-                            print( "Found wayward section header on line "
+                            print( "Found section header on line "
                                    + str( lineI ) + 
                                    " ('" + 
                                    l + 
-                                   "'), ending this chapter\n" )
-                            # trim off lines from header onward
-                            goodLines = lines[:lineI]
-                            glue = "\n"
-                            textWrittenOut = glue.join( goodLines )
-                            textWrittenOut = textWrittenOut.rstrip()
+                                   "')\n" )
+                            if wordsWritten >= args.gen_min_words:
+                                print( "Chapter has " + str( wordsWritten ) +
+                                       " words, ending before " +
+                                       "this found section header\n" )
+                                # trim off lines from header onward
+                                goodLines = lines[:lineI]
+                                glue = "\n"
+                                textWrittenOut = glue.join( goodLines )
+                                textWrittenOut = textWrittenOut.rstrip()
                             
-                            textWrittenOut = ( textWrittenOut + 
-                                               "\n\nEND OF CHAPTER" )
+                                textWrittenOut = ( textWrittenOut + 
+                                                   "\n\nEND OF CHAPTER" )
                                     
-                            # rewrite entire file
-                            text_file = open( args.out_file, "w" )
-                            n = text_file.write( textWrittenOut )
-                            text_file.close()
+                                # rewrite entire file
+                                text_file = open( args.out_file, "w" )
+                                n = text_file.write( textWrittenOut )
+                                text_file.close()
                             
-                            wordsWritten = textWrittenOut.count( ' ' )
-                            chapterDone = True
-                            break
+                                wordsWritten = textWrittenOut.count( ' ' )
+                                chapterDone = True
+                                break
+                            else:
+                                rewindsSoFar += 1
+                                if rewindsSoFar > maxRewinds:
+                                    print( "Rewound " + str( rewindsSoFar ) +
+                                           " times, giving up\n" )
+                                    keepGoing = False
+                                    break
+                                print( "Chapter only has " + 
+                                       str( wordsWritten ) +
+                                       " words, rewinding back before section"
+                                       + "header to try making it longer\n" )
+                                if not rewindBlocks( 10 ):
+                                    print( "Rewind failed, giving up\n" )
+                                    keepGoing = False
+                                    break
+                                
                         lineI += 1
                     
             else:
