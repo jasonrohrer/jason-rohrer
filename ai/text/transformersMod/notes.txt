@@ -21,6 +21,7 @@ torch.cuda.device_count()
 torch.cuda.get_device_name(0)
 torch.cuda.is_available()
 
+conda install -c eumetsat expect
 
 pip install --upgrade pip
 

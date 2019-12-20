@@ -2,7 +2,7 @@
 # run from inside
 # source activate pytorch_p36
 
-
+conda install -c eumetsat expect
 
 pip install --upgrade pip
 
