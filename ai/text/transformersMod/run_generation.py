@@ -355,10 +355,9 @@ def main():
         # make it 1000 to give us some wiggle room
         if len( context_tokens ) + args.length > 1000:
             l = len( context_tokens )
-            
-            if rewindJustHappened:
-                print( "Overflow with (" + str( l ) + "tokens)\n" )
-                print( "Old cumu_text = {" + cumu_text + "}\n\n\n" );
+
+            #print( "Overflow with (" + str( l ) + "tokens)\n" )
+            #print( "Old cumu_text = {" + cumu_text + "}\n\n\n" );
 
             extra = ( l + args.length )  - 1000 
             context_tokens = context_tokens[ extra: ]            
@@ -366,11 +365,11 @@ def main():
             cumu_text = tokenizer.decode( context_tokens, 
                                           clean_up_tokenization_spaces=False )
 
-            if rewindJustHappened:
-                print( "trimmed cumu_text = {" + cumu_text + "}\n\n\n" );
-                l = len( context_tokens )
-                print( "After trimming, have (" + str( l ) + "tokens)\n\n" )
+            #print( "trimmed cumu_text = {" + cumu_text + "}\n\n\n" );
+            #l = len( context_tokens )
+            #print( "After trimming, have (" + str( l ) + "tokens)\n\n" )
         
+
         rewindJustHappened = False
             
         #print( "context_tokens (len=" 
