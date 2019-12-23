@@ -161,6 +161,13 @@ def sample_sequence(model, length, context, num_samples=1, temperature=1, top_k=
     return generated
 
 
+
+def getCapPercentage( line ):
+    caps = sum( 1 for c in line if c.isupper() )
+    return caps / float( len( line ) );
+    
+
+
 def main():
     # if we get a SIGUSR1, we enable the debugger
     signal.signal( signal.SIGUSR1, handle_pdb )
@@ -539,6 +546,34 @@ def main():
                     lines.pop()
                     lineI = 0
                     for l in lines:
+                        # watch for Image caption.
+                        captionFound = False
+                        loc = text.find( "Image" )
+                        if loc != -1:
+                            captionFound = True
+                        loc = text.find( "IMAGE" )
+                        if loc != -1:
+                            captionFound = True
+                        
+                        if captionFound:
+                            print( "Found Image caption on line "
+                                    + str( lineI ) + 
+                                    " ('" + 
+                                    l + 
+                                    "')\n" )
+                            rewindsSoFar += 1
+                            if rewindsSoFar > maxRewinds:
+                                print( "Rewound " + str( rewindsSoFar ) +
+                                       " times, giving up\n" )
+                                keepGoing = False
+                                break
+                            if not rewindBlocks( 10 ):
+                                print( "Rewind failed, giving up\n" )
+                                keepGoing = False
+                                break
+                            else:
+                                skipThisText = True
+                                
                         # don't consider first few lines either
                         # that's our chapter header
                         if( lineI > 3 and 
@@ -547,8 +582,11 @@ def main():
                             # not dialog
                             l.find( "\"" ) == -1 and
                             # not a short sentence
-                            not l.endswith( '.' ) and
-                            not l.endswith( '?' ) ):
+                            ( ( not l.endswith( '.' ) and
+                                not l.endswith( '?' ) ) 
+                              # not all (or mostly) caps, even if it's a
+                              # sentence
+                              or getCapPercentage( l ) > 0.7 ) ):
                             
                             print( "Found section header on line "
                                    + str( lineI ) + 
