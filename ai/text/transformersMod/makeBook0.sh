@@ -1,0 +1,1 @@
+ls -1tr firstBookRun0/* | sort -V | ./joinChapters.sh > book0.txt
