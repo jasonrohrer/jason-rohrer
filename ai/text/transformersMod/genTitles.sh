@@ -1,3 +1,3 @@
 echo "Genning $1 words of titles with seed $2"
 
-python ./run_generation.py --model_type=gpt2 --length=50 --model_name_or_path=gpt2-xl --seed=$2 --num_samples=20 --gen_min_words=$1 --prompt="In a shocking turn of events, the world's first novel generated entirely by an artificial intelligence has won wide-spread critical acclaim, eventually taking home to coveted Pulitzer Prize for literary fiction.  The novel, titled, \""
+python ./run_generation.py --model_type=gpt2 --length=50 --model_name_or_path=gpt2-xl --seed=$2 --num_samples=20 --gen_min_words=$1 --prompt="In a shocking turn of events, the world's first novel generated entirely by an artificial intelligence has won wide-spread critical acclaim, eventually taking home the coveted Pulitzer Prize for literary fiction.  The novel, titled, \""
