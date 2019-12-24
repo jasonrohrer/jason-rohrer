@@ -638,8 +638,12 @@ def main():
                 print(text)
                 if args.num_samples > 1:
                     print( "[END_SAMPLE]\n\n" )
-                
-                
+                    skipThisText = True
+                    textWrittenOut = textWrittenOut + text
+                    wordsWritten = textWrittenOut.count( ' ' )
+                    
+                    if wordsWritten >= args.gen_min_words:
+                        keepGoing = False
 
             if chapterDone:
                 print( "Compltete chapter with " + 
@@ -648,9 +652,9 @@ def main():
 
             if not skipThisText:
                 cumu_text = cumu_text + text
+                
 
-
-        if args.prompt and not args.out_file:
+        if args.prompt and not ( args.out_file or args.gen_min_words > 0 ):
             break
     return text
 
