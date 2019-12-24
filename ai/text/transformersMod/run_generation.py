@@ -636,6 +636,9 @@ def main():
                     
             else:
                 print(text)
+                if args.num_samples > 1:
+                    print( "[END_SAMPLE]\n\n" )
+                
                 
 
             if chapterDone:
