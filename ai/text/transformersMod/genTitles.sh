@@ -1,0 +1,1 @@
+python ./run_generation.py --model_type=gpt2 --length=20 --model_name_or_path=gpt2-xl --seed=42 --num_samples=50 --prompt="In a shocking turn of events, the world's first novel generated entirely by an artificial intelligence has won wide-spread critical acclaim, eventually taking home to covetted Pulitzer Prize for literary fiction.  The novel, title, \""
