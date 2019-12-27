@@ -357,16 +357,18 @@ def main():
         # now strip it off
         context_tokens = context_tokens[:-1]
         
+        
+        bufferMax = 20
 
         # 1024 is the length limit for context tokens + generated tokens
         # make it 1000 to give us some wiggle room
-        if len( context_tokens ) + args.length > 1000:
+        if len( context_tokens ) + args.length > bufferMax:
             l = len( context_tokens )
 
             #print( "Overflow with (" + str( l ) + "tokens)\n" )
             #print( "Old cumu_text = {" + cumu_text + "}\n\n\n" );
 
-            extra = ( l + args.length )  - 1000 
+            extra = ( l + args.length )  - bufferMax 
             context_tokens = context_tokens[ extra: ]            
 
             cumu_text = tokenizer.decode( context_tokens, 
