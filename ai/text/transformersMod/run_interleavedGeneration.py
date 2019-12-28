@@ -250,7 +250,8 @@ def main():
         allLines = inText.splitlines();
         
         for l in allLines:
-            if l != "":
+            # skip blank lines and chapter headers
+            if l != "" and !l[0].isdigit():
                 seedParagraphs.append( l )
 
     
