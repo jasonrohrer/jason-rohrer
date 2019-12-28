@@ -327,7 +327,7 @@ def main():
 
         if len( seedParagraphs ) > 0:
             if not cumu_text:
-                raw_text = seedParagraphs[0]
+                raw_text = seedParagraphs[0] + "\n\n"
                 nextSeedParagraph = 1
                 print( "Initially seeding with seed paragraph: '" +
                        raw_text + "'\n" )
@@ -371,7 +371,7 @@ def main():
                    seedParagraphs[nextSeedParagraph] + "'\n" )
 
             # raw text will have \n\n at end when ready
-            raw_text = raw_text + seedParagraphs[nextSeedParagraph]
+            raw_text = raw_text + seedParagraphs[nextSeedParagraph] + "\n\n"
             nextSeedParagraph += 1
             insertNextSeedParagraph = False
             print( "New raw text:  '" + raw_text + "'\n" )
