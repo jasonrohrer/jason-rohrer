@@ -251,7 +251,7 @@ def main():
         
         for l in allLines:
             # skip blank lines and chapter headers
-            if l != "" and !l[0].isdigit():
+            if l != "" and not l[0].isdigit():
                 seedParagraphs.append( l )
 
     
