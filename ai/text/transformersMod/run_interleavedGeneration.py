@@ -329,6 +329,10 @@ def main():
             if not cumu_text:
                 raw_text = seedParagraphs[0]
                 nextSeedParagraph = 1
+                print( "Initially seeding with seed paragraph: '" +
+                       raw_text + "'\n" )
+            else:
+                raw_text = cumu_text
         elif args.in_file:
             if not cumu_text:
                 
