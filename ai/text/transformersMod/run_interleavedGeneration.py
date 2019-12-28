@@ -462,7 +462,10 @@ def main():
                 origText = text
                 parLoc = text.find( "\n" )
                 if parLoc != -1:
-                    if parLoc == 0 and cumu_text.endswith( '\n' ):
+                    if parLoc == 0 and cumu_text.endswith( "\n\n" ):
+                        # already at end of paragraph
+                        text = text.lstrip()
+                    elif parLoc == 0 and cumu_text.endswith( '\n' ):
                         # par ended before this text really started
                         text = "\n"
                         insertNextSeedParagraph = True
