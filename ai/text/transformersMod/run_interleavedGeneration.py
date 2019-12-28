@@ -241,6 +241,19 @@ def main():
         chapterIntroWritten = False
 
     
+    insertNextSeedParagraph = False
+    nextSeedParagraph = 0
+    seedParagraphs = []
+
+    if args.in_file:
+        inText = open( args.in_file ).read()
+        allLines = inText.splitlines();
+        
+        for l in allLines:
+            if l != "":
+                seedParagraphs.append( l )
+
+    
     # running list of all text blocks that have been written out to
     # file so far
     textBlocks = [] 
@@ -310,8 +323,14 @@ def main():
 
         raw_text = ""
         
-        if args.in_file:
+
+        if len( seedParagraphs ) > 0:
             if not cumu_text:
+                raw_text = seedParagraphs[0]
+                nextSeedParagraph = 1
+        elif args.in_file:
+            if not cumu_text:
+                
                 raw_text = open( args.in_file ).read()
 
                 if args.chapter_number > 0:
@@ -336,6 +355,22 @@ def main():
                 raw_text = args.prompt
             else:
                 raw_text = input("Model prompt >>> ")
+
+
+        if insertNextSeedParagraph:
+            if nextSeedParagraph >= len( seedParagraphs ):
+                print( "Out of seed paragraphs, totally done\n" )
+                return
+            
+            print( "Inserting next seed paragraph:  '"+
+                   seedParagraphs[nextSeedParagraph] + "'\n" )
+
+            # raw text will have \n\n at end when ready
+            raw_text = raw_text + seedParagraphs[nextSeedParagraph]
+            nextSeedParagraph += 1
+            insertNextSeedParagraph = False
+            print( "New raw text:  '" + raw_text + "'\n" )
+
 
         cumu_text = raw_text
 
@@ -414,7 +449,37 @@ def main():
         out = out[:, len(context_tokens):].tolist()
         for o in out:
             text = tokenizer.decode(o, clean_up_tokenization_spaces=True)
-            
+
+
+            # new code for interleaving
+            # find paragraph end location
+            if args.out_file and len( seedParagraphs ) > 0: 
+                origText = text
+                parLoc = text.find( "\n" )
+                if parLoc != -1:
+                    if parLoc == 0 and cumu_text.endswith( '\n' ):
+                        # par ended before this text really started
+                        text = "\n"
+                        insertNextSeedParagraph = True
+                    elif( parLoc > 0 and 
+                          len( text ) > parLoc + 1
+                          and text[ parLoc + 1 ] == '\n' ):
+                        text = text[:parLoc + 2]
+                        insertNextSeedParagraph = True
+                        
+                if insertNextSeedParagraph:
+                    print( "Found paragraph end in text:  '"+ origText +"'\n" )
+                    print( "Terminating to:  '"+ text +"'\n" )
+                    
+                text_file = open( args.out_file, "a" )
+                n = text_file.write( text )
+                textWrittenOut = textWrittenOut + text
+                textBlocks.append( text )
+                text_file.close()
+                cumu_text = cumu_text + text
+                # skip rest
+                continue
+
             # this trims off final letter of text if stop_token not found in
             # text.
             #text = text[: text.find(args.stop_token) if args.stop_token else None]
