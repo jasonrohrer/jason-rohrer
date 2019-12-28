@@ -358,7 +358,7 @@ def main():
         context_tokens = context_tokens[:-1]
         
         
-        bufferMax = 40
+        bufferMax = 1000
 
         # 1024 is the length limit for context tokens + generated tokens
         # make it 1000 to give us some wiggle room
