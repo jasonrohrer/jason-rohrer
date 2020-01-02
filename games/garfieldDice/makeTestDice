@@ -5,3 +5,6 @@ g++ -I ../../.. -g -o testDice2 testDice2.cpp ../../../minorGems/system/unix/Tim
 g++ -I ../../.. -g -o testDice3 testDice3.cpp ../../../minorGems/system/unix/TimeUnix.cpp
 
 g++ -I ../../.. -g -o testDice4 testDice4.cpp ../../../minorGems/system/unix/TimeUnix.cpp
+
+
+g++ -I ../../.. -g -o distribution distribution.cpp ../../../minorGems/system/unix/TimeUnix.cpp
