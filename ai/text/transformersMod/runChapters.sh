@@ -31,8 +31,23 @@ do
 			rm $fileName
 			rm $overrunFileName
 			
+			inputFile=$4
+			
+
+			if [[ -d $inFile ]]; then
+				# a whole directory full of seed files
+				fileIndex=1
+				for f in `ls -1v $inFile` 
+				do
+					if [ $fileIndex -eq $chapter ]; then
+						inputFile="$inFile/$f"
+					fi
+					fileIndex=$(($fileIndex + 1))
+				done
+			fi
+			
 			# unbuffered std out (even if we're redirected to a file externally)
-			python ./run_generation.py --model_type=gpt2 --length=20 --model_name_or_path=gpt2-xl --out_file=$overrunFileName --in_file=$4 --chapter_number=$chapter --gen_words=$maxWords --gen_min_words=$minWords --seed=$seed --stop_token="<|endoftext|>"
+			python ./run_generation.py --model_type=gpt2 --length=20 --model_name_or_path=gpt2-xl --out_file=$overrunFileName --in_file=$inputFile --chapter_number=$chapter --gen_words=$maxWords --gen_min_words=$minWords --seed=$seed --stop_token="<|endoftext|>"
 			
 			if grep -q "END OF CHAPTER" $overrunFileName; then
 				
