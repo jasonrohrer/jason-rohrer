@@ -592,7 +592,7 @@ def main():
                               or getCapPercentage( l ) > 0.7 ) ):
                             
                             if( l == 5 and
-                                args.allow_chapter_sub_headings ):
+                                args.allow_chapter_sub_headings == 1 ):
                                 # on line 5, right after our Chapter X
                                 # line
                                 # and permitted by command-line argument
