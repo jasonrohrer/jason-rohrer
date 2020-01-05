@@ -33,18 +33,22 @@ do
 			
 			inputFile=$4
 			
+			
 
 			if [[ -d $inputFile ]]; then
-				echo "Input file is a directory..."
+				inputFileWorking=$inputFile
+				
+				echo "Input file $inputFile is a directory..."
 				# a whole directory full of seed files
 				fileIndex=1
-				for f in `ls -1v $inFile` 
+				for f in `ls -1v $inputFile` 
 				do
 					if [ $fileIndex -eq $chapter ]; then
-						inputFile="$inputFile/$f"
+						inputFileWorking="$inputFile/$f"
 					fi
 					fileIndex=$(($fileIndex + 1))
 				done
+				inputFile=$inputFileWorking
 				echo "Settling on input file $inputFile for chapter $chapter"
 			fi
 			
