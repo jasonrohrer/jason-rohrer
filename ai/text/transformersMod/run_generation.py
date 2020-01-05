@@ -163,8 +163,9 @@ def sample_sequence(model, length, context, num_samples=1, temperature=1, top_k=
 
 
 def getCapPercentage( line ):
+    letters = sum( 1 for c in line if c.isalpha() )
     caps = sum( 1 for c in line if c.isupper() )
-    return caps / float( len( line ) );
+    return caps / float( letters );
     
 
 
