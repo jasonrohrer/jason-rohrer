@@ -34,16 +34,18 @@ do
 			inputFile=$4
 			
 
-			if [[ -d $inFile ]]; then
+			if [[ -d $inputFile ]]; then
+				echo "Input file is a directory..."
 				# a whole directory full of seed files
 				fileIndex=1
 				for f in `ls -1v $inFile` 
 				do
 					if [ $fileIndex -eq $chapter ]; then
-						inputFile="$inFile/$f"
+						inputFile="$inputFile/$f"
 					fi
 					fileIndex=$(($fileIndex + 1))
 				done
+				echo "Settling on input file $inputFile for chapter $chapter"
 			fi
 			
 			# unbuffered std out (even if we're redirected to a file externally)
