@@ -182,6 +182,7 @@ def main():
     parser.add_argument("--gen_words", type=str, default="", help="(For infinite mode with --out_file) How many words to generate, max." )
     parser.add_argument("--gen_min_words", type=int, default=0, help="(For infinite mode with --out_file) How many words to generate at minimum." )
     parser.add_argument("--chapter_number", type=int, default=0, help="Prefaces generated text with chapter header, and auto-ends chapter." )
+    parser.add_argument("--allow_chapter_sub_headings", type=int, default=0, help="Set to 1 to permit sub-headings under chapters." )
     parser.add_argument("--prompt", type=str, default="")
     parser.add_argument("--padding_text", type=str, default="")
     parser.add_argument("--xlm_lang", type=str, default="", help="Optional language when used with the XLM model.")
@@ -590,11 +591,20 @@ def main():
                               # sentence
                               or getCapPercentage( l ) > 0.7 ) ):
                             
+                            if( l == 5 and
+                                args.allow_chapter_sub_headings ):
+                                # on line 5, right after our Chapter X
+                                # line
+                                # and permitted by command-line argument
+                                continue
+                                
                             print( "Found section header on line "
                                    + str( lineI ) + 
                                    " ('" + 
                                    l + 
                                    "')\n" )
+                            
+                        
                             if wordsWritten >= args.gen_min_words:
                                 print( "Chapter has " + str( wordsWritten ) +
                                        " words, ending before " +
