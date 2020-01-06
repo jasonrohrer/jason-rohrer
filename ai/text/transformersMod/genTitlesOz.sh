@@ -1,0 +1,3 @@
+echo "Genning $1 words of titles with seed $2"
+
+python ./run_generation.py --model_type=gpt2 --length=20 --model_name_or_path=gpt2-xl --seed=$2 --num_samples=20 --gen_min_words=$1 --prompt="The book publishing world was flabbergasted by the release of the first parody novel written entirely by an artificial intelligence, based on L. Frank Baum's classic \"The Wonderful Wizard of Oz\". The novel, titled, \""
