@@ -2,19 +2,25 @@
 
 # pipe out processed text
 
+IFS=
+
 lineNum=0
 while read -r line; 
 do 
-	#echo -n "$lineNum"
+    #echo -n "$lineNum"
 
 	if [ $lineNum -eq 6 ]; then
 		size=${#line}
 		
 		if [ $size -lt "60" ]; then
-			lineUpper=${line^^}
-			echo $lineUpper
-			echo ""
-			echo ""
+			if [[ ! $line == *"."* ]] && [[ ! $line == *"\""* ]] && [[ ! $line == *":"* ]]; then
+				lineUpper=${line^^}
+				echo $lineUpper
+				echo ""
+				echo ""
+			else
+				echo $line
+			fi
 		else
 			echo $line
 		fi
