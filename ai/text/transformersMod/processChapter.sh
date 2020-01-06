@@ -7,7 +7,7 @@ while read -r line;
 do 
 	#echo -n "$lineNum"
 
-	if [ $lineNum -eq 7 ]; then
+	if [ $lineNum -eq 6 ]; then
 		size=${#line}
 		
 		if [ $size -lt "60" ]; then
