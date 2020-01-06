@@ -1,6 +1,6 @@
 reqWord=`cat $6`
 
-echo "Running $2 chapters, starting with chapter $1, numerical seed $3 and input text file $4, and generating $5 versions of each chapter, requiring the word from file $6, '$reqWord'"
+echo "Running $2 chapters, starting with chapter $1, numerical seed $3 and input text file $4, and generating $5 versions of each chapter, requiring the word from file $6, '$reqWord', and extra argument $7"
 
 
 minWords=2000
@@ -53,7 +53,7 @@ do
 			fi
 			
 			# unbuffered std out (even if we're redirected to a file externally)
-			python ./run_generation.py --model_type=gpt2 --length=20 --model_name_or_path=gpt2-xl --out_file=$overrunFileName --in_file=$inputFile --chapter_number=$chapter --gen_words=$maxWords --gen_min_words=$minWords --seed=$seed --stop_token="<|endoftext|>"
+			python ./run_generation.py --model_type=gpt2 --length=20 --model_name_or_path=gpt2-xl --out_file=$overrunFileName --in_file=$inputFile --chapter_number=$chapter --gen_words=$maxWords --gen_min_words=$minWords --seed=$seed --stop_token="<|endoftext|>" $7
 			
 			if grep -q "END OF CHAPTER" $overrunFileName; then
 				
