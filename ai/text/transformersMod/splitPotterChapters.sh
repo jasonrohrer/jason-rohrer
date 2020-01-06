@@ -10,7 +10,7 @@ outFile="potterChapters/$chapNum.txt"
 linesOut=0
 
 while read l; do
-	if [[ "$l" =~ ^[0-9]+. \ [A-Z\ ]+[A-Z\ ]+ ]]; then
+	if [[ "$l" =~ ^[0-9]+.\ [A-Z\ ]+[A-Z\ ]+ ]]; then
 		chapNum=$(($chapNum + 1))
 		outFile="potterChapters/$chapNum.txt"
 	else
