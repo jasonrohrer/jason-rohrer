@@ -5,11 +5,17 @@
 IFS=
 
 lineNum=0
+
+isEpilogue=0
 while read -r line; 
 do 
     #echo -n "$lineNum"
 
-	if [ $lineNum -eq 6 ]; then
+	if [[ $line == "Epilogue" ]]; then
+		isEpilogue=1
+	fi
+
+	if [ $lineNum -eq 6 ] && [ $isEpilogue -ne 1 ]; then
 		size=${#line}
 		
 		if [ $size -lt "60" ]; then
