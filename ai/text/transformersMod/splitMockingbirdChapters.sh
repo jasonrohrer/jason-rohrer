@@ -10,7 +10,7 @@ outFile="mockingbirdChapters/$chapNum.txt"
 linesOut=0
 
 while read l; do
-	if [[ "$l" =~ ^[0-9]+. ]]; then
+	if [[ "$l" =~ ^[0-9]+ ]]; then
 		chapNum=$(($chapNum + 1))
 		outFile="mockingbirdChapters/$chapNum.txt"
 	else
