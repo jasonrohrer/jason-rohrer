@@ -599,8 +599,11 @@ def main():
                             l.find( "\"" ) == -1 and
                             # not a short sentence
                             ( ( not l.endswith( '.' ) and
-                                not l.endswith( '?' ) ) 
-                              # not all (or mostly) caps, even if it's a
+                                not l.endswith( '?' ) )
+                              # or a very short sentence on line 5, even if it's
+                              # a sentence
+                              or ( len( l ) < 30 and lineI == 5 )
+                              # or all (or mostly) caps, even if it's a
                               # sentence
                               or getCapPercentage( l ) > 0.7 ) ):
                             
