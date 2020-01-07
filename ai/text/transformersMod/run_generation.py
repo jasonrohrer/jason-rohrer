@@ -420,7 +420,19 @@ def main():
             # this trims off final letter of text if stop_token not found in
             # text.
             #text = text[: text.find(args.stop_token) if args.stop_token else None]
+
+            # how many words in text?
             
+            numWords = len( text.split() )
+
+            if( len( text ) > 20 and
+                numWords == 1 ) :
+                print( "Text '" + 
+                       text + "' contains only 1 word, bailing out." )
+                keepGoing = False
+                break
+
+                
             skipThisText = False
 
             rewind = False
