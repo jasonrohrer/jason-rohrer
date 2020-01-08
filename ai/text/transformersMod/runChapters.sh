@@ -1,10 +1,15 @@
-reqWord=`cat $6`
-
-echo "Running $2 chapters, starting with chapter $1, numerical seed $3 and input text file $4, and generating $5 versions of each chapter, requiring the word from file $6, '$reqWord'"
+reqWords=`cat $6`
 
 
-minWords=2000
-maxWords=4000
+IFS=',' read -r -a reqWordList <<< "$reqWords"
+
+numReqWords=${#reqWordList[@]}
+
+echo "Running $2 chapters, starting with chapter $1, numerical seed $3 and input text file $4, and generating $5 versions of each chapter, requiring the $numReqWords words from file $6, '$reqWords', $7 min words per chapter, $8 max words per chapter, and extra argument $9"
+
+
+minWords=$7
+maxWords=$8
 
 
 for (( c = 0; c < $2; c++ )) 
@@ -53,13 +58,24 @@ do
 			fi
 			
 			# unbuffered std out (even if we're redirected to a file externally)
-			python ./run_generation.py --model_type=gpt2 --length=20 --model_name_or_path=gpt2-xl --out_file=$overrunFileName --in_file=$inputFile --chapter_number=$chapter --gen_words=$maxWords --gen_min_words=$minWords --seed=$seed --stop_token="<|endoftext|>"
+			python ./run_generation.py --model_type=gpt2 --length=20 --model_name_or_path=gpt2-xl --out_file=$overrunFileName --in_file=$inputFile --chapter_number=$chapter --gen_words=$maxWords --gen_min_words=$minWords --seed=$seed --stop_token="<|endoftext|>" $9
 			
 			if grep -q "END OF CHAPTER" $overrunFileName; then
 				
 				words=`wc -w $overrunFileName | cut -f1 -d' '`
 
-				if ! grep -q "$reqWord" $overrunFileName; then
+				offTopic=0
+
+				for word in "${reqWordList[@]}"
+				do
+					echo "checking output file for required word '$word'"
+					if ! grep -q "$word" $overrunFileName; then
+						echo "'$word' not found in output file $overrunFileName"
+						offTopic=1
+					fi
+				done
+
+				if [ $offTopic -eq 1 ]; then
 					mv $overrunFileName $offTopicFileName
 				elif [ "$words" -lt "$minWords" ]; then
 					mv $overrunFileName $tooShortFileName
