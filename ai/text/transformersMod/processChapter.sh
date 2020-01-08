@@ -2,6 +2,13 @@
 
 # pipe out processed text
 
+
+stripSubs=0
+if [[ $1 == "-stripSubHeadings" ]]; then
+	stripSubs=1
+fi
+
+
 IFS=
 
 lineNum=0
@@ -20,10 +27,16 @@ do
 		
 		if [ $size -lt "60" ]; then
 			if [[ ! $line == *"."* ]] && [[ ! $line == *"\""* ]] && [[ ! $line == *":"* ]]; then
-				lineUpper=${line^^}
-				echo $lineUpper
-				echo ""
-				echo ""
+				if [ $stripSubs -eq 1 ]; then
+					# strip it out and skip it
+					# no-op here to keep if-else happy
+					blah=1
+				else
+					lineUpper=${line^^}
+					echo $lineUpper
+					echo ""
+					echo ""
+				fi
 			else
 				echo $line
 			fi

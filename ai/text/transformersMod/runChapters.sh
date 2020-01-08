@@ -1,6 +1,11 @@
-reqWord=`cat $6`
+reqWords=`cat $6`
 
-echo "Running $2 chapters, starting with chapter $1, numerical seed $3 and input text file $4, and generating $5 versions of each chapter, requiring the word from file $6, '$reqWord', $7 min words per chapter, $8 max words per chapter, and extra argument $9"
+
+IFS=',' read -r -a reqWordList <<< "$reqWords"
+
+numReqWords=${#reqWordList[@]}
+
+echo "Running $2 chapters, starting with chapter $1, numerical seed $3 and input text file $4, and generating $5 versions of each chapter, requiring the $numReqWords words from file $6, '$reqWord', $7 min words per chapter, $8 max words per chapter, and extra argument $9"
 
 
 minWords=$7
@@ -59,7 +64,18 @@ do
 				
 				words=`wc -w $overrunFileName | cut -f1 -d' '`
 
-				if ! grep -q "$reqWord" $overrunFileName; then
+				offTopic=0
+
+				for word in "${reqWordList[@]}"
+				do
+					echo "checking output file for required word '$word'"
+					if ! grep -q "$word" $overrunFileName; then
+						echo "'$word' not found in output file $overrunFileName"
+						offTopic=1
+					fi
+				done
+
+				if [ $offTopic -eq 1 ]; then
 					mv $overrunFileName $offTopicFileName
 				elif [ "$words" -lt "$minWords" ]; then
 					mv $overrunFileName $tooShortFileName
