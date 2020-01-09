@@ -68,10 +68,18 @@ do
 
 				for word in "${reqWordList[@]}"
 				do
-					echo "checking output file for required word '$word'"
-					if ! grep -q "$word" $overrunFileName; then
-						echo "'$word' not found in output file $overrunFileName"
-						offTopic=1
+					# count number of times required word occurs w/in
+					# last 500 words of seed file
+					countInSourceFile=`cat 1.txt | tr ' ' '\n' | tail -500 | grep -c Atticus`
+					if [ $countInSourceFile -gt 3 ]; then
+						echo "Seed file tail has $countInSourceFile occurrences of required '$word'"
+						echo "checking output file for required word '$word'"
+						if ! grep -q "$word" $overrunFileName; then
+							echo "'$word' not found in output file $overrunFileName"
+							offTopic=1
+						fi
+					else
+						echo "Seed file tail has only $countInSourceFile occurrences of required '$word', skipping"
 					fi
 				done
 
