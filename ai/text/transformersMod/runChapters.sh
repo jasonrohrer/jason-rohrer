@@ -70,7 +70,7 @@ do
 				do
 					# count number of times required word occurs w/in
 					# last 500 words of seed file
-					countInSourceFile=`cat $inputFile | tr ' ' '\n' | tail -500 | grep -c Atticus`
+					countInSourceFile=`cat $inputFile | tr ' ' '\n' | tail -500 | grep -c $word`
 					if [ $countInSourceFile -gt 3 ]; then
 						echo "Seed file tail has $countInSourceFile occurrences of required '$word'"
 						echo "checking output file for required word '$word'"
