@@ -70,8 +70,8 @@ do
 				do
 					# count number of times required word occurs w/in
 					# last 500 words of seed file
-					countInSourceFile=`cat $inputFile | tr ' ' '\n' | tail -500 | grep -c $word`
-					if [ $countInSourceFile -gt 3 ]; then
+					countInSourceFile=`cat $inputFile | tr ' ' '\n' | tail -250 | grep -c $word`
+					if [ $countInSourceFile -gt 4 ]; then
 						echo "Seed file tail has $countInSourceFile occurrences of required '$word'"
 						countInOutFile=`cat $overrunFileName | tr ' ' '\n' | tail -500 | grep -c $word`
 						echo "output file contains $countInOutFile instances of required word '$word'"
