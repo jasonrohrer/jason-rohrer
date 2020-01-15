@@ -66,16 +66,30 @@ do
 
 				offTopic=0
 
+				someWordTested=0
+
+				mostFrequentSeedWord=''
+				biggestSeedFreq=0
+				
+				minSeedTimes=4
+				minOutTimes=3
+				
 				for word in "${reqWordList[@]}"
 				do
 					# count number of times required word occurs w/in
 					# last 500 words of seed file
 					countInSourceFile=`cat $inputFile | tr ' ' '\n' | tail -250 | grep -c $word`
-					if [ $countInSourceFile -gt 4 ]; then
+					if [ $countInSourceFile -gt $biggestSeedFreq ]; then
+						mostFrequentSeedWord=$word
+						biggestSeedFreq=$countInSourceFile
+					fi
+					
+					if [ $countInSourceFile -gt minSeedTimes ]; then
+						someWordTested=1
 						echo "Seed file tail has $countInSourceFile occurrences of required '$word'"
 						countInOutFile=`cat $overrunFileName | tr ' ' '\n' | grep -c $word`
 						echo "output file contains $countInOutFile instances of required word '$word'"
-						if [ $countInOutFile -lt 3 ]; then
+						if [ $countInOutFile -lt $minOutTimes ]; then
 							echo "'$word' not found frequently enough in $overrunFileName"
 							offTopic=1
 						fi
@@ -84,6 +98,22 @@ do
 					fi
 				done
 
+				if [ $someWordTested -eq 0 ]; then
+					echo "No seed words occurred more than $minSeedTimes times"
+					if [ $biggestSeedFreq -gt 0 ]; then
+						word=$mostFrequentSeedWord
+						f=$biggestSeedFreq
+						echo "Looking for most frequent seed word $word ($f)"
+						
+						countInOutFile=`cat $overrunFileName | tr ' ' '\n' | grep -c $word`
+						echo "output file contains $countInOutFile instances of required word '$word'"
+						if [ $countInOutFile -lt $minOutTimes ]; then
+							echo "'$word' not found frequently enough in $overrunFileName"
+							offTopic=1
+						fi
+					fi
+				fi
+				
 				if [ $offTopic -eq 1 ]; then
 					mv $overrunFileName $offTopicFileName
 				elif [ "$words" -lt "$minWords" ]; then
