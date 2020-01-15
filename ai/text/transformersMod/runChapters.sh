@@ -84,7 +84,7 @@ do
 						biggestSeedFreq=$countInSourceFile
 					fi
 					
-					if [ $countInSourceFile -gt minSeedTimes ]; then
+					if [ $countInSourceFile -gt $minSeedTimes ]; then
 						someWordTested=1
 						echo "Seed file tail has $countInSourceFile occurrences of required '$word'"
 						countInOutFile=`cat $overrunFileName | tr ' ' '\n' | grep -c $word`
