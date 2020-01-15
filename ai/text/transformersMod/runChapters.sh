@@ -73,7 +73,7 @@ do
 					countInSourceFile=`cat $inputFile | tr ' ' '\n' | tail -250 | grep -c $word`
 					if [ $countInSourceFile -gt 4 ]; then
 						echo "Seed file tail has $countInSourceFile occurrences of required '$word'"
-						countInOutFile=`cat $overrunFileName | tr ' ' '\n' | tail -500 | grep -c $word`
+						countInOutFile=`cat $overrunFileName | tr ' ' '\n' | grep -c $word`
 						echo "output file contains $countInOutFile instances of required word '$word'"
 						if [ $countInOutFile -lt 3 ]; then
 							echo "'$word' not found frequently enough in $overrunFileName"
