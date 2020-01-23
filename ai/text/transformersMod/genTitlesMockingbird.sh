@@ -1,0 +1,3 @@
+echo "Genning $1 words of titles with seed $2"
+
+python ./run_generation.py --model_type=gpt2 --length=20 --model_name_or_path=gpt2-xl --seed=$2 --num_samples=20 --gen_min_words=$1 --prompt="Fans of historical American literature were pleasantly surprised by the release of the first parody novel written entirely by an artificial intelligence, based on Harper Lee's timeless classic, \"To Kill a Mockingbird\". The novel, titled, \""
