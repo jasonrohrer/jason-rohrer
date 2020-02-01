@@ -1,0 +1,3 @@
+echo "Genning $1 words of short story intros with seed $2"
+
+python ./run_generation.py --model_type=gpt2 --length=100 --model_name_or_path=gpt2-xl --seed=$2 --num_samples=20 --gen_min_words=$1 --prompt="In a shocking turn of events, the world's first short story generated entirely by an artificial intelligence has won wide-spread critical acclaim, eventually taking home the coveted Pulitzer Prize for short-form literary fiction.  The story opened with the memorable first sentence, \""
