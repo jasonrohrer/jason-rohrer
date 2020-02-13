@@ -7,6 +7,6 @@ do
 	seed=$(($i + $1))
 	echo "seed $seed"
 
-	python ./run_generation.py --model_type=gpt2 --length=20 --model_name_or_path=gpt2-xl --out_file=wholeCloth_${seed}__noEnd_reseed.txt --in_file=wholeClothInput.txt --gen_words=300 --seed=$seed --stop_token="<|endoftext|>"
+	python ./run_generation.py --model_type=gpt2 --length=20 --model_name_or_path=gpt2-xl --out_file=wholeCloth_${seed}__50.txt --in_file=wholeClothInput.txt --gen_words=50 --seed=$seed --stop_token="<|endoftext|>"
 
 done
