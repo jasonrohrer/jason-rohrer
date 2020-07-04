@@ -20,7 +20,15 @@ else if( $action == "get_machine_response" ) {
     cs_getMachineResponse();
     }
 else {
-    cs_showChat( "", false, false );
+    cs_showChat( "", false, false, false );
+    }
+
+
+
+function cs_firstLineOnly( $inString ) {
+    $gennedLineParts = array_filter( explode( "\n", $inString ) );
+
+    return $gennedLineParts[0];
     }
 
 
@@ -29,13 +37,13 @@ function cs_addChat() {
     $said = cs_requestFilter( "said", "/[ A-Z0-9,.?\"'!$%*()+=&#@:;\-_]+/i" );
     $chatSoFar = cs_requestFilter( "chat_so_far", "/[ <>=\/A-Z0-9,.?\"'!$%*()+=&#@:;\-_\n]+/i" );
 
-    cs_showChat( "$chatSoFar<br><br><b><font color=blue>Human:</font></b> $said", true, false );
+    cs_showChat( "$chatSoFar<br><br><b><font color=blue>Human:</font></b> $said", true, false, false );
     }
 
 
 
 
-function cs_getMachineResponse() {
+function cs_getMachineResponse( $askingForMore ) {
     $chatSoFar = cs_requestFilter( "chat_so_far", "/[ <>=\/A-Z0-9,.?\"'!$%*()+=&#@:;\n\-_]+/i" );
 
     // replace <br> with \n
@@ -44,8 +52,13 @@ function cs_getMachineResponse() {
     // strip all other HTML tags
     $chatPlain = strip_tags( $chatPlain );
 
-    $chatPlain =  $chatPlain . "\n\nComputer:";
-
+    $askingForMore = cs_requestFilter( "asking_for_more", "/[01]+/i", 0 );
+    
+    if( ! $askingForMore ) {
+        // human just spoke, give computer a prompt for its speech
+        $chatPlain =  $chatPlain . "\n\nComputer:";
+        }
+    
     //$chatPlain = implode("\n", array_filter(explode("\n", $chatPlain)));
 
     //$chatPlain =  str_replace( "\n", "", $chatPlain );
@@ -94,7 +107,7 @@ function cs_getMachineResponse() {
 
     if( $result === FALSE ) {
 
-        cs_showChat( "$chatSoFar", false, true );
+        cs_showChat( "$chatSoFar", false, true, false );
         
         }
     else {
@@ -103,27 +116,97 @@ function cs_getMachineResponse() {
         $textGen = $a['data']['text'];
         
         
-        $gennedChatLines = preg_split('/Computer:|Human:/', $textGen );
-        
-        $firstLine = trim( $gennedChatLines[0] );
+        $gennedChatLines = preg_split('/Computer:|Human:|Humans:|Machine:/', $textGen );
 
-        // allow multiple lines in the computer response, for now
-        // make sure first line doesn't contain multiple lines
-        // $firstLineParts = array_filter( explode( "\n", $firstLine) );
 
-        // $firstLine = $firstLineParts[0];
+        $gennedLine = "";
+
+        $computerHasBeenCutOff = false;
         
-        cs_showChat( "$chatSoFar<br><br><font color=red>Computer:</font></b> $firstLine", false, false );
+        if( count( $gennedChatLines ) > 1 ) {
+            $gennedLine = trim( $gennedChatLines[0] );
+
+            // make sure first line doesn't contain multiple lines
+            $gennedLine = cs_firstLineOnly( $gennedLine );
+            }
+        else {
+            // only one line, without Computer or Human tags?
+
+            // take it raw
+            $gennedLine = trim( $textGen );
+
+            // only consider first line, if there's more than one
+            $gennedLine = cs_firstLineOnly( $gennedLine );
+
+            
+            // watch out for it being cut-off...
+
+            // does it end in proper ending punctiuation?
+
+            $lastI = strlen( $gennedLine ) - 1;
+
+            $lastChar = $gennedLine[ $lastI ];
+
+            if( $lastChar != '.' &&
+                $lastChar != '!' &&
+                $lastChar != '?' &&
+                $lastChar != '"' ) {
+
+                // cut off!
+                $computerHasBeenCutOff = true;
+                }
+            }
+
+        
+        // replace \n with <br> if computer has given us more than one line
+        $gennedLine = str_replace( "\n", "<br>", $gennedLine );
+
+        
+        if( $computerHasBeenCutOff ) {
+            // wait for more by making another request
+            // don't let human type just yet until computer is done
+            // with longer response.
+
+            if( $askingForMore ) {
+                cs_showChat( "$chatSoFar $gennedLine",
+                             true, false, true );
+                }
+            else {
+                cs_showChat(
+                    "$chatSoFar<br><br>".
+                    "<b><font color=red>Computer:</font></b> $gennedLine",
+                    true, false, true );
+                }
+            }
+        else {
+            // show this complete computer response, and let human type more
+
+            if( $askingForMore ) {
+                cs_showChat( "$chatSoFar $gennedLine",
+                             false, false, false );
+                }
+            else {
+                cs_showChat(
+                    "$chatSoFar<br><br>".
+                    "<b><font color=red>Computer:</font></b> $gennedLine",
+                    false, false, false );
+                }
+            }
         }
-    
     }
 
 
 
 
 
-function cs_showChat( $chatSoFar, $getMore, $tryReload ) {
+function cs_showChat( $chatSoFar, $getMore, $tryReload, $noComputerPrompt ) {
     $chatSoFarOrig = $chatSoFar;
+
+    $askingForMore = 0;
+
+    if( $noComputerPrompt ) {
+        $askingForMore = 1;
+        }
     
 
     if( $getMore || $tryReload ) {
@@ -144,7 +227,16 @@ function cs_showChat( $chatSoFar, $getMore, $tryReload ) {
         //$chatSoFarEncoded = urlencode( $chatSoFar );
         //echo "<meta http-equiv=refresh content='$time; URL=index.php?action=get_machine_response&chat_so_far=$chatSoFarEncoded'>";
 
-        $chatSoFar = "$chatSoFar<br><br><font color=red>Computer:</font></b> $computerWaitString";
+        if( $noComputerPrompt ) {
+            // Computer: prompt already included in chat,
+            // because we're waiting for more
+            $chatSoFar = "$chatSoFar $computerWaitString";
+            }
+        else {
+            // computer hasn't said anything yet
+            // show Computer: prompt with wait string
+            $chatSoFar = "$chatSoFar<br><br><b><font color=red>Computer:</font></b> $computerWaitString";
+            }
         }
     
     
@@ -212,9 +304,15 @@ function cs_showChat( $chatSoFar, $getMore, $tryReload ) {
 
         var myInputB = document.createElement('input');
         myInputB.setAttribute('type', 'hidden');
-        myInputB.setAttribute('name', 'chat_so_far');
-        myInputB.setAttribute('value', '<?php echo $slashChat; ?>');
+        myInputB.setAttribute('name', 'asking_for_more');
+        myInputB.setAttribute('value', '<?php echo $askingForMore; ?>');
         myForm.appendChild(myInputB);
+
+        var myInputC = document.createElement('input');
+        myInputC.setAttribute('type', 'hidden');
+        myInputC.setAttribute('name', 'chat_so_far');
+        myInputC.setAttribute('value', '<?php echo $slashChat; ?>');
+        myForm.appendChild(myInputC);
         
         document.body.appendChild(myForm);
         myForm.submit();
