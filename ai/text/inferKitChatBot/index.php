@@ -62,12 +62,12 @@ function cs_getMachineResponse() {
     
     
     $jsonArray =
-        array('prompt' => array( "text" => $chatPlain ), "length" => 200 );
+        array('prompt' => array( "text" => $chatPlain ), "length" => 100 );
     /*
     $postBody = "{\n".
         "\"prompt\": {\n".
         "\"text\": \"$chatPlain\" },\n".
-        "\"length\": 200\n".
+        "\"length\": 100\n".
         "}";
     */
     $postBody = json_encode( $jsonArray );
