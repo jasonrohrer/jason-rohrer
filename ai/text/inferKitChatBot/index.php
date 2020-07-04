@@ -107,10 +107,11 @@ function cs_getMachineResponse() {
         
         $firstLine = trim( $gennedChatLines[0] );
 
+        // allow multiple lines in the computer response, for now
         // make sure first line doesn't contain multiple lines
-        $firstLineParts = array_filter( explode( "\n", $firstLine) );
+        // $firstLineParts = array_filter( explode( "\n", $firstLine) );
 
-        $firstLine = $firstLineParts[0];
+        // $firstLine = $firstLineParts[0];
         
         cs_showChat( "$chatSoFar<br><br><font color=red>Computer:</font></b> $firstLine", false, false );
         }
