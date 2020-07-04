@@ -36,7 +36,7 @@ function cs_addChat() {
 
 
 function cs_getMachineResponse() {
-    $chatSoFar = cs_requestFilter( "chat_so_far", "/[ <>=\/A-Z0-9,.?\"'!$%*()+=&#@:;\n]+/i" );
+    $chatSoFar = cs_requestFilter( "chat_so_far", "/[ <>=\/A-Z0-9,.?\"'!$%*()+=&#@:;\n\-_]+/i" );
 
     // replace <br> with \n
     $chatPlain = str_replace( "<br>", "\n", $chatSoFar );
@@ -171,7 +171,7 @@ function cs_showChat( $chatSoFar, $getMore, $tryReload ) {
         $disabled = "disabled";
         }
 
-$chatSoFarEncoded = htmlspecialchars( $chatSoFar );
+    $chatSoFarEncoded = htmlspecialchars( $chatSoFar );
     
 ?>
     <FORM ACTION="index.php" METHOD="post">
