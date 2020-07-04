@@ -239,6 +239,8 @@ function cs_showChat( $chatSoFar, $getMore, $tryReload, $noComputerPrompt ) {
             }
         }
     
+
+    echo "[<a href=index.php>Start New Chat</a>]<br>";
     
     echo "<center><table border=1 width=640><tr><td>";
 
