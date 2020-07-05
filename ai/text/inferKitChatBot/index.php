@@ -43,7 +43,7 @@ function cs_addChat() {
 
 
 
-function cs_getMachineResponse( $askingForMore ) {
+function cs_getMachineResponse() {
     global $computerName;
     
     $chatSoFar = cs_requestFilter( "chat_so_far", "/[ <>=\/A-Z0-9,.?\"'!$%*()+=&#@:;\n\-_\[\]]+/i" );
@@ -68,10 +68,10 @@ function cs_getMachineResponse( $askingForMore ) {
     //$chatPlain = "Test";
 
     // leave room for introduction
-    
-    $chatPlain = substr( $chatPlain, -700 );
 
     global $chat_prefix;
+
+    $chatPlain = substr( $chatPlain, strlen( $chat_prefix ) + 10 );
     
     // human's first line has \n\n in front
     $chatPlain = $chat_prefix . $chatPlain;
