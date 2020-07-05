@@ -44,6 +44,8 @@ function cs_addChat() {
 
 
 function cs_getMachineResponse( $askingForMore ) {
+    global $computerName;
+    
     $chatSoFar = cs_requestFilter( "chat_so_far", "/[ <>=\/A-Z0-9,.?\"'!$%*()+=&#@:;\n\-_]+/i" );
 
     // replace <br> with \n
@@ -56,7 +58,7 @@ function cs_getMachineResponse( $askingForMore ) {
     
     if( ! $askingForMore ) {
         // human just spoke, give computer a prompt for its speech
-        $chatPlain =  $chatPlain . "\n\nComputer:";
+        $chatPlain =  $chatPlain . "\n\n$computerName:";
         }
     
     //$chatPlain = implode("\n", array_filter(explode("\n", $chatPlain)));
@@ -69,8 +71,10 @@ function cs_getMachineResponse( $askingForMore ) {
     
     $chatPlain = substr( $chatPlain, -700 );
 
+    global $chat_prefix;
+    
     // human's first line has \n\n in front
-    $chatPlain = "What follows is a conversation between a human and the world's most sophisticated artificial intelligence.  As you can see, the computer displays a shocking amount of cleverness and wit, as the discussion quickly becomes deep and philosophical." . $chatPlain;
+    $chatPlain = $chat_prefix . $chatPlain;
     
     
     
@@ -116,7 +120,8 @@ function cs_getMachineResponse( $askingForMore ) {
         $textGen = $a['data']['text'];
         
         
-        $gennedChatLines = preg_split('/Computer:|Human:|Humans:|Machine:/', $textGen );
+        $gennedChatLines =
+            preg_split('/$computerName:|Human:|Humans:|Machine:/', $textGen );
 
 
         $gennedLine = "";
@@ -174,7 +179,7 @@ function cs_getMachineResponse( $askingForMore ) {
             else {
                 cs_showChat(
                     "$chatSoFar<br><br>".
-                    "<b><font color=red>Computer:</font></b> $gennedLine",
+                    "<b><font color=red>$computerName:</font></b> $gennedLine",
                     true, false, true );
                 }
             }
@@ -188,7 +193,7 @@ function cs_getMachineResponse( $askingForMore ) {
             else {
                 cs_showChat(
                     "$chatSoFar<br><br>".
-                    "<b><font color=red>Computer:</font></b> $gennedLine",
+                    "<b><font color=red>$computerName:</font></b> $gennedLine",
                     false, false, false );
                 }
             }
@@ -235,7 +240,8 @@ function cs_showChat( $chatSoFar, $getMore, $tryReload, $noComputerPrompt ) {
         else {
             // computer hasn't said anything yet
             // show Computer: prompt with wait string
-            $chatSoFar = "$chatSoFar<br><br><b><font color=red>Computer:</font></b> $computerWaitString";
+            global $computerName;
+            $chatSoFar = "$chatSoFar<br><br><b><font color=red>$computerName:</font></b> $computerWaitString";
             }
         }
     
