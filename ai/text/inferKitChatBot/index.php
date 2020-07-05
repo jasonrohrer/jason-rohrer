@@ -71,7 +71,7 @@ function cs_getMachineResponse() {
 
     global $chat_prefix;
 
-    $chatPlain = substr( $chatPlain, 1000 - ( strlen( $chat_prefix ) + 10 ) );
+    $chatPlain = substr( $chatPlain, -( 1000 - ( strlen( $chat_prefix ) + 10 ) ) );
     
     // human's first line has \n\n in front
     $chatPlain = $chat_prefix . $chatPlain;
