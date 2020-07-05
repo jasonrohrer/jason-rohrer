@@ -34,8 +34,8 @@ function cs_firstLineOnly( $inString ) {
 
 
 function cs_addChat() {
-    $said = cs_requestFilter( "said", "/[ A-Z0-9,.?\"'!$%*()+=&#@:;\-_]+/i" );
-    $chatSoFar = cs_requestFilter( "chat_so_far", "/[ <>=\/A-Z0-9,.?\"'!$%*()+=&#@:;\-_\n]+/i" );
+    $said = cs_requestFilter( "said", "/[ A-Z0-9,.?\"'!$%*()+=&#@:;\-_\[\]]+/i" );
+    $chatSoFar = cs_requestFilter( "chat_so_far", "/[ <>=\/A-Z0-9,.?\"'!$%*()+=&#@:;\-_\n\[\]]+/i" );
 
     cs_showChat( "$chatSoFar<br><br><b><font color=blue>Human:</font></b> $said", true, false, false );
     }
@@ -46,7 +46,7 @@ function cs_addChat() {
 function cs_getMachineResponse( $askingForMore ) {
     global $computerName;
     
-    $chatSoFar = cs_requestFilter( "chat_so_far", "/[ <>=\/A-Z0-9,.?\"'!$%*()+=&#@:;\n\-_]+/i" );
+    $chatSoFar = cs_requestFilter( "chat_so_far", "/[ <>=\/A-Z0-9,.?\"'!$%*()+=&#@:;\n\-_\[\]]+/i" );
 
     // replace <br> with \n
     $chatPlain = str_replace( "<br>", "\n", $chatSoFar );
