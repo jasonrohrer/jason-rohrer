@@ -79,30 +79,27 @@ function cs_getMachineResponse() {
     
     
     $jsonArray =
-        array('prompt' => array( "text" => $chatPlain ), "length" => 100 );
+        array('instances' => array( $chatPlain ) );
     /*
-    $postBody = "{\n".
-        "\"prompt\": {\n".
-        "\"text\": \"$chatPlain\" },\n".
-        "\"length\": 100\n".
-        "}";
+      Example json:
+      {
+      "instances":  [ "\"Hey there,\" she said, \"" ]              
+      }
     */
+
     $postBody = json_encode( $jsonArray );
     
-    $url = 'https://api.inferkit.com/v1/models/standard/generate';
-
-    global $api_key;
+    global $transformerURL;
     
     $options = array(
         'http' => array(
             'header'  =>
             "Content-type: application/json\r\n".
-            "Authorization: Bearer $api_key\r\n".
             "Content-Length: " . strlen($postBody) . "\r\n",
             'method'  => 'POST',
             'content' => $postBody ) );
     $context  = stream_context_create( $options );
-    $result = file_get_contents( $url, false, $context );
+    $result = file_get_contents( $transformerURL, false, $context );
 
     $len = strlen( $chatPlain );
 
@@ -117,7 +114,7 @@ function cs_getMachineResponse() {
     else {
         
         $a = json_decode( $result, true );
-        $textGen = $a['data']['text'];
+        $textGen = $a['predictions'][0];
         
         
         $gennedChatLines =

@@ -1,8 +1,12 @@
 <?php
 
 
-$api_key = "replace_me";
 
+
+// coreweave transformer URL
+$transformerURL = "http://put_your_url_here";
+
+    
 
 
 // this is put in front of the chat fed to the AI
