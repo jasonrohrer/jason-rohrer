@@ -90,21 +90,25 @@ function cs_getMachineResponse() {
     $postBody = json_encode( $jsonArray );
     
     global $transformerURL;
+
+    $url = $transformerURL;
     
     $options = array(
         'http' => array(
             'header'  =>
+            "Connection: close\r\n".
             "Content-type: application/json\r\n".
             "Content-Length: " . strlen($postBody) . "\r\n",
             'method'  => 'POST',
+            'protocol_version' => 1.1,
             'content' => $postBody ) );
     $context  = stream_context_create( $options );
-    $result = file_get_contents( $transformerURL, false, $context );
+    $result = file_get_contents( $url, false, $context );
 
-    $len = strlen( $chatPlain );
+    $promptLen = strlen( $chatPlain );
 
     // debug printout
-    //echo "<pre>chat plain:\n$chatPlain\n($len long)\nURL $url\npost body=\n$postBody\nresult = $result</pre>";
+    //echo "<pre>chat plain:\n$chatPlain\n($promptLen long)\nURL $url\npost body=\n$postBody\nresult = $result</pre>";
 
     if( $result === FALSE ) {
 
@@ -115,7 +119,9 @@ function cs_getMachineResponse() {
         
         $a = json_decode( $result, true );
         $textGen = $a['predictions'][0];
-        
+
+        // coreweave transformer includes prompt in response
+        $textGen = substr( $textGen, $promptLen );
         
         $gennedChatLines =
             preg_split('/$computerName:|Human:|Humans:|The Human:|Machine:/', $textGen );
