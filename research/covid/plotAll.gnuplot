@@ -4,16 +4,14 @@ set timefmt "%Y%m%d"
 set datafile separator ','
 
 
-#set term postscript enhanced color size 900,700
-#set output "out.eps"
 
-set terminal wxt size 900,700
+set terminal wxt size 900,800
 
 set multiplot layout 6, 2 title "Daily Death Patterns and Winter Climates\n "
 
-set label "Top 6 Deadliest Cold-Winter States" at screen 0.125, 0.95 tc rgb "#0000FF"
+set label "Top 6 Deadliest Cold-Winter States" at screen 0.125, 0.96 tc rgb "#0000FF"
 
-set label "Top 6 Deadliest Warm-Winter States" at screen 0.65, 0.95 tc rgb "#FF0000"
+set label "Top 6 Deadliest Warm-Winter States" at screen 0.65, 0.96 tc rgb "#FF0000"
 
 set yrange [0:400]
 set ytics 100
