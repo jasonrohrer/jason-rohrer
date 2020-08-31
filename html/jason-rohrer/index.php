@@ -139,6 +139,15 @@ Email Address: <input type="text" name="email" value="">
 </form>
 <br>
 
+
+<H1>Artificial Intelligence Projects</H1>
+
+
+<A HREF="http://projectdecember.net">Project December</A>-- Talk to the world's most sophisticated AI.  Available soon.<BR><BR>
+
+<br>
+     
+
 <H1>Video Games</H1>
 
 
