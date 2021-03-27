@@ -101,7 +101,7 @@ Standard
   9
 $CLAYER
   8
-cabinets ... Labels
+0
   9
 $CELTYPE
   6
@@ -493,19 +493,19 @@ $SKPOLY
   9
 $TDCREATE
  40
-2459301.663484583
+2459301.672619039
   9
 $TDUCREATE
  40
-2459301.871817917
+2459301.880952373
   9
 $TDUPDATE
  40
-2459301.663485104
+2459301.672619711
   9
 $TDUUPDATE
  40
-2459301.871818438
+2459301.880953044
   9
 $TDINDWG
  40
@@ -553,7 +553,7 @@ $SPLINESEGS
   9
 $HANDSEED
   5
-1007
+11DB
   9
 $SURFTAB1
  70
@@ -933,7 +933,7 @@ $PSTYLEMODE
   9
 $FINGERPRINTGUID
   2
-{35766676-3164-3665-6276-327263716172}
+{78667730-7172-6472-e278-733534747270}
   9
 $VERSIONGUID
   2
@@ -1077,7 +1077,7 @@ $TILEMODELIGHTSYNCH
   9
 $CMATERIAL
 347
-F32
+1106
   9
 $SOLIDHIST
 280
@@ -1271,7 +1271,7 @@ TABLE
   2
 VPORT
   5
-EF7
+10CB
 330
 0
 100
@@ -1281,9 +1281,9 @@ AcDbSymbolTable
   0
 VPORT
   5
-F17
+10EB
 330
-EF7
+10CB
 100
 AcDbSymbolTableRecord
 100
@@ -1301,9 +1301,9 @@ AcDbViewportTableRecord
  21
 1.0
  12
-3.27813369531242
+18.4867763637109
  22
-170.0175808784785
+236.4303002984263
  13
 0.0
  23
@@ -1329,7 +1329,7 @@ AcDbViewportTableRecord
  37
 0.0
  40
-332.1467556686987
+230.6574692143741
  41
 1.730240549828179
  42
@@ -1385,7 +1385,7 @@ AcDbViewportTableRecord
 146
 0.0
 348
-F1D
+10F1
  60
      3
  61
@@ -1401,7 +1401,7 @@ F1D
  63
    250
 361
-F5B
+112F
   0
 ENDTAB
   0
@@ -1409,7 +1409,7 @@ TABLE
   2
 LTYPE
   5
-EF4
+10C8
 330
 0
 100
@@ -1419,9 +1419,9 @@ AcDbSymbolTable
   0
 LTYPE
   5
-F02
+10D6
 330
-EF4
+10C8
 100
 AcDbSymbolTableRecord
 100
@@ -1441,9 +1441,9 @@ ByBlock
   0
 LTYPE
   5
-F03
+10D7
 330
-EF4
+10C8
 100
 AcDbSymbolTableRecord
 100
@@ -1463,9 +1463,9 @@ ByLayer
   0
 LTYPE
   5
-F04
+10D8
 330
-EF4
+10C8
 100
 AcDbSymbolTableRecord
 100
@@ -1485,9 +1485,9 @@ Solid line
   0
 LTYPE
   5
-F9E
+1172
 330
-EF4
+10C8
 100
 AcDbSymbolTableRecord
 100
@@ -1523,9 +1523,9 @@ Dash dot __ . __ . __ . __ . __ . __ . __ . __
   0
 LTYPE
   5
-F9F
+1173
 330
-EF4
+10C8
 100
 AcDbSymbolTableRecord
 100
@@ -1561,9 +1561,9 @@ Center (2x) ________  __  ________  __  _____
   0
 LTYPE
   5
-FA0
+1174
 330
-EF4
+10C8
 100
 AcDbSymbolTableRecord
 100
@@ -1599,9 +1599,9 @@ Dash dot (2x) ____  .  ____  .  ____  .  ___
   0
 LTYPE
   5
-FA1
+1175
 330
-EF4
+10C8
 100
 AcDbSymbolTableRecord
 100
@@ -1637,9 +1637,9 @@ Dash dot (.5x) _._._._._._._._._._._._._._._.
   0
 LTYPE
   5
-FA2
+1176
 330
-EF4
+10C8
 100
 AcDbSymbolTableRecord
 100
@@ -1683,9 +1683,9 @@ Border (2x) ____  ____  .  ____  ____  .  ___
   0
 LTYPE
   5
-FA3
+1177
 330
-EF4
+10C8
 100
 AcDbSymbolTableRecord
 100
@@ -1729,9 +1729,9 @@ Border (.5x) __.__.__.__.__.__.__.__.__.__.__.
   0
 LTYPE
   5
-FA4
+1178
 330
-EF4
+10C8
 100
 AcDbSymbolTableRecord
 100
@@ -1767,9 +1767,9 @@ Center (.5x) ___ _ ___ _ ___ _ ___ _ ___ _ ___
   0
 LTYPE
   5
-FA5
+1179
 330
-EF4
+10C8
 100
 AcDbSymbolTableRecord
 100
@@ -1805,9 +1805,9 @@ Center ____ _ ____ _ ____ _ ____ _ ____ _ ____
   0
 LTYPE
   5
-FA6
+117A
 330
-EF4
+10C8
 100
 AcDbSymbolTableRecord
 100
@@ -1835,9 +1835,9 @@ ISO dot . . . . . . . . . . . . . . . . . . . .
   0
 LTYPE
   5
-FA7
+117B
 330
-EF4
+10C8
 100
 AcDbSymbolTableRecord
 100
@@ -1889,9 +1889,9 @@ ISO long-dash triple-dot ____ ... ____ ... ____
   0
 LTYPE
   5
-FA8
+117C
 330
-EF4
+10C8
 100
 AcDbSymbolTableRecord
 100
@@ -1935,9 +1935,9 @@ ISO long-dash double-short-dash ____ __ __ ____
   0
 LTYPE
   5
-FA9
+117D
 330
-EF4
+10C8
 100
 AcDbSymbolTableRecord
 100
@@ -1973,9 +1973,9 @@ ISO long-dash short-dash ____ __ ____ __ ____ _
   0
 LTYPE
   5
-FAA
+117E
 330
-EF4
+10C8
 100
 AcDbSymbolTableRecord
 100
@@ -2003,9 +2003,9 @@ ISO dash space __    __    __    __    __    __
   0
 LTYPE
   5
-FAB
+117F
 330
-EF4
+10C8
 100
 AcDbSymbolTableRecord
 100
@@ -2033,9 +2033,9 @@ ISO dash __ __ __ __ __ __ __ __ __ __ __ __ __
   0
 LTYPE
   5
-FAC
+1180
 330
-EF4
+10C8
 100
 AcDbSymbolTableRecord
 100
@@ -2079,9 +2079,9 @@ ISO long-dash double-dot ____ .. ____ .. ____ .
   0
 LTYPE
   5
-FAD
+1181
 330
-EF4
+10C8
 100
 AcDbSymbolTableRecord
 100
@@ -2117,9 +2117,9 @@ ISO long-dash dot ____ . ____ . ____ . ____ . _
   0
 LTYPE
   5
-FAF
+1183
 330
-EF4
+10C8
 100
 AcDbSymbolTableRecord
 100
@@ -2143,7 +2143,7 @@ Tracks -|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-
  75
      0
 340
-FAE
+1182
  46
 6.35
  50
@@ -2161,9 +2161,9 @@ TRACK1
   0
 LTYPE
   5
-FB0
+1184
 330
-EF4
+10C8
 100
 AcDbSymbolTableRecord
 100
@@ -2207,9 +2207,9 @@ Phantom (2x) ____________    ____    ____   _
   0
 LTYPE
   5
-FB3
+1187
 330
-EF4
+10C8
 100
 AcDbSymbolTableRecord
 100
@@ -2237,7 +2237,7 @@ Zig zag /\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/
  75
      0
 340
-FB1
+1185
  46
 5.08
  50
@@ -2255,7 +2255,7 @@ ZIG
  75
      0
 340
-FB2
+1186
  46
 5.08
  50
@@ -2273,9 +2273,9 @@ ZIG
   0
 LTYPE
   5
-FB5
+1189
 330
-EF4
+10C8
 100
 AcDbSymbolTableRecord
 100
@@ -2303,7 +2303,7 @@ Hot water supply ---- HW ---- HW ---- HW ----
  75
      0
 340
-FB4
+1188
  46
 2.54
  50
@@ -2321,9 +2321,9 @@ HW
   0
 LTYPE
   5
-FB6
+118A
 330
-EF4
+10C8
 100
 AcDbSymbolTableRecord
 100
@@ -2351,9 +2351,9 @@ Hidden (2x) ____ ____ ____ ____ ____ ____ ____
   0
 LTYPE
   5
-FB7
+118B
 330
-EF4
+10C8
 100
 AcDbSymbolTableRecord
 100
@@ -2397,9 +2397,9 @@ Phantom (.5x) ___ _ _ ___ _ _ ___ _ _ ___ _ _
   0
 LTYPE
   5
-FB8
+118C
 330
-EF4
+10C8
 100
 AcDbSymbolTableRecord
 100
@@ -2443,9 +2443,9 @@ Phantom ______  __  __  ______  __  __  ______
   0
 LTYPE
   5
-FB9
+118D
 330
-EF4
+10C8
 100
 AcDbSymbolTableRecord
 100
@@ -2473,9 +2473,9 @@ Dash
   0
 LTYPE
   5
-FBA
+118E
 330
-EF4
+10C8
 100
 AcDbSymbolTableRecord
 100
@@ -2519,9 +2519,9 @@ Divide (2x) ________  .  .  ________  .  .  _
   0
 LTYPE
   5
-FBB
+118F
 330
-EF4
+10C8
 100
 AcDbSymbolTableRecord
 100
@@ -2565,9 +2565,9 @@ Divide (.5x) __..__..__..__..__..__..__..__.._
   0
 LTYPE
   5
-FBC
+1190
 330
-EF4
+10C8
 100
 AcDbSymbolTableRecord
 100
@@ -2595,9 +2595,9 @@ Dot (.5x) ........................................
   0
 LTYPE
   5
-FBD
+1191
 330
-EF4
+10C8
 100
 AcDbSymbolTableRecord
 100
@@ -2625,9 +2625,9 @@ Dot . . . . . . . . . . . . . . . . . . . . . . . .
   0
 LTYPE
   5
-FBE
+1192
 330
-EF4
+10C8
 100
 AcDbSymbolTableRecord
 100
@@ -2655,9 +2655,9 @@ Dashed (.5x) _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
   0
 LTYPE
   5
-FBF
+1193
 330
-EF4
+10C8
 100
 AcDbSymbolTableRecord
 100
@@ -2685,9 +2685,9 @@ Dashed __ __ __ __ __ __ __ __ __ __ __ __ __ _
   0
 LTYPE
   5
-FC0
+1194
 330
-EF4
+10C8
 100
 AcDbSymbolTableRecord
 100
@@ -2731,9 +2731,9 @@ Divide ____ . . ____ . . ____ . . ____ . . ____
   0
 LTYPE
   5
-FC1
+1195
 330
-EF4
+10C8
 100
 AcDbSymbolTableRecord
 100
@@ -2761,9 +2761,9 @@ Dashed (2x) ____  ____  ____  ____  ____  ___
   0
 LTYPE
   5
-FC3
+1197
 330
-EF4
+10C8
 100
 AcDbSymbolTableRecord
 100
@@ -2791,7 +2791,7 @@ Gas line ----GAS----GAS----GAS----GAS----GAS----GAS--
  75
      0
 340
-FC2
+1196
  46
 2.54
  50
@@ -2809,9 +2809,9 @@ GAS
   0
 LTYPE
   5
-FC5
+1199
 330
-EF4
+10C8
 100
 AcDbSymbolTableRecord
 100
@@ -2839,7 +2839,7 @@ Fenceline square ----[]-----[]----[]-----[]----[]---
  75
      0
 340
-FC4
+1198
  46
 2.54
  50
@@ -2861,9 +2861,9 @@ BOX
   0
 LTYPE
   5
-FC6
+119A
 330
-EF4
+10C8
 100
 AcDbSymbolTableRecord
 100
@@ -2891,9 +2891,9 @@ Hidden (.5x) _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
   0
 LTYPE
   5
-FC7
+119B
 330
-EF4
+10C8
 100
 AcDbSymbolTableRecord
 100
@@ -2921,9 +2921,9 @@ Hidden __ __ __ __ __ __ __ __ __ __ __ __ __ __
   0
 LTYPE
   5
-FC9
+119D
 330
-EF4
+10C8
 100
 AcDbSymbolTableRecord
 100
@@ -2947,7 +2947,7 @@ Drainage ---->---->---->----
  75
      0
 340
-FC8
+119C
  46
 2.54
  50
@@ -2965,9 +2965,9 @@ RIGHT_ARROW
   0
 LTYPE
   5
-FCA
+119E
 330
-EF4
+10C8
 100
 AcDbSymbolTableRecord
 100
@@ -2995,9 +2995,9 @@ Dot (2x) .  .  .  .  .  .  .  .  .  .  .  .  .  .
   0
 LTYPE
   5
-FCC
+11A0
 330
-EF4
+10C8
 100
 AcDbSymbolTableRecord
 100
@@ -3025,7 +3025,7 @@ Fenceline circle ----0-----0----0-----0----0-----0--
  75
      0
 340
-FCB
+119F
  46
 2.54
  50
@@ -3047,9 +3047,9 @@ CIRC1
   0
 LTYPE
   5
-FCE
+11A2
 330
-EF4
+10C8
 100
 AcDbSymbolTableRecord
 100
@@ -3073,7 +3073,7 @@ Drainage reversed----<----<----<----
  75
      0
 340
-FCD
+11A1
  46
 2.54
  50
@@ -3091,9 +3091,9 @@ RIGHT_ARROW
   0
 LTYPE
   5
-FCF
+11A3
 330
-EF4
+10C8
 100
 AcDbSymbolTableRecord
 100
@@ -3153,9 +3153,9 @@ ISO double-dash triple-dot __ __ . . . __ __ . .
   0
 LTYPE
   5
-FD0
+11A4
 330
-EF4
+10C8
 100
 AcDbSymbolTableRecord
 100
@@ -3207,9 +3207,9 @@ ISO dash triple-dot __ . . . __ . . . __ . . . _
   0
 LTYPE
   5
-FD1
+11A5
 330
-EF4
+10C8
 100
 AcDbSymbolTableRecord
 100
@@ -3253,9 +3253,9 @@ Border __ __ . __ __ . __ __ . __ __ . __ __ .
   0
 LTYPE
   5
-FD4
+11A8
 330
-EF4
+10C8
 100
 AcDbSymbolTableRecord
 100
@@ -3283,7 +3283,7 @@ Batting SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
  75
      0
 340
-FD2
+11A6
  46
 2.54
  50
@@ -3301,7 +3301,7 @@ BAT
  75
      0
 340
-FD3
+11A7
  46
 2.54
  50
@@ -3319,9 +3319,9 @@ BAT
   0
 LTYPE
   5
-FD5
+11A9
 330
-EF4
+10C8
 100
 AcDbSymbolTableRecord
 100
@@ -3365,9 +3365,9 @@ ISO double-dash dot __ __ . __ __ . __ __ . __ _
   0
 LTYPE
   5
-FD6
+11AA
 330
-EF4
+10C8
 100
 AcDbSymbolTableRecord
 100
@@ -3403,9 +3403,9 @@ ISO dash dot __ . __ . __ . __ . __ . __ . __ .
   0
 LTYPE
   5
-FD7
+11AB
 330
-EF4
+10C8
 100
 AcDbSymbolTableRecord
 100
@@ -3457,9 +3457,9 @@ ISO double-dash double-dot __ __ . . __ __ . . _
   0
 LTYPE
   5
-FD8
+11AC
 330
-EF4
+10C8
 100
 AcDbSymbolTableRecord
 100
@@ -3507,7 +3507,7 @@ TABLE
   2
 LAYER
   5
-EF2
+10C6
 330
 0
 100
@@ -3517,9 +3517,9 @@ AcDbSymbolTable
   0
 LAYER
   5
-EFF
+10D3
 330
-EF2
+10C6
 100
 AcDbSymbolTableRecord
 100
@@ -3535,17 +3535,17 @@ Continuous
 370
     25
 390
-EFE
+10D2
 347
-F34
+1108
 348
 0
   0
 LAYER
   5
-FD9
+11AD
 330
-EF2
+10C6
 100
 AcDbSymbolTableRecord
 100
@@ -3563,17 +3563,17 @@ Continuous
 370
     25
 390
-EFE
+10D2
 347
-F34
+1108
 348
 0
   0
 LAYER
   5
-FDA
+11AE
 330
-EF2
+10C6
 100
 AcDbSymbolTableRecord
 100
@@ -3591,17 +3591,17 @@ Continuous
 370
     25
 390
-EFE
+10D2
 347
-F34
+1108
 348
 0
   0
 LAYER
   5
-FDB
+11AF
 330
-EF2
+10C6
 100
 AcDbSymbolTableRecord
 100
@@ -3619,17 +3619,17 @@ Continuous
 370
     25
 390
-EFE
+10D2
 347
-F34
+1108
 348
 0
   0
 LAYER
   5
-FDC
+11B0
 330
-EF2
+10C6
 100
 AcDbSymbolTableRecord
 100
@@ -3647,17 +3647,17 @@ Continuous
 370
     25
 390
-EFE
+10D2
 347
-F34
+1108
 348
 0
   0
 LAYER
   5
-FDD
+11B1
 330
-EF2
+10C6
 100
 AcDbSymbolTableRecord
 100
@@ -3675,17 +3675,17 @@ Continuous
 370
     25
 390
-EFE
+10D2
 347
-F34
+1108
 348
 0
   0
 LAYER
   5
-FDE
+11B2
 330
-EF2
+10C6
 100
 AcDbSymbolTableRecord
 100
@@ -3703,17 +3703,17 @@ Continuous
 370
     25
 390
-EFE
+10D2
 347
-F34
+1108
 348
 0
   0
 LAYER
   5
-FDF
+11B3
 330
-EF2
+10C6
 100
 AcDbSymbolTableRecord
 100
@@ -3731,17 +3731,17 @@ Continuous
 370
     25
 390
-EFE
+10D2
 347
-F34
+1108
 348
 0
   0
 LAYER
   5
-FE0
+11B4
 330
-EF2
+10C6
 100
 AcDbSymbolTableRecord
 100
@@ -3759,17 +3759,17 @@ Continuous
 370
     25
 390
-EFE
+10D2
 347
-F34
+1108
 348
 0
   0
 LAYER
   5
-FE1
+11B5
 330
-EF2
+10C6
 100
 AcDbSymbolTableRecord
 100
@@ -3787,17 +3787,17 @@ Continuous
 370
     25
 390
-EFE
+10D2
 347
-F34
+1108
 348
 0
   0
 LAYER
   5
-FE2
+11B6
 330
-EF2
+10C6
 100
 AcDbSymbolTableRecord
 100
@@ -3815,17 +3815,17 @@ Continuous
 370
     25
 390
-EFE
+10D2
 347
-F34
+1108
 348
 0
   0
 LAYER
   5
-FE3
+11B7
 330
-EF2
+10C6
 100
 AcDbSymbolTableRecord
 100
@@ -3841,17 +3841,17 @@ Continuous
 370
     25
 390
-EFE
+10D2
 347
-F34
+1108
 348
 0
   0
 LAYER
   5
-FE4
+11B8
 330
-EF2
+10C6
 100
 AcDbSymbolTableRecord
 100
@@ -3869,17 +3869,17 @@ Continuous
 370
     25
 390
-EFE
+10D2
 347
-F34
+1108
 348
 0
   0
 LAYER
   5
-FE5
+11B9
 330
-EF2
+10C6
 100
 AcDbSymbolTableRecord
 100
@@ -3897,17 +3897,17 @@ Continuous
 370
     25
 390
-EFE
+10D2
 347
-F34
+1108
 348
 0
   0
 LAYER
   5
-FE6
+11BA
 330
-EF2
+10C6
 100
 AcDbSymbolTableRecord
 100
@@ -3925,17 +3925,17 @@ Continuous
 370
     -3
 390
-EFE
+10D2
 347
-F34
+1108
 348
 0
   0
 LAYER
   5
-FE7
+11BB
 330
-EF2
+10C6
 100
 AcDbSymbolTableRecord
 100
@@ -3953,17 +3953,17 @@ Continuous
 370
     25
 390
-EFE
+10D2
 347
-F34
+1108
 348
 0
   0
 LAYER
   5
-FE8
+11BC
 330
-EF2
+10C6
 100
 AcDbSymbolTableRecord
 100
@@ -3981,17 +3981,17 @@ Continuous
 370
     25
 390
-EFE
+10D2
 347
-F34
+1108
 348
 0
   0
 LAYER
   5
-FE9
+11BD
 330
-EF2
+10C6
 100
 AcDbSymbolTableRecord
 100
@@ -3999,9 +3999,9 @@ AcDbLayerTableRecord
   2
 Measure
  70
-     1
+     0
  62
-    -2
+     2
 420
  16776960
   6
@@ -4009,17 +4009,17 @@ Continuous
 370
     25
 390
-EFE
+10D2
 347
-F34
+1108
 348
 0
   0
 LAYER
   5
-FEA
+11BE
 330
-EF2
+10C6
 100
 AcDbSymbolTableRecord
 100
@@ -4027,9 +4027,9 @@ AcDbLayerTableRecord
   2
 Feet
  70
-     1
+     0
  62
-   -30
+    30
 420
  16744192
   6
@@ -4037,17 +4037,17 @@ Continuous
 370
     25
 390
-EFE
+10D2
 347
-F34
+1108
 348
 0
   0
 LAYER
   5
-FEB
+11BF
 330
-EF2
+10C6
 100
 AcDbSymbolTableRecord
 100
@@ -4065,17 +4065,17 @@ Continuous
 370
     25
 390
-EFE
+10D2
 347
-F34
+1108
 348
 0
   0
 LAYER
   5
-FEC
+11C0
 330
-EF2
+10C6
 100
 AcDbSymbolTableRecord
 100
@@ -4093,17 +4093,17 @@ Continuous
 370
     25
 390
-EFE
+10D2
 347
-F34
+1108
 348
 0
   0
 LAYER
   5
-FED
+11C1
 330
-EF2
+10C6
 100
 AcDbSymbolTableRecord
 100
@@ -4111,9 +4111,9 @@ AcDbLayerTableRecord
   2
 Working
  70
-     1
+     0
  62
-  -178
+   178
 420
         0
   6
@@ -4121,17 +4121,17 @@ Continuous
 370
     25
 390
-EFE
+10D2
 347
-F34
+1108
 348
 0
   0
 LAYER
   5
-FEE
+11C2
 330
-EF2
+10C6
 100
 AcDbSymbolTableRecord
 100
@@ -4149,17 +4149,17 @@ Continuous
 370
     25
 390
-EFE
+10D2
 347
-F34
+1108
 348
 0
   0
 LAYER
   5
-FEF
+11C3
 330
-EF2
+10C6
 100
 AcDbSymbolTableRecord
 100
@@ -4177,9 +4177,9 @@ Continuous
 370
     25
 390
-EFE
+10D2
 347
-F34
+1108
 348
 0
   0
@@ -4189,7 +4189,7 @@ TABLE
   2
 STYLE
   5
-EF3
+10C7
 330
 0
 100
@@ -4199,9 +4199,9 @@ AcDbSymbolTable
   0
 STYLE
   5
-F00
+10D4
 330
-EF3
+10C7
 100
 AcDbSymbolTableRecord
 100
@@ -4227,9 +4227,9 @@ txt
   0
 STYLE
   5
-F9C
+1170
 330
-EF3
+10C7
 100
 AcDbSymbolTableRecord
 100
@@ -4255,9 +4255,9 @@ txt
   0
 STYLE
   5
-FAE
+1182
 330
-EF3
+10C7
 100
 AcDbSymbolTableRecord
 100
@@ -4283,9 +4283,9 @@ ltypeshp.shx
   0
 STYLE
   5
-FB1
+1185
 330
-EF3
+10C7
 100
 AcDbSymbolTableRecord
 100
@@ -4311,9 +4311,9 @@ ltypeshp.shx
   0
 STYLE
   5
-FB2
+1186
 330
-EF3
+10C7
 100
 AcDbSymbolTableRecord
 100
@@ -4339,9 +4339,9 @@ ltypeshp.shx
   0
 STYLE
   5
-FB4
+1188
 330
-EF3
+10C7
 100
 AcDbSymbolTableRecord
 100
@@ -4367,9 +4367,9 @@ STANDARD
   0
 STYLE
   5
-FC2
+1196
 330
-EF3
+10C7
 100
 AcDbSymbolTableRecord
 100
@@ -4395,9 +4395,9 @@ STANDARD
   0
 STYLE
   5
-FC4
+1198
 330
-EF3
+10C7
 100
 AcDbSymbolTableRecord
 100
@@ -4423,9 +4423,9 @@ ltypeshp.shx
   0
 STYLE
   5
-FC8
+119C
 330
-EF3
+10C7
 100
 AcDbSymbolTableRecord
 100
@@ -4451,9 +4451,9 @@ qcadshp.shx
   0
 STYLE
   5
-FCB
+119F
 330
-EF3
+10C7
 100
 AcDbSymbolTableRecord
 100
@@ -4479,9 +4479,9 @@ ltypeshp.shx
   0
 STYLE
   5
-FCD
+11A1
 330
-EF3
+10C7
 100
 AcDbSymbolTableRecord
 100
@@ -4507,9 +4507,9 @@ qcadshp.shx
   0
 STYLE
   5
-FD2
+11A6
 330
-EF3
+10C7
 100
 AcDbSymbolTableRecord
 100
@@ -4535,9 +4535,9 @@ ltypeshp.shx
   0
 STYLE
   5
-FD3
+11A7
 330
-EF3
+10C7
 100
 AcDbSymbolTableRecord
 100
@@ -4563,9 +4563,9 @@ ltypeshp.shx
   0
 STYLE
   5
-FF3
+11C7
 330
-EF3
+10C7
 100
 AcDbSymbolTableRecord
 100
@@ -4597,9 +4597,9 @@ Liberation Sans
   0
 STYLE
   5
-FF4
+11C8
 330
-EF3
+10C7
 100
 AcDbSymbolTableRecord
 100
@@ -4631,9 +4631,9 @@ Liberation Sans
   0
 STYLE
   5
-FF5
+11C9
 330
-EF3
+10C7
 100
 AcDbSymbolTableRecord
 100
@@ -4665,9 +4665,9 @@ Liberation Sans
   0
 STYLE
   5
-FF6
+11CA
 330
-EF3
+10C7
 100
 AcDbSymbolTableRecord
 100
@@ -4699,9 +4699,9 @@ Liberation Sans
   0
 STYLE
   5
-FF7
+11CB
 330
-EF3
+10C7
 100
 AcDbSymbolTableRecord
 100
@@ -4733,9 +4733,9 @@ Liberation Sans
   0
 STYLE
   5
-FF8
+11CC
 330
-EF3
+10C7
 100
 AcDbSymbolTableRecord
 100
@@ -4767,9 +4767,9 @@ Liberation Sans
   0
 STYLE
   5
-FF9
+11CD
 330
-EF3
+10C7
 100
 AcDbSymbolTableRecord
 100
@@ -4801,9 +4801,9 @@ Liberation Sans
   0
 STYLE
   5
-FFA
+11CE
 330
-EF3
+10C7
 100
 AcDbSymbolTableRecord
 100
@@ -4835,9 +4835,9 @@ Liberation Sans
   0
 STYLE
   5
-FFB
+11CF
 330
-EF3
+10C7
 100
 AcDbSymbolTableRecord
 100
@@ -4869,9 +4869,9 @@ Liberation Sans
   0
 STYLE
   5
-FFC
+11D0
 330
-EF3
+10C7
 100
 AcDbSymbolTableRecord
 100
@@ -4903,9 +4903,9 @@ Liberation Sans
   0
 STYLE
   5
-FFD
+11D1
 330
-EF3
+10C7
 100
 AcDbSymbolTableRecord
 100
@@ -4941,7 +4941,7 @@ TABLE
   2
 VIEW
   5
-EF5
+10C9
 330
 0
 100
@@ -4955,7 +4955,7 @@ TABLE
   2
 UCS
   5
-EF6
+10CA
 330
 0
 100
@@ -4969,7 +4969,7 @@ TABLE
   2
 APPID
   5
-EF8
+10CC
 330
 0
 100
@@ -4979,9 +4979,9 @@ AcDbSymbolTable
   0
 APPID
   5
-F01
+10D5
 330
-EF8
+10CC
 100
 AcDbSymbolTableRecord
 100
@@ -4993,9 +4993,9 @@ ACAD
   0
 APPID
   5
-F5C
+1130
 330
-EF8
+10CC
 100
 AcDbSymbolTableRecord
 100
@@ -5007,9 +5007,9 @@ QCAD
   0
 APPID
   5
-FF2
+11C6
 330
-EF8
+10CC
 100
 AcDbSymbolTableRecord
 100
@@ -5025,7 +5025,7 @@ TABLE
   2
 DIMSTYLE
   5
-EF9
+10CD
 330
 0
 100
@@ -5037,9 +5037,9 @@ AcDbDimStyleTable
   0
 DIMSTYLE
 105
-F15
+10E9
 330
-EF9
+10CD
 100
 AcDbSymbolTableRecord
 100
@@ -5051,11 +5051,11 @@ Standard
 178
      0
 340
-F00
+10D4
   0
 DIMSTYLE
 105
-F9D
+1171
 102
 {ACAD_REACTORS
 330
@@ -5073,7 +5073,7 @@ F9D
 102
 }
 330
-EF9
+10CD
 100
 AcDbSymbolTableRecord
 100
@@ -5099,7 +5099,7 @@ QCADDimStyle
 178
    256
 340
-F9C
+1170
   0
 ENDTAB
   0
@@ -5107,7 +5107,7 @@ TABLE
   2
 BLOCK_RECORD
   5
-EF1
+10C5
 330
 0
 100
@@ -5117,9 +5117,9 @@ AcDbSymbolTable
   0
 BLOCK_RECORD
   5
-F0D
+10E1
 330
-EF1
+10C5
 100
 AcDbSymbolTableRecord
 100
@@ -5127,7 +5127,7 @@ AcDbBlockTableRecord
   2
 *Model_Space
 340
-F10
+10E4
  70
      0
 280
@@ -5137,9 +5137,9 @@ F10
   0
 BLOCK_RECORD
   5
-F09
+10DD
 330
-EF1
+10C5
 100
 AcDbSymbolTableRecord
 100
@@ -5147,7 +5147,7 @@ AcDbBlockTableRecord
   2
 *Paper_Space
 340
-F0C
+10E0
  70
      0
 280
@@ -5165,9 +5165,9 @@ BLOCKS
   0
 BLOCK
   5
-F0E
+10E2
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -5191,9 +5191,9 @@ AcDbBlockBegin
   0
 ENDBLK
   5
-F0F
+10E3
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -5203,9 +5203,9 @@ AcDbBlockEnd
   0
 BLOCK
   5
-F0A
+10DE
 330
-F09
+10DD
 100
 AcDbEntity
  67
@@ -5231,9 +5231,9 @@ AcDbBlockBegin
   0
 ENDBLK
   5
-F0B
+10DF
 330
-F09
+10DD
 100
 AcDbEntity
  67
@@ -5253,7 +5253,7 @@ LINE
   5
 757
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -5277,7 +5277,7 @@ LINE
   5
 771
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -5299,9 +5299,33 @@ AcDbLine
   0
 LINE
   5
+FDB
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+89.20460787138968
+ 20
+263.088567805425
+ 30
+0.0
+ 11
+89.20460787138968
+ 21
+271.1535678054249
+ 31
+0.0
+  0
+LINE
+  5
 758
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -5323,9 +5347,33 @@ AcDbLine
   0
 LINE
   5
+FDC
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+89.80460787138972
+ 20
+263.088567805425
+ 30
+0.0
+ 11
+89.80460787138972
+ 21
+271.1535678054249
+ 31
+0.0
+  0
+LINE
+  5
 772
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -5347,9 +5395,33 @@ AcDbLine
   0
 LINE
   5
+FDD
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+77.2046078713897
+ 20
+265.253567805425
+ 30
+0.0
+ 11
+77.2046078713897
+ 21
+271.1535678054249
+ 31
+0.0
+  0
+LINE
+  5
 759
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -5371,9 +5443,33 @@ AcDbLine
   0
 LINE
   5
+FDE
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+77.80460787138972
+ 20
+265.253567805425
+ 30
+0.0
+ 11
+77.80460787138972
+ 21
+271.1535678054249
+ 31
+0.0
+  0
+LINE
+  5
 773
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -5395,9 +5491,33 @@ AcDbLine
   0
 LINE
   5
+FDF
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+62.64738266630309
+ 20
+255.2652833658124
+ 30
+0.0
+ 11
+75.00864424080507
+ 21
+250.5268887479728
+ 31
+0.0
+  0
+LINE
+  5
 75A
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -5419,9 +5539,57 @@ AcDbLine
   0
 LINE
   5
+FE0
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+62.9199232138167
+ 20
+255.8497484560748
+ 30
+0.0
+ 11
+75.2757983003338
+ 21
+251.1138655988332
+ 31
+0.0
+  0
+LINE
+  5
+FE1
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+82.11676269325541
+ 20
+241.0796105173472
+ 30
+0.0
+ 11
+82.11676269325541
+ 21
+240.5796105173472
+ 31
+0.0
+  0
+LINE
+  5
 774
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -5443,9 +5611,33 @@ AcDbLine
   0
 LINE
   5
+FE2
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+80.89060269325542
+ 20
+241.0796105173472
+ 30
+0.0
+ 11
+80.89060269325542
+ 21
+240.5796105173472
+ 31
+0.0
+  0
+LINE
+  5
 75B
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -5469,7 +5661,7 @@ LINE
   5
 776
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -5493,7 +5685,7 @@ LINE
   5
 75C
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -5515,9 +5707,33 @@ AcDbLine
   0
 LINE
   5
+FE3
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+74.10539084372405
+ 20
+241.0796105173472
+ 30
+0.0
+ 11
+74.10539084372405
+ 21
+240.5796105173472
+ 31
+0.0
+  0
+LINE
+  5
 777
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -5539,9 +5755,33 @@ AcDbLine
   0
 LINE
   5
+FE4
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+72.87923084372406
+ 20
+241.0796105173472
+ 30
+0.0
+ 11
+72.87923084372406
+ 21
+240.5796105173472
+ 31
+0.0
+  0
+LINE
+  5
 75D
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -5561,11 +5801,37 @@ AcDbLine
  31
 0.0
   0
+ARC
+  5
+FE5
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbCircle
+ 10
+62.02053940702174
+ 20
+253.9210136582088
+ 30
+0.0
+ 40
+1.483237512500034
+100
+AcDbArc
+ 50
+65.00000000000028
+ 51
+179.9999999999983
+  0
 LINE
   5
 778
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -5585,11 +5851,61 @@ AcDbLine
  31
 0.0
   0
+ARC
+  5
+FE6
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbCircle
+ 10
+62.02053940702174
+ 20
+253.9210136582088
+ 30
+0.0
+ 40
+2.128123387500028
+100
+AcDbArc
+ 50
+65.00000000000028
+ 51
+179.9999999999983
+  0
+LINE
+  5
+FE7
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+77.16049676848971
+ 20
+245.447479805425
+ 30
+0.0
+ 11
+77.16049676848971
+ 21
+240.6068498359101
+ 31
+0.0
+  0
 LINE
   5
 75E
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -5611,9 +5927,57 @@ AcDbLine
   0
 LINE
   5
+FE8
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+60.5373018945217
+ 20
+253.3406163707088
+ 30
+0.0
+ 11
+59.8924160195217
+ 21
+253.3406163707088
+ 31
+0.0
+  0
+LINE
+  5
+FE9
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+77.83549676848972
+ 20
+245.447479805425
+ 30
+0.0
+ 11
+77.83549676848972
+ 21
+240.6068498359101
+ 31
+0.0
+  0
+LINE
+  5
 779
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -5635,9 +5999,57 @@ AcDbLine
   0
 LINE
   5
+FEA
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+60.53697915813532
+ 20
+253.3406163707088
+ 30
+0.0
+ 11
+59.89273875590806
+ 21
+253.3406163707088
+ 31
+0.0
+  0
+LINE
+  5
+FEB
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+72.78720885387625
+ 20
+240.0794767363369
+ 30
+0.0
+ 11
+82.24983407017216
+ 21
+240.0799999136
+ 31
+0.0
+  0
+LINE
+  5
 75F
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -5659,9 +6071,57 @@ AcDbLine
   0
 LINE
   5
+FEC
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+60.67326078168341
+ 20
+253.1423885546389
+ 30
+0.0
+ 11
+60.53697915813532
+ 21
+253.3406163707088
+ 31
+0.0
+  0
+LINE
+  5
+FED
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+82.39983405817215
+ 20
+239.0
+ 30
+0.0
+ 11
+72.63728152938498
+ 21
+239.0
+ 31
+0.0
+  0
+LINE
+  5
 BFE
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -5683,9 +6143,33 @@ AcDbLine
   0
 LINE
   5
+FEE
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+60.5373018945217
+ 20
+253.3406163707088
+ 30
+0.0
+ 11
+60.5373018945217
+ 21
+253.9210136582088
+ 31
+0.0
+  0
+LINE
+  5
 77A
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -5707,9 +6191,33 @@ AcDbLine
   0
 LINE
   5
+FEF
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+60.67462406891391
+ 20
+252.5308557420632
+ 30
+0.0
+ 11
+60.67462406891391
+ 21
+253.1423885546389
+ 31
+0.0
+  0
+LINE
+  5
 760
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -5731,9 +6239,57 @@ AcDbLine
   0
 LINE
   5
+FF0
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+59.75504817386548
+ 20
+252.5308557420632
+ 30
+0.0
+ 11
+60.67462406891391
+ 21
+252.5308557420632
+ 31
+0.0
+  0
+LINE
+  5
+FF1
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+73.91266583682793
+ 20
+237.4052054686683
+ 30
+0.0
+ 11
+73.91266583682793
+ 21
+238.3928571914286
+ 31
+0.0
+  0
+LINE
+  5
 77B
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -5753,11 +6309,59 @@ AcDbLine
  31
 0.0
   0
+LINE
+  5
+FF2
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+59.8924160195217
+ 20
+253.3406163707088
+ 30
+0.0
+ 11
+59.8924160195217
+ 21
+253.9210136582088
+ 31
+0.0
+  0
+LINE
+  5
+FF3
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+73.08766590282792
+ 20
+237.4052054686683
+ 30
+0.0
+ 11
+73.08766590282792
+ 21
+238.3928571914286
+ 31
+0.0
+  0
 ARC
   5
 762
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -5799,9 +6403,57 @@ REVIT
   0
 LINE
   5
+FF4
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+59.75645713236
+ 20
+253.1423885546389
+ 30
+0.0
+ 11
+59.75504817386548
+ 21
+252.5308557420632
+ 31
+0.0
+  0
+LINE
+  5
+FF5
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+73.93251790007517
+ 20
+236.9051847749398
+ 30
+0.0
+ 11
+73.93251790007517
+ 21
+237.4052054686683
+ 31
+0.0
+  0
+LINE
+  5
 77C
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -5823,9 +6475,57 @@ AcDbLine
   0
 LINE
   5
+FF6
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+59.89273875590806
+ 20
+253.3406163707088
+ 30
+0.0
+ 11
+59.75645713236
+ 21
+253.1423885546389
+ 31
+0.0
+  0
+LINE
+  5
+FF7
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+73.06748209992489
+ 20
+237.4052054686683
+ 30
+0.0
+ 11
+73.06748209992489
+ 21
+236.9051847749398
+ 31
+0.0
+  0
+LINE
+  5
 763
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -5861,9 +6561,33 @@ REVIT
   0
 LINE
   5
+FF8
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+73.93251790007517
+ 20
+237.4052054686683
+ 30
+0.0
+ 11
+73.06748209992489
+ 21
+237.4052054686683
+ 31
+0.0
+  0
+LINE
+  5
 77D
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -5885,9 +6609,33 @@ AcDbLine
   0
 LINE
   5
+FF9
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+73.06748209992489
+ 20
+236.9051847749398
+ 30
+0.0
+ 11
+73.93251790007517
+ 21
+236.9051847749398
+ 31
+0.0
+  0
+LINE
+  5
 764
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -5909,9 +6657,33 @@ AcDbLine
   0
 LINE
   5
+FFA
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+72.63728152938498
+ 20
+239.0
+ 30
+0.0
+ 11
+72.78728151738503
+ 21
+240.0799999136
+ 31
+0.0
+  0
+LINE
+  5
 77E
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -5933,9 +6705,33 @@ AcDbLine
   0
 LINE
   5
+FFB
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+73.91266583682793
+ 20
+238.6428571714286
+ 30
+0.0
+ 11
+73.91266583682793
+ 21
+239.0
+ 31
+0.0
+  0
+LINE
+  5
 765
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -5955,11 +6751,35 @@ AcDbLine
  31
 0.0
   0
+LINE
+  5
+FFC
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+74.07016582422793
+ 20
+238.6378571718286
+ 30
+0.0
+ 11
+74.07016582422793
+ 21
+238.3978571910286
+ 31
+0.0
+  0
 ARC
   5
 780
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -5995,11 +6815,37 @@ REVIT
 1002
 }
   0
+ARC
+  5
+FFD
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbCircle
+ 10
+74.06516582462788
+ 20
+238.6378571718286
+ 30
+0.0
+ 40
+0.0049999996000025
+100
+AcDbArc
+ 50
+0.0
+ 51
+90.0
+  0
 LINE
   5
 766
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -6019,11 +6865,37 @@ AcDbLine
  31
 0.0
   0
+ARC
+  5
+FFE
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbCircle
+ 10
+74.06516582462788
+ 20
+238.3978571910286
+ 30
+0.0
+ 40
+0.0049999996000025
+100
+AcDbArc
+ 50
+270.0
+ 51
+0.0
+  0
 LINE
   5
 781
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -6059,9 +6931,33 @@ REVIT
   0
 LINE
   5
+FFF
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+73.08766590282792
+ 20
+238.6428571714286
+ 30
+0.0
+ 11
+73.08766590282792
+ 21
+239.0
+ 31
+0.0
+  0
+LINE
+  5
 767
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -6081,11 +6977,37 @@ AcDbLine
  31
 0.0
   0
+ARC
+  5
+1000
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbCircle
+ 10
+72.93516591502791
+ 20
+238.6378571718286
+ 30
+0.0
+ 40
+0.0049999995999883
+100
+AcDbArc
+ 50
+90.0
+ 51
+180.0000000000814
+  0
 LINE
   5
 782
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -6105,11 +7027,35 @@ AcDbLine
  31
 0.0
   0
+LINE
+  5
+1001
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+72.93016591542792
+ 20
+238.3978571910286
+ 30
+0.0
+ 11
+72.93016591542792
+ 21
+238.6378571718286
+ 31
+0.0
+  0
 ARC
   5
 768
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -6137,9 +7083,59 @@ reversed:1
   0
 LINE
   5
+1002
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+90.7478198713897
+ 20
+251.814194805425
+ 30
+0.0
+ 11
+90.7478198713897
+ 21
+252.595444805425
+ 31
+0.0
+  0
+ARC
+  5
+1003
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbCircle
+ 10
+72.93516591502791
+ 20
+238.3978571910285
+ 30
+0.0
+ 40
+0.0049999995999954
+100
+AcDbArc
+ 50
+179.9999999999185
+ 51
+270.0
+  0
+LINE
+  5
 783
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -6159,11 +7155,59 @@ AcDbLine
  31
 0.0
   0
+LINE
+  5
+1004
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+88.2478198713897
+ 20
+251.814194805425
+ 30
+0.0
+ 11
+88.2478198713897
+ 21
+252.595444805425
+ 31
+0.0
+  0
+LINE
+  5
+1005
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+72.93516591502791
+ 20
+238.6428571714286
+ 30
+0.0
+ 11
+74.06516582462788
+ 21
+238.6428571714286
+ 31
+0.0
+  0
 ARC
   5
 769
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -6191,9 +7235,57 @@ reversed:1
   0
 LINE
   5
+1006
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+77.16710787138973
+ 20
+259.0362168054249
+ 30
+0.0
+ 11
+77.1671078713897
+ 21
+248.0109448279871
+ 31
+0.0
+  0
+LINE
+  5
+1007
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+74.06516582462788
+ 20
+238.3928571914286
+ 30
+0.0
+ 11
+72.93516591502791
+ 21
+238.3928571914286
+ 31
+0.0
+  0
+LINE
+  5
 784
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -6215,9 +7307,57 @@ AcDbLine
   0
 LINE
   5
+1008
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+77.84210787138971
+ 20
+259.0362168054249
+ 30
+0.0
+ 11
+77.84210787138971
+ 21
+248.0109448279871
+ 31
+0.0
+  0
+LINE
+  5
+1009
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+73.83871208962515
+ 20
+238.3928571914286
+ 30
+0.0
+ 11
+73.16161965003064
+ 21
+238.3928571914286
+ 31
+0.0
+  0
+LINE
+  5
 76A
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -6239,9 +7379,57 @@ AcDbLine
   0
 LINE
   5
+100A
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+80.29126408183333
+ 20
+244.6151000726921
+ 30
+0.0
+ 11
+80.0568655334786
+ 21
+245.9433845784651
+ 31
+0.0
+  0
+LINE
+  5
+100B
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+73.83871208962515
+ 20
+238.3928571914286
+ 30
+0.0
+ 11
+73.16161965003064
+ 21
+238.3928571914286
+ 31
+0.0
+  0
+LINE
+  5
 785
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -6263,9 +7451,57 @@ AcDbLine
   0
 LINE
   5
+100C
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+79.4088842062786
+ 20
+247.027192244825
+ 30
+0.0
+ 11
+79.4088842062786
+ 21
+244.8515320260358
+ 31
+0.0
+  0
+LINE
+  5
+100D
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+74.3751657998279
+ 20
+238.7607143048571
+ 30
+0.0
+ 11
+72.6251659398279
+ 21
+238.7607143048571
+ 31
+0.0
+  0
+LINE
+  5
 76B
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -6287,9 +7523,59 @@ AcDbLine
   0
 ARC
   5
+100E
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbCircle
+ 10
+78.44623885168326
+ 20
+245.6893664984877
+ 30
+0.0
+ 40
+0.4260253860250351
+100
+AcDbArc
+ 50
+87.50680256138855
+ 51
+177.8385623225322
+  0
+LINE
+  5
+100F
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+73.08766590282792
+ 20
+238.6428571714286
+ 30
+0.0
+ 11
+73.91266583682793
+ 21
+238.6428571714286
+ 31
+0.0
+  0
+ARC
+  5
 786
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -6313,9 +7599,59 @@ AcDbArc
   0
 ARC
   5
+1010
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbCircle
+ 10
+74.8610916925897
+ 20
+245.1895254554249
+ 30
+0.0
+ 40
+2.143187819704474
+100
+AcDbArc
+ 50
+6.912886759829805
+ 51
+61.04812024746705
+  0
+LINE
+  5
+1011
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+73.08766590282792
+ 20
+238.6428571714286
+ 30
+0.0
+ 11
+73.91266583682793
+ 21
+238.6428571714286
+ 31
+0.0
+  0
+ARC
+  5
 787
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -6339,9 +7675,33 @@ AcDbArc
   0
 LINE
   5
+1012
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+73.99231084372403
+ 20
+240.5796105173472
+ 30
+0.0
+ 11
+73.99231084372403
+ 21
+240.0796105173472
+ 31
+0.0
+  0
+LINE
+  5
 788
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -6363,9 +7723,33 @@ AcDbLine
   0
 LINE
   5
+1013
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+72.99231084372403
+ 20
+240.5796105173472
+ 30
+0.0
+ 11
+72.99231084372403
+ 21
+240.0796105173472
+ 31
+0.0
+  0
+LINE
+  5
 187
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -6387,9 +7771,33 @@ AcDbLine
   0
 LINE
   5
+1014
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+72.87923084372406
+ 20
+240.5796105173472
+ 30
+0.0
+ 11
+74.10539084372405
+ 21
+240.5796105173472
+ 31
+0.0
+  0
+LINE
+  5
 188
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -6411,9 +7819,33 @@ AcDbLine
   0
 LINE
   5
+1015
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+76.97000004240002
+ 20
+240.6068498359101
+ 30
+0.0
+ 11
+78.02999995760004
+ 21
+240.6068498359101
+ 31
+0.0
+  0
+LINE
+  5
 189
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -6433,11 +7865,35 @@ AcDbLine
  31
 0.0
   0
+LINE
+  5
+1016
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+76.97000004240002
+ 20
+240.0799410771444
+ 30
+0.0
+ 11
+76.97000004240002
+ 21
+240.6068498359101
+ 31
+0.0
+  0
 LWPOLYLINE
   5
 18C
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -6459,11 +7915,35 @@ AcDbPolyline
  20
 7.640379999999885
   0
+LINE
+  5
+1017
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+78.02999995760004
+ 20
+240.6068498359101
+ 30
+0.0
+ 11
+78.02999995760004
+ 21
+240.0799999136
+ 31
+0.0
+  0
 LWPOLYLINE
   5
 18D
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -6485,11 +7965,35 @@ AcDbPolyline
  20
 -19.37020000000013
   0
+LINE
+  5
+1018
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+81.91233409717212
+ 20
+237.4052054686683
+ 30
+0.0
+ 11
+81.91233409717212
+ 21
+238.3928571914286
+ 31
+0.0
+  0
 LWPOLYLINE
   5
 18E
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -6519,11 +8023,35 @@ AcDbPolyline
  20
 -22.12020000000013
   0
+LINE
+  5
+1019
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+81.08733416317217
+ 20
+237.4052054686683
+ 30
+0.0
+ 11
+81.08733416317217
+ 21
+238.3928571914286
+ 31
+0.0
+  0
 LWPOLYLINE
   5
 190
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -6545,11 +8073,35 @@ AcDbPolyline
  20
 -22.12020000000012
   0
+LINE
+  5
+101A
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+81.92851143705458
+ 20
+237.4052054686683
+ 30
+0.0
+ 11
+81.92851143705458
+ 21
+236.9051847749398
+ 31
+0.0
+  0
 LWPOLYLINE
   5
 191
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -6571,11 +8123,35 @@ AcDbPolyline
  20
 -22.12020000000013
   0
+LINE
+  5
+101B
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+81.06347563690424
+ 20
+236.9051847749398
+ 30
+0.0
+ 11
+81.06347563690424
+ 21
+237.4052054686683
+ 31
+0.0
+  0
 LWPOLYLINE
   5
 192
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -6605,11 +8181,35 @@ AcDbPolyline
  20
 -31.67743000000014
   0
+LINE
+  5
+101C
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+81.92851143705452
+ 20
+236.9051847749398
+ 30
+0.0
+ 11
+81.06347563690424
+ 21
+236.9051847749398
+ 31
+0.0
+  0
 LWPOLYLINE
   5
 193
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -6639,11 +8239,35 @@ AcDbPolyline
  20
 -22.12020000000013
   0
+LINE
+  5
+101D
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+81.06347563690424
+ 20
+237.4052054686683
+ 30
+0.0
+ 11
+81.92851143705458
+ 21
+237.4052054686683
+ 31
+0.0
+  0
 LWPOLYLINE
   5
 195
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -6665,11 +8289,35 @@ AcDbPolyline
  20
 -23.27989000000013
   0
+LINE
+  5
+101E
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+82.39983405817215
+ 20
+239.0
+ 30
+0.0
+ 11
+82.24983407017216
+ 21
+240.0799999136
+ 31
+0.0
+  0
 LWPOLYLINE
   5
 196
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -6691,11 +8339,35 @@ AcDbPolyline
  20
 -22.63642000000014
   0
+LINE
+  5
+101F
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+81.91233409717212
+ 20
+238.6428571714286
+ 30
+0.0
+ 11
+81.91233409717212
+ 21
+239.0
+ 31
+0.0
+  0
 LWPOLYLINE
   5
 197
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -6717,11 +8389,37 @@ AcDbPolyline
  20
 -22.99087000000012
   0
+ARC
+  5
+1020
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbCircle
+ 10
+82.06483408497213
+ 20
+238.6378571718286
+ 30
+0.0
+ 40
+0.0049999995999883
+100
+AcDbArc
+ 50
+0.0
+ 51
+90.0
+  0
 LWPOLYLINE
   5
 198
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -7095,11 +8793,35 @@ AcDbPolyline
  20
 -22.82369000000012
   0
+LINE
+  5
+1021
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+82.06983408457212
+ 20
+238.3978571910286
+ 30
+0.0
+ 11
+82.06983408457212
+ 21
+238.6378571718286
+ 31
+0.0
+  0
 LWPOLYLINE
   5
 19C
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -7129,11 +8851,37 @@ AcDbPolyline
  20
 -22.12020000000011
   0
+ARC
+  5
+1022
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbCircle
+ 10
+82.06483408497213
+ 20
+238.3978571910285
+ 30
+0.0
+ 40
+0.0049999995999954
+100
+AcDbArc
+ 50
+270.0
+ 51
+0.0000000000814222
+  0
 LWPOLYLINE
   5
 19E
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -7675,11 +9423,35 @@ AcDbPolyline
  20
 6.470589999999906
   0
+LINE
+  5
+1023
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+81.08733416317217
+ 20
+238.6428571714286
+ 30
+0.0
+ 11
+81.08733416317217
+ 21
+239.0
+ 31
+0.0
+  0
 LWPOLYLINE
   5
 19F
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -7709,11 +9481,35 @@ AcDbPolyline
  20
 7.640099999999896
   0
+LINE
+  5
+1024
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+80.92983417577217
+ 20
+238.6378571718286
+ 30
+0.0
+ 11
+80.92983417577217
+ 21
+238.3978571910286
+ 31
+0.0
+  0
 LWPOLYLINE
   5
 1A0
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -7735,11 +9531,37 @@ AcDbPolyline
  20
 -5.862449461000134
   0
+ARC
+  5
+1025
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbCircle
+ 10
+80.93483417537216
+ 20
+238.6378571718286
+ 30
+0.0
+ 40
+0.0049999996000025
+100
+AcDbArc
+ 50
+90.0
+ 51
+180.0
+  0
 LWPOLYLINE
   5
 1A1
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -8265,11 +10087,37 @@ AcDbPolyline
  20
 -12.50787200000012
   0
+ARC
+  5
+1026
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbCircle
+ 10
+80.93483417537216
+ 20
+238.3978571910286
+ 30
+0.0
+ 40
+0.0049999996000025
+100
+AcDbArc
+ 50
+180.0
+ 51
+270.0
+  0
 LWPOLYLINE
   5
 1A2
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -8291,11 +10139,35 @@ AcDbPolyline
  20
 0.057650000000498
   0
+LINE
+  5
+1027
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+80.62483420017215
+ 20
+238.7607143048571
+ 30
+0.0
+ 11
+82.37483406017215
+ 21
+238.7607143048571
+ 31
+0.0
+  0
 LWPOLYLINE
   5
 1A3
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -8317,11 +10189,35 @@ AcDbPolyline
  20
 6.534569999999921
   0
+LINE
+  5
+1028
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+82.06483408497213
+ 20
+238.6428571714286
+ 30
+0.0
+ 11
+80.93483417537216
+ 21
+238.6428571714286
+ 31
+0.0
+  0
 LWPOLYLINE
   5
 1A4
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -8343,11 +10239,35 @@ AcDbPolyline
  20
 1.566892999999828
   0
+LINE
+  5
+1029
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+80.93483417537216
+ 20
+238.3928571914286
+ 30
+0.0
+ 11
+82.06483408497213
+ 21
+238.3928571914286
+ 31
+0.0
+  0
 LWPOLYLINE
   5
 1A5
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -8369,11 +10289,35 @@ AcDbPolyline
  20
 -4.910033500000106
   0
+LINE
+  5
+102A
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+81.1612879103749
+ 20
+238.3928571914286
+ 30
+0.0
+ 11
+81.8383803499694
+ 21
+238.3928571914286
+ 31
+0.0
+  0
 LWPOLYLINE
   5
 1A6
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -8395,11 +10339,35 @@ AcDbPolyline
  20
 0.8122719999999557
   0
+LINE
+  5
+102B
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+81.1612879103749
+ 20
+238.3928571914286
+ 30
+0.0
+ 11
+81.8383803499694
+ 21
+238.3928571914286
+ 31
+0.0
+  0
 LWPOLYLINE
   5
 1A7
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -8421,11 +10389,35 @@ AcDbPolyline
  20
 0.8122719999998562
   0
+LINE
+  5
+102C
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+81.91233409717212
+ 20
+238.6428571714286
+ 30
+0.0
+ 11
+81.08733416317217
+ 21
+238.6428571714286
+ 31
+0.0
+  0
 LWPOLYLINE
   5
 1A8
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -8447,11 +10439,35 @@ AcDbPolyline
  20
 -0.1973760000005402
   0
+LINE
+  5
+102D
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+81.91233409717212
+ 20
+238.6428571714286
+ 30
+0.0
+ 11
+81.08733416317217
+ 21
+238.6428571714286
+ 31
+0.0
+  0
 LWPOLYLINE
   5
 1A9
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -8473,11 +10489,35 @@ AcDbPolyline
  20
 1.821916999999905
   0
+LINE
+  5
+102E
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+82.00368269325544
+ 20
+240.5796105173472
+ 30
+0.0
+ 11
+82.00368269325544
+ 21
+240.0796105173472
+ 31
+0.0
+  0
 LWPOLYLINE
   5
 1AA
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -8511,11 +10551,35 @@ AcDbPolyline
  20
 -2.687728000000115
   0
+LINE
+  5
+102F
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+81.00368269325544
+ 20
+240.5796105173472
+ 30
+0.0
+ 11
+81.00368269325544
+ 21
+240.0796105173472
+ 31
+0.0
+  0
 LWPOLYLINE
   5
 1AB
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -8545,11 +10609,35 @@ AcDbPolyline
  20
 7.562439999999844
   0
+LINE
+  5
+1030
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+82.11676269325541
+ 20
+240.5796105173472
+ 30
+0.0
+ 11
+80.89060269325542
+ 21
+240.5796105173472
+ 31
+0.0
+  0
 LWPOLYLINE
   5
 1AC
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -8575,7 +10663,7 @@ LWPOLYLINE
   5
 1AD
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -8601,7 +10689,7 @@ LWPOLYLINE
   5
 1AE
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -8627,7 +10715,7 @@ LWPOLYLINE
   5
 1AF
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -8649,11 +10737,35 @@ AcDbPolyline
  20
 -6.965524000000167
   0
+LINE
+  5
+1031
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+73.24231084372403
+ 20
+241.3921105173472
+ 30
+0.0
+ 11
+71.74231084372403
+ 21
+241.3921105173472
+ 31
+0.0
+  0
 LWPOLYLINE
   5
 1B0
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -8675,11 +10787,35 @@ AcDbPolyline
  20
 -12.6878280000001
   0
+LINE
+  5
+1032
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+73.11731084372403
+ 20
+241.9546105173472
+ 30
+0.0
+ 11
+71.49231084372403
+ 21
+242.0796105173472
+ 31
+0.0
+  0
 LWPOLYLINE
   5
 1B1
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -8701,11 +10837,35 @@ AcDbPolyline
  20
 -12.68782800000015
   0
+LINE
+  5
+1033
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+71.49231084372403
+ 20
+242.0796105173472
+ 30
+0.0
+ 11
+71.74231084372403
+ 21
+241.3921105173472
+ 31
+0.0
+  0
 LWPOLYLINE
   5
 1B2
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -8727,11 +10887,35 @@ AcDbPolyline
  20
 -11.67818300000011
   0
+LINE
+  5
+1034
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+73.67981084372403
+ 20
+241.2671105173472
+ 30
+0.0
+ 11
+73.67981084372403
+ 21
+241.3921105173472
+ 31
+0.0
+  0
 LWPOLYLINE
   5
 1B3
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -8753,11 +10937,35 @@ AcDbPolyline
  20
 -18.41013000000013
   0
+LINE
+  5
+1035
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+74.04289084372405
+ 20
+241.0796105173472
+ 30
+0.0
+ 11
+73.91827884372404
+ 21
+241.2671105173472
+ 31
+0.0
+  0
 LWPOLYLINE
   5
 1B4
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -8779,11 +10987,35 @@ AcDbPolyline
  20
 -5.862449461000148
   0
+LINE
+  5
+1036
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+73.74231084372403
+ 20
+241.3921105173472
+ 30
+0.0
+ 11
+73.86731084372403
+ 21
+242.0171105173472
+ 31
+0.0
+  0
 LWPOLYLINE
   5
 1B5
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -9309,11 +11541,35 @@ AcDbPolyline
  20
 -12.50787200000012
   0
+LINE
+  5
+1037
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+73.11731084372403
+ 20
+242.0171105173472
+ 30
+0.0
+ 11
+73.24231084372403
+ 21
+241.3921105173472
+ 31
+0.0
+  0
 LWPOLYLINE
   5
 1B6
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -9335,11 +11591,35 @@ AcDbPolyline
  20
 0.0576499999996738
   0
+LINE
+  5
+1038
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+72.94173084372406
+ 20
+241.0796105173472
+ 30
+0.0
+ 11
+73.06634284372402
+ 21
+241.2671105173472
+ 31
+0.0
+  0
 LWPOLYLINE
   5
 1B7
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -9361,11 +11641,35 @@ AcDbPolyline
  20
 6.534569999999908
   0
+LINE
+  5
+1039
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+73.30481084372403
+ 20
+241.2671105173472
+ 30
+0.0
+ 11
+73.30481084372403
+ 21
+241.3921105173472
+ 31
+0.0
+  0
 LWPOLYLINE
   5
 1B8
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -9387,11 +11691,35 @@ AcDbPolyline
  20
 1.566893000000084
   0
+LINE
+  5
+103A
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+73.86731084372403
+ 20
+242.0171105173472
+ 30
+0.0
+ 11
+73.11731084372403
+ 21
+242.0171105173472
+ 31
+0.0
+  0
 LWPOLYLINE
   5
 1B9
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -9413,11 +11741,35 @@ AcDbPolyline
  20
 -4.910033500000091
   0
+LINE
+  5
+103B
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+72.87923084372406
+ 20
+241.0796105173472
+ 30
+0.0
+ 11
+74.10539084372405
+ 21
+241.0796105173472
+ 31
+0.0
+  0
 LWPOLYLINE
   5
 1BA
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -9439,11 +11791,35 @@ AcDbPolyline
  20
 0.8122719999996999
   0
+LINE
+  5
+103C
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+73.06634284372402
+ 20
+241.2671105173472
+ 30
+0.0
+ 11
+73.91827884372404
+ 21
+241.2671105173472
+ 31
+0.0
+  0
 LWPOLYLINE
   5
 1BB
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -9465,11 +11841,35 @@ AcDbPolyline
  20
 0.8122719999998136
   0
+LINE
+  5
+103D
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+73.24231084372403
+ 20
+241.3921105173472
+ 30
+0.0
+ 11
+73.74231084372403
+ 21
+241.3921105173472
+ 31
+0.0
+  0
 LWPOLYLINE
   5
 1BC
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -9491,11 +11891,35 @@ AcDbPolyline
  20
 -0.1973760000023734
   0
+LINE
+  5
+103E
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+81.75368269325544
+ 20
+241.3921105173472
+ 30
+0.0
+ 11
+83.25368269325544
+ 21
+241.3921105173472
+ 31
+0.0
+  0
 LWPOLYLINE
   5
 1BD
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -9517,11 +11941,35 @@ AcDbPolyline
  20
 1.821916999999863
   0
+LINE
+  5
+103F
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+81.87868269325544
+ 20
+241.9546105173472
+ 30
+0.0
+ 11
+83.50368269325546
+ 21
+242.0796105173472
+ 31
+0.0
+  0
 LWPOLYLINE
   5
 1BE
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -9555,11 +12003,35 @@ AcDbPolyline
  20
 -2.687728000000073
   0
+LINE
+  5
+1040
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+81.87868269325544
+ 20
+242.0171105173472
+ 30
+0.0
+ 11
+81.75368269325544
+ 21
+241.3921105173472
+ 31
+0.0
+  0
 LWPOLYLINE
   5
 1BF
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -9589,11 +12061,35 @@ AcDbPolyline
  20
 7.562439999999887
   0
+LINE
+  5
+1041
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+81.69118269325544
+ 20
+241.2671105173472
+ 30
+0.0
+ 11
+81.69118269325544
+ 21
+241.3921105173472
+ 31
+0.0
+  0
 LWPOLYLINE
   5
 1C0
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -9615,11 +12111,35 @@ AcDbPolyline
  20
 -11.93320800000012
   0
+LINE
+  5
+1042
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+82.05426269325541
+ 20
+241.0796105173472
+ 30
+0.0
+ 11
+81.92965069325545
+ 21
+241.2671105173472
+ 31
+0.0
+  0
 LWPOLYLINE
   5
 1C1
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -9641,11 +12161,35 @@ AcDbPolyline
  20
 -18.41013000000014
   0
+LINE
+  5
+1043
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+81.25368269325544
+ 20
+241.3921105173472
+ 30
+0.0
+ 11
+81.12868269325544
+ 21
+242.0171105173472
+ 31
+0.0
+  0
 LWPOLYLINE
   5
 1C2
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -9667,11 +12211,35 @@ AcDbPolyline
  20
 -13.44245000000011
   0
+LINE
+  5
+1044
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+80.95310269325542
+ 20
+241.0796105173472
+ 30
+0.0
+ 11
+81.07771469325543
+ 21
+241.2671105173472
+ 31
+0.0
+  0
 LWPOLYLINE
   5
 1C3
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -9693,11 +12261,35 @@ AcDbPolyline
  20
 -6.965524000000018
   0
+LINE
+  5
+1045
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+81.31618269325544
+ 20
+241.2671105173472
+ 30
+0.0
+ 11
+81.31618269325544
+ 21
+241.3921105173472
+ 31
+0.0
+  0
 LWPOLYLINE
   5
 1C4
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -9719,11 +12311,35 @@ AcDbPolyline
  20
 -12.68782800000011
   0
+LINE
+  5
+1046
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+81.75368269325544
+ 20
+241.3921105173472
+ 30
+0.0
+ 11
+81.25368269325544
+ 21
+241.3921105173472
+ 31
+0.0
+  0
 LWPOLYLINE
   5
 1C5
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -9745,11 +12361,35 @@ AcDbPolyline
  20
 -12.68782800000015
   0
+LINE
+  5
+1047
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+81.92965069325545
+ 20
+241.2671105173472
+ 30
+0.0
+ 11
+81.07771469325543
+ 21
+241.2671105173472
+ 31
+0.0
+  0
 LWPOLYLINE
   5
 1C6
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -9771,11 +12411,59 @@ AcDbPolyline
  20
 -11.6781830000001
   0
+LINE
+  5
+1048
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+76.9886991713897
+ 20
+245.447479805425
+ 30
+0.0
+ 11
+78.02051657138972
+ 21
+245.447479805425
+ 31
+0.0
+  0
+LINE
+  5
+1049
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+82.11676269325541
+ 20
+241.0796105173472
+ 30
+0.0
+ 11
+80.89060269325542
+ 21
+241.0796105173472
+ 31
+0.0
+  0
 LWPOLYLINE
   5
 1C7
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -9797,11 +12485,35 @@ AcDbPolyline
  20
 -18.41013000000011
   0
+LINE
+  5
+104A
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+81.12868269325544
+ 20
+242.0171105173472
+ 30
+0.0
+ 11
+81.87868269325544
+ 21
+242.0171105173472
+ 31
+0.0
+  0
 LWPOLYLINE
   5
 1C8
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -9823,11 +12535,35 @@ AcDbPolyline
  20
 -5.862449461000176
   0
+LINE
+  5
+104B
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+83.50368269325546
+ 20
+242.0796105173472
+ 30
+0.0
+ 11
+83.25368269325544
+ 21
+241.3921105173472
+ 31
+0.0
+  0
 LWPOLYLINE
   5
 1C9
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -10353,11 +13089,35 @@ AcDbPolyline
  20
 -12.50787200000007
   0
+LINE
+  5
+104C
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+79.4088842062786
+ 20
+244.8515320260358
+ 30
+0.0
+ 11
+80.29126408183333
+ 21
+244.6151000726921
+ 31
+0.0
+  0
 LWPOLYLINE
   5
 1CA
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -10379,11 +13139,35 @@ AcDbPolyline
  20
 0.0576499999985085
   0
+LINE
+  5
+104D
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+78.02051657138972
+ 20
+245.447479805425
+ 30
+0.0
+ 11
+78.02051657138972
+ 21
+245.7054341554249
+ 31
+0.0
+  0
 LWPOLYLINE
   5
 1CB
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -10409,7 +13193,7 @@ LWPOLYLINE
   5
 1CC
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -10431,11 +13215,37 @@ AcDbPolyline
  20
 1.566892999999558
   0
+ARC
+  5
+104E
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbCircle
+ 10
+74.40915567138975
+ 20
+249.1701990363484
+ 30
+0.0
+ 40
+1.483237512499989
+100
+AcDbArc
+ 50
+0.0000000000004071
+ 51
+66.16051702532296
+  0
 LWPOLYLINE
   5
 1CD
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -10457,11 +13267,37 @@ AcDbPolyline
  20
 -4.910033500000063
   0
+ARC
+  5
+104F
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbCircle
+ 10
+74.40915567138975
+ 20
+249.1701990363484
+ 30
+0.0
+ 40
+2.128123387499993
+100
+AcDbArc
+ 50
+0.0000000000004071
+ 51
+65.96884926579158
+  0
 LWPOLYLINE
   5
 1CE
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -10483,11 +13319,35 @@ AcDbPolyline
  20
 0.8122720000005383
   0
+LINE
+  5
+1050
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+78.02051657138972
+ 20
+248.0109448279871
+ 30
+0.0
+ 11
+76.82967384920553
+ 21
+248.0109448279871
+ 31
+0.0
+  0
 LWPOLYLINE
   5
 1CF
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -10509,11 +13369,35 @@ AcDbPolyline
  20
 0.8122719999997567
   0
+LINE
+  5
+1051
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+75.6989274213897
+ 20
+248.0109448279871
+ 30
+0.0
+ 11
+75.6989274213897
+ 21
+247.4034471054539
+ 31
+0.0
+  0
 LWPOLYLINE
   5
 1D0
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -10535,11 +13419,37 @@ AcDbPolyline
  20
 -0.1973760000079441
   0
+ARC
+  5
+1052
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbCircle
+ 10
+76.08585894638969
+ 20
+247.4034471054539
+ 30
+0.0
+ 40
+0.3869315249999889
+100
+AcDbArc
+ 50
+180.0
+ 51
+241.0481202474652
+  0
 LWPOLYLINE
   5
 1D1
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -10561,11 +13471,35 @@ AcDbPolyline
  20
 1.821916999999962
   0
+LINE
+  5
+1053
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+75.59999839357386
+ 20
+248.0109448279871
+ 30
+0.0
+ 11
+76.82967384920553
+ 21
+248.0109448279871
+ 31
+0.0
+  0
 LWPOLYLINE
   5
 1D2
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -10599,11 +13533,35 @@ AcDbPolyline
  20
 -2.687727999999859
   0
+LINE
+  5
+1054
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+76.82967384920553
+ 20
+248.0109448279871
+ 30
+0.0
+ 11
+76.82967384920553
+ 21
+248.3977974251867
+ 31
+0.0
+  0
 LWPOLYLINE
   5
 1D3
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -10633,11 +13591,35 @@ AcDbPolyline
  20
 7.562439999999901
   0
+LINE
+  5
+1055
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+75.59999839357388
+ 20
+248.3977974251867
+ 30
+0.0
+ 11
+75.59999839357388
+ 21
+248.0109448279871
+ 31
+0.0
+  0
 LWPOLYLINE
   5
 1D4
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -10659,11 +13641,35 @@ AcDbPolyline
  20
 -11.93320800000013
   0
+LINE
+  5
+1056
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+76.82967384920553
+ 20
+248.0109448279871
+ 30
+0.0
+ 11
+75.59999839357388
+ 21
+248.0109448279871
+ 31
+0.0
+  0
 LWPOLYLINE
   5
 1D5
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -10685,11 +13691,35 @@ AcDbPolyline
  20
 -18.4101300000001
   0
+LINE
+  5
+1057
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+76.82967384920553
+ 20
+248.3977974251867
+ 30
+0.0
+ 11
+75.59999839357388
+ 21
+248.3977974251867
+ 31
+0.0
+  0
 LWPOLYLINE
   5
 1D6
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -10711,11 +13741,35 @@ AcDbPolyline
  20
 -13.44245000000015
   0
+LINE
+  5
+1058
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+76.53727905888974
+ 20
+249.1701990363484
+ 30
+0.0
+ 11
+76.53727905888974
+ 21
+248.3977974251867
+ 31
+0.0
+  0
 LWPOLYLINE
   5
 1D7
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -10737,11 +13791,35 @@ AcDbPolyline
  20
 -6.965524000000046
   0
+LINE
+  5
+1059
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+75.89239318388974
+ 20
+249.1701990363484
+ 30
+0.0
+ 11
+75.89239318388974
+ 21
+248.3977974251867
+ 31
+0.0
+  0
 LWPOLYLINE
   5
 1D8
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -10763,11 +13841,37 @@ AcDbPolyline
  20
 -12.68782800000017
   0
+ARC
+  5
+105A
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbCircle
+ 10
+78.47970103438917
+ 20
+247.7659789454656
+ 30
+0.0
+ 40
+0.4601587389514786
+100
+AcDbArc
+ 50
+183.7290777695958
+ 51
+268.1407247353152
+  0
 LWPOLYLINE
   5
 1D9
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -10789,11 +13893,35 @@ AcDbPolyline
  20
 -12.68782800000014
   0
+LINE
+  5
+105B
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+80.0568655334786
+ 20
+247.1721625895249
+ 30
+0.0
+ 11
+79.4088842062786
+ 21
+247.027192244825
+ 31
+0.0
+  0
 LWPOLYLINE
   5
 1DA
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -10815,11 +13943,35 @@ AcDbPolyline
  20
 -11.67818300000011
   0
+LINE
+  5
+105C
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+79.1096571602786
+ 20
+246.9508377572249
+ 30
+0.0
+ 11
+79.4088842062786
+ 21
+246.9508377572249
+ 31
+0.0
+  0
 LWPOLYLINE
   5
 1DB
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -10843,9 +13995,33 @@ AcDbPolyline
   0
 LINE
   5
+105D
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+79.1096571602786
+ 20
+246.4906471968249
+ 30
+0.0
+ 11
+79.4088842062786
+ 21
+246.4906471968249
+ 31
+0.0
+  0
+LINE
+  5
 1E1
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -10862,6 +14038,30 @@ AcDbLine
 155.0
  21
 52.99999999999996
+ 31
+0.0
+  0
+LINE
+  5
+105E
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+79.1096571602786
+ 20
+247.268895470775
+ 30
+0.0
+ 11
+79.1096571602786
+ 21
+246.1725894832749
  31
 0.0
   0
@@ -10869,7 +14069,7 @@ LINE
   5
 1E7
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -10891,9 +14091,33 @@ AcDbLine
   0
 LINE
   5
+105F
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+78.8568618972786
+ 20
+247.3733669825249
+ 30
+0.0
+ 11
+78.8568618972786
+ 21
+246.0681179715249
+ 31
+0.0
+  0
+LINE
+  5
 1E8
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -10915,9 +14139,33 @@ AcDbLine
   0
 LINE
   5
+1060
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+79.1096571602786
+ 20
+246.1725894832749
+ 30
+0.0
+ 11
+78.8568618972786
+ 21
+246.1725894832749
+ 31
+0.0
+  0
+LINE
+  5
 2ED
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -10939,9 +14187,33 @@ AcDbLine
   0
 LINE
   5
+1061
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+78.8568618972786
+ 20
+247.268895470775
+ 30
+0.0
+ 11
+79.1096571602786
+ 21
+247.268895470775
+ 31
+0.0
+  0
+LINE
+  5
 2EB
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -10963,9 +14235,33 @@ AcDbLine
   0
 LINE
   5
+1062
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+78.4647712852786
+ 20
+246.0681179715249
+ 30
+0.0
+ 11
+78.4647712852786
+ 21
+247.3733669825249
+ 31
+0.0
+  0
+LINE
+  5
 1F7
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -10987,9 +14283,33 @@ AcDbLine
   0
 LINE
   5
+1063
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+78.4647712852786
+ 20
+246.0681179715249
+ 30
+0.0
+ 11
+78.4647712852786
+ 21
+247.3733669825249
+ 31
+0.0
+  0
+LINE
+  5
 2E9
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -11011,9 +14331,33 @@ AcDbLine
   0
 LINE
   5
+1064
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+78.4647712852786
+ 20
+246.172847437625
+ 30
+0.0
+ 11
+78.4647712852786
+ 21
+247.2686375164249
+ 31
+0.0
+  0
+LINE
+  5
 2F4
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -11035,9 +14379,33 @@ AcDbLine
   0
 LINE
   5
+1065
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+78.8568618972786
+ 20
+246.068117971525
+ 30
+0.0
+ 11
+78.4647712852786
+ 21
+246.0681179715249
+ 31
+0.0
+  0
+LINE
+  5
 2EE
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -11059,9 +14427,33 @@ AcDbLine
   0
 LINE
   5
+1066
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+78.4647712852786
+ 20
+247.3733669825249
+ 30
+0.0
+ 11
+78.8568618972786
+ 21
+247.3733669825249
+ 31
+0.0
+  0
+LINE
+  5
 2F1
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -11083,9 +14475,33 @@ AcDbLine
   0
 LINE
   5
+1067
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+80.0568655334786
+ 20
+245.9433845784651
+ 30
+0.0
+ 11
+80.0568655334786
+ 21
+247.1721625895249
+ 31
+0.0
+  0
+LINE
+  5
 2F3
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -11107,9 +14523,57 @@ AcDbLine
   0
 LINE
   5
+1068
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+78.02051657138972
+ 20
+247.7360507986249
+ 30
+0.0
+ 11
+78.02051657138972
+ 21
+248.0109448279871
+ 31
+0.0
+  0
+LINE
+  5
+1069
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+90.7478198713897
+ 20
+251.814194805425
+ 30
+0.0
+ 11
+88.2478198713897
+ 21
+251.814194805425
+ 31
+0.0
+  0
+LINE
+  5
 468
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -11129,11 +14593,35 @@ AcDbLine
  31
 0.0
   0
+LINE
+  5
+106A
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+90.49781987138971
+ 20
+258.637387805425
+ 30
+0.0
+ 11
+90.62281987138971
+ 21
+259.512387805425
+ 31
+0.0
+  0
 MTEXT
   5
 436
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -11165,11 +14653,35 @@ textstyle11
  44
 1.0
   0
+LINE
+  5
+106B
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+90.83064987138971
+ 20
+259.4578878054249
+ 30
+0.0
+ 11
+90.7862098713897
+ 21
+258.6139498054249
+ 31
+0.0
+  0
 MTEXT
   5
 437
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -11201,11 +14713,35 @@ textstyle12
  44
 1.0
   0
+LINE
+  5
+106C
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+78.12964087138971
+ 20
+259.5362168054249
+ 30
+0.0
+ 11
+78.12964087138971
+ 21
+259.0362168054249
+ 31
+0.0
+  0
 MTEXT
   5
 C00
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -11237,11 +14773,35 @@ textstyle13
  44
 1.0
   0
+LINE
+  5
+106D
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+76.87964087138971
+ 20
+259.5362168054249
+ 30
+0.0
+ 11
+76.87964087138971
+ 21
+259.0362168054249
+ 31
+0.0
+  0
 MTEXT
   5
 438
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -11273,11 +14833,37 @@ textstyle14
  44
 1.0
   0
+ARC
+  5
+106E
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbCircle
+ 10
+77.50460787138971
+ 20
+259.2862168054249
+ 30
+0.0
+ 40
+1.3125
+100
+AcDbArc
+ 50
+284.9005970000001
+ 51
+75.09940299999984
+  0
 MTEXT
   5
 45D
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -11315,11 +14901,35 @@ textstyle15
  44
 1.0
   0
+LINE
+  5
+106F
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+89.09835787138971
+ 20
+261.760902805425
+ 30
+0.0
+ 11
+89.09835787138971
+ 21
+255.873567805425
+ 31
+0.0
+  0
 MTEXT
   5
 45E
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -11357,11 +14967,35 @@ textstyle16
  44
 1.0
   0
+LINE
+  5
+1070
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+89.91085787138971
+ 20
+261.760902805425
+ 30
+0.0
+ 11
+89.91085787138971
+ 21
+255.873567805425
+ 31
+0.0
+  0
 MTEXT
   5
 462
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -11393,11 +15027,37 @@ textstyle17
  44
 1.0
   0
+ARC
+  5
+1071
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbCircle
+ 10
+77.50460787138971
+ 20
+259.2862168054249
+ 30
+0.0
+ 40
+1.3125
+100
+AcDbArc
+ 50
+104.9005970000001
+ 51
+255.0994029999998
+  0
 MTEXT
   5
 A4B
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -11433,7 +15093,7 @@ MTEXT
   5
 E24
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -11469,7 +15129,7 @@ MTEXT
   5
 EEF
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -11501,11 +15161,35 @@ textstyle20
  44
 1.0
   0
+LINE
+  5
+1072
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+76.87964087138971
+ 20
+259.0362168054249
+ 30
+0.0
+ 11
+78.12964087138971
+ 21
+259.0362168054249
+ 31
+0.0
+  0
 MTEXT
   5
 AA4
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -11539,9 +15223,57 @@ textstyle21
   0
 LINE
   5
+1073
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+89.84943287138972
+ 20
+255.5985678054249
+ 30
+0.0
+ 11
+89.84087187138971
+ 21
+255.873567805425
+ 31
+0.0
+  0
+LINE
+  5
+1074
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+89.1597828713897
+ 20
+255.5985678054249
+ 30
+0.0
+ 11
+89.16834387138971
+ 21
+255.873567805425
+ 31
+0.0
+  0
+LINE
+  5
 447
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -11563,9 +15295,33 @@ AcDbLine
   0
 LINE
   5
+1075
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+90.24781987138971
+ 20
+254.6373878054249
+ 30
+0.0
+ 11
+90.49781987138971
+ 21
+258.637387805425
+ 31
+0.0
+  0
+LINE
+  5
 449
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -11587,9 +15343,33 @@ AcDbLine
   0
 LINE
   5
+1076
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+90.7862098713897
+ 20
+258.6139498054249
+ 30
+0.0
+ 11
+90.3916008713897
+ 21
+254.1029408054249
+ 31
+0.0
+  0
+LINE
+  5
 457
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -11608,12 +15388,38 @@ AcDbLine
 151.0
  31
 0.0
+  0
+ARC
+  5
+1077
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbCircle
+ 10
+89.99781987138971
+ 20
+254.1373878054249
+ 30
+0.0
+ 40
+0.395285
+100
+AcDbArc
+ 50
+90.0
+ 51
+355.0006659999999
   0
 LINE
   5
 459
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -11632,12 +15438,32 @@ AcDbLine
 112.0
  31
 0.0
+  0
+CIRCLE
+  5
+1078
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbCircle
+ 10
+89.99781987138971
+ 20
+254.1373878054249
+ 30
+0.0
+ 40
+0.176777
   0
 LINE
   5
 45A
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -11657,11 +15483,37 @@ AcDbLine
  31
 0.0
   0
+ARC
+  5
+1079
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbCircle
+ 10
+87.3647188713897
+ 20
+253.6576828054249
+ 30
+0.0
+ 40
+1.645884999999999
+100
+AcDbArc
+ 50
+355.10781
+ 51
+43.28122099999954
+  0
 LINE
   5
 45B
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -11678,6 +15530,30 @@ AcDbLine
 239.5
  21
 151.0
+ 31
+0.0
+  0
+LINE
+  5
+107A
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+90.7478198713897
+ 20
+252.595444805425
+ 30
+0.0
+ 11
+88.2478198713897
+ 21
+252.595444805425
  31
 0.0
   0
@@ -11685,7 +15561,7 @@ LINE
   5
 45C
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -11705,11 +15581,37 @@ AcDbLine
  31
 0.0
   0
+ARC
+  5
+107B
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbCircle
+ 10
+89.6959968713897
+ 20
+252.429605805425
+ 30
+0.0
+ 40
+0.88658
+100
+AcDbArc
+ 50
+10.78163300000002
+ 51
+69.62937599999951
+  0
 LINE
   5
 461
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -11731,9 +15633,57 @@ AcDbLine
   0
 LINE
   5
+107C
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+89.00460787138971
+ 20
+253.5173198054249
+ 30
+0.0
+ 11
+90.00460787138971
+ 21
+253.5173198054249
+ 31
+0.0
+  0
+LINE
+  5
+107D
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+89.00460787138971
+ 20
+253.2607388054249
+ 30
+0.0
+ 11
+89.00460787138971
+ 21
+253.5173198054249
+ 31
+0.0
+  0
+LINE
+  5
 A22
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -11753,11 +15703,37 @@ AcDbLine
  31
 0.0
   0
+ARC
+  5
+107E
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbCircle
+ 10
+89.31321887138972
+ 20
+252.429605805425
+ 30
+0.0
+ 40
+0.88658
+100
+AcDbArc
+ 50
+110.3706240000005
+ 51
+169.2183669999999
+  0
 LINE
   5
 A24
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -11779,9 +15755,33 @@ AcDbLine
   0
 LINE
   5
+107F
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+90.00460787138971
+ 20
+253.2607388054249
+ 30
+0.0
+ 11
+90.00460787138971
+ 21
+253.742161805425
+ 31
+0.0
+  0
+LINE
+  5
 571
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -11803,9 +15803,33 @@ AcDbLine
   0
 LINE
   5
+1080
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+90.0705778713897
+ 20
+255.4155158054249
+ 30
+0.0
+ 11
+90.1813278713897
+ 21
+255.4155158054249
+ 31
+0.0
+  0
+LINE
+  5
 572
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -11827,9 +15851,33 @@ AcDbLine
   0
 LINE
   5
+1081
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+90.0705778713897
+ 20
+255.5985678054249
+ 30
+0.0
+ 11
+88.56291887138971
+ 21
+255.5985678054249
+ 31
+0.0
+  0
+LINE
+  5
 573
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -11851,9 +15899,33 @@ AcDbLine
   0
 LINE
   5
+1082
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+90.0705778713897
+ 20
+254.785515805425
+ 30
+0.0
+ 11
+90.1813278713897
+ 21
+254.785515805425
+ 31
+0.0
+  0
+LINE
+  5
 574
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -11875,9 +15947,33 @@ AcDbLine
   0
 LINE
   5
+1083
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+89.99781987138971
+ 20
+254.5326728054249
+ 30
+0.0
+ 11
+90.24781987138971
+ 21
+254.6373878054249
+ 31
+0.0
+  0
+LINE
+  5
 575
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -11897,11 +15993,35 @@ AcDbLine
  31
 0.0
   0
+LINE
+  5
+1084
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+90.1813278713897
+ 20
+255.4155158054249
+ 30
+0.0
+ 11
+90.1813278713897
+ 21
+254.785515805425
+ 31
+0.0
+  0
 LWPOLYLINE
   5
 577
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -11930,12 +16050,36 @@ AcDbPolyline
 149.18659
  20
 1.849954999999983
+  0
+LINE
+  5
+1085
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+90.0705778713897
+ 20
+254.5631478054249
+ 30
+0.0
+ 11
+90.0705778713897
+ 21
+255.5985678054249
+ 31
+0.0
   0
 LWPOLYLINE
   5
 578
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -11964,12 +16108,36 @@ AcDbPolyline
 201.83169
  20
 1.849954999999869
+  0
+LINE
+  5
+1086
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+88.56291887138971
+ 20
+254.7860678054249
+ 30
+0.0
+ 11
+88.56291887138971
+ 21
+255.5985678054249
+ 31
+0.0
   0
 LWPOLYLINE
   5
 579
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -11998,12 +16166,36 @@ AcDbPolyline
 201.83169
  20
 -21.36264500000013
+  0
+LINE
+  5
+1087
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+89.91085787138971
+ 20
+255.873567805425
+ 30
+0.0
+ 11
+89.09835787138971
+ 21
+255.873567805425
+ 31
+0.0
   0
 LWPOLYLINE
   5
 57A
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -12033,11 +16225,37 @@ AcDbPolyline
  20
 -21.36264500000016
   0
+ARC
+  5
+1088
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbCircle
+ 10
+82.37460787138971
+ 20
+261.3860678054249
+ 30
+0.0
+ 40
+0.1875
+100
+AcDbArc
+ 50
+270.0
+ 51
+90.0
+  0
 DIMENSION
   5
 57C
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -12153,11 +16371,35 @@ DSTYLE
 1002
 }
   0
+LINE
+  5
+1089
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+76.97460787138971
+ 20
+261.5735678054249
+ 30
+0.0
+ 11
+76.97460787138971
+ 21
+264.0735678054249
+ 31
+0.0
+  0
 DIMENSION
   5
 57D
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -12273,11 +16515,35 @@ DSTYLE
 1002
 }
   0
+LINE
+  5
+108A
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+78.03460787138971
+ 20
+261.5735678054249
+ 30
+0.0
+ 11
+78.03460787138971
+ 21
+264.0735678054249
+ 31
+0.0
+  0
 DIMENSION
   5
 57E
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -12393,11 +16659,35 @@ DSTYLE
 1002
 }
   0
+LINE
+  5
+108B
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+78.26113287138972
+ 20
+261.1985678054249
+ 30
+0.0
+ 11
+76.7830788713897
+ 21
+261.1985678054249
+ 31
+0.0
+  0
 DIMENSION
   5
 57F
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -12515,11 +16805,35 @@ DSTYLE
 1002
 }
   0
+LINE
+  5
+108C
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+78.13969387138971
+ 20
+261.9240168054249
+ 30
+0.0
+ 11
+76.82719387138971
+ 21
+261.9240168054249
+ 31
+0.0
+  0
 DIMENSION
   5
 580
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -12637,11 +16951,35 @@ DSTYLE
 1002
 }
   0
+LINE
+  5
+108D
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+76.7830788713897
+ 20
+261.5735678054249
+ 30
+0.0
+ 11
+78.03460787138971
+ 21
+261.5735678054249
+ 31
+0.0
+  0
 DIMENSION
   5
 582
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -12761,9 +17099,33 @@ DSTYLE
   0
 LINE
   5
+108E
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+76.82719387138971
+ 20
+262.3350308054249
+ 30
+0.0
+ 11
+78.13969387138971
+ 21
+262.2350308054249
+ 31
+0.0
+  0
+LINE
+  5
 76E
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -12783,11 +17145,35 @@ AcDbLine
  31
 0.0
   0
+LINE
+  5
+108F
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+78.12964087138971
+ 20
+259.5362168054249
+ 30
+0.0
+ 11
+76.87964087138971
+ 21
+259.5362168054249
+ 31
+0.0
+  0
 ARC
   5
 76F
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -12815,9 +17201,33 @@ reversed:1
   0
 LINE
   5
+1090
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+77.1671078713897
+ 20
+261.1985678054249
+ 30
+0.0
+ 11
+77.16710787138973
+ 21
+259.5362168054249
+ 31
+0.0
+  0
+LINE
+  5
 78B
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -12839,9 +17249,35 @@ AcDbLine
   0
 ARC
   5
+1091
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbCircle
+ 10
+76.7830788713897
+ 20
+261.3860678054249
+ 30
+0.0
+ 40
+0.1875
+100
+AcDbArc
+ 50
+90.0
+ 51
+270.0
+  0
+ARC
+  5
 78C
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -12869,9 +17305,33 @@ reversed:1
   0
 LINE
   5
+1092
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+77.84210787138971
+ 20
+261.1985678054249
+ 30
+0.0
+ 11
+77.84210787138971
+ 21
+259.5362168054249
+ 31
+0.0
+  0
+LINE
+  5
 78D
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -12893,9 +17353,33 @@ AcDbLine
   0
 LINE
   5
+1093
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+78.03460787138971
+ 20
+261.1985678054249
+ 30
+0.0
+ 11
+82.37460787138971
+ 21
+261.1985678054249
+ 31
+0.0
+  0
+LINE
+  5
 78E
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -12917,9 +17401,33 @@ AcDbLine
   0
 LINE
   5
+1094
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+78.03460787138971
+ 20
+261.5735678054249
+ 30
+0.0
+ 11
+82.37460787138971
+ 21
+261.5735678054249
+ 31
+0.0
+  0
+LINE
+  5
 78F
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -12939,11 +17447,37 @@ AcDbLine
  31
 0.0
   0
+ARC
+  5
+1095
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbCircle
+ 10
+78.21661187138972
+ 20
+261.3860678054249
+ 30
+0.0
+ 40
+0.1875
+100
+AcDbArc
+ 50
+270.0
+ 51
+90.0
+  0
 LINE
   5
 790
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -12963,11 +17497,37 @@ AcDbLine
  31
 0.0
   0
+ARC
+  5
+1096
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbCircle
+ 10
+81.6114308713897
+ 20
+261.3860678054249
+ 30
+0.0
+ 40
+0.1875
+100
+AcDbArc
+ 50
+90.0
+ 51
+270.0
+  0
 LINE
   5
 791
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -12984,6 +17544,30 @@ AcDbLine
 27.37500000000004
  21
 128.5
+ 31
+0.0
+  0
+LINE
+  5
+1097
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+77.2046078713897
+ 20
+265.503567805425
+ 30
+0.0
+ 11
+77.80460787138972
+ 21
+265.503567805425
  31
 0.0
   0
@@ -12991,7 +17575,7 @@ LINE
   5
 792
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -13013,9 +17597,33 @@ AcDbLine
   0
 LINE
   5
+1098
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+77.8196078713897
+ 20
+265.253567805425
+ 30
+0.0
+ 11
+77.18960787138971
+ 21
+265.253567805425
+ 31
+0.0
+  0
+LINE
+  5
 8A6
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -13037,9 +17645,33 @@ AcDbLine
   0
 LINE
   5
+1099
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+78.03460787138971
+ 20
+264.0735678054249
+ 30
+0.0
+ 11
+76.97460787138971
+ 21
+264.0735678054249
+ 31
+0.0
+  0
+LINE
+  5
 8A8
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -13056,6 +17688,30 @@ AcDbLine
 -70.5
  21
 -86.25
+ 31
+0.0
+  0
+LINE
+  5
+109A
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+77.07160787138972
+ 20
+264.378567805425
+ 30
+0.0
+ 11
+77.9376078713897
+ 21
+264.378567805425
  31
 0.0
   0
@@ -13063,7 +17719,7 @@ LINE
   5
 A50
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -13080,6 +17736,30 @@ AcDbLine
 76.50000000000001
  21
 143.75
+ 31
+0.0
+  0
+LINE
+  5
+109B
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+76.82719387138971
+ 20
+264.5850308054249
+ 30
+0.0
+ 11
+78.13969387138971
+ 21
+264.485030805425
  31
 0.0
   0
@@ -13087,7 +17767,7 @@ LINE
   5
 8B8
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -13104,6 +17784,30 @@ AcDbLine
 -93.875
  21
 -86.25
+ 31
+0.0
+  0
+LINE
+  5
+109C
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+77.15460787138971
+ 20
+264.6035678054249
+ 30
+0.0
+ 11
+77.8546078713897
+ 21
+264.6035678054249
  31
 0.0
   0
@@ -13111,7 +17815,7 @@ LINE
   5
 A51
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -13128,6 +17832,30 @@ AcDbLine
 53.12500000000001
  21
 143.75
+ 31
+0.0
+  0
+LINE
+  5
+109D
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+76.8269038713897
+ 20
+265.3350528054249
+ 30
+0.0
+ 11
+78.1394038713897
+ 21
+265.235052805425
  31
 0.0
   0
@@ -13135,7 +17863,7 @@ LINE
   5
 8A9
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -13152,6 +17880,30 @@ AcDbLine
 -47.125
  21
 -86.25
+ 31
+0.0
+  0
+LINE
+  5
+109E
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+76.82719387138971
+ 20
+263.0850308054249
+ 30
+0.0
+ 11
+78.13969387138971
+ 21
+262.9850308054249
  31
 0.0
   0
@@ -13159,7 +17911,7 @@ LINE
   5
 A52
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -13176,6 +17928,30 @@ AcDbLine
 101.875
  21
 143.75
+ 31
+0.0
+  0
+LINE
+  5
+109F
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+76.82719387138971
+ 20
+263.8350308054249
+ 30
+0.0
+ 11
+78.13969387138971
+ 21
+263.7350308054249
  31
 0.0
   0
@@ -13183,7 +17959,7 @@ LINE
   5
 8B9
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -13200,6 +17976,30 @@ AcDbLine
 -70.5
  21
 -86.25
+ 31
+0.0
+  0
+LINE
+  5
+10A0
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+77.1671078713897
+ 20
+264.378567805425
+ 30
+0.0
+ 11
+77.1671078713897
+ 21
+264.0735678054249
  31
 0.0
   0
@@ -13207,7 +18007,7 @@ LINE
   5
 A53
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -13224,6 +18024,30 @@ AcDbLine
 78.50000000000001
  21
 143.75
+ 31
+0.0
+  0
+LINE
+  5
+10A1
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+77.18960787138971
+ 20
+264.6035678054249
+ 30
+0.0
+ 11
+77.18960787138971
+ 21
+265.253567805425
  31
 0.0
   0
@@ -13231,7 +18055,7 @@ LINE
   5
 8AA
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -13248,6 +18072,30 @@ AcDbLine
 -51.125
  21
 -100.0
+ 31
+0.0
+  0
+LINE
+  5
+10A2
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+77.15460787138971
+ 20
+264.378567805425
+ 30
+0.0
+ 11
+77.15460787138971
+ 21
+264.6035678054249
  31
 0.0
   0
@@ -13255,7 +18103,7 @@ LINE
   5
 A54
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -13272,6 +18120,30 @@ AcDbLine
 97.87500000000003
  21
 130.0
+ 31
+0.0
+  0
+LINE
+  5
+10A3
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+77.84210787138971
+ 20
+264.378567805425
+ 30
+0.0
+ 11
+77.84210787138971
+ 21
+264.0735678054249
  31
 0.0
   0
@@ -13279,7 +18151,7 @@ LINE
   5
 8BA
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -13296,6 +18168,30 @@ AcDbLine
 -74.5
  21
 -100.0
+ 31
+0.0
+  0
+LINE
+  5
+10A4
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+77.8196078713897
+ 20
+264.6035678054249
+ 30
+0.0
+ 11
+77.8196078713897
+ 21
+265.253567805425
  31
 0.0
   0
@@ -13303,7 +18199,7 @@ LINE
   5
 A55
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -13320,6 +18216,30 @@ AcDbLine
 72.50000000000001
  21
 130.0
+ 31
+0.0
+  0
+LINE
+  5
+10A5
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+77.8546078713897
+ 20
+264.378567805425
+ 30
+0.0
+ 11
+77.8546078713897
+ 21
+264.6035678054249
  31
 0.0
   0
@@ -13327,7 +18247,7 @@ LINE
   5
 8AB
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -13344,6 +18264,30 @@ AcDbLine
 -51.125
  21
 -82.25
+ 31
+0.0
+  0
+LINE
+  5
+10A6
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+89.84210787138971
+ 20
+263.088567805425
+ 30
+0.0
+ 11
+89.84210787138971
+ 21
+261.760902805425
  31
 0.0
   0
@@ -13351,7 +18295,7 @@ LINE
   5
 A56
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -13368,6 +18312,30 @@ AcDbLine
 97.87500000000003
  21
 147.75
+ 31
+0.0
+  0
+LINE
+  5
+10A7
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+89.1671078713897
+ 20
+263.088567805425
+ 30
+0.0
+ 11
+89.1671078713897
+ 21
+261.760902805425
  31
 0.0
   0
@@ -13375,7 +18343,7 @@ LINE
   5
 8BB
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -13392,6 +18360,30 @@ AcDbLine
 -74.5
  21
 -82.25
+ 31
+0.0
+  0
+LINE
+  5
+10A8
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+90.62281987138971
+ 20
+259.512387805425
+ 30
+0.0
+ 11
+90.83064987138971
+ 21
+259.4578878054249
  31
 0.0
   0
@@ -13399,7 +18391,7 @@ LINE
   5
 A57
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -13419,11 +18411,35 @@ AcDbLine
  31
 0.0
   0
+LINE
+  5
+10A9
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+89.91085787138971
+ 20
+261.760902805425
+ 30
+0.0
+ 11
+89.09835787138971
+ 21
+261.760902805425
+ 31
+0.0
+  0
 ARC
   5
 8AC
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -13445,11 +18461,35 @@ AcDbArc
  51
 270.0
   0
+LINE
+  5
+10AA
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+89.1671078713897
+ 20
+263.088567805425
+ 30
+0.0
+ 11
+89.84210787138971
+ 21
+263.088567805425
+ 31
+0.0
+  0
 ARC
   5
 A58
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -13471,11 +18511,35 @@ AcDbArc
  51
 270.0
   0
+LINE
+  5
+10AB
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+77.03556487138971
+ 20
+272.816268805425
+ 30
+0.0
+ 11
+78.29290487138971
+ 21
+272.426716805425
+ 31
+0.0
+  0
 ARC
   5
 8BC
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -13499,9 +18563,35 @@ AcDbArc
   0
 ARC
   5
+10AC
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbCircle
+ 10
+83.50460787138971
+ 20
+271.1535678054249
+ 30
+0.0
+ 40
+6.299999999999999
+100
+AcDbArc
+ 50
+0.0
+ 51
+180.0
+  0
+ARC
+  5
 A59
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -13525,9 +18615,35 @@ AcDbArc
   0
 ARC
   5
+10AD
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbCircle
+ 10
+83.50460787138971
+ 20
+271.1535678054249
+ 30
+0.0
+ 40
+5.7
+100
+AcDbArc
+ 50
+0.0
+ 51
+180.0
+  0
+ARC
+  5
 8AD
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -13547,13 +18663,37 @@ AcDbArc
  50
 270.0
  51
+0.0
+  0
+LINE
+  5
+10AE
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+76.82632287138972
+ 20
+269.0850968054249
+ 30
+0.0
+ 11
+78.13882287138972
+ 21
+268.9850968054249
+ 31
 0.0
   0
 ARC
   5
 A5A
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -13575,11 +18715,35 @@ AcDbArc
  51
 0.0
   0
+LINE
+  5
+10AF
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+76.8266138713897
+ 20
+267.5850748054249
+ 30
+0.0
+ 11
+78.1391138713897
+ 21
+267.4850748054249
+ 31
+0.0
+  0
 ARC
   5
 8BD
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -13601,11 +18765,35 @@ AcDbArc
  51
 0.0
   0
+LINE
+  5
+10B0
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+76.82632287138972
+ 20
+268.3350968054249
+ 30
+0.0
+ 11
+78.13882287138972
+ 21
+268.235096805425
+ 31
+0.0
+  0
 ARC
   5
 A5B
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -13627,11 +18815,35 @@ AcDbArc
  51
 0.0
   0
+LINE
+  5
+10B1
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+76.8269038713897
+ 20
+266.0850528054249
+ 30
+0.0
+ 11
+78.1394038713897
+ 21
+265.985052805425
+ 31
+0.0
+  0
 ARC
   5
 8AE
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -13653,11 +18865,35 @@ AcDbArc
  51
 90.0
   0
+LINE
+  5
+10B2
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+76.8266138713897
+ 20
+266.8350748054249
+ 30
+0.0
+ 11
+78.1391138713897
+ 21
+266.7350748054249
+ 31
+0.0
+  0
 ARC
   5
 A5C
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -13679,11 +18915,35 @@ AcDbArc
  51
 90.0
   0
+LINE
+  5
+10B3
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+76.82571487138972
+ 20
+270.5851438054249
+ 30
+0.0
+ 11
+78.13821487138972
+ 21
+270.485143805425
+ 31
+0.0
+  0
 ARC
   5
 8BE
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -13705,11 +18965,35 @@ AcDbArc
  51
 90.0
   0
+LINE
+  5
+10B4
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+76.8277708713897
+ 20
+271.3350838054249
+ 30
+0.0
+ 11
+78.1402708713897
+ 21
+271.2350838054249
+ 31
+0.0
+  0
 ARC
   5
 A5D
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -13731,11 +19015,35 @@ AcDbArc
  51
 90.0
   0
+LINE
+  5
+10B5
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+76.89007687138971
+ 20
+272.081510805425
+ 30
+0.0
+ 11
+78.1831278713897
+ 21
+271.8351858054249
+ 31
+0.0
+  0
 ARC
   5
 8AF
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -13757,11 +19065,35 @@ AcDbArc
  51
 180.0
   0
+LINE
+  5
+10B6
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+76.82632287138972
+ 20
+269.8350968054249
+ 30
+0.0
+ 11
+78.13882287138972
+ 21
+269.7350968054249
+ 31
+0.0
+  0
 ARC
   5
 A5E
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -13783,11 +19115,35 @@ AcDbArc
  51
 180.0
   0
+LINE
+  5
+10B7
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+80.10601087138971
+ 20
+276.903578805425
+ 30
+0.0
+ 11
+80.71962987138971
+ 21
+275.7390508054249
+ 31
+0.0
+  0
 ARC
   5
 8BF
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -13809,11 +19165,35 @@ AcDbArc
  51
 180.0
   0
+LINE
+  5
+10B8
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+78.91172287138971
+ 20
+276.0031558054249
+ 30
+0.0
+ 11
+79.7690898713897
+ 21
+275.0043668054249
+ 31
+0.0
+  0
 ARC
   5
 A5F
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -13837,9 +19217,33 @@ AcDbArc
   0
 LINE
   5
+10B9
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+79.4835828713897
+ 20
+276.4869018054249
+ 30
+0.0
+ 11
+80.22372987138971
+ 21
+275.398399805425
+ 31
+0.0
+  0
+LINE
+  5
 8E2
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -13861,9 +19265,33 @@ AcDbLine
   0
 LINE
   5
+10BA
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+77.5677428713897
+ 20
+274.2140788054249
+ 30
+0.0
+ 11
+78.70687587138971
+ 21
+273.554509805425
+ 31
+0.0
+  0
+LINE
+  5
 A60
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -13885,9 +19313,33 @@ AcDbLine
   0
 LINE
   5
+10BB
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+77.9477408713897
+ 20
+274.8595528054249
+ 30
+0.0
+ 11
+79.00586287138972
+ 21
+274.0765888054249
+ 31
+0.0
+  0
+LINE
+  5
 8C5
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -13909,9 +19361,33 @@ AcDbLine
   0
 LINE
   5
+10BC
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+77.26240387138972
+ 20
+273.5301168054249
+ 30
+0.0
+ 11
+78.46822287138971
+ 21
+273.002237805425
+ 31
+0.0
+  0
+LINE
+  5
 A61
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -13933,9 +19409,33 @@ AcDbLine
   0
 LINE
   5
+10BD
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+78.39761987138971
+ 20
+275.458421805425
+ 30
+0.0
+ 11
+79.36142487138972
+ 21
+274.5619088054249
+ 31
+0.0
+  0
+LINE
+  5
 8C6
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -13952,6 +19452,30 @@ AcDbLine
 -75.375
  21
 -81.05512
+ 31
+0.0
+  0
+LINE
+  5
+10BE
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+81.47071787138972
+ 20
+277.515673805425
+ 30
+0.0
+ 11
+81.80982087138972
+ 21
+276.2437988054249
  31
 0.0
   0
@@ -13959,7 +19483,7 @@ LINE
   5
 A62
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -13976,6 +19500,30 @@ AcDbLine
 72.62500000000001
  21
 148.94488
+ 31
+0.0
+  0
+LINE
+  5
+10BF
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+82.1958368713897
+ 20
+277.7033928054249
+ 30
+0.0
+ 11
+82.39040287138971
+ 21
+276.401548805425
  31
 0.0
   0
@@ -13983,7 +19531,7 @@ LINE
   5
 8C7
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -14000,6 +19548,30 @@ AcDbLine
 -65.625
  21
 -81.05512
+ 31
+0.0
+  0
+LINE
+  5
+10C0
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+80.77117687138971
+ 20
+277.2479468054249
+ 30
+0.0
+ 11
+81.25055287138971
+ 21
+276.0220368054249
  31
 0.0
   0
@@ -14007,7 +19579,7 @@ LINE
   5
 A63
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -14029,9 +19601,33 @@ AcDbLine
   0
 LINE
   5
+10C1
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+82.93741387138971
+ 20
+277.808744805425
+ 30
+0.0
+ 11
+82.98499587138971
+ 21
+276.4933018054249
+ 31
+0.0
+  0
+LINE
+  5
 8C8
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -14053,9 +19649,33 @@ AcDbLine
   0
 LINE
   5
+10C2
+330
+10E1
+100
+AcDbEntity
+  8
+Equipment ... Sink ... Faucet
+100
+AcDbLine
+ 10
+83.6861238713897
+ 20
+277.830404805425
+ 30
+0.0
+ 11
+83.5861238713897
+ 21
+276.517904805425
+ 31
+0.0
+  0
+LINE
+  5
 A64
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -14079,7 +19699,7 @@ ARC
   5
 8C9
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -14105,7 +19725,7 @@ ARC
   5
 A65
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -14131,7 +19751,7 @@ ARC
   5
 8CA
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -14157,7 +19777,7 @@ ARC
   5
 A66
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -14183,7 +19803,7 @@ ARC
   5
 8CB
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -14209,7 +19829,7 @@ ARC
   5
 A67
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -14235,7 +19855,7 @@ ARC
   5
 8CC
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -14261,7 +19881,7 @@ ARC
   5
 A68
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -14287,7 +19907,7 @@ LINE
   5
 8D3
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -14311,7 +19931,7 @@ LINE
   5
 A69
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -14335,7 +19955,7 @@ LINE
   5
 8D5
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -14359,7 +19979,7 @@ LINE
   5
 A6A
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -14383,7 +20003,7 @@ LINE
   5
 8D6
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -14407,7 +20027,7 @@ LINE
   5
 A6B
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -14431,7 +20051,7 @@ LINE
   5
 8DD
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -14455,7 +20075,7 @@ LINE
   5
 A6C
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -14479,7 +20099,7 @@ LINE
   5
 8DA
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -14503,7 +20123,7 @@ LINE
   5
 A6D
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -14527,7 +20147,7 @@ CIRCLE
   5
 8D0
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -14547,7 +20167,7 @@ CIRCLE
   5
 A6E
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -14567,7 +20187,7 @@ CIRCLE
   5
 8D1
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -14587,7 +20207,7 @@ CIRCLE
   5
 A6F
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -14607,7 +20227,7 @@ CIRCLE
   5
 8D2
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -14627,7 +20247,7 @@ CIRCLE
   5
 A70
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -14647,7 +20267,7 @@ LINE
   5
 8ED
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -14671,7 +20291,7 @@ LINE
   5
 A71
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -14695,7 +20315,7 @@ LINE
   5
 8F0
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -14719,7 +20339,7 @@ LINE
   5
 A72
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -14743,7 +20363,7 @@ LINE
   5
 8EC
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -14767,7 +20387,7 @@ LINE
   5
 A73
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -14791,7 +20411,7 @@ LINE
   5
 8F1
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -14815,7 +20435,7 @@ LINE
   5
 A74
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -14839,7 +20459,7 @@ CIRCLE
   5
 8E8
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -14859,7 +20479,7 @@ CIRCLE
   5
 A75
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -14879,7 +20499,7 @@ CIRCLE
   5
 8E9
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -14899,7 +20519,7 @@ CIRCLE
   5
 A76
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -14919,7 +20539,7 @@ ARC
   5
 8F7
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -14945,7 +20565,7 @@ ARC
   5
 A77
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -14971,7 +20591,7 @@ LINE
   5
 8F3
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -14995,7 +20615,7 @@ LINE
   5
 A78
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -15019,7 +20639,7 @@ LINE
   5
 8F4
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -15043,7 +20663,7 @@ LINE
   5
 A79
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -15067,7 +20687,7 @@ LINE
   5
 8F9
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -15091,7 +20711,7 @@ LINE
   5
 A7A
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -15115,7 +20735,7 @@ LINE
   5
 8FA
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -15139,7 +20759,7 @@ LINE
   5
 A7B
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -15163,7 +20783,7 @@ LINE
   5
 8FB
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -15187,7 +20807,7 @@ LINE
   5
 A7C
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -15211,7 +20831,7 @@ LINE
   5
 8FC
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -15235,7 +20855,7 @@ LINE
   5
 A7D
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -15259,7 +20879,7 @@ LINE
   5
 8FD
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -15283,7 +20903,7 @@ LINE
   5
 A7E
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -15307,7 +20927,7 @@ LINE
   5
 8FE
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -15331,7 +20951,7 @@ LINE
   5
 A7F
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -15355,7 +20975,7 @@ LINE
   5
 8FF
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -15379,7 +20999,7 @@ LINE
   5
 A80
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -15403,7 +21023,7 @@ LINE
   5
 900
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -15427,7 +21047,7 @@ LINE
   5
 A81
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -15451,7 +21071,7 @@ ARC
   5
 901
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -15477,7 +21097,7 @@ ARC
   5
 A82
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -15503,7 +21123,7 @@ ARC
   5
 902
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -15529,7 +21149,7 @@ ARC
   5
 A83
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -15555,7 +21175,7 @@ ARC
   5
 903
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -15581,7 +21201,7 @@ ARC
   5
 A84
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -15607,7 +21227,7 @@ ARC
   5
 904
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -15633,7 +21253,7 @@ ARC
   5
 A85
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -15659,7 +21279,7 @@ ARC
   5
 905
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -15685,7 +21305,7 @@ ARC
   5
 A86
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -15711,7 +21331,7 @@ ARC
   5
 906
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -15737,7 +21357,7 @@ ARC
   5
 A87
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -15763,7 +21383,7 @@ ARC
   5
 907
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -15789,7 +21409,7 @@ ARC
   5
 A88
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -15815,7 +21435,7 @@ ARC
   5
 908
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -15841,7 +21461,7 @@ ARC
   5
 A89
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -15867,7 +21487,7 @@ LINE
   5
 A06
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -15891,7 +21511,7 @@ LINE
   5
 A07
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -15915,7 +21535,7 @@ ARC
   5
 A08
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -15941,7 +21561,7 @@ ARC
   5
 A09
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -15971,7 +21591,7 @@ LINE
   5
 A0C
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -15995,7 +21615,7 @@ LINE
   5
 A0D
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -16019,7 +21639,7 @@ LINE
   5
 A0E
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -16043,7 +21663,7 @@ LINE
   5
 A30
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -16067,7 +21687,7 @@ LINE
   5
 A12
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -16091,7 +21711,7 @@ LINE
   5
 A13
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -16115,7 +21735,7 @@ LINE
   5
 A1C
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -16139,7 +21759,7 @@ LINE
   5
 A1D
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -16163,7 +21783,7 @@ LINE
   5
 A1E
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -16187,7 +21807,7 @@ LINE
   5
 A1F
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -16211,7 +21831,7 @@ LINE
   5
 A25
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -16235,7 +21855,7 @@ ARC
   5
 A26
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -16265,7 +21885,7 @@ LINE
   5
 A29
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -16289,7 +21909,7 @@ LINE
   5
 A2A
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -16313,7 +21933,7 @@ LINE
   5
 A2F
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -16337,7 +21957,7 @@ LINE
   5
 A31
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -16361,7 +21981,7 @@ LINE
   5
 A32
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -16385,7 +22005,7 @@ ARC
   5
 A34
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -16415,7 +22035,7 @@ ARC
   5
 A35
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -16445,7 +22065,7 @@ LINE
   5
 A3A
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -16469,7 +22089,7 @@ LINE
   5
 A3B
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -16493,7 +22113,7 @@ LINE
   5
 A3C
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -16517,7 +22137,7 @@ ARC
   5
 A3D
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -16547,7 +22167,7 @@ ARC
   5
 A3E
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -16577,7 +22197,7 @@ ARC
   5
 A3F
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -16607,7 +22227,7 @@ ARC
   5
 A40
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -16637,7 +22257,7 @@ LINE
   5
 BC0
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -16661,7 +22281,7 @@ LINE
   5
 56
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -16685,7 +22305,7 @@ LINE
   5
 BBF
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -16709,7 +22329,7 @@ LINE
   5
 58
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -16733,7 +22353,7 @@ LINE
   5
 5A
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -16757,7 +22377,7 @@ LINE
   5
 5B
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -16781,7 +22401,7 @@ LINE
   5
 175
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -16805,7 +22425,7 @@ LINE
   5
 4F
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -16829,7 +22449,7 @@ LINE
   5
 52
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -16853,7 +22473,7 @@ LINE
   5
 53
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -16877,7 +22497,7 @@ LINE
   5
 3F
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -16901,7 +22521,7 @@ LINE
   5
 177
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -16925,7 +22545,7 @@ LINE
   5
 179
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -16949,7 +22569,7 @@ LINE
   5
 17A
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -16973,7 +22593,7 @@ LINE
   5
 17B
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -16997,7 +22617,7 @@ LINE
   5
 17C
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -17021,7 +22641,7 @@ LINE
   5
 17D
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -17045,7 +22665,7 @@ LINE
   5
 17E
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -17069,7 +22689,7 @@ LINE
   5
 17F
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -17093,7 +22713,7 @@ LINE
   5
 180
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -17117,7 +22737,7 @@ LINE
   5
 186
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -17141,7 +22761,7 @@ LINE
   5
 68E
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -17165,7 +22785,7 @@ LINE
   5
 68F
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -17189,7 +22809,7 @@ LINE
   5
 690
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -17213,7 +22833,7 @@ LINE
   5
 A4C
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -17237,7 +22857,7 @@ LINE
   5
 A4F
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -17261,7 +22881,7 @@ LINE
   5
 A9B
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -17285,7 +22905,7 @@ LINE
   5
 BD6
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -17309,7 +22929,7 @@ LINE
   5
 BBE
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -17333,7 +22953,7 @@ LINE
   5
 BC1
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -17357,7 +22977,7 @@ LINE
   5
 BC2
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -17381,7 +23001,7 @@ LINE
   5
 BC3
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -17405,7 +23025,7 @@ LINE
   5
 BC4
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -17429,7 +23049,7 @@ LINE
   5
 BDE
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -17453,7 +23073,7 @@ LINE
   5
 BFA
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -17477,7 +23097,7 @@ LINE
   5
 BDF
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -17501,7 +23121,7 @@ LINE
   5
 BFB
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -17525,7 +23145,7 @@ ARC
   5
 BE0
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -17555,7 +23175,7 @@ ARC
   5
 BFC
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -17585,7 +23205,7 @@ ARC
   5
 BE1
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -17615,7 +23235,7 @@ ARC
   5
 BFD
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -17645,7 +23265,7 @@ LINE
   5
 BE5
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -17669,7 +23289,7 @@ LINE
   5
 BE3
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -17693,7 +23313,7 @@ LINE
   5
 BE4
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -17717,7 +23337,7 @@ LINE
   5
 BE7
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -17741,7 +23361,7 @@ LINE
   5
 BE8
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -17765,7 +23385,7 @@ LINE
   5
 BF8
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -17789,7 +23409,7 @@ LINE
   5
 BF9
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -17813,7 +23433,7 @@ LINE
   5
 BF7
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -17837,7 +23457,7 @@ LINE
   5
 BFF
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -17861,7 +23481,7 @@ LINE
   5
 D0B
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -17885,7 +23505,7 @@ LINE
   5
 D0C
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -17909,7 +23529,7 @@ LINE
   5
 D0D
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -17933,7 +23553,7 @@ LINE
   5
 D0E
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -17957,7 +23577,7 @@ LINE
   5
 D15
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -17981,7 +23601,7 @@ LINE
   5
 D16
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -18005,7 +23625,7 @@ ARC
   5
 D18
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -18035,7 +23655,7 @@ ARC
   5
 D19
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -18065,7 +23685,7 @@ LINE
   5
 D1B
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -18089,7 +23709,7 @@ LINE
   5
 E1E
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -18113,7 +23733,7 @@ LINE
   5
 E1F
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -18137,7 +23757,7 @@ LINE
   5
 E20
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -18161,7 +23781,7 @@ LINE
   5
 E21
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -18185,7 +23805,7 @@ LINE
   5
 E23
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -18209,7 +23829,7 @@ LINE
   5
 E27
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -18233,7 +23853,7 @@ LINE
   5
 E31
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -18257,7 +23877,7 @@ LINE
   5
 E2B
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -18281,7 +23901,7 @@ LINE
   5
 E2C
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -18305,7 +23925,7 @@ LINE
   5
 E2D
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -18329,7 +23949,7 @@ LINE
   5
 E2E
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -18353,7 +23973,7 @@ LINE
   5
 E33
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -18377,7 +23997,7 @@ LINE
   5
 E34
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -18401,7 +24021,7 @@ LINE
   5
 E36
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -18425,7 +24045,7 @@ LINE
   5
 E37
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -18449,7 +24069,7 @@ LINE
   5
 E39
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -18473,7 +24093,7 @@ LINE
   5
 E3A
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -18497,7 +24117,7 @@ LINE
   5
 E3B
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -18521,7 +24141,7 @@ LINE
   5
 E3C
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -18545,7 +24165,7 @@ LINE
   5
 E3D
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -18569,7 +24189,7 @@ LINE
   5
 E3E
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -18593,7 +24213,7 @@ LINE
   5
 E3F
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -18617,7 +24237,7 @@ LINE
   5
 E41
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -18641,7 +24261,7 @@ LINE
   5
 E42
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -18665,7 +24285,7 @@ LINE
   5
 E8D
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -18689,7 +24309,7 @@ LINE
   5
 E48
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -18713,7 +24333,7 @@ LINE
   5
 E58
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -18737,7 +24357,7 @@ LINE
   5
 E8F
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -18761,7 +24381,7 @@ LINE
   5
 E45
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -18785,7 +24405,7 @@ LINE
   5
 E46
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -18809,7 +24429,7 @@ LINE
   5
 E47
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -18833,7 +24453,7 @@ LINE
   5
 E4A
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -18857,7 +24477,7 @@ LINE
   5
 E4B
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -18881,7 +24501,7 @@ LINE
   5
 E4E
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -18905,7 +24525,7 @@ LINE
   5
 E59
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -18929,7 +24549,7 @@ LINE
   5
 E62
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -18953,7 +24573,7 @@ LINE
   5
 E4F
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -18977,7 +24597,7 @@ LINE
   5
 E5A
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -19001,7 +24621,7 @@ LINE
   5
 E63
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -19025,7 +24645,7 @@ LINE
   5
 E50
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -19049,7 +24669,7 @@ LINE
   5
 E5C
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -19073,7 +24693,7 @@ LINE
   5
 E5F
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -19097,7 +24717,7 @@ LINE
   5
 E51
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -19121,7 +24741,7 @@ LINE
   5
 E5D
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -19145,7 +24765,7 @@ LINE
   5
 E60
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -19169,7 +24789,7 @@ LINE
   5
 E52
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -19193,7 +24813,7 @@ LINE
   5
 E53
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -19217,7 +24837,7 @@ LINE
   5
 E90
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -19241,7 +24861,7 @@ LINE
   5
 E56
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -19265,7 +24885,7 @@ LINE
   5
 E5B
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -19289,7 +24909,7 @@ LINE
   5
 E64
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -19313,7 +24933,7 @@ LINE
   5
 E57
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -19337,7 +24957,7 @@ LINE
   5
 E5E
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -19361,7 +24981,7 @@ LINE
   5
 E61
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -19385,7 +25005,7 @@ LINE
   5
 E8E
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -19409,7 +25029,7 @@ LINE
   5
 E68
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -19433,7 +25053,7 @@ LINE
   5
 E6B
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -19457,7 +25077,7 @@ LINE
   5
 E6E
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -19481,7 +25101,7 @@ LINE
   5
 E6F
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -19505,7 +25125,7 @@ LINE
   5
 E71
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -19529,7 +25149,7 @@ LINE
   5
 E72
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -19553,7 +25173,7 @@ LINE
   5
 E73
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -19577,7 +25197,7 @@ LINE
   5
 E75
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -19601,7 +25221,7 @@ LINE
   5
 E76
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -19625,7 +25245,7 @@ LINE
   5
 E77
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -19649,7 +25269,7 @@ LINE
   5
 E91
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -19673,7 +25293,7 @@ LINE
   5
 E7D
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -19697,7 +25317,7 @@ LINE
   5
 E7E
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -19721,7 +25341,7 @@ LINE
   5
 E7F
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -19745,7 +25365,7 @@ LINE
   5
 E80
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -19769,7 +25389,7 @@ LINE
   5
 E83
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -19793,7 +25413,7 @@ LINE
   5
 E84
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -19817,7 +25437,7 @@ ARC
   5
 E82
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -19843,7 +25463,7 @@ ARC
   5
 E85
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -19869,7 +25489,7 @@ ARC
   5
 E86
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -19899,7 +25519,7 @@ ARC
   5
 E87
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -19925,7 +25545,7 @@ LINE
   5
 E8A
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -19949,7 +25569,7 @@ LINE
   5
 E8C
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -19973,7 +25593,7 @@ LINE
   5
 E93
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -19997,7 +25617,7 @@ LINE
   5
 E94
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -20021,7 +25641,7 @@ LINE
   5
 E95
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -20045,7 +25665,7 @@ LINE
   5
 E96
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -20069,7 +25689,7 @@ LINE
   5
 E97
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -20093,7 +25713,7 @@ LINE
   5
 E98
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -20117,7 +25737,7 @@ LINE
   5
 E99
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -20141,7 +25761,7 @@ LINE
   5
 E9A
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -20165,7 +25785,7 @@ LINE
   5
 E9B
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -20189,7 +25809,7 @@ LINE
   5
 E9C
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -20213,7 +25833,7 @@ LINE
   5
 E9D
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -20237,7 +25857,7 @@ LINE
   5
 E9E
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -20261,7 +25881,7 @@ ARC
   5
 E9F
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -20287,7 +25907,7 @@ ARC
   5
 EA0
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -20317,7 +25937,7 @@ ARC
   5
 EA1
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -20343,7 +25963,7 @@ ARC
   5
 EA2
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -20373,7 +25993,7 @@ LINE
   5
 EAC
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -20397,7 +26017,7 @@ LINE
   5
 EAD
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -20421,7 +26041,7 @@ LINE
   5
 EAE
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -20445,7 +26065,7 @@ LINE
   5
 EBF
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -20469,7 +26089,7 @@ LINE
   5
 EC2
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -20493,7 +26113,7 @@ LINE
   5
 ECA
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -20517,7 +26137,7 @@ LINE
   5
 ED3
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -20541,7 +26161,7 @@ LINE
   5
 EAF
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -20565,7 +26185,7 @@ LINE
   5
 EC1
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -20589,7 +26209,7 @@ LINE
   5
 EC3
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -20613,7 +26233,7 @@ LINE
   5
 ECB
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -20637,7 +26257,7 @@ LINE
   5
 ED4
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -20661,7 +26281,7 @@ LINE
   5
 EB7
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -20685,7 +26305,7 @@ LINE
   5
 EB9
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -20709,7 +26329,7 @@ LINE
   5
 EBB
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -20733,7 +26353,7 @@ LINE
   5
 EC0
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -20757,7 +26377,7 @@ LINE
   5
 EC4
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -20781,7 +26401,7 @@ LINE
   5
 EC5
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -20805,7 +26425,7 @@ LINE
   5
 ECC
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -20829,7 +26449,7 @@ LINE
   5
 ECD
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -20853,7 +26473,7 @@ LINE
   5
 ED5
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -20877,7 +26497,7 @@ LINE
   5
 ED6
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -20901,7 +26521,7 @@ LINE
   5
 EB1
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -20925,7 +26545,7 @@ LINE
   5
 EBD
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -20949,7 +26569,7 @@ LINE
   5
 EC6
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -20973,7 +26593,7 @@ LINE
   5
 ECE
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -20997,7 +26617,7 @@ LINE
   5
 ED7
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -21021,7 +26641,7 @@ LINE
   5
 EB2
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -21045,7 +26665,7 @@ LINE
   5
 EBC
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -21069,7 +26689,7 @@ LINE
   5
 EC7
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -21093,7 +26713,7 @@ LINE
   5
 ECF
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -21117,7 +26737,7 @@ LINE
   5
 ED8
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -21141,7 +26761,7 @@ LINE
   5
 EB4
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -21165,7 +26785,7 @@ LINE
   5
 EB6
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -21189,7 +26809,7 @@ LINE
   5
 EBA
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -21213,7 +26833,7 @@ LINE
   5
 EBE
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -21237,7 +26857,7 @@ LINE
   5
 EC8
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -21261,7 +26881,7 @@ LINE
   5
 EC9
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -21285,7 +26905,7 @@ LINE
   5
 ED0
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -21309,7 +26929,7 @@ LINE
   5
 ED1
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -21333,7 +26953,7 @@ LINE
   5
 ED9
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -21357,7 +26977,7 @@ LINE
   5
 EDA
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -21381,7 +27001,7 @@ LINE
   5
 EDD
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -21405,7 +27025,7 @@ LINE
   5
 EDE
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -21429,7 +27049,7 @@ LINE
   5
 EDF
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -21453,7 +27073,7 @@ LINE
   5
 EE0
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -21477,7 +27097,7 @@ LINE
   5
 EE1
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -21501,7 +27121,7 @@ LINE
   5
 EE2
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -21525,7 +27145,7 @@ LINE
   5
 EE3
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -21549,7 +27169,7 @@ LINE
   5
 EE4
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -21573,7 +27193,7 @@ LINE
   5
 EE5
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -21597,7 +27217,7 @@ LINE
   5
 EE6
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -21621,7 +27241,7 @@ ARC
   5
 EE8
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -21651,7 +27271,7 @@ ARC
   5
 EE9
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -21681,7 +27301,7 @@ LINE
   5
 EEA
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -21705,7 +27325,7 @@ LINE
   5
 EEB
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -21729,7 +27349,7 @@ LINE
   5
 EED
 330
-F0D
+10E1
 100
 AcDbEntity
   8
@@ -21751,9 +27371,9 @@ AcDbLine
   0
 VIEWPORT
   5
-FF0
+11C4
 330
-F09
+10DD
 100
 AcDbEntity
  67
@@ -21855,7 +27475,7 @@ AcDbViewport
  61
      5
 348
-F1D
+10F1
 292
      1
 282
@@ -21867,7 +27487,7 @@ F1D
  63
    256
 361
-FF1
+11C5
   0
 ENDSEC
   0
@@ -21877,7 +27497,7 @@ OBJECTS
   0
 DICTIONARY
   5
-EFB
+10CF
 330
 0
 100
@@ -21887,69 +27507,69 @@ AcDbDictionary
   3
 ACAD_DETAILVIEWSTYLE
 350
-1005
+11D9
   3
 ACAD_GROUP
 350
-EFC
+10D0
   3
 ACAD_LAYOUT
 350
-F08
+10DC
   3
 ACAD_MATERIAL
 350
-F31
+1105
   3
 ACAD_MLEADERSTYLE
 350
-F59
+112D
   3
 ACAD_MLINESTYLE
 350
-F05
+10D9
   3
 ACAD_PLOTSETTINGS
 350
-F07
+10DB
   3
 ACAD_PLOTSTYLENAME
 350
-EFD
+10D1
   3
 ACAD_SCALELIST
 350
-F35
+1109
   3
 ACAD_SECTIONVIEWSTYLE
 350
-1006
+11DA
   3
 ACAD_TABLESTYLE
 350
-F57
+112B
   3
 ACAD_VISUALSTYLE
 350
-F18
+10EC
   3
 ACDB_RECOMPOSE_DATA
 350
-1002
+11D6
   3
 AcDbVariableDictionary
 350
-FFE
+11D2
   3
 QCAD_OBJECTS
 350
-F5D
+1131
   0
 SUN
   5
-F5B
+112F
 330
-F17
+10EB
 100
 AcDbSun
  90
@@ -21979,9 +27599,9 @@ AcDbSun
   0
 SUN
   5
-FF1
+11C5
 330
-FF0
+11C4
 100
 AcDbSun
  90
@@ -22011,15 +27631,15 @@ AcDbSun
   0
 DICTIONARY
   5
-1005
+11D9
 102
 {ACAD_REACTORS
 330
-EFB
+10CF
 102
 }
 330
-EFB
+10CF
 100
 AcDbDictionary
 281
@@ -22027,15 +27647,15 @@ AcDbDictionary
   0
 DICTIONARY
   5
-EFC
+10D0
 102
 {ACAD_REACTORS
 330
-EFB
+10CF
 102
 }
 330
-EFB
+10CF
 100
 AcDbDictionary
 281
@@ -22043,15 +27663,15 @@ AcDbDictionary
   0
 DICTIONARY
   5
-F08
+10DC
 102
 {ACAD_REACTORS
 330
-EFB
+10CF
 102
 }
 330
-EFB
+10CF
 100
 AcDbDictionary
 281
@@ -22059,23 +27679,23 @@ AcDbDictionary
   3
 Layout1
 350
-F0C
+10E0
   3
 Model
 350
-F10
+10E4
   0
 DICTIONARY
   5
-F31
+1105
 102
 {ACAD_REACTORS
 330
-EFB
+10CF
 102
 }
 330
-EFB
+10CF
 100
 AcDbDictionary
 281
@@ -22083,27 +27703,27 @@ AcDbDictionary
   3
 ByBlock
 350
-F33
+1107
   3
 ByLayer
 350
-F32
+1106
   3
 Global
 350
-F34
+1108
   0
 DICTIONARY
   5
-F59
+112D
 102
 {ACAD_REACTORS
 330
-EFB
+10CF
 102
 }
 330
-EFB
+10CF
 100
 AcDbDictionary
 281
@@ -22111,19 +27731,19 @@ AcDbDictionary
   3
 Standard
 350
-F5A
+112E
   0
 DICTIONARY
   5
-F05
+10D9
 102
 {ACAD_REACTORS
 330
-EFB
+10CF
 102
 }
 330
-EFB
+10CF
 100
 AcDbDictionary
 281
@@ -22131,19 +27751,19 @@ AcDbDictionary
   3
 Standard
 350
-F06
+10DA
   0
 DICTIONARY
   5
-F07
+10DB
 102
 {ACAD_REACTORS
 330
-EFB
+10CF
 102
 }
 330
-EFB
+10CF
 100
 AcDbDictionary
 281
@@ -22151,15 +27771,15 @@ AcDbDictionary
   0
 ACDBDICTIONARYWDFLT
   5
-EFD
+10D1
 102
 {ACAD_REACTORS
 330
-EFB
+10CF
 102
 }
 330
-EFB
+10CF
 100
 AcDbDictionary
 281
@@ -22167,23 +27787,23 @@ AcDbDictionary
   3
 Normal
 350
-EFE
+10D2
 100
 AcDbDictionaryWithDefault
 340
-EFE
+10D2
   0
 DICTIONARY
   5
-F35
+1109
 102
 {ACAD_REACTORS
 330
-EFB
+10CF
 102
 }
 330
-EFB
+10CF
 100
 AcDbDictionary
 281
@@ -22191,147 +27811,147 @@ AcDbDictionary
   3
 A0
 350
-F36
+110A
   3
 A1
 350
-F37
+110B
   3
 A2
 350
-F38
+110C
   3
 A3
 350
-F39
+110D
   3
 A4
 350
-F3A
+110E
   3
 A5
 350
-F3B
+110F
   3
 A6
 350
-F3C
+1110
   3
 A7
 350
-F3D
+1111
   3
 A8
 350
-F3E
+1112
   3
 A9
 350
-F3F
+1113
   3
 B0
 350
-F40
+1114
   3
 B1
 350
-F41
+1115
   3
 B2
 350
-F42
+1116
   3
 B3
 350
-F43
+1117
   3
 B4
 350
-F44
+1118
   3
 B5
 350
-F45
+1119
   3
 B6
 350
-F46
+111A
   3
 B7
 350
-F47
+111B
   3
 B8
 350
-F48
+111C
   3
 B9
 350
-F49
+111D
   3
 C0
 350
-F4A
+111E
   3
 C1
 350
-F4B
+111F
   3
 C2
 350
-F4C
+1120
   3
 C3
 350
-F4D
+1121
   3
 C4
 350
-F4E
+1122
   3
 C5
 350
-F4F
+1123
   3
 C6
 350
-F50
+1124
   3
 C7
 350
-F51
+1125
   3
 C8
 350
-F52
+1126
   3
 C9
 350
-F53
+1127
   3
 D0
 350
-F54
+1128
   3
 D1
 350
-F55
+1129
   3
 D2
 350
-F56
+112A
   0
 DICTIONARY
   5
-1006
+11DA
 102
 {ACAD_REACTORS
 330
-EFB
+10CF
 102
 }
 330
-EFB
+10CF
 100
 AcDbDictionary
 281
@@ -22339,15 +27959,15 @@ AcDbDictionary
   0
 DICTIONARY
   5
-F57
+112B
 102
 {ACAD_REACTORS
 330
-EFB
+10CF
 102
 }
 330
-EFB
+10CF
 100
 AcDbDictionary
 281
@@ -22355,19 +27975,19 @@ AcDbDictionary
   3
 Standard
 350
-F58
+112C
   0
 DICTIONARY
   5
-F18
+10EC
 102
 {ACAD_REACTORS
 330
-EFB
+10CF
 102
 }
 330
-EFB
+10CF
 100
 AcDbDictionary
 281
@@ -22375,111 +27995,111 @@ AcDbDictionary
   3
 2dWireframe
 350
-F1D
+10F1
   3
 Basic
 350
-F20
+10F4
   3
 Brighten
 350
-F24
+10F8
   3
 ColorChange
 350
-F28
+10FC
   3
 Conceptual
 350
-F22
+10F6
   3
 Dim
 350
-F23
+10F7
   3
 EdgeColorOff
 350
-F2B
+10FF
   3
 Facepattern
 350
-F27
+10FB
   3
 Flat
 350
-F19
+10ED
   3
 FlatWithEdges
 350
-F1A
+10EE
   3
 Gouraud
 350
-F1B
+10EF
   3
 GouraudWithEdges
 350
-F1C
+10F0
   3
 Hidden
 350
-F1F
+10F3
   3
 JitterOff
 350
-F29
+10FD
   3
 Linepattern
 350
-F26
+10FA
   3
 OverhangOff
 350
-F2A
+10FE
   3
 Realistic
 350
-F21
+10F5
   3
 Shaded
 350
-F30
+1104
   3
 Shaded with edges
 350
-F2F
+1103
   3
 Shades of Gray
 350
-F2C
+1100
   3
 Sketchy
 350
-F2D
+1101
   3
 Thicken
 350
-F25
+10F9
   3
 Wireframe
 350
-F1E
+10F2
   3
 X-Ray
 350
-F2E
+1102
   0
 XRECORD
   5
-1002
+11D6
 102
 {ACAD_REACTORS
 330
-EFB
+10CF
 102
 }
 330
-EFB
+10CF
 100
 AcDbXrecord
 280
@@ -22487,19 +28107,19 @@ AcDbXrecord
  90
         1
 330
-F58
+112C
   0
 DICTIONARY
   5
-FFE
+11D2
 102
 {ACAD_REACTORS
 330
-EFB
+10CF
 102
 }
 330
-EFB
+10CF
 100
 AcDbDictionary
 281
@@ -22507,27 +28127,27 @@ AcDbDictionary
   3
 CANNOSCALE
 350
-FFF
+11D3
   3
 CMLEADERSTYLE
 350
-1004
+11D8
   3
 CTABLESTYLE
 350
-1003
+11D7
   0
 DICTIONARY
   5
-F5D
+1131
 102
 {ACAD_REACTORS
 330
-EFB
+10CF
 102
 }
 330
-EFB
+10CF
 100
 AcDbDictionary
 281
@@ -22535,259 +28155,259 @@ AcDbDictionary
   3
 ColorSettings/BackgroundColor
 350
-F5F
+1133
   3
 ColorSettings/ColorMode
 350
-F60
+1134
   3
 DimensionSettings/AngularFormat
 350
-F61
+1135
   3
 DimensionSettings/AngularPrecision
 350
-F62
+1136
   3
 DimensionSettings/DecimalPoint
 350
-F63
+1137
   3
 DimensionSettings/DimensionFont
 350
-F64
+1138
   3
 DimensionSettings/DimensionTextColor
 350
-F65
+1139
   3
 DimensionSettings/KeepProportions
 350
-F66
+113A
   3
 DimensionSettings/LinearFormat
 350
-F67
+113B
   3
 DimensionSettings/LinearPrecision
 350
-F68
+113C
   3
 Grid/DisplayGrid00
 350
-F69
+113D
   3
 Grid/DisplayGrid01
 350
-F6A
+113E
   3
 Grid/DisplayGrid02
 350
-F6B
+113F
   3
 Grid/DisplayGrid03
 350
-F6C
+1140
   3
 Grid/GridSpacingX00
 350
-F6D
+1141
   3
 Grid/GridSpacingX01
 350
-F6E
+1142
   3
 Grid/GridSpacingX02
 350
-F6F
+1143
   3
 Grid/GridSpacingX03
 350
-F70
+1144
   3
 Grid/GridSpacingY00
 350
-F71
+1145
   3
 Grid/GridSpacingY01
 350
-F72
+1146
   3
 Grid/GridSpacingY02
 350
-F73
+1147
   3
 Grid/GridSpacingY03
 350
-F74
+1148
   3
 Grid/IsometricGrid00
 350
-F75
+1149
   3
 Grid/IsometricGrid01
 350
-F76
+114A
   3
 Grid/IsometricGrid02
 350
-F77
+114B
   3
 Grid/IsometricGrid03
 350
-F78
+114C
   3
 Grid/IsometricProjection00
 350
-F79
+114D
   3
 Grid/IsometricProjection01
 350
-F7A
+114E
   3
 Grid/IsometricProjection02
 350
-F7B
+114F
   3
 Grid/IsometricProjection03
 350
-F7C
+1150
   3
 Grid/MetaGridSpacingX00
 350
-F7D
+1151
   3
 Grid/MetaGridSpacingX01
 350
-F7E
+1152
   3
 Grid/MetaGridSpacingX02
 350
-F7F
+1153
   3
 Grid/MetaGridSpacingX03
 350
-F80
+1154
   3
 Grid/MetaGridSpacingY00
 350
-F81
+1155
   3
 Grid/MetaGridSpacingY01
 350
-F82
+1156
   3
 Grid/MetaGridSpacingY02
 350
-F83
+1157
   3
 Grid/MetaGridSpacingY03
 350
-F84
+1158
   3
 MultiPageSettings/Columns
 350
-F85
+1159
   3
 MultiPageSettings/GlueMarginsBottom
 350
-F86
+115A
   3
 MultiPageSettings/GlueMarginsLeft
 350
-F87
+115B
   3
 MultiPageSettings/GlueMarginsRight
 350
-F88
+115C
   3
 MultiPageSettings/GlueMarginsTop
 350
-F89
+115D
   3
 MultiPageSettings/PrintCropMarks
 350
-F8A
+115E
   3
 MultiPageSettings/Rows
 350
-F8B
+115F
   3
 PageSettings/OffsetX
 350
-F8C
+1160
   3
 PageSettings/OffsetY
 350
-F8D
+1161
   3
 PageSettings/PageOrientation
 350
-F8E
+1162
   3
 PageSettings/PaperHeight
 350
-F8F
+1163
   3
 PageSettings/PaperWidth
 350
-F90
+1164
   3
 PageSettings/Scale
 350
-F91
+1165
   3
 PageSettings/ShowPaperBorders
 350
-F92
+1166
   3
 PageTagSettings/EnablePageTags
 350
-F93
+1167
   3
 PageTagSettings/TagAlignment
 350
-F94
+1168
   3
 PageTagSettings/TagFont
 350
-F95
+1169
   3
 PageTagSettings/TagPosition
 350
-F96
+116A
   3
 QCADVersion
 350
-F97
+116B
   3
 UnitSettings/PaperUnit
 350
-F98
+116C
   3
 ViewportCenter
 350
-F99
+116D
   3
 ViewportHeight
 350
-F9A
+116E
   3
 ViewportWidth
 350
-F9B
+116F
   0
 LAYOUT
   5
-F0C
+10E0
 102
 {ACAD_REACTORS
 330
-F08
+10DC
 102
 }
 330
-F08
+10DC
 100
 AcDbPlotSettings
   1
@@ -22907,21 +28527,21 @@ Layout1
  76
      0
 330
-F09
+10DD
 331
-FF0
+11C4
   0
 LAYOUT
   5
-F10
+10E4
 102
 {ACAD_REACTORS
 330
-F08
+10DC
 102
 }
 330
-F08
+10DC
 100
 AcDbPlotSettings
   1
@@ -23041,21 +28661,21 @@ Model
  76
      0
 330
-F0D
+10E1
 331
-F17
+10EB
   0
 MATERIAL
   5
-F33
+1107
 102
 {ACAD_REACTORS
 330
-F31
+1105
 102
 }
 330
-F31
+1105
 100
 AcDbMaterial
   1
@@ -23067,15 +28687,15 @@ ByBlock
   0
 MATERIAL
   5
-F32
+1106
 102
 {ACAD_REACTORS
 330
-F31
+1105
 102
 }
 330
-F31
+1105
 100
 AcDbMaterial
   1
@@ -23087,15 +28707,15 @@ ByLayer
   0
 MATERIAL
   5
-F34
+1108
 102
 {ACAD_REACTORS
 330
-F31
+1105
 102
 }
 330
-F31
+1105
 100
 AcDbMaterial
   1
@@ -23107,15 +28727,15 @@ Global
   0
 MLEADERSTYLE
   5
-F5A
+112E
 102
 {ACAD_REACTORS
 330
-F59
+112D
 102
 }
 330
-F59
+112D
 100
 AcDbMLeaderStyle
 179
@@ -23137,7 +28757,7 @@ AcDbMLeaderStyle
  91
 -1056964608
 340
-F02
+10D6
  92
        -2
 290
@@ -23157,7 +28777,7 @@ Standard
 300
 
 342
-F00
+10D4
 174
      1
 178
@@ -23213,15 +28833,15 @@ F00
   0
 MLINESTYLE
   5
-F06
+10DA
 102
 {ACAD_REACTORS
 330
-F05
+10D9
 102
 }
 330
-F05
+10D9
 100
 AcDbMlineStyle
   2
@@ -23253,27 +28873,27 @@ BYLAYER
   0
 ACDBPLACEHOLDER
   5
-EFE
+10D2
 102
 {ACAD_REACTORS
 330
-EFD
+10D1
 102
 }
 330
-EFD
+10D1
   0
 SCALE
   5
-F36
+110A
 102
 {ACAD_REACTORS
 330
-F35
+1109
 102
 }
 330
-F35
+1109
 100
 AcDbScale
  70
@@ -23289,15 +28909,15 @@ AcDbScale
   0
 SCALE
   5
-F37
+110B
 102
 {ACAD_REACTORS
 330
-F35
+1109
 102
 }
 330
-F35
+1109
 100
 AcDbScale
  70
@@ -23313,15 +28933,15 @@ AcDbScale
   0
 SCALE
   5
-F38
+110C
 102
 {ACAD_REACTORS
 330
-F35
+1109
 102
 }
 330
-F35
+1109
 100
 AcDbScale
  70
@@ -23337,15 +28957,15 @@ AcDbScale
   0
 SCALE
   5
-F39
+110D
 102
 {ACAD_REACTORS
 330
-F35
+1109
 102
 }
 330
-F35
+1109
 100
 AcDbScale
  70
@@ -23361,15 +28981,15 @@ AcDbScale
   0
 SCALE
   5
-F3A
+110E
 102
 {ACAD_REACTORS
 330
-F35
+1109
 102
 }
 330
-F35
+1109
 100
 AcDbScale
  70
@@ -23385,15 +29005,15 @@ AcDbScale
   0
 SCALE
   5
-F3B
+110F
 102
 {ACAD_REACTORS
 330
-F35
+1109
 102
 }
 330
-F35
+1109
 100
 AcDbScale
  70
@@ -23409,15 +29029,15 @@ AcDbScale
   0
 SCALE
   5
-F3C
+1110
 102
 {ACAD_REACTORS
 330
-F35
+1109
 102
 }
 330
-F35
+1109
 100
 AcDbScale
  70
@@ -23433,15 +29053,15 @@ AcDbScale
   0
 SCALE
   5
-F3D
+1111
 102
 {ACAD_REACTORS
 330
-F35
+1109
 102
 }
 330
-F35
+1109
 100
 AcDbScale
  70
@@ -23457,15 +29077,15 @@ AcDbScale
   0
 SCALE
   5
-F3E
+1112
 102
 {ACAD_REACTORS
 330
-F35
+1109
 102
 }
 330
-F35
+1109
 100
 AcDbScale
  70
@@ -23481,15 +29101,15 @@ AcDbScale
   0
 SCALE
   5
-F3F
+1113
 102
 {ACAD_REACTORS
 330
-F35
+1109
 102
 }
 330
-F35
+1109
 100
 AcDbScale
  70
@@ -23505,15 +29125,15 @@ AcDbScale
   0
 SCALE
   5
-F40
+1114
 102
 {ACAD_REACTORS
 330
-F35
+1109
 102
 }
 330
-F35
+1109
 100
 AcDbScale
  70
@@ -23529,15 +29149,15 @@ AcDbScale
   0
 SCALE
   5
-F41
+1115
 102
 {ACAD_REACTORS
 330
-F35
+1109
 102
 }
 330
-F35
+1109
 100
 AcDbScale
  70
@@ -23553,15 +29173,15 @@ AcDbScale
   0
 SCALE
   5
-F42
+1116
 102
 {ACAD_REACTORS
 330
-F35
+1109
 102
 }
 330
-F35
+1109
 100
 AcDbScale
  70
@@ -23577,15 +29197,15 @@ AcDbScale
   0
 SCALE
   5
-F43
+1117
 102
 {ACAD_REACTORS
 330
-F35
+1109
 102
 }
 330
-F35
+1109
 100
 AcDbScale
  70
@@ -23601,15 +29221,15 @@ AcDbScale
   0
 SCALE
   5
-F44
+1118
 102
 {ACAD_REACTORS
 330
-F35
+1109
 102
 }
 330
-F35
+1109
 100
 AcDbScale
  70
@@ -23625,15 +29245,15 @@ AcDbScale
   0
 SCALE
   5
-F45
+1119
 102
 {ACAD_REACTORS
 330
-F35
+1109
 102
 }
 330
-F35
+1109
 100
 AcDbScale
  70
@@ -23649,15 +29269,15 @@ AcDbScale
   0
 SCALE
   5
-F46
+111A
 102
 {ACAD_REACTORS
 330
-F35
+1109
 102
 }
 330
-F35
+1109
 100
 AcDbScale
  70
@@ -23673,15 +29293,15 @@ AcDbScale
   0
 SCALE
   5
-F47
+111B
 102
 {ACAD_REACTORS
 330
-F35
+1109
 102
 }
 330
-F35
+1109
 100
 AcDbScale
  70
@@ -23697,15 +29317,15 @@ AcDbScale
   0
 SCALE
   5
-F48
+111C
 102
 {ACAD_REACTORS
 330
-F35
+1109
 102
 }
 330
-F35
+1109
 100
 AcDbScale
  70
@@ -23721,15 +29341,15 @@ AcDbScale
   0
 SCALE
   5
-F49
+111D
 102
 {ACAD_REACTORS
 330
-F35
+1109
 102
 }
 330
-F35
+1109
 100
 AcDbScale
  70
@@ -23745,15 +29365,15 @@ AcDbScale
   0
 SCALE
   5
-F4A
+111E
 102
 {ACAD_REACTORS
 330
-F35
+1109
 102
 }
 330
-F35
+1109
 100
 AcDbScale
  70
@@ -23769,15 +29389,15 @@ AcDbScale
   0
 SCALE
   5
-F4B
+111F
 102
 {ACAD_REACTORS
 330
-F35
+1109
 102
 }
 330
-F35
+1109
 100
 AcDbScale
  70
@@ -23793,15 +29413,15 @@ AcDbScale
   0
 SCALE
   5
-F4C
+1120
 102
 {ACAD_REACTORS
 330
-F35
+1109
 102
 }
 330
-F35
+1109
 100
 AcDbScale
  70
@@ -23817,15 +29437,15 @@ AcDbScale
   0
 SCALE
   5
-F4D
+1121
 102
 {ACAD_REACTORS
 330
-F35
+1109
 102
 }
 330
-F35
+1109
 100
 AcDbScale
  70
@@ -23841,15 +29461,15 @@ AcDbScale
   0
 SCALE
   5
-F4E
+1122
 102
 {ACAD_REACTORS
 330
-F35
+1109
 102
 }
 330
-F35
+1109
 100
 AcDbScale
  70
@@ -23865,15 +29485,15 @@ AcDbScale
   0
 SCALE
   5
-F4F
+1123
 102
 {ACAD_REACTORS
 330
-F35
+1109
 102
 }
 330
-F35
+1109
 100
 AcDbScale
  70
@@ -23889,15 +29509,15 @@ AcDbScale
   0
 SCALE
   5
-F50
+1124
 102
 {ACAD_REACTORS
 330
-F35
+1109
 102
 }
 330
-F35
+1109
 100
 AcDbScale
  70
@@ -23913,15 +29533,15 @@ AcDbScale
   0
 SCALE
   5
-F51
+1125
 102
 {ACAD_REACTORS
 330
-F35
+1109
 102
 }
 330
-F35
+1109
 100
 AcDbScale
  70
@@ -23937,15 +29557,15 @@ AcDbScale
   0
 SCALE
   5
-F52
+1126
 102
 {ACAD_REACTORS
 330
-F35
+1109
 102
 }
 330
-F35
+1109
 100
 AcDbScale
  70
@@ -23961,15 +29581,15 @@ AcDbScale
   0
 SCALE
   5
-F53
+1127
 102
 {ACAD_REACTORS
 330
-F35
+1109
 102
 }
 330
-F35
+1109
 100
 AcDbScale
  70
@@ -23985,15 +29605,15 @@ AcDbScale
   0
 SCALE
   5
-F54
+1128
 102
 {ACAD_REACTORS
 330
-F35
+1109
 102
 }
 330
-F35
+1109
 100
 AcDbScale
  70
@@ -24009,15 +29629,15 @@ AcDbScale
   0
 SCALE
   5
-F55
+1129
 102
 {ACAD_REACTORS
 330
-F35
+1109
 102
 }
 330
-F35
+1109
 100
 AcDbScale
  70
@@ -24033,15 +29653,15 @@ AcDbScale
   0
 SCALE
   5
-F56
+112A
 102
 {ACAD_REACTORS
 330
-F35
+1109
 102
 }
 330
-F35
+1109
 100
 AcDbScale
  70
@@ -24057,21 +29677,21 @@ AcDbScale
   0
 TABLESTYLE
   5
-F58
+112C
 102
 {ACAD_REACTORS
 330
-F57
+112B
 102
 }
 102
 {ACAD_XDICTIONARY
 360
-1000
+11D4
 102
 }
 330
-F57
+112B
 100
 AcDbTableStyle
   3
@@ -24253,15 +29873,15 @@ Standard
   0
 VISUALSTYLE
   5
-F1D
+10F1
 102
 {ACAD_REACTORS
 330
-F18
+10EC
 102
 }
 330
-F18
+10EC
 100
 AcDbVisualStyle
   2
@@ -24515,15 +30135,15 @@ strokes_ogs.tif
   0
 VISUALSTYLE
   5
-F20
+10F4
 102
 {ACAD_REACTORS
 330
-F18
+10EC
 102
 }
 330
-F18
+10EC
 100
 AcDbVisualStyle
   2
@@ -24777,15 +30397,15 @@ strokes_ogs.tif
   0
 VISUALSTYLE
   5
-F24
+10F8
 102
 {ACAD_REACTORS
 330
-F18
+10EC
 102
 }
 330
-F18
+10EC
 100
 AcDbVisualStyle
   2
@@ -25039,15 +30659,15 @@ strokes_ogs.tif
   0
 VISUALSTYLE
   5
-F28
+10FC
 102
 {ACAD_REACTORS
 330
-F18
+10EC
 102
 }
 330
-F18
+10EC
 100
 AcDbVisualStyle
   2
@@ -25303,15 +30923,15 @@ strokes_ogs.tif
   0
 VISUALSTYLE
   5
-F22
+10F6
 102
 {ACAD_REACTORS
 330
-F18
+10EC
 102
 }
 330
-F18
+10EC
 100
 AcDbVisualStyle
   2
@@ -25565,15 +31185,15 @@ strokes_ogs.tif
   0
 VISUALSTYLE
   5
-F23
+10F7
 102
 {ACAD_REACTORS
 330
-F18
+10EC
 102
 }
 330
-F18
+10EC
 100
 AcDbVisualStyle
   2
@@ -25827,15 +31447,15 @@ strokes_ogs.tif
   0
 VISUALSTYLE
   5
-F2B
+10FF
 102
 {ACAD_REACTORS
 330
-F18
+10EC
 102
 }
 330
-F18
+10EC
 100
 AcDbVisualStyle
   2
@@ -26089,15 +31709,15 @@ strokes_ogs.tif
   0
 VISUALSTYLE
   5
-F27
+10FB
 102
 {ACAD_REACTORS
 330
-F18
+10EC
 102
 }
 330
-F18
+10EC
 100
 AcDbVisualStyle
   2
@@ -26351,15 +31971,15 @@ strokes_ogs.tif
   0
 VISUALSTYLE
   5
-F19
+10ED
 102
 {ACAD_REACTORS
 330
-F18
+10EC
 102
 }
 330
-F18
+10EC
 100
 AcDbVisualStyle
   2
@@ -26613,15 +32233,15 @@ strokes_ogs.tif
   0
 VISUALSTYLE
   5
-F1A
+10EE
 102
 {ACAD_REACTORS
 330
-F18
+10EC
 102
 }
 330
-F18
+10EC
 100
 AcDbVisualStyle
   2
@@ -26875,15 +32495,15 @@ strokes_ogs.tif
   0
 VISUALSTYLE
   5
-F1B
+10EF
 102
 {ACAD_REACTORS
 330
-F18
+10EC
 102
 }
 330
-F18
+10EC
 100
 AcDbVisualStyle
   2
@@ -27137,15 +32757,15 @@ strokes_ogs.tif
   0
 VISUALSTYLE
   5
-F1C
+10F0
 102
 {ACAD_REACTORS
 330
-F18
+10EC
 102
 }
 330
-F18
+10EC
 100
 AcDbVisualStyle
   2
@@ -27399,15 +33019,15 @@ strokes_ogs.tif
   0
 VISUALSTYLE
   5
-F1F
+10F3
 102
 {ACAD_REACTORS
 330
-F18
+10EC
 102
 }
 330
-F18
+10EC
 100
 AcDbVisualStyle
   2
@@ -27661,15 +33281,15 @@ strokes_ogs.tif
   0
 VISUALSTYLE
   5
-F29
+10FD
 102
 {ACAD_REACTORS
 330
-F18
+10EC
 102
 }
 330
-F18
+10EC
 100
 AcDbVisualStyle
   2
@@ -27923,15 +33543,15 @@ strokes_ogs.tif
   0
 VISUALSTYLE
   5
-F26
+10FA
 102
 {ACAD_REACTORS
 330
-F18
+10EC
 102
 }
 330
-F18
+10EC
 100
 AcDbVisualStyle
   2
@@ -28185,15 +33805,15 @@ strokes_ogs.tif
   0
 VISUALSTYLE
   5
-F2A
+10FE
 102
 {ACAD_REACTORS
 330
-F18
+10EC
 102
 }
 330
-F18
+10EC
 100
 AcDbVisualStyle
   2
@@ -28447,15 +34067,15 @@ strokes_ogs.tif
   0
 VISUALSTYLE
   5
-F21
+10F5
 102
 {ACAD_REACTORS
 330
-F18
+10EC
 102
 }
 330
-F18
+10EC
 100
 AcDbVisualStyle
   2
@@ -28709,15 +34329,15 @@ strokes_ogs.tif
   0
 VISUALSTYLE
   5
-F30
+1104
 102
 {ACAD_REACTORS
 330
-F18
+10EC
 102
 }
 330
-F18
+10EC
 100
 AcDbVisualStyle
   2
@@ -28973,15 +34593,15 @@ strokes_ogs.tif
   0
 VISUALSTYLE
   5
-F2F
+1103
 102
 {ACAD_REACTORS
 330
-F18
+10EC
 102
 }
 330
-F18
+10EC
 100
 AcDbVisualStyle
   2
@@ -29235,15 +34855,15 @@ strokes_ogs.tif
   0
 VISUALSTYLE
   5
-F2C
+1100
 102
 {ACAD_REACTORS
 330
-F18
+10EC
 102
 }
 330
-F18
+10EC
 100
 AcDbVisualStyle
   2
@@ -29497,15 +35117,15 @@ strokes_ogs.tif
   0
 VISUALSTYLE
   5
-F2D
+1101
 102
 {ACAD_REACTORS
 330
-F18
+10EC
 102
 }
 330
-F18
+10EC
 100
 AcDbVisualStyle
   2
@@ -29759,15 +35379,15 @@ strokes_ogs.tif
   0
 VISUALSTYLE
   5
-F25
+10F9
 102
 {ACAD_REACTORS
 330
-F18
+10EC
 102
 }
 330
-F18
+10EC
 100
 AcDbVisualStyle
   2
@@ -30021,15 +35641,15 @@ strokes_ogs.tif
   0
 VISUALSTYLE
   5
-F1E
+10F2
 102
 {ACAD_REACTORS
 330
-F18
+10EC
 102
 }
 330
-F18
+10EC
 100
 AcDbVisualStyle
   2
@@ -30283,15 +35903,15 @@ strokes_ogs.tif
   0
 VISUALSTYLE
   5
-F2E
+1102
 102
 {ACAD_REACTORS
 330
-F18
+10EC
 102
 }
 330
-F18
+10EC
 100
 AcDbVisualStyle
   2
@@ -30545,15 +36165,15 @@ strokes_ogs.tif
   0
 DICTIONARYVAR
   5
-FFF
+11D3
 102
 {ACAD_REACTORS
 330
-FFE
+11D2
 102
 }
 330
-FFE
+11D2
 100
 DictionaryVariables
 280
@@ -30563,15 +36183,15 @@ DictionaryVariables
   0
 DICTIONARYVAR
   5
-1004
+11D8
 102
 {ACAD_REACTORS
 330
-FFE
+11D2
 102
 }
 330
-FFE
+11D2
 100
 DictionaryVariables
 280
@@ -30581,15 +36201,15 @@ Standard
   0
 DICTIONARYVAR
   5
-1003
+11D7
 102
 {ACAD_REACTORS
 330
-FFE
+11D2
 102
 }
 330
-FFE
+11D2
 100
 DictionaryVariables
 280
@@ -30599,15 +36219,15 @@ Standard
   0
 XRECORD
   5
-F5F
+1133
 102
 {ACAD_REACTORS
 330
-F5D
+1131
 102
 }
 330
-F5D
+1131
 100
 AcDbXrecord
 280
@@ -30617,15 +36237,15 @@ AcDbXrecord
   0
 XRECORD
   5
-F60
+1134
 102
 {ACAD_REACTORS
 330
-F5D
+1131
 102
 }
 330
-F5D
+1131
 100
 AcDbXrecord
 280
@@ -30635,15 +36255,15 @@ FullColor
   0
 XRECORD
   5
-F61
+1135
 102
 {ACAD_REACTORS
 330
-F5D
+1131
 102
 }
 330
-F5D
+1131
 100
 AcDbXrecord
 280
@@ -30653,15 +36273,15 @@ AcDbXrecord
   0
 XRECORD
   5
-F62
+1136
 102
 {ACAD_REACTORS
 330
-F5D
+1131
 102
 }
 330
-F5D
+1131
 100
 AcDbXrecord
 280
@@ -30671,15 +36291,15 @@ AcDbXrecord
   0
 XRECORD
   5
-F63
+1137
 102
 {ACAD_REACTORS
 330
-F5D
+1131
 102
 }
 330
-F5D
+1131
 100
 AcDbXrecord
 280
@@ -30689,15 +36309,15 @@ AcDbXrecord
   0
 XRECORD
   5
-F64
+1138
 102
 {ACAD_REACTORS
 330
-F5D
+1131
 102
 }
 330
-F5D
+1131
 100
 AcDbXrecord
 280
@@ -30707,15 +36327,15 @@ Standard
   0
 XRECORD
   5
-F65
+1139
 102
 {ACAD_REACTORS
 330
-F5D
+1131
 102
 }
 330
-F5D
+1131
 100
 AcDbXrecord
 280
@@ -30725,15 +36345,15 @@ AcDbXrecord
   0
 XRECORD
   5
-F66
+113A
 102
 {ACAD_REACTORS
 330
-F5D
+1131
 102
 }
 330
-F5D
+1131
 100
 AcDbXrecord
 280
@@ -30743,15 +36363,15 @@ AcDbXrecord
   0
 XRECORD
   5
-F67
+113B
 102
 {ACAD_REACTORS
 330
-F5D
+1131
 102
 }
 330
-F5D
+1131
 100
 AcDbXrecord
 280
@@ -30761,15 +36381,15 @@ AcDbXrecord
   0
 XRECORD
   5
-F68
+113C
 102
 {ACAD_REACTORS
 330
-F5D
+1131
 102
 }
 330
-F5D
+1131
 100
 AcDbXrecord
 280
@@ -30779,15 +36399,15 @@ AcDbXrecord
   0
 XRECORD
   5
-F69
+113D
 102
 {ACAD_REACTORS
 330
-F5D
+1131
 102
 }
 330
-F5D
+1131
 100
 AcDbXrecord
 280
@@ -30797,15 +36417,15 @@ AcDbXrecord
   0
 XRECORD
   5
-F6A
+113E
 102
 {ACAD_REACTORS
 330
-F5D
+1131
 102
 }
 330
-F5D
+1131
 100
 AcDbXrecord
 280
@@ -30815,15 +36435,15 @@ AcDbXrecord
   0
 XRECORD
   5
-F6B
+113F
 102
 {ACAD_REACTORS
 330
-F5D
+1131
 102
 }
 330
-F5D
+1131
 100
 AcDbXrecord
 280
@@ -30833,15 +36453,15 @@ AcDbXrecord
   0
 XRECORD
   5
-F6C
+1140
 102
 {ACAD_REACTORS
 330
-F5D
+1131
 102
 }
 330
-F5D
+1131
 100
 AcDbXrecord
 280
@@ -30851,15 +36471,15 @@ AcDbXrecord
   0
 XRECORD
   5
-F6D
+1141
 102
 {ACAD_REACTORS
 330
-F5D
+1131
 102
 }
 330
-F5D
+1131
 100
 AcDbXrecord
 280
@@ -30869,15 +36489,15 @@ auto
   0
 XRECORD
   5
-F6E
+1142
 102
 {ACAD_REACTORS
 330
-F5D
+1131
 102
 }
 330
-F5D
+1131
 100
 AcDbXrecord
 280
@@ -30887,15 +36507,15 @@ auto
   0
 XRECORD
   5
-F6F
+1143
 102
 {ACAD_REACTORS
 330
-F5D
+1131
 102
 }
 330
-F5D
+1131
 100
 AcDbXrecord
 280
@@ -30905,15 +36525,15 @@ auto
   0
 XRECORD
   5
-F70
+1144
 102
 {ACAD_REACTORS
 330
-F5D
+1131
 102
 }
 330
-F5D
+1131
 100
 AcDbXrecord
 280
@@ -30923,15 +36543,15 @@ auto
   0
 XRECORD
   5
-F71
+1145
 102
 {ACAD_REACTORS
 330
-F5D
+1131
 102
 }
 330
-F5D
+1131
 100
 AcDbXrecord
 280
@@ -30941,15 +36561,15 @@ auto
   0
 XRECORD
   5
-F72
+1146
 102
 {ACAD_REACTORS
 330
-F5D
+1131
 102
 }
 330
-F5D
+1131
 100
 AcDbXrecord
 280
@@ -30959,15 +36579,15 @@ auto
   0
 XRECORD
   5
-F73
+1147
 102
 {ACAD_REACTORS
 330
-F5D
+1131
 102
 }
 330
-F5D
+1131
 100
 AcDbXrecord
 280
@@ -30977,15 +36597,15 @@ auto
   0
 XRECORD
   5
-F74
+1148
 102
 {ACAD_REACTORS
 330
-F5D
+1131
 102
 }
 330
-F5D
+1131
 100
 AcDbXrecord
 280
@@ -30995,33 +36615,15 @@ auto
   0
 XRECORD
   5
-F75
+1149
 102
 {ACAD_REACTORS
 330
-F5D
+1131
 102
 }
 330
-F5D
-100
-AcDbXrecord
-280
-     1
-290
-     0
-  0
-XRECORD
-  5
-F76
-102
-{ACAD_REACTORS
-330
-F5D
-102
-}
-330
-F5D
+1131
 100
 AcDbXrecord
 280
@@ -31031,15 +36633,15 @@ AcDbXrecord
   0
 XRECORD
   5
-F77
+114A
 102
 {ACAD_REACTORS
 330
-F5D
+1131
 102
 }
 330
-F5D
+1131
 100
 AcDbXrecord
 280
@@ -31049,15 +36651,15 @@ AcDbXrecord
   0
 XRECORD
   5
-F78
+114B
 102
 {ACAD_REACTORS
 330
-F5D
+1131
 102
 }
 330
-F5D
+1131
 100
 AcDbXrecord
 280
@@ -31067,15 +36669,33 @@ AcDbXrecord
   0
 XRECORD
   5
-F79
+114C
 102
 {ACAD_REACTORS
 330
-F5D
+1131
 102
 }
 330
-F5D
+1131
+100
+AcDbXrecord
+280
+     1
+290
+     0
+  0
+XRECORD
+  5
+114D
+102
+{ACAD_REACTORS
+330
+1131
+102
+}
+330
+1131
 100
 AcDbXrecord
 280
@@ -31085,15 +36705,15 @@ AcDbXrecord
   0
 XRECORD
   5
-F7A
+114E
 102
 {ACAD_REACTORS
 330
-F5D
+1131
 102
 }
 330
-F5D
+1131
 100
 AcDbXrecord
 280
@@ -31103,15 +36723,15 @@ AcDbXrecord
   0
 XRECORD
   5
-F7B
+114F
 102
 {ACAD_REACTORS
 330
-F5D
+1131
 102
 }
 330
-F5D
+1131
 100
 AcDbXrecord
 280
@@ -31121,15 +36741,15 @@ AcDbXrecord
   0
 XRECORD
   5
-F7C
+1150
 102
 {ACAD_REACTORS
 330
-F5D
+1131
 102
 }
 330
-F5D
+1131
 100
 AcDbXrecord
 280
@@ -31139,15 +36759,15 @@ AcDbXrecord
   0
 XRECORD
   5
-F7D
+1151
 102
 {ACAD_REACTORS
 330
-F5D
+1131
 102
 }
 330
-F5D
+1131
 100
 AcDbXrecord
 280
@@ -31157,15 +36777,15 @@ auto
   0
 XRECORD
   5
-F7E
+1152
 102
 {ACAD_REACTORS
 330
-F5D
+1131
 102
 }
 330
-F5D
+1131
 100
 AcDbXrecord
 280
@@ -31175,15 +36795,15 @@ auto
   0
 XRECORD
   5
-F7F
+1153
 102
 {ACAD_REACTORS
 330
-F5D
+1131
 102
 }
 330
-F5D
+1131
 100
 AcDbXrecord
 280
@@ -31193,15 +36813,15 @@ auto
   0
 XRECORD
   5
-F80
+1154
 102
 {ACAD_REACTORS
 330
-F5D
+1131
 102
 }
 330
-F5D
+1131
 100
 AcDbXrecord
 280
@@ -31211,15 +36831,15 @@ auto
   0
 XRECORD
   5
-F81
+1155
 102
 {ACAD_REACTORS
 330
-F5D
+1131
 102
 }
 330
-F5D
+1131
 100
 AcDbXrecord
 280
@@ -31229,15 +36849,15 @@ auto
   0
 XRECORD
   5
-F82
+1156
 102
 {ACAD_REACTORS
 330
-F5D
+1131
 102
 }
 330
-F5D
+1131
 100
 AcDbXrecord
 280
@@ -31247,15 +36867,15 @@ auto
   0
 XRECORD
   5
-F83
+1157
 102
 {ACAD_REACTORS
 330
-F5D
+1131
 102
 }
 330
-F5D
+1131
 100
 AcDbXrecord
 280
@@ -31265,15 +36885,15 @@ auto
   0
 XRECORD
   5
-F84
+1158
 102
 {ACAD_REACTORS
 330
-F5D
+1131
 102
 }
 330
-F5D
+1131
 100
 AcDbXrecord
 280
@@ -31283,15 +36903,15 @@ auto
   0
 XRECORD
   5
-F85
+1159
 102
 {ACAD_REACTORS
 330
-F5D
+1131
 102
 }
 330
-F5D
+1131
 100
 AcDbXrecord
 280
@@ -31301,15 +36921,15 @@ AcDbXrecord
   0
 XRECORD
   5
-F86
+115A
 102
 {ACAD_REACTORS
 330
-F5D
+1131
 102
 }
 330
-F5D
+1131
 100
 AcDbXrecord
 280
@@ -31319,15 +36939,15 @@ AcDbXrecord
   0
 XRECORD
   5
-F87
+115B
 102
 {ACAD_REACTORS
 330
-F5D
+1131
 102
 }
 330
-F5D
+1131
 100
 AcDbXrecord
 280
@@ -31337,15 +36957,15 @@ AcDbXrecord
   0
 XRECORD
   5
-F88
+115C
 102
 {ACAD_REACTORS
 330
-F5D
+1131
 102
 }
 330
-F5D
+1131
 100
 AcDbXrecord
 280
@@ -31355,15 +36975,15 @@ AcDbXrecord
   0
 XRECORD
   5
-F89
+115D
 102
 {ACAD_REACTORS
 330
-F5D
+1131
 102
 }
 330
-F5D
+1131
 100
 AcDbXrecord
 280
@@ -31373,15 +36993,15 @@ AcDbXrecord
   0
 XRECORD
   5
-F8A
+115E
 102
 {ACAD_REACTORS
 330
-F5D
+1131
 102
 }
 330
-F5D
+1131
 100
 AcDbXrecord
 280
@@ -31391,15 +37011,15 @@ AcDbXrecord
   0
 XRECORD
   5
-F8B
+115F
 102
 {ACAD_REACTORS
 330
-F5D
+1131
 102
 }
 330
-F5D
+1131
 100
 AcDbXrecord
 280
@@ -31409,15 +37029,15 @@ AcDbXrecord
   0
 XRECORD
   5
-F8C
+1160
 102
 {ACAD_REACTORS
 330
-F5D
+1131
 102
 }
 330
-F5D
+1131
 100
 AcDbXrecord
 280
@@ -31427,15 +37047,15 @@ AcDbXrecord
   0
 XRECORD
   5
-F8D
+1161
 102
 {ACAD_REACTORS
 330
-F5D
+1131
 102
 }
 330
-F5D
+1131
 100
 AcDbXrecord
 280
@@ -31445,15 +37065,15 @@ AcDbXrecord
   0
 XRECORD
   5
-F8E
+1162
 102
 {ACAD_REACTORS
 330
-F5D
+1131
 102
 }
 330
-F5D
+1131
 100
 AcDbXrecord
 280
@@ -31463,15 +37083,15 @@ Portrait
   0
 XRECORD
   5
-F8F
+1163
 102
 {ACAD_REACTORS
 330
-F5D
+1131
 102
 }
 330
-F5D
+1131
 100
 AcDbXrecord
 280
@@ -31481,15 +37101,15 @@ AcDbXrecord
   0
 XRECORD
   5
-F90
+1164
 102
 {ACAD_REACTORS
 330
-F5D
+1131
 102
 }
 330
-F5D
+1131
 100
 AcDbXrecord
 280
@@ -31499,15 +37119,15 @@ AcDbXrecord
   0
 XRECORD
   5
-F91
+1165
 102
 {ACAD_REACTORS
 330
-F5D
+1131
 102
 }
 330
-F5D
+1131
 100
 AcDbXrecord
 280
@@ -31517,15 +37137,15 @@ AcDbXrecord
   0
 XRECORD
   5
-F92
+1166
 102
 {ACAD_REACTORS
 330
-F5D
+1131
 102
 }
 330
-F5D
+1131
 100
 AcDbXrecord
 280
@@ -31535,15 +37155,15 @@ AcDbXrecord
   0
 XRECORD
   5
-F93
+1167
 102
 {ACAD_REACTORS
 330
-F5D
+1131
 102
 }
 330
-F5D
+1131
 100
 AcDbXrecord
 280
@@ -31553,15 +37173,15 @@ AcDbXrecord
   0
 XRECORD
   5
-F94
+1168
 102
 {ACAD_REACTORS
 330
-F5D
+1131
 102
 }
 330
-F5D
+1131
 100
 AcDbXrecord
 280
@@ -31571,15 +37191,15 @@ Inside
   0
 XRECORD
   5
-F95
+1169
 102
 {ACAD_REACTORS
 330
-F5D
+1131
 102
 }
 330
-F5D
+1131
 100
 AcDbXrecord
 280
@@ -31589,15 +37209,15 @@ Arial,10,-1,5,50,0,0,0,0,0
   0
 XRECORD
   5
-F96
+116A
 102
 {ACAD_REACTORS
 330
-F5D
+1131
 102
 }
 330
-F5D
+1131
 100
 AcDbXrecord
 280
@@ -31607,15 +37227,15 @@ TopLeft
   0
 XRECORD
   5
-F97
+116B
 102
 {ACAD_REACTORS
 330
-F5D
+1131
 102
 }
 330
-F5D
+1131
 100
 AcDbXrecord
 280
@@ -31625,15 +37245,15 @@ AcDbXrecord
   0
 XRECORD
   5
-F98
+116C
 102
 {ACAD_REACTORS
 330
-F5D
+1131
 102
 }
 330
-F5D
+1131
 100
 AcDbXrecord
 280
@@ -31643,15 +37263,15 @@ AcDbXrecord
   0
 XRECORD
   5
-F99
+116D
 102
 {ACAD_REACTORS
 330
-F5D
+1131
 102
 }
 330
-F5D
+1131
 100
 AcDbXrecord
 280
@@ -31659,45 +37279,45 @@ AcDbXrecord
   0
 XRECORD
   5
-F9A
+116E
 102
 {ACAD_REACTORS
 330
-F5D
+1131
 102
 }
 330
-F5D
+1131
 100
 AcDbXrecord
 280
      1
  40
-332.1467556686987
+230.6574692143741
   0
 XRECORD
   5
-F9B
+116F
 102
 {ACAD_REACTORS
 330
-F5D
+1131
 102
 }
 330
-F5D
+1131
 100
 AcDbXrecord
 280
      1
  40
-574.693785151855
+399.0929063554549
   0
 DICTIONARY
   5
-1000
+11D4
 330
-F58
+112C
 100
 AcDbDictionary
 280
@@ -31707,19 +37327,19 @@ AcDbDictionary
   3
 ACAD_ROUNDTRIP_2008_TABLESTYLE_CELLSTYLEMAP
 360
-1001
+11D5
   0
 CELLSTYLEMAP
   5
-1001
+11D5
 102
 {ACAD_REACTORS
 330
-1000
+11D4
 102
 }
 330
-1000
+11D4
 100
 AcDbCellStyleMap
  90
@@ -31763,7 +37383,7 @@ CONTENTFORMAT_BEGIN
  62
      0
 340
-F00
+10D4
 144
 0.25
 309
@@ -31805,7 +37425,7 @@ GRIDFORMAT_BEGIN
  92
        -2
 340
-F02
+10D6
  93
         0
  40
@@ -31827,7 +37447,7 @@ GRIDFORMAT_BEGIN
  92
        -2
 340
-F02
+10D6
  93
         0
  40
@@ -31849,7 +37469,7 @@ GRIDFORMAT_BEGIN
  92
        -2
 340
-F02
+10D6
  93
         0
  40
@@ -31871,7 +37491,7 @@ GRIDFORMAT_BEGIN
  92
        -2
 340
-F02
+10D6
  93
         0
  40
@@ -31893,7 +37513,7 @@ GRIDFORMAT_BEGIN
  92
        -2
 340
-F02
+10D6
  93
         0
  40
@@ -31915,7 +37535,7 @@ GRIDFORMAT_BEGIN
  92
        -2
 340
-F02
+10D6
  93
         0
  40
@@ -31973,7 +37593,7 @@ CONTENTFORMAT_BEGIN
  62
      0
 340
-F00
+10D4
 144
 0.18
 309
@@ -32015,7 +37635,7 @@ GRIDFORMAT_BEGIN
  92
        -2
 340
-F02
+10D6
  93
         0
  40
@@ -32037,7 +37657,7 @@ GRIDFORMAT_BEGIN
  92
        -2
 340
-F02
+10D6
  93
         0
  40
@@ -32059,7 +37679,7 @@ GRIDFORMAT_BEGIN
  92
        -2
 340
-F02
+10D6
  93
         0
  40
@@ -32081,7 +37701,7 @@ GRIDFORMAT_BEGIN
  92
        -2
 340
-F02
+10D6
  93
         0
  40
@@ -32103,7 +37723,7 @@ GRIDFORMAT_BEGIN
  92
        -2
 340
-F02
+10D6
  93
         0
  40
@@ -32125,7 +37745,7 @@ GRIDFORMAT_BEGIN
  92
        -2
 340
-F02
+10D6
  93
         0
  40
@@ -32183,7 +37803,7 @@ CONTENTFORMAT_BEGIN
  62
      0
 340
-F00
+10D4
 144
 0.18
 309
@@ -32225,7 +37845,7 @@ GRIDFORMAT_BEGIN
  92
        -2
 340
-F02
+10D6
  93
         0
  40
@@ -32247,7 +37867,7 @@ GRIDFORMAT_BEGIN
  92
        -2
 340
-F02
+10D6
  93
         0
  40
@@ -32269,7 +37889,7 @@ GRIDFORMAT_BEGIN
  92
        -2
 340
-F02
+10D6
  93
         0
  40
@@ -32291,7 +37911,7 @@ GRIDFORMAT_BEGIN
  92
        -2
 340
-F02
+10D6
  93
         0
  40
@@ -32313,7 +37933,7 @@ GRIDFORMAT_BEGIN
  92
        -2
 340
-F02
+10D6
  93
         0
  40
@@ -32335,7 +37955,7 @@ GRIDFORMAT_BEGIN
  92
        -2
 340
-F02
+10D6
  93
         0
  40
