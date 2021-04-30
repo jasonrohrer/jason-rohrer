@@ -1,0 +1,116 @@
+\documentclass[12pt]{article}
+\usepackage{fullpage,times}
+
+
+\begin{document}
+
+\title{Depth Notes}
+
+\maketitle
+
+\section{Depth}
+
+By {\bf depth,} I mean this:
+
+How many distinct Elo bins does the game have?  How many bins can we put players in where the players in the next bin up can beat the players in the current bin "most of the time"?  For Tic Tac Toe, there are probably 3 bins.  For Chess, there are at least dozens.
+
+When you're good at a game, how much better can you get?  How good can you possibly get?  Can you ever get so good at the game that you can't get any better?  How many players of the game can end up in that last skill bin?
+
+For Tic Tac Toe, every adult who knows how to play is in the top skill bin, and cannot get any better at the game.
+
+Elo bins are the most rigorous way to think about this, but we can also talk about the heuristic ladder.  As you're learning the game, what skills do you acquire as you get better and better?  How many rungs are in the heuristic ladder?
+
+
+\section{Evaluation and Depth}
+
+\begin{enumerate}
+
+
+\item {\bf Evaluation} is key to depth
+
+\item Experts argue over the relative value of game states, card choices for deck-building, etc.  This creates a heuristic ladder.
+
+\item In Poker and Bridge, gameplay is all about evaluation, with betting and bidding as a means of declaring your evaluation explicitly (muddied by bluffing in poker, but not in Bridge).  Bridge is a direct test of how accurate your evaluation function is.
+
+\item Poker without bluffing (where your opponent can't be folded out, and the only possible responses to a bet are call or raise) becomes a similar direct test of your evaluation function.
+
+\item In chess, state evaluation is important because there are so many possible moves.  You must consider each one and apply an evaluation function to the resulting known state that the move will lead to.
+
+\item In most card games, there aren't enough possible moves, because hand size is too small.  And evaluating the state that results from a move isn't that deep, because there's generally not a persistent, sufficiently-complex board state that changes based on your move.
+
+\item You could try to build a card game with lots of possible moves, but...
+
+\item There's something much cleaner feeling about hand evaluation instead of move evaluation.
+
+\item If you have 20 possible moves that are all serious contenders, you really do have to consider them all, one by one.  This can be tedious (chess-like).
+
+\item For some reason, in hand-evaluation games, there isn't this same kind of exhaustive search tedium.
+
+\item Hand evaluation also has a huge advantage in terms of mitigating the randomness inherent in a shuffle-and-play card game.  It's not the strength of your random hand that matters, but how good you are at evaluating your hand's strength relative to the apparent game state.
+
+\end{enumerate}
+
+
+\section{Goal}
+
+Design a single-deck, shuffle-and-play, two-player card game where deep evaluation is tested, but where explicit betting or bidding is not present.
+
+
+\section{Many Choices}
+
+\begin{enumerate}
+
+\item As mentioned above, depth is often associated with a multitude of choices.  12 choices for the first move in Chess, 361 choices for the first move in Go.
+
+\item Some games feel like they offer depth with fewer choices.  Experts can argue over which of two cards is better, for example.
+
+\item Is a deep, purely binary choice game possible?  Pick one of two moves, but the game is still deep?
+
+\item Limit poker is close to this (bet or check, call, raise, or fold), but it leverages hidden information.
+
+\item Can a game with no hidden information be deep with very few possible choices per move?
+
+\item Talked before about betting/bidding as a way to achieve depth without a huge choice space.
+
+\item Instead:  could we have expert evaluation of a complicated state, funneled down into a small choice space?
+
+\item {\bf Drafting} seems to be another mechanic that does this.  Given these three options, which is best?  Funneling expert evaluation of a complex state (everything drafted so far, and knowledge about the cards) into a small choice space.
+
+\item {\bf Problem:} Drafting us usually followed by a more tedious, more shallow play exercise to figure out who drafted better.
+
+\item {\bf 7 Wonders Duel} has drafting with no play exercise afterward.  Drafted cards are scored directly to determine the winner at the end.
+
+\end{enumerate}
+
+
+\section{Ways that some existing card games are deep-ish}
+
+\begin{enumerate}
+
+\item Look at a complex hand of cards and turn it into a quantitative evaluation.  Poker:  turn it into a bet.  Bridge:  turn it into a bid.  Both games have back-and-forth as we react to each other and top previous bet/bid.
+
+\item Drafting.  Look at these cards and pick one to add to your hand/deck/tableau.  This involves individual card evaluation, which is deep on its own, combined with trajectory of the draft so far.  How valuable is this good card in combination with what you've drafted so far compared to the value of taking this other card that blocks your opponent's apparent drafting trajectory so far?  Star Realms, 7 Wonders, MTG Draft, and (not really) Dominion.
+
+\item Subset choice.  Look at these N cards and choose M to keep/play/etc.  This gives (N choose M) possible moves, which is huge.  Another version is look at these N cards and pick M to burn as currency to pay for some other card.  Insights about subset choice come mostly from Race For the Galaxy, which uses both versions of this.  Also Mottainai, in the way you spend cards to build other cards.
+
+\item State manipulation.  Playing cards to change the shared state of the game.  This feels much more like traditional board game tree evaluation.  The state in a card game is generally too small and shallow to wring much depth out of this.  Usually possible to think the whole tree through to the leaves and find the optimal move, which isn't a very interesting exercise.  Overflow prototype game as an example of this.
+\end{enumerate}
+
+
+\section{Debatable red herrings}
+
+Some games try to wring apparent depth out of these by layering on the complexity, but it doesn't seem to work.
+
+\begin{enumerate}
+
+\item Pick some card from your hand to play
+
+\item Pick some way to arrange or use cards in a tableau
+
+\item Pick some target card for a played card's ability.
+
+\end{enumerate}
+
+
+
+\end{document}

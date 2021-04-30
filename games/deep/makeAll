@@ -1,0 +1,4 @@
+latex depthNotes.tex
+
+dvips -t letter -o depthNotes.ps depthNotes.dvi
+ps2pdf depthNotes.ps
