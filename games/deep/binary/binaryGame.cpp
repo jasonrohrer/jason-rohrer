@@ -9,7 +9,8 @@ void colAPicked();
 void colBPicked();
 void timedComputerMove();
 void pickComputerMove();
-int worstCaseScore( SimpleVector<int> *inA, SimpleVector<int> *inB,
+int worstCaseScore( SimpleVector<int> *inA, int inAIndex,
+                    SimpleVector<int> *inB, int inBIndex,
                     int inTurn );
 
 
@@ -66,28 +67,27 @@ int main() {
     
 
     int numRead = 1;
-    while( numRead == 1 && colA.size() > 0 && colB.size() > 0 ) {
+    while( numRead == 1 && ( colA.size() > 0 || colB.size() > 0 ) ) {
         
         char buffer[100];
-        //numRead = scanf( "%99s", buffer );
-        numRead = 1;
-        sprintf( buffer, "A" );
+        numRead = scanf( "%99s", buffer );
         
         if( numRead == 1 ) {
-            if( strcmp( buffer, "a" ) == 0 ||
-                strcmp( buffer, "A" ) == 0 ) {
+            if( colA.size() > 0 &&
+                ( strcmp( buffer, "a" ) == 0 ||
+                  strcmp( buffer, "A" ) == 0  ) ) {
                 colAPicked();
                 }
                 
-            else if( strcmp( buffer, "b" ) == 0 ||
-                strcmp( buffer, "B" ) == 0 ) {
+            else if( colB.size() > 0 &&
+                     ( strcmp( buffer, "b" ) == 0 ||
+                       strcmp( buffer, "B" ) == 0 ) ) {
                 colBPicked();
                 }
             else {
                 printf( "Invalid choice: %s\n", buffer );
                 printPrompt();
                 }
-            return 0;
             }
         }
     
@@ -163,7 +163,7 @@ void timedComputerMove() {
 
 	double targetTime = 2;
 	if( endTime - startTime < targetTime ) {
-        //Thread::staticSleep( 1000 * (targetTime - elapsed ) );
+        Thread::staticSleep( 1000 * (targetTime - elapsed ) );
         }
     printTable();
     printPrompt();
@@ -200,16 +200,12 @@ void pickComputerMove() {
 	else {
 
         
-        SimpleVector<int> aRemain = removeFrontAndCopy( &colA );
-        
 		int worstScoreIfPickA = 
-			worstCaseScore( &aRemain, &colB, 0 ) + 
+			worstCaseScore( &colA, 1, &colB, 0, 0 ) + 
             colA.getElementDirect( 0 );
 
-        SimpleVector<int> bRemain = removeFrontAndCopy( &colB );
-        
 		int worstScoreIfPickB = 
-			worstCaseScore( &colA, &bRemain, 0 ) + 
+			worstCaseScore( &colA, 0, &colB, 1, 0 ) + 
             colB.getElementDirect(0);
 	
 		if( worstScoreIfPickA > worstScoreIfPickB ) {
@@ -232,43 +228,60 @@ void pickComputerMove() {
 
 
 
-int worstCaseScore( SimpleVector<int> *inA, SimpleVector<int> *inB, 
+int worstCaseScore( SimpleVector<int> *inA, int inAIndex, 
+                    SimpleVector<int> *inB, int inBIndex, 
                     int inTurn ) {
-
-    int a0 = inA->getElementDirect( 0 );
-    int b0 = inB->getElementDirect( 0 );
     
-	// if we're down to only one column
-	// top element goes to whoever's turn it is.
-	if( inA->size() == 0 && inB->size() == 0 ) {
+    int aSize = inA->size();
+    int bSize = inB->size();
+    
+
+    if( aSize == inAIndex && bSize == inBIndex ) {
 		return 0;
 		}
-	else if( inA->size() == 0 ) {
-        SimpleVector<int> bRemain = removeFrontAndCopy( inB );
+	// if we're down to only one column
+	// top element goes to whoever's turn it is.
+	else if( aSize == inAIndex ) {
+        int b0 = inB->getElementDirect( inBIndex );
+
 		if( inTurn ) {
-			return worstCaseScore( inA, &bRemain, 0 ) + b0;
+			return worstCaseScore( inA, inAIndex, 
+                                   inB, inBIndex + 1,
+                                   0 ) + b0;
 			}
 		else {
-			return worstCaseScore( inA, &bRemain, 1 ) - b0;
-		}
-	}
-	else if( inB->size() == 0 ) {
-        SimpleVector<int> aRemain = removeFrontAndCopy( inA );
+			return worstCaseScore( inA, inAIndex, 
+                                   inB, inBIndex + 1,
+                                   1 ) - b0;
+            }
+        }
+	else if( bSize == inBIndex ) {
+        int a0 = inA->getElementDirect( inAIndex );
+    
 		if( inTurn ) {
-			return worstCaseScore( &aRemain, inB, 0 ) + a0;
+			return worstCaseScore( inA, inAIndex + 1, 
+                                   inB, inBIndex,
+                                   0 ) + a0;
 			}
 		else {
-			return worstCaseScore( &aRemain, inB, 1 ) - a0;
+			return worstCaseScore( inA, inAIndex + 1, 
+                                   inB, inBIndex,
+                                   1 ) - a0;
 		}
 	}
 	else {
 		// neither empty
-        SimpleVector<int> aRemain = removeFrontAndCopy( inA );
-        SimpleVector<int> bRemain = removeFrontAndCopy( inB );
+        int a0 = inA->getElementDirect( inAIndex );
+        int b0 = inB->getElementDirect( inBIndex );
+        
 		if( inTurn ) {
 			// our turn
-			int worstIfPickA = worstCaseScore( &aRemain, inB, 0 ) + a0;
-			int worstIfPickB = worstCaseScore( inA, &bRemain, 0 ) + b0;
+			int worstIfPickA = worstCaseScore( inA, inAIndex + 1, 
+                                               inB, inBIndex,
+                                               0 ) + a0;
+			int worstIfPickB = worstCaseScore( inA, inAIndex,
+                                               inB, inBIndex + 1, 
+                                               0 ) + b0;
 			
 			// we want to maximize our worst-case score after this
 			if( worstIfPickA > worstIfPickB ) {
@@ -280,8 +293,12 @@ int worstCaseScore( SimpleVector<int> *inA, SimpleVector<int> *inB,
 		}
 		else {
 			// their turn
-			int worstIfPickA = worstCaseScore( &aRemain, inB, 1 ) - a0;
-			int worstIfPickB = worstCaseScore( inA, &bRemain, 1 ) - b0;
+			int worstIfPickA = worstCaseScore( inA, inAIndex + 1, 
+                                               inB, inBIndex,
+                                               1 ) - a0;
+			int worstIfPickB = worstCaseScore( inA, inAIndex,
+                                               inB, inBIndex + 1, 
+                                               1 ) - b0;
 			
 			// they want to minimize our worst-case score after this
 			if( worstIfPickA < worstIfPickB ) {
