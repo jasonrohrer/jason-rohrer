@@ -46,7 +46,7 @@ int main() {
     
     for( int i=0; i<numRounds; i++ ) {
         if( randSource.getRandomBoolean() ) {
-		colA.push_back( 1 );
+            colA.push_back( 1 );
             }
         else {
             colA.push_back( 0 );
@@ -137,7 +137,7 @@ void colAPicked() {
 	printTable();
     printf( "\n" );
 	timedComputerMove();
-}
+    }
 
 
 void colBPicked() { 	
@@ -149,7 +149,7 @@ void colBPicked() {
 	printTable();
     printf( "\n" );
 	timedComputerMove();
-}
+    }
 
 
 
@@ -188,15 +188,15 @@ void pickComputerMove() {
 	
 	if( colA.size() == 0 && colB.size() == 0 ) {
 		return;
-	}
+        }
 	else if( colA.size() == 0 ) {
 		v = vectorPopFront( &colB );
 		machinePick = "Machine picks B";
-	}
+        }
 	else if( colB.size() == 0 ) {
         v = vectorPopFront( &colA );
 		machinePick = "Machine picks A";
-	}
+        }
 	else {
 
         
@@ -221,10 +221,10 @@ void pickComputerMove() {
                      worstScoreIfPickA,
                      worstScoreIfPickB );
 			machinePick = machinePickBuffer;
-		}
-	}
+            }
+        }
 	machineScore += v;
-}
+    }
 
 
 
@@ -257,7 +257,7 @@ int worstCaseScore( SimpleVector<int> *inA, int inAIndex,
         }
 	else if( bSize == inBIndex ) {
         int a0 = inA->getElementDirect( inAIndex );
-    
+        
 		if( inTurn ) {
 			return worstCaseScore( inA, inAIndex + 1, 
                                    inB, inBIndex,
@@ -267,8 +267,8 @@ int worstCaseScore( SimpleVector<int> *inA, int inAIndex,
 			return worstCaseScore( inA, inAIndex + 1, 
                                    inB, inBIndex,
                                    1 ) - a0;
-		}
-	}
+            }
+        }
 	else {
 		// neither empty
         int a0 = inA->getElementDirect( inAIndex );
@@ -286,11 +286,11 @@ int worstCaseScore( SimpleVector<int> *inA, int inAIndex,
 			// we want to maximize our worst-case score after this
 			if( worstIfPickA > worstIfPickB ) {
 				return worstIfPickA;
-			}
+                }
 			else {
 				return worstIfPickB;
-			}
-		}
+                }
+            }
 		else {
 			// their turn
 			int worstIfPickA = worstCaseScore( inA, inAIndex + 1, 
@@ -303,23 +303,23 @@ int worstCaseScore( SimpleVector<int> *inA, int inAIndex,
 			// they want to minimize our worst-case score after this
 			if( worstIfPickA < worstIfPickB ) {
 				return worstIfPickA;
-			}
+                }
 			else {
 				return worstIfPickB;
-			}
-		}
-	}
-}
+                }
+            }
+        }
+    }
 
 
 
 /*
-function rewind() {
-	humanScore = 0;
-	machineScore = 0;
-	machinePick = "";
-	colA = colAOrig.slice();
-	colB = colBOrig.slice();
-	setupTable();
-}
+  function rewind() {
+  humanScore = 0;
+  machineScore = 0;
+  machinePick = "";
+  colA = colAOrig.slice();
+  colB = colBOrig.slice();
+  setupTable();
+  }
 */
