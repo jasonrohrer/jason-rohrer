@@ -13,6 +13,9 @@ int worstCaseScore( SimpleVector<int> *inA, int inAIndex,
                     SimpleVector<int> *inB, int inBIndex,
                     int inTurn );
 
+void findInterestingStates( int inColumnLength );
+
+
 
 int numRounds = 14;
 
@@ -43,6 +46,8 @@ static void printPrompt() {
 
 int main() {
     Time::getCurrentTime();
+
+    findInterestingStates( 7 );
     
     for( int i=0; i<numRounds; i++ ) {
         if( randSource.getRandomBoolean() ) {
@@ -323,3 +328,120 @@ int worstCaseScore( SimpleVector<int> *inA, int inAIndex,
   setupTable();
   }
 */
+
+
+static void addOne( SimpleVector<int> *inA, SimpleVector<int> *inB ) {
+    *( inA->getElement( 0 ) ) += 1;
+    
+    int i = 0;
+    while( i < inA->size() - 1 &&
+           inA->getElementDirect( i ) == 2 ) {
+        *( inA->getElement( i ) ) -= 2;
+        *( inA->getElement( i + 1 ) ) += 1;
+        i++;
+        }
+    
+    if( inA->getElementDirect( inA->size() - 1 ) == 2 ) {
+        // carry into B
+        *( inA->getElement( inA->size() - 1 ) ) -= 2;
+    
+        *( inB->getElement( 0 ) ) += 1;
+
+        int i = 0;
+        while( i < inB->size() - 1 &&
+               inB->getElementDirect( i ) == 2 ) {
+            *( inB->getElement( i ) ) -= 2;
+            *( inB->getElement( i + 1 ) ) += 1;
+            i++;
+            }
+        }
+    }
+
+
+static void print( SimpleVector<int> *inA, SimpleVector<int> *inB ) {
+    printf( "A: " );
+    for( int i=0; i< inA->size(); i++ ) {
+        printf( "%d  ", inA->getElementDirect( i ) );
+        }
+    printf( "\n" );
+    
+    printf( "B: " );
+    for( int i=0; i< inB->size(); i++ ) {
+        printf( "%d  ", inB->getElementDirect( i ) );
+        }
+    printf( "\n\n" );    
+    }
+
+
+
+void findInterestingStates( int inColumnLength ) {
+    SimpleVector<int> testA;
+    SimpleVector<int> testB;
+
+    // both start at 0
+    // each iteration, we line them up, end-to-end, and add 1 to first
+    // position, like binary addition with carries
+    // thus, we walk through all possible states for A and B
+    for( int i=0; i<inColumnLength; i++ ) {
+        testA.push_back( 0 );
+        testB.push_back( 0 );
+        }
+    
+
+    // we overflow at the end
+    while( testB.getElementDirect( testB.size() - 1 ) != 2 ) {
+        
+        int worstScoreIfPickA = 
+            worstCaseScore( &testA, 1, &testB, 0, 0 ) + 
+            testA.getElementDirect( 0 );
+
+        int worstScoreIfPickB = 
+            worstCaseScore( &testA, 0, &testB, 1, 0 ) + 
+            testB.getElementDirect(0);
+
+        if( testA.getElementDirect( 0 ) != testB.getElementDirect( 0 ) ) {
+            if( worstScoreIfPickA < worstScoreIfPickB 
+                &&
+                testA.getElementDirect( 0 ) > testB.getElementDirect( 0 ) ) {
+                
+                print( &testA, &testB );
+                }
+            else if( worstScoreIfPickB < worstScoreIfPickA
+                     &&
+                     testB.getElementDirect( 0 ) > 
+                     testA.getElementDirect( 0 ) ) {
+                
+                print( &testA, &testB );
+                }
+            }
+        else if( false && 
+                 testA.getElementDirect( 0 ) == 
+                 testB.getElementDirect( 0 ) ) {
+            if( worstScoreIfPickA != worstScoreIfPickB ) {
+                
+                if( testA.getElementDirect( 1 ) == 
+                    testB.getElementDirect( 1 ) &&
+                    testA.getElementDirect( 2 ) == 
+                    testB.getElementDirect( 2 ) &&
+                    testA.getElementDirect( 3 ) == 
+                    testB.getElementDirect( 3 )
+                    ) {
+                    
+
+                    printf( "Worst if A: %d, Worst if B: %d\n",
+                            worstScoreIfPickA, worstScoreIfPickB );
+                    print( &testA, &testB );
+                    }
+                }
+            }
+        if( false ) {
+            printf( "Worst if A: %d, Worst if B: %d\n",
+                    worstScoreIfPickA, worstScoreIfPickB );
+            print( &testA, &testB );
+            }
+        
+
+        addOne( &testA, &testB );
+        }
+    }
+
