@@ -47,7 +47,7 @@ static void printPrompt() {
 int main() {
     Time::getCurrentTime();
 
-    findInterestingStates( 7 );
+    findInterestingStates( 3 );
     
     for( int i=0; i<numRounds; i++ ) {
         if( randSource.getRandomBoolean() ) {
@@ -330,27 +330,30 @@ int worstCaseScore( SimpleVector<int> *inA, int inAIndex,
 */
 
 
+static int base = 3;
+
+
 static void addOne( SimpleVector<int> *inA, SimpleVector<int> *inB ) {
     *( inA->getElement( 0 ) ) += 1;
     
     int i = 0;
     while( i < inA->size() - 1 &&
-           inA->getElementDirect( i ) == 2 ) {
-        *( inA->getElement( i ) ) -= 2;
+           inA->getElementDirect( i ) == base ) {
+        *( inA->getElement( i ) ) -= base;
         *( inA->getElement( i + 1 ) ) += 1;
         i++;
         }
     
-    if( inA->getElementDirect( inA->size() - 1 ) == 2 ) {
+    if( inA->getElementDirect( inA->size() - 1 ) == base ) {
         // carry into B
-        *( inA->getElement( inA->size() - 1 ) ) -= 2;
+        *( inA->getElement( inA->size() - 1 ) ) -= base;
     
         *( inB->getElement( 0 ) ) += 1;
 
         int i = 0;
         while( i < inB->size() - 1 &&
-               inB->getElementDirect( i ) == 2 ) {
-            *( inB->getElement( i ) ) -= 2;
+               inB->getElementDirect( i ) == base ) {
+            *( inB->getElement( i ) ) -= base;
             *( inB->getElement( i + 1 ) ) += 1;
             i++;
             }
@@ -389,7 +392,7 @@ void findInterestingStates( int inColumnLength ) {
     
 
     // we overflow at the end
-    while( testB.getElementDirect( testB.size() - 1 ) != 2 ) {
+    while( testB.getElementDirect( testB.size() - 1 ) != base ) {
         
         int worstScoreIfPickA = 
             worstCaseScore( &testA, 1, &testB, 0, 0 ) + 
@@ -402,15 +405,20 @@ void findInterestingStates( int inColumnLength ) {
         if( testA.getElementDirect( 0 ) != testB.getElementDirect( 0 ) ) {
             if( worstScoreIfPickA < worstScoreIfPickB 
                 &&
-                testA.getElementDirect( 0 ) > testB.getElementDirect( 0 ) ) {
+                testA.getElementDirect( 0 ) >
+                testB.getElementDirect( 0 ) ) {
                 
+                printf( "Worst if A: %d, Worst if B: %d\n",
+                        worstScoreIfPickA, worstScoreIfPickB );
                 print( &testA, &testB );
                 }
             else if( worstScoreIfPickB < worstScoreIfPickA
                      &&
-                     testB.getElementDirect( 0 ) > 
+                     testB.getElementDirect( 0 ) >
                      testA.getElementDirect( 0 ) ) {
                 
+                printf( "Worst if A: %d, Worst if B: %d\n",
+                        worstScoreIfPickA, worstScoreIfPickB );
                 print( &testA, &testB );
                 }
             }
