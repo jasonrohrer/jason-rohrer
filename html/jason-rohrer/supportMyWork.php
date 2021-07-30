@@ -51,7 +51,6 @@ My <A HREF="pictures.html">spouse, three children, and I</A> live a very simple,
 Donation: $<input type="text" SIZE=8 name="amount" value="">
 <input type="image" src="https://www.paypal.com/images/x-click-but04.gif" border="0" name="submit" alt="Make payments with PayPal - it's fast, free and secure!" ALIGN=MIDDLE>
 </form>
-[<A HREF="mail.shtml">donate by mail</A>]
 </TD></TR></TABLE>
 </CENTER>
 

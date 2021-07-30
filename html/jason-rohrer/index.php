@@ -125,7 +125,7 @@ Link to Cultivation and to Jon Newton.
 <H1>Jason Rohrer</H1>
 
 <!--<H3>painter -- scholar -- poet -- lover -- scientist -- composer -- disciplinarian</H3>-->
-Currently parenting and making video games in Davis, California.<br><br>
+Currently parenting and making video games somewhere in New Hampshire.<br><br>
 
  [<A HREF="http://hcsoftware.sf.net/jason-rohrer/worklog">worklog</A>] [<a href="releaseLog.html">release log</a>] [<A HREF="supportMyWork.php">support my work</A>]<br><br><br>
 
@@ -345,12 +345,11 @@ An HTML version of <A HREF="resume.html">my resume</A>.<BR><BR>
 
 <BR>
 <H1>Contact Information</H1>
-Phone:  530-756-4491<BR>
 Email (as a robot-proof image):<br>
 <img src="NoRobot.png"><br>
 Web: <A HREF="http://hcsoftware.sf.net/jason-rohrer">http://hcsoftware.sf.net/jason-rohrer</A><BR>
 <!--ICQ:   6258285<BR> -->
-Public Key:  <A HREF="pubkey.txt">pubkey.txt</A><BR>
+<!--Public Key:  <A HREF="pubkey.txt">pubkey.txt</A><BR> -->
 
 <BR>
 <BR>
