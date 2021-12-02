@@ -1,0 +1,1 @@
+g++ -g -o binaryGame binaryGame.cpp -I../../../../../cpp ../../../../../cpp/minorGems/system/linux/ThreadLinux.cpp ../../../../../cpp/minorGems/system/unix/TimeUnix.cpp -pthread
