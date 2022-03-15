@@ -17,7 +17,7 @@ hourMeridian=`date +"%p"`
 minuteNum=`date +"%M"`
 
 
-path="$basePath/$cameraName/$year/${monthNum}_$monthName/${dayNum}_$dayName/${hourMeridian}_$hourNum/"
+path="$basePath/$year/${monthNum}_$monthName/${dayNum}_$dayName/${hourMeridian}_$hourNum/$cameraName/"
 
 
 
