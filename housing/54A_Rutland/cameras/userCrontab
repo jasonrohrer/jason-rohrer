@@ -1,0 +1,32 @@
+
+# snaps every 30 seconds (second job sleeps for 30 seconds)
+
+* * * * *  /home/jasonrohrer/checkout/jason-rohrer/housing/54A_Rutland/cameras/periodicSnapCron.sh frontDoor 192.168.88.230
+* * * * * sleep 30; /home/jasonrohrer/checkout/jason-rohrer/housing/54A_Rutland/cameras/periodicSnapCron.sh frontDoor 192.168.88.230
+
+
+* * * * *  /home/jasonrohrer/checkout/jason-rohrer/housing/54A_Rutland/cameras/periodicSnapCron.sh backDoor 192.168.88.231
+* * * * * sleep 30; /home/jasonrohrer/checkout/jason-rohrer/housing/54A_Rutland/cameras/periodicSnapCron.sh backDoor 192.168.88.231
+
+
+* * * * *  /home/jasonrohrer/checkout/jason-rohrer/housing/54A_Rutland/cameras/periodicSnapCron.sh garage 192.168.88.232
+* * * * * sleep 30; /home/jasonrohrer/checkout/jason-rohrer/housing/54A_Rutland/cameras/periodicSnapCron.sh garage 192.168.88.232
+
+
+# vids every 10 minutes for each camera
+
+*/10 * * * *  /home/jasonrohrer/checkout/jason-rohrer/housing/54A_Rutland/cameras/tenMinuteVideoCron.sh frontDoor 192.168.88.230
+
+*/10 * * * *  /home/jasonrohrer/checkout/jason-rohrer/housing/54A_Rutland/cameras/tenMinuteVideoCron.sh backDoor 192.168.88.231
+
+*/10 * * * *  /home/jasonrohrer/checkout/jason-rohrer/housing/54A_Rutland/cameras/tenMinuteVideoCron.sh garage 192.168.88.232
+
+
+# at 1am each day, run timelapse-building from snaps taken previous day
+# space these out by 10 minutes to avoid high CPU
+
+00 01 * * * /home/jasonrohrer/checkout/jason-rohrer/housing/54A_Rutland/cameras/assembleDailyTimelapse.sh frontDoor
+
+10 01 * * * /home/jasonrohrer/checkout/jason-rohrer/housing/54A_Rutland/cameras/assembleDailyTimelapse.sh backDoor
+
+20 01 * * * /home/jasonrohrer/checkout/jason-rohrer/housing/54A_Rutland/cameras/assembleDailyTimelapse.sh garage

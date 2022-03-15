@@ -1,0 +1,33 @@
+# specify camera name (no spaces) as first argument
+cameraName=$1
+
+# script should be called shortly after 1:00 AM of the following day
+
+
+
+basePath="/var/www/html/camera"
+
+
+
+# subtract 3 hours to get us squarely back in yesterday
+
+year=`date -d '3 hours ago' +"%Y"`
+monthNum=`date -d '3 hours ago' +"%m"`
+monthName=`date -d '3 hours ago' +"%b"`
+dayNum=`date -d '3 hours ago' +"%d"`
+dayName=`date -d '3 hours ago' +"%a"`
+
+
+pathSnaps="$basePath/$year/${monthNum}_$monthName/${dayNum}_$dayName/snapsWorking_$cameraName/"
+
+pathDest="$basePath/$year/${monthNum}_$monthName/${dayNum}_$dayName/"
+
+mkdir -p $pathSnaps
+mkdir -p $pathDest
+
+
+fileName="${cameraName}_fullDay_timelapse.mp4"
+
+
+cd $pathSnaps
+ffmpeg -r 30 -pattern_type glob -i '*.jpg' -c:v libx264 -vf fps=25 -pix_fmt yuv420p $pathDest$fileName
