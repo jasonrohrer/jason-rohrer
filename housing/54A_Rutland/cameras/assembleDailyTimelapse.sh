@@ -30,4 +30,4 @@ fileName="${cameraName}_fullDay_timelapse.mp4"
 
 
 cd $pathSnaps
-ffmpeg -r 30 -pattern_type glob -i '*.jpg' -c:v libx264 -vf fps=25 -pix_fmt yuv420p $pathDest$fileName
+ffmpeg -r 30 -pattern_type glob -i '*.jpg' -c:v libx264 -pix_fmt yuv420p $pathDest$fileName
