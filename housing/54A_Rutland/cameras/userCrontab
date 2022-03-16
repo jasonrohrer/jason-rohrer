@@ -1,16 +1,19 @@
 
-# snaps every 30 seconds (second job sleeps for 30 seconds)
+# snaps every 20 seconds (repeate jobs sleep for 20/40 seconds)
 
 * * * * *  /home/jasonrohrer/checkout/jason-rohrer/housing/54A_Rutland/cameras/periodicSnapCron.sh frontDoor 192.168.88.230
-* * * * * sleep 30; /home/jasonrohrer/checkout/jason-rohrer/housing/54A_Rutland/cameras/periodicSnapCron.sh frontDoor 192.168.88.230
+* * * * * sleep 20; /home/jasonrohrer/checkout/jason-rohrer/housing/54A_Rutland/cameras/periodicSnapCron.sh frontDoor 192.168.88.230
+* * * * * sleep 40; /home/jasonrohrer/checkout/jason-rohrer/housing/54A_Rutland/cameras/periodicSnapCron.sh frontDoor 192.168.88.230
 
 
 * * * * *  /home/jasonrohrer/checkout/jason-rohrer/housing/54A_Rutland/cameras/periodicSnapCron.sh backDoor 192.168.88.231
-* * * * * sleep 30; /home/jasonrohrer/checkout/jason-rohrer/housing/54A_Rutland/cameras/periodicSnapCron.sh backDoor 192.168.88.231
+* * * * * sleep 20; /home/jasonrohrer/checkout/jason-rohrer/housing/54A_Rutland/cameras/periodicSnapCron.sh backDoor 192.168.88.231
+* * * * * sleep 40; /home/jasonrohrer/checkout/jason-rohrer/housing/54A_Rutland/cameras/periodicSnapCron.sh backDoor 192.168.88.231
 
 
 * * * * *  /home/jasonrohrer/checkout/jason-rohrer/housing/54A_Rutland/cameras/periodicSnapCron.sh garage 192.168.88.232
-* * * * * sleep 30; /home/jasonrohrer/checkout/jason-rohrer/housing/54A_Rutland/cameras/periodicSnapCron.sh garage 192.168.88.232
+* * * * * sleep 20; /home/jasonrohrer/checkout/jason-rohrer/housing/54A_Rutland/cameras/periodicSnapCron.sh garage 192.168.88.232
+* * * * * sleep 40; /home/jasonrohrer/checkout/jason-rohrer/housing/54A_Rutland/cameras/periodicSnapCron.sh garage 192.168.88.232
 
 
 # vids every 10 minutes for each camera
