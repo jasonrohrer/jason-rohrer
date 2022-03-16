@@ -19,15 +19,22 @@ dayName=`date -d '3 hours ago' +"%a"`
 
 
 pathSnaps="$basePath/$year/${monthNum}_$monthName/${dayNum}_$dayName/snapsWorking_$cameraName/"
+pathMotion="$basePath/$year/${monthNum}_$monthName/${dayNum}_$dayName/motionSnaps_$cameraName/"
 
 pathDest="$basePath/$year/${monthNum}_$monthName/${dayNum}_$dayName/"
 
 mkdir -p $pathSnaps
+mkdir -p $pathMotion
 mkdir -p $pathDest
 
 
 fileName="${cameraName}_fullDay_timelapse.mp4"
 
+motionFileName="${cameraName}_fullDay_motion_timelapse.mp4"
+
 
 cd $pathSnaps
 ffmpeg -r 30 -pattern_type glob -i '*.jpg' -c:v libx264 -pix_fmt yuv420p $pathDest$fileName
+
+cd $pathDestMotion
+ffmpeg -r 5 -pattern_type glob -i '*.jpg' -c:v libx264 -pix_fmt yuv420p $pathDest$motionFileName
