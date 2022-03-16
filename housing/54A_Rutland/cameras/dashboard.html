@@ -1,3 +1,6 @@
+<html>
+  <body bgcolor=black>
+	
 <center>
 <img height=70% src="" id="myImageA" onclick="bigA()"/><br><br>
 <img height=10% src="" id="myImageB" onclick="bigB()"/><br><br>
@@ -51,4 +54,23 @@ setInterval(function() {
 	  pickBig( "10%", "10%", "70%" );
   }
 
+
+  document.onkeydown = function( evt ) {
+      //evt = evt || window.event;
+      if( evt.keyCode == 49 ) {
+		  bigA();
+	  }
+	  else if( evt.keyCode == 50 ) {
+		  bigB();
+	  }
+	  else if( evt.keyCode == 51 ) {
+		  bigC();
+	  }
+  };
+
 </script>
+
+
+  </body>
+
+  </html>
