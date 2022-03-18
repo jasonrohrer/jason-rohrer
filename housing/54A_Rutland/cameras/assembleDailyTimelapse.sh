@@ -38,3 +38,9 @@ ffmpeg -r 30 -pattern_type glob -i '*.jpg' -c:v libx264 -pix_fmt yuv420p $pathDe
 
 cd $pathMotion
 ffmpeg -r 5 -pattern_type glob -i '*.jpg' -c:v libx264 -pix_fmt yuv420p $pathDest$motionFileName
+
+
+
+# now clear any files older than 30 days
+cd $basePath
+find . -mtime +30 -delete 
