@@ -8,29 +8,69 @@
 </center>
 
 <script>
+
+  var loadingFlags=[ 0, 0, 0 ];
+
+  function doneLoading(i) {
+	  loadingFlags[i] = 0;
+  }
+
+  function resetLoadingFlags() {
+	  loadingFlags[0] =  1;
+	  loadingFlags[1] =  1;
+	  loadingFlags[2] =  1;
+  }
+  
+  
+  
   var urlA = "http://192.168.88.230:88/cgi-bin/CGIProxy.fcgi?cmd=snapPicture2&usr=admin&pwd="
   var urlB = "http://192.168.88.231:88/cgi-bin/CGIProxy.fcgi?cmd=snapPicture2&usr=admin&pwd="
   var urlC = "http://192.168.88.232:88/cgi-bin/CGIProxy.fcgi?cmd=snapPicture2&usr=admin&pwd="
   
-var myImageElementA = document.getElementById('myImageA');
-myImageElementA.src = urlA + '&rand=' + Math.random();
+  var myImageElementA = document.getElementById('myImageA');
+  myImageElementA.onload = function() { doneLoading(0) };
+  myImageElementA.src = urlA + '&rand=' + Math.random();
+  
+  var myImageElementB = document.getElementById('myImageB');
+  myImageElementB.onload = function() { doneLoading(1) };
+  myImageElementB.src = urlB + '&rand=' + Math.random();
+  
+  
+  var myImageElementC = document.getElementById('myImageC');
+  myImageElementC.onload = function() { doneLoading(2) };
+  myImageElementC.src = urlC + '&rand=' + Math.random();
+  
 
-var myImageElementB = document.getElementById('myImageB');
-myImageElementB.src = urlB + '&rand=' + Math.random();
 
-var myImageElementC = document.getElementById('myImageC');
-myImageElementC.src = urlC + '&rand=' + Math.random();
+  function periodicReload() {
+	  // note that we must wait until the last reload is complete before
+	  // changing the img src URLs again and triggering a new reload
 
-setInterval(function() {
-    var myImageElementA = document.getElementById('myImageA');
-    myImageElementA.src = urlA + '&rand=' + Math.random();
-
-    var myImageElementB = document.getElementById('myImageB');
-    myImageElementB.src = urlB + '&rand=' + Math.random();
-
-	var myImageElementC = document.getElementById('myImageC');
-    myImageElementC.src = urlC + '&rand=' + Math.random();
-}, 500);
+	  // If we just run this on a timer every 500 ms, and the reloads take
+	  // longer than that, they seem to pile up.  The images update
+	  // erratically in the browser in that case.
+	  
+	  if ( loadingFlags[0] || loadingFlags[1] || loadingFlags[2] ) {
+		  // wait longer
+		  setTimeout( periodicReload, 50 );
+		  return;
+	  }
+	  
+	  resetLoadingFlags();
+	  
+	  var myImageElementA = document.getElementById('myImageA');
+      myImageElementA.src = urlA + '&rand=' + Math.random();
+	  
+      var myImageElementB = document.getElementById('myImageB');
+      myImageElementB.src = urlB + '&rand=' + Math.random();
+	  
+	  var myImageElementC = document.getElementById('myImageC');
+      myImageElementC.src = urlC + '&rand=' + Math.random();
+	  
+	  setTimeout( periodicReload, 500 );
+  }
+  
+  setTimeout( periodicReload, 500 );
 
 
 
