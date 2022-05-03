@@ -188,19 +188,19 @@ A monthly series of game prototypes commissioned by <i>The Escapist</i>.<br><br>
     <b>NOTE:</b>  Downloads hosted by <i>The Escapist</i> no longer work.<br>
      A mirror has been <a href="https://sourceforge.net/projects/hcsoftware/files/GameDesignSketchbook/">posted here</a>.<br><br><br>
     
-<A HREF="http://www.escapistmagazine.com/articles/view/editorials/gamedesignsketchbook/3018-Game-Design-Sketchbook-Perfectionism">Perfectionism</A>-- about the trap of perfectionism.<BR><BR>
+<A HREF="https://www.escapistmagazine.com/game-design-sketchbook-perfectionism/">Perfectionism</A>-- about the trap of perfectionism.<BR><BR>
 
-<A HREF="http://www.escapistmagazine.com/articles/view/editorials/gamedesignsketchbook/3560-Game-Design-Sketchbook-Idealism">Idealism</A>-- about learning ideals from others.<BR><BR>
+<A HREF="https://www.escapistmagazine.com/game-design-sketchbook-idealism/">Idealism</A>-- about learning ideals from others.<BR><BR>
 
-<A HREF="http://www.escapistmagazine.com/articles/view/editorials/gamedesignsketchbook/4882-Police-Brutality">Police Brutality</A>-- how can you thwart unreasonable police escalation?<BR><BR>
+<A HREF="https://www.escapistmagazine.com/game-design-sketchbook-police-brutality/">Police Brutality</A>-- how can you thwart unreasonable police escalation?<BR><BR>
 
-<A HREF="http://www.escapistmagazine.com/articles/view/editorials/gamedesignsketchbook/4966-Immortality">Immortality</A>-- If you could become immortal, would you?<BR><BR>
+<A HREF="https://www.escapistmagazine.com/game-design-sketchbook-immortality/">Immortality</A>-- If you could become immortal, would you?<BR><BR>
 
-<A HREF="http://www.escapistmagazine.com/articles/view/editorials/gamedesignsketchbook/5037-Game-Design-Sketchbook-Regret">Regret</A>-- about leaving the past behind you.<BR><BR>
+<A HREF="https://www.escapistmagazine.com/game-design-sketchbook-regret/">Regret</A>-- about leaving the past behind you.<BR><BR>
 
-<A HREF="http://www.escapistmagazine.com/articles/view/editorials/gamedesignsketchbook/5123-Game-Design-Sketchbook-Testing-the-Limits-of-Single-Player">i45hg</A>-- testing the limits of single-player.<BR><BR>
+<A HREF="https://www.escapistmagazine.com/game-design-sketchbook-testing-the-limits-of-single-player/">i45hg</A>-- testing the limits of single-player.<BR><BR>
 
-<A HREF="http://www.escapistmagazine.com/articles/view/editorials/gamedesignsketchbook/5215-Game-Design-Sketchbook-Crude-Oil">Crude Oil</A>-- my first two-player game.<BR><BR>
+<A HREF="https://www.escapistmagazine.com/game-design-sketchbook-crude-oil/">Crude Oil</A>-- my first two-player game.<BR><BR>
 
 
 <BR>
@@ -225,7 +225,7 @@ A monthly series of game prototypes commissioned by <i>The Escapist</i>.<br><br>
 <A HREF="http://hcsoftware.sourceforge.net/jason-rohrer/freeDistribution.html">Free Distribution</A>-- an essay (September 27, 2004).<BR><BR>
 <A HREF="writing/nonfiction/labectomy/">The case for labectomy</A>-- a pamphlet (March 6, 2002).<BR><BR>
 <A HREF="writing/nonfiction/postAcademia/">Post-Academic Manifesto</A>-- a flyer (January 15, 2002, Revised March 27, 2002)[<A HREF="writing/nonfiction/postAcademia/postAcademia.ps.gz">ps.gz</A> (23 KiB)][<A HREF="writing/nonfiction/postAcademia/postAcademia.pdf">pdf</A> (57 KiB)].<BR><BR>
-<A HREF="http://www.escapistmagazine.com/articles/view/issues/issue_155/4987-The-Game-Design-of-Art">The Game Design of Art</A>-- an essay published by The Escapist(June 24, 2008).<BR><BR>
+<A HREF="https://www.escapistmagazine.com/the-game-design-of-art/">The Game Design of Art</A>-- an essay published by The Escapist(June 24, 2008).<BR><BR>
 
 <BR>
 <H1>Journal Publications</H1>
