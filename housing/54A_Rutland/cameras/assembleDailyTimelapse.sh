@@ -43,4 +43,8 @@ ffmpeg -r 5 -pattern_type glob -i '*.jpg' -c:v libx264 -pix_fmt yuv420p $pathDes
 
 # now clear any files older than 30 days
 cd $basePath
+
+# make sure we don't delete the dashboard by accident
+touch dashboard.html
+
 find . -mtime +30 -delete 
