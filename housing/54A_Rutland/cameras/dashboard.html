@@ -1,13 +1,21 @@
 <html>
-  <body bgcolor=black>
+  <body bgcolor=black text=white>
 	
 <center>
-<img height=70% src="" id="myImageA" onclick="bigA()"/><br><br>
+<div id="message"><font color=black>-</font></div><br>
+<img height=68% src="" id="myImageA" onclick="bigA()"/><br><br>
 <img height=10% src="" id="myImageB" onclick="bigB()"/><br><br>
 <img height=10% src="" id="myImageC" onclick="bigC()"/>
 </center>
 
 <script>
+
+  var lastActivity = Date.now();
+
+  // 5 minutes
+  var sleepAfterIdleSeconds = 60 * 5;
+
+  var sleeping = false;
 
   var loadingFlags=[ 0, 0, 0 ];
 
@@ -39,7 +47,23 @@
   var myImageElementC = document.getElementById('myImageC');
   myImageElementC.onload = function() { doneLoading(2) };
   myImageElementC.src = urlC + '&rand=' + Math.random();
-  
+
+
+  function blinkSleepingMessage() {
+	  var div = document.getElementById('sleepCellA');
+	  if( div != null ) {
+		  div.style.visibility = 
+			  (div.style.visibility == 'hidden' ? '' : 'hidden');
+		  
+		  div = document.getElementById('sleepCellB');
+		  div.style.visibility = 
+			  (div.style.visibility == 'hidden' ? '' : 'hidden');
+		  
+		  if( sleeping ) {
+			  setTimeout( blinkSleepingMessage, 1000 );
+		  }
+	  }
+  }
 
 
   function periodicReload() {
@@ -56,8 +80,22 @@
 		  return;
 	  }
 	  
-	  resetLoadingFlags();
 	  
+	  
+	  if( Date.now() - lastActivity > sleepAfterIdleSeconds * 1000 ) {
+		  // time to sleep
+		  
+		  document.getElementById('message').innerHTML =
+			  "<table width=80% border=0 cellspacing=0 cellpadding=0><tr><td id='sleepCellA'><font color=red>SLEEPING</font></td><td align=center>Tap image to resume live updates.</td><td align=right id='sleepCellB'><font color=red>SLEEPING</font></td></tr></table>";
+		  sleeping = true;
+		  setTimeout( blinkSleepingMessage, 1000 );
+		  
+		  // skip refreshing image src urls
+		  return;
+	  }
+
+	  resetLoadingFlags();
+
 	  var myImageElementA = document.getElementById('myImageA');
       myImageElementA.src = urlA + '&rand=' + Math.random();
 	  
@@ -75,23 +113,34 @@
 
 
   function pickBig( highA, highB, highC ) {
+	  lastActivity = Date.now();
+
 	  var myImageElementA = document.getElementById('myImageA');
 	  myImageElementA.style.height=highA;
 	  var myImageElementB = document.getElementById('myImageB');
 	  myImageElementB.style.height=highB;
 	  var myImageElementC = document.getElementById('myImageC');
 	  myImageElementC.style.height=highC;
+
+	  if( sleeping ) {
+		  sleeping = false;
+		  var div = document.getElementById('message');
+		  div.innerHTML = "<font color=black>-</font>";
+		  div.style.visibility = true;
+		  // resume refresh updates
+		  periodicReload();
+	  }
   }
 
 
   function bigA() {
-	  pickBig( "70%", "10%", "10%" );
+	  pickBig( "68%", "10%", "10%" );
   }
   function bigB() {
-	  pickBig( "10%", "70%", "10%" );
+	  pickBig( "10%", "68%", "10%" );
   }
   function bigC() {
-	  pickBig( "10%", "10%", "70%" );
+	  pickBig( "10%", "10%", "68%" );
   }
 
 
