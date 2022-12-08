@@ -166,7 +166,7 @@ Email Address: <input type="text" name="email" value="">
 
 <A HREF="http://primrose.sourceforge.net">Primrose</A>-- my sixth game.  A compelling tile-placement puzzle game.  Designed with the iPhone in mind.<BR><BR>
 
-<A HREF="http://www.esquire.com/news-politics/a5329/rohrer-game/">Between</A>-- my fifth game, about consciousness and isolation.  Hosted by <i>Esquire</i> magazine as part of their December 2008 Best and Brightest feature (see <a href="http://www.esquire.com/features/best-and-brightest-2008/future-of-video-game-design-1208">my profile</a> in <i>Esquire</i>).<BR><BR>
+<A HREF="https://hcsoftware.sourceforge.net/between/">Between</A>-- my fifth game, about consciousness and isolation.  Hosted by <i>Esquire</i> magazine as part of their December 2008 Best and Brightest feature (see <a href="http://www.esquire.com/features/best-and-brightest-2008/future-of-video-game-design-1208">my profile</a> in <i>Esquire</i>).<BR><BR>
 
 
 <A HREF="http://hcsoftware.sourceforge.net/gravitation">Gravitation</A>-- my fourth game, about mania, melancholia, and the creative process.<BR><BR>
@@ -375,7 +375,7 @@ A mirror of the <A HREF="eldredVashcroft.html">Eldred vs. Ashcroft hearing trans
 <TR>
 
 <TD ALIGN=LEFT VALIGN=TOP>
-last updated on March 12, 2018.
+last updated on December 8, 2022.
 </TD>
 
 <TD ALIGN=RIGHT>
