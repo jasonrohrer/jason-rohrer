@@ -256,7 +256,7 @@ A monthly series of game prototypes commissioned by <i>The Escapist</i>.<br><br>
 <BR>
 <H1>Software Research Projects</H1>
 
-<A HREF="http://reprojector.net">MUTE</A>-- an equirectangular map reprojection tool.<BR><BR>
+<A HREF="http://reprojector.net">Reprojector</A>-- an equirectangular map reprojection tool.<BR><BR>
 
 <A HREF="http://mute-net.sourceforge.net">MUTE</A>-- an anonymous file sharing system.  Downloaded over <i>one million</i> times as of October 28, 2008.<BR><BR>
 
