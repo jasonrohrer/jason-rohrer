@@ -256,6 +256,8 @@ A monthly series of game prototypes commissioned by <i>The Escapist</i>.<br><br>
 <BR>
 <H1>Software Research Projects</H1>
 
+<A HREF="http://reprojector.net">MUTE</A>-- an equirectangular map reprojection tool.<BR><BR>
+
 <A HREF="http://mute-net.sourceforge.net">MUTE</A>-- an anonymous file sharing system.  Downloaded over <i>one million</i> times as of October 28, 2008.<BR><BR>
 
 <A HREF="http://hcsoftware.sf.net/seedBlogs">seedBlogs</A>-- a tool for building dynamic websites<BR><BR>
@@ -375,7 +377,7 @@ A mirror of the <A HREF="eldredVashcroft.html">Eldred vs. Ashcroft hearing trans
 <TR>
 
 <TD ALIGN=LEFT VALIGN=TOP>
-last updated on December 8, 2022.
+last updated on January 11, 2023.
 </TD>
 
 <TD ALIGN=RIGHT>
