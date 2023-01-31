@@ -140,10 +140,20 @@ Email Address: <input type="text" name="email" value="">
 <br>
 
 
+<H1>Real-World Games</H1>
+
+<A HREF="https://projectskydrop.com">Project Skydrop</A>-- a real-world treasure hunt in a shrinking circle.  Starting soon.<BR><BR>
+
+<A HREF="https://www.polygon.com/2013/3/28/4157884/game-designer-jason-rohrer-designs-a-game-meant-to-be-played-2000">A Game for Someone</A>-- a titanium board
+game that won't be played by anyone for at least 2000 years.  Available now, somewhere in the Nevada Desert.<BR><BR>
+
+<br>
+
+
 <H1>Artificial Intelligence Projects</H1>
 
 
-<A HREF="http://projectdecember.net">Project December</A>-- Talk to the world's most sophisticated AI.  Available now.<BR><BR>
+<A HREF="http://projectdecember.net">Project December</A>-- Talk to the world's most sophisticated AI.  Simulate the dead.  Available now.<BR><BR>
 
 <br>
      
@@ -377,7 +387,7 @@ A mirror of the <A HREF="eldredVashcroft.html">Eldred vs. Ashcroft hearing trans
 <TR>
 
 <TD ALIGN=LEFT VALIGN=TOP>
-last updated on January 11, 2023.
+last updated on January 31, 2023.
 </TD>
 
 <TD ALIGN=RIGHT>
