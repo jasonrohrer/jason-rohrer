@@ -89,9 +89,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.979899"
-     inkscape:cx="204.60538"
-     inkscape:cy="766.21562"
+     inkscape:zoom="2"
+     inkscape:cx="135.87035"
+     inkscape:cy="856.77709"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -139,7 +139,7 @@
      id="layer1">
     <path
        style="display:inline;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:2.0999999;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 52.255208,94.404762 3.685268,-6.331101 1.889879,1.606397 5.717286,-9.827382 5.717286,9.827382 1.889879,-1.606397 3.685267,6.331101"
+       d="m 52.207568,94.404762 3.685268,-6.331101 1.889879,1.606397 5.717286,-9.827382 5.717286,9.827382 1.889879,-1.606397 3.685267,6.331101"
        id="path6271"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccccc" />
@@ -170,7 +170,7 @@
        id="circle4558"
        transform="rotate(-90)"
        r="14.2875"
-       cy="63.499668"
+       cy="63.5"
        cx="-87.601288" />
     <text
        id="text4563"
@@ -200,5 +200,11 @@
          y="95.407486"
          style="font-size:2.57176113px;line-height:0%;stroke-width:0.08036753px"
          id="tspan6709">MOUNTAIN</tspan></text>
+    <circle
+       style="display:inline;opacity:0.98000004;fill:none;fill-opacity:1;stroke:#f20000;stroke-width:0.1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path6835"
+       cx="63.5"
+       cy="75.55584"
+       r="1.5" />
   </g>
 </svg>
