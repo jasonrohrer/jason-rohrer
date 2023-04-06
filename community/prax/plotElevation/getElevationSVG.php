@@ -1,27 +1,33 @@
 <?php
 
 $start = ev_requestFilter( "start",
-                           "/[\-]?[0-9]+\.[0-9]+,[\-]?[0-9]+\.[0-9]+/", "" );
+                           "/[\-]?[0-9]+\.[0-9]+,\s?[\-]?[0-9]+\.[0-9]+/", "" );
 $end = ev_requestFilter( "end",
-                         "/[\-]?[0-9]+\.[0-9]+,[\-]?[0-9]+\.[0-9]+/", "" );
+                         "/[\-]?[0-9]+\.[0-9]+,\s?[\-]?[0-9]+\.[0-9]+/", "" );
+
+$distMiles = ev_requestFilter( "dist",
+                               "/[0-9]+[.]?[0-9]?/", "0" );
+
 
 $numPoints = ev_requestFilter( "num_points", "/[0-9]+/", "0" );
 
 
-if( $start != "" && $end != "" && $numPoints != 0 ) {
+if( $start != "" && $end != "" && $distMiles != 0 && $numPoints != 0 ) {
     // generate SVG
 
     $startParts = preg_split( "/,/", $start );
     $endParts = preg_split( "/,/", $end );
 
-    $startLat = $startParts[0];
-    $startLon = $startParts[1];
+    $startLat = trim( $startParts[0] );
+    $startLon = trim( $startParts[1] );
 
-    $endLat = $endParts[0];
-    $endLon = $endParts[1];
+    $endLat = trim( $endParts[0] );
+    $endLon = trim( $endParts[1] );
 
     $latDelta = $endLat - $startLat;
     $lonDelta = $endLon - $startLon;
+
+    $distMeters = $distMiles * 5280 * 0.3048;
 
     
     $points = array();
@@ -65,48 +71,58 @@ if( $start != "" && $end != "" && $numPoints != 0 ) {
         //echo $r->elevation;
         //echo "\n";
         }
+    //exit();
+    
 
+    // 2000 meters is just tall enough to include Mt. Washington
+    $maxElev = 2000;
+
+
+    // target height in mm for all images
+    $targetImageHeight = 20;
+    
+    $scaleFactor = $targetImageHeight / $maxElev;
     
     
+    // square plot, regardless of hike distance
+    //$plotWidth = 2000;
+    $plotWidth = $distMeters * $scaleFactor;
+
+    $plotHeight = $maxElev * $scaleFactor;
     
     header( 'Content-Type: image/svg+xml' );
 
     echo '<?xml version="1.0" encoding="utf-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="300" height="2000">';
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="';
+    // room on left and right for gap around plot
+    echo $plotWidth + 20;
+    echo '" height="';
+    echo $plotHeight;
+    echo '">';
+    echo "\n";
+    echo '<rect x="0" width="';
+    echo $plotWidth + 20;
+    echo '" height="';
+    echo $plotHeight;
+    echo '" fill="#FFEEEE"/>';
     echo "\n";
     
-    $jump = 280 / count( $elev );
-
-    // quadratic curve
-    /*
-    echo '<path d="M 10 ';
-    echo $elev[0];
-    echo ' Q 52.5 10, ';
-    echo 10 + $jump;
-    echo ' ';
-    echo $elev[2];
-
-    for( $i = 3; $i< count( $elev ); $i++ ) {
-        
     
-        echo ' T ';
-        echo 10 + ($i-1) * $jump;
-        echo ' ';
-        echo $elev[$i];
-        }
-    */
+    $jump = $plotWidth / ( count( $elev ) - 1 );
 
     // line segments
     echo '<path d="M 10 ';
-    echo 2000-$elev[0];
+    echo $scaleFactor * ( $maxElev - $elev[0] );
+    echo "";
     
-    for( $i = 2; $i< count( $elev ); $i++ ) {
+    for( $i = 1; $i< count( $elev ); $i++ ) {
         
     
         echo ' L ';
-        echo 10 + ($i-1) * $jump;
+        echo 10 + ($i) * $jump;
         echo ' ';
-        echo 2000-$elev[$i];
+        echo $scaleFactor * ( $maxElev - $elev[$i] );
+        echo "";
         }
     
     
@@ -115,11 +131,15 @@ if( $start != "" && $end != "" && $numPoints != 0 ) {
     
     }
 else {
+    echo "Start = $start, end =$end, dist=$dis, numPoints = $numPoints<br>";
     ?>
+    
     <FORM ACTION="getElevationSVG.php" METHOD="get">
         Start Coords: <INPUT TYPE="text" MAXLENGTH=40 SIZE=40 NAME="start"
              VALUE=""><br>
         End Coords: <INPUT TYPE="text" MAXLENGTH=40 SIZE=40 NAME="end"
+             VALUE=""><br>
+        Dist Miles: <INPUT TYPE="text" MAXLENGTH=40 SIZE=40 NAME="dist"
              VALUE=""><br>
         Num Points: <INPUT TYPE="text" MAXLENGTH=40 SIZE=40 NAME="num_points"
              VALUE="30"><br>
