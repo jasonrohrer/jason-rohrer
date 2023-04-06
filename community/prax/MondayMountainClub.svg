@@ -90,8 +90,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="2.8284271"
-     inkscape:cx="266.17704"
-     inkscape:cy="777.12728"
+     inkscape:cx="174.68528"
+     inkscape:cy="803.6331"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -186,24 +186,24 @@
          id="textPath4565">PRAX 2023</textPath></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.21470141px;line-height:80.00000119%;font-family:Futura;-inkscape-font-specification:'Futura Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.08036753px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="63.557682"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.21470141px;line-height:80.00000119%;font-family:Futura;-inkscape-font-specification:'Futura Bold';text-align:center;letter-spacing:0.26458332px;word-spacing:0px;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.08036753px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="63.499157"
        y="90.263962"
        id="text6705"><tspan
          sodipodi:role="line"
          id="tspan6703"
-         x="63.557682"
+         x="63.631447"
          y="90.263962"
-         style="font-size:2.57176113px;line-height:0%;stroke-width:0.08036753px">BLUE</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.57176113px;line-height:0%;font-family:Avenir;-inkscape-font-specification:'Avenir Bold';letter-spacing:0.26458332px;stroke-width:0.08036753px">BLUE</tspan><tspan
          sodipodi:role="line"
-         x="63.557682"
+         x="63.631447"
          y="92.835724"
-         style="font-size:2.57176113px;line-height:0%;stroke-width:0.08036753px"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.57176113px;line-height:0%;font-family:Avenir;-inkscape-font-specification:'Avenir Bold';letter-spacing:0.26458332px;stroke-width:0.08036753px"
          id="tspan6707">JOB</tspan><tspan
          sodipodi:role="line"
-         x="63.557682"
+         x="63.631447"
          y="95.407486"
-         style="font-size:2.57176113px;line-height:0%;stroke-width:0.08036753px"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.57176113px;line-height:0%;font-family:Avenir;-inkscape-font-specification:'Avenir Bold';letter-spacing:0.26458332px;stroke-width:0.08036753px"
          id="tspan6709">MOUNTAIN</tspan></text>
     <circle
        style="display:inline;opacity:0.98000004;fill:none;fill-opacity:1;stroke:#f20000;stroke-width:0.1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
@@ -217,5 +217,16 @@
        id="circle139"
        style="display:inline;opacity:0.98000004;fill:none;fill-opacity:1;stroke:#f50000;stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        r="12.62" />
+    <text
+       id="text730"
+       y="98.730637"
+       x="63.384552"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.21470141px;line-height:80.00000119%;font-family:Futura;-inkscape-font-specification:'Futura Bold';text-align:center;letter-spacing:0.26458332px;word-spacing:0px;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.08036753px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         id="tspan728"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.57176113px;line-height:0%;font-family:Avenir;-inkscape-font-specification:'Avenir Bold';letter-spacing:0.26458332px;stroke-width:0.08036753px"
+         y="98.730637"
+         x="63.516842"
+         sodipodi:role="line">1357 FT</tspan></text>
   </g>
 </svg>
