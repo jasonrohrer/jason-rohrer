@@ -1,0 +1,20 @@
+
+
+Measure distance across peak in GoogleMaps
+Make sure distance is at least 2 miles, with peak centered
+
+Get start and end lat/long of distance line.
+
+Plug into here with 80 points requested:
+
+http://localhost/jcr13/plotElevation/getElevationSVG.php
+
+Import SVG into Inkscape layout.
+
+Align pink rectangle with bottom horizontal guide
+
+Center peak in circle
+
+Ungroup and merge peak line with inner circle to make cut-out.
+
+Use "Division" operation to make cut-out
