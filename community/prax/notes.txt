@@ -13,8 +13,19 @@ Import SVG into Inkscape layout.
 
 Align pink rectangle with bottom horizontal guide
 
+Resize peak and pink rectangle to 20mm tall (lock aspect ratio)
+
 Center peak in circle
 
-Ungroup and merge peak line with inner circle to make cut-out.
+Ungroup and delete pink rectangle.
 
-Use "Division" operation to make cut-out
+Make sure peak is top layer (above inner circle).
+
+Select both peak line and inner circle.
+
+Use "Division" operation to make cut-outs.
+
+Change line color on upper part of cut-out to green
+
+Select all text and do Object To Path
+
