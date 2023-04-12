@@ -142,7 +142,7 @@ else {
         Dist Miles: <INPUT TYPE="text" MAXLENGTH=40 SIZE=40 NAME="dist"
              VALUE=""><br>
         Num Points: <INPUT TYPE="text" MAXLENGTH=40 SIZE=40 NAME="num_points"
-             VALUE="30"><br>
+             VALUE="80"><br>
         <INPUT TYPE="Submit" VALUE="Generate">
     </form>
         
