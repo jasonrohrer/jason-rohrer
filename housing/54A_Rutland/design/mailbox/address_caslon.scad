@@ -1,21 +1,18 @@
-$fn=200;
+$fn=100;
 
-scale( 10 )
-
-// FIXME:  need to use latest version to
-// be able to control faceting on import
+//scale( 10 )
 
 difference() {
     linear_extrude(height = 0.5, convexity = 1) {
-        import(file = "address_caslon_5.dxf", layer="Vector_Middle" );
-        import(file = "address_caslon_4.dxf", layer="Vector_Middle" );
-        import(file = "address_caslon_A.dxf", layer="Vector_Middle" );
+        import(file = "address_caslon_5.dxf", layer="MoreVerts" );
+        import(file = "address_caslon_4.dxf", layer="MoreVerts" );
+        import(file = "address_caslon_A.dxf", layer="MoreVerts" );
     }
     translate( [0,0,-0.01] ) {
         linear_extrude(height = 0.15, convexity = 1) {
-            import(file = "address_caslon_5.dxf", layer="Holes" );
-            import(file = "address_caslon_4.dxf", layer="Holes" );
-            import(file = "address_caslon_A.dxf", layer="Holes" );
+            import(file = "address_caslon_5.dxf", layer="HOLES" );
+            import(file = "address_caslon_4.dxf", layer="HOLES" );
+            import(file = "address_caslon_A.dxf", layer="HOLES" );
         }
     }
 }
