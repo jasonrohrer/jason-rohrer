@@ -3,7 +3,7 @@ $fn=100;
 
 measuredDiameter = 2.379;
 
-diameterTweak=0.04;
+diameterTweak=0.03;
 
 holeDiameter = measuredDiameter + diameterTweak;
 
