@@ -3,7 +3,7 @@ $fn=100;
 
 measuredDiameter = 2.379;
 
-diameterTweak=0.02;
+diameterTweak=0.04;
 
 holeDiameter = measuredDiameter + diameterTweak;
 
@@ -69,6 +69,12 @@ module armEnd() {
     translate( [0,0,- discHeight/2] )
     rotate_extrude($fn=200)
         crankHole2DShape();
+    
+    translate( [0,0,0.75 + discHeight/2 - 0.001 ] )
+        cylinder( h=1.5, d=0.6, center=true );
+    
+    translate( [0,0, 1.5 + discHeight/2 - 0.001 ] )
+    sphere( d=0.6 );
 }
 
 
