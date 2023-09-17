@@ -22,6 +22,17 @@ union() {
     mainRing();
     nubRing();
     crankArm();
+    //testCrankEnd();
+}
+
+
+
+// for testing spin gap on knob
+module testCrankEnd() {
+    intersection() {
+        cube( [1,1,1], center=true );
+        armEnd();
+    }
 }
 
 
