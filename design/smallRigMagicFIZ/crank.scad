@@ -38,7 +38,7 @@ module testCrankEnd() {
 
 module mainRing() {
     difference() {
-        cylinder( h=discHeight, d=holeDiameter + extraDiameter, center=true, $fn=100 );
+        cylinder( h=discHeight, d=holeDiameter + extraDiameter, center=true, $fn=200 );
         cylinder( h=discHeight+1, d=holeDiameter, center=true, $fn=100 );
     }
 }
@@ -56,39 +56,21 @@ module nubRing() {
 
 module crankArm() {
     translate( [2.65,0,0])
-        rotate( a=[0,90,0] )
-            cube( [ discHeight, discHeight, 2.5], center=true );
-    translate( [4.308,0,0])
+        rotate( a=[0,90,0] ) {
+            cube( [ discHeight, discHeight/4, 2.5], center=true );
+            translate( [ discHeight/2 - discHeight/8, 0, 0] )
+            cube( [ discHeight/4, discHeight, 2.5], center=true );
+        }
+    translate( [3.9,0,0])
         armEnd();
 }
 
 
 module armEnd() {
-    difference() {
-        cylinder( h=discHeight, d=1, center=true );
-        translate( [0,0,-discHeight/2] )
-        rotate_extrude($fn=200) {
-            translate( [crankHandleGap + 0.001 ,0,0] ) {
-                offset( delta=crankHandleGap ) {
-                    crankHole2DShape();
-                }
-            }
-        }
-    }
     
-    //if( false )
-    translate( [0,0,- discHeight/2] )
-    rotate_extrude($fn=200)
-        crankHole2DShape();
+    translate( [0,0,1 - discHeight/2 ] )
+        cylinder( h=2, d=discHeight, center=true );
     
-    translate( [0,0,0.75 + discHeight/2 - 0.001 ] )
-        cylinder( h=1.5, d=0.6, center=true );
-    
-    translate( [0,0, 1.5 + discHeight/2 - 0.001 ] )
-    sphere( d=0.6 );
-}
-
-
-module crankHole2DShape() {
-    polygon( points=[ [0,0], [0,discHeight], [0.3,discHeight], [0.2, discHeight/2], [0.3,0] ] );
+    translate( [0,0, 2 - discHeight/2 ] )
+        sphere( d=discHeight );
 }
