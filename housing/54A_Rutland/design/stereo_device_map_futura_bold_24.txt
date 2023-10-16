@@ -1,0 +1,26 @@
+
+
+
+
+STEREO:  TV
+TV:  AV 1
+
+1  N64
+2  VCR
+3  PS2
+4  DVD PLAYER
+5  DREAMCAST
+6  PS1
+7  ATARI
+8  CD
+
+
+
+
+STEREO:  AUX 1
+TV:  HDMI
+
+1  RASPBERRY PI
+2  PS4
+3  XBOX
+4  PS3
