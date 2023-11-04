@@ -81,6 +81,10 @@
   }
 
 
+  var reloadTimeSum = 0;
+  var maxReloadTimeSum = 2000;
+
+  
   function periodicReload() {
 	  // note that we must wait until the last reload is complete before
 	  // changing the img src URLs again and triggering a new reload
@@ -91,9 +95,18 @@
 	  
       if ( loadingFlags[0] || loadingFlags[1] || loadingFlags[2] ||
 		   loadingFlags[3] || loadingFlags[4] ) {
-		  // wait longer
-		  setTimeout( periodicReload, 50 );
-		  return;
+
+	  if( reloadTimeSum < maxReloadTimeSum ) {
+
+	      // wait longer
+	      reloadTimeSum += 50;
+	      
+	      setTimeout( periodicReload, 50 );
+	      return;
+	      }
+	  
+	  // else we've waited long enough, maybe one of our images
+	  // is failing?move on to next reload
 	  }
 	  
 	  
@@ -127,9 +140,11 @@
       	  var myImageElementE = document.getElementById('myImageE');
       myImageElementE.src = urlE + '&rand=' + Math.random();
 
-	  setTimeout( periodicReload, 500 );
+      reloadTimeSum = 500;
+      setTimeout( periodicReload, 500 );
   }
-  
+
+  reloadTimeSum = 500;
   setTimeout( periodicReload, 500 );
 
 
