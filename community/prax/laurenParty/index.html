@@ -1,0 +1,72 @@
+<html>
+
+
+
+  <style>
+	@font-face {
+	font-family: "CustomFont";
+	src: url("strenuous.bl-regular.otf") format("opentype"),
+	}
+
+	.middleText {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 95vw;
+	height: 95vh;
+	font-size:35vw;
+	color: #ffd58e;	
+	}
+	
+  </style>
+
+
+	<script>
+    var curDate = 1970;
+
+    // colors found here:
+    // https://www.color-meanings.com/wp-content/uploads/2023/06/Retro-Color-Palette-24-1024x1024.jpg
+
+    var colorList = [ "#f37d59", "#dd5341", "#68c7c1", "#faca78" ];
+
+    function colorDate( inDate ) {
+		var dateString = String( inDate );
+		
+		var letters = [];
+
+		var resultString = "";
+		for( let i =0; i<4; i++ ) {
+			var letter = dateString.charAt( i );
+			var colorString = colorList[i];
+			resultString = resultString +
+				"<span style=\"color: " + colorList[i] + ";\">" +
+				letter + "</span>";
+		}
+		
+		return resultString;
+	}
+	
+	document.onkeydown = function( evt ) {
+		// evt = evt || window.event;
+		if( evt.key == "ArrowRight" || evt.key == " " ) {
+			curDate = curDate + 1;
+			var myDateElement = document.getElementById( "dateDisplay" );
+			myDateElement.innerHTML = colorDate( curDate );
+		}
+		else if( evt.key == "ArrowLeft" ) {
+			curDate = curDate - 1;
+			var myDateElement = document.getElementById( "dateDisplay" );
+			myDateElement.innerHTML = colorDate( curDate );
+		}
+	}
+  </script>
+
+  
+  <body bgcolor="#081217" text="#FFFFFF" link="#36E3BF" alink="#197EB0" vlink="#36E3BF" style="font-family: 'CustomFont';">
+
+	<center>
+	<div class="middleText" id="dateDisplay">1970</div>
+	</center>
+  </body>
+
+</html>
