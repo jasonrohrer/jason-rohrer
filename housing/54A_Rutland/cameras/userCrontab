@@ -1,44 +1,117 @@
 
 # snaps every 10 seconds (repeat jobs sleep for 10/20/30/40/50 seconds)
 
-* * * * *  /home/jasonrohrer/checkout/jason-rohrer/housing/54A_Rutland/cameras/periodicSnapCron.sh frontDoor 192.168.88.230
-* * * * * sleep 10; /home/jasonrohrer/checkout/jason-rohrer/housing/54A_Rutland/cameras/periodicSnapCron.sh frontDoor 192.168.88.230
-* * * * * sleep 20; /home/jasonrohrer/checkout/jason-rohrer/housing/54A_Rutland/cameras/periodicSnapCron.sh frontDoor 192.168.88.230
-* * * * * sleep 30; /home/jasonrohrer/checkout/jason-rohrer/housing/54A_Rutland/cameras/periodicSnapCron.sh frontDoor 192.168.88.230
-* * * * * sleep 40; /home/jasonrohrer/checkout/jason-rohrer/housing/54A_Rutland/cameras/periodicSnapCron.sh frontDoor 192.168.88.230
-* * * * * sleep 50; /home/jasonrohrer/checkout/jason-rohrer/housing/54A_Rutland/cameras/periodicSnapCron.sh frontDoor 192.168.88.230
+* * * * *  /home/jasonrohrer/checkout/jason-rohrer/housing/54A_Rutland/cameras/periodicSnapCron.sh frontDoor 192.168.88.230 ""
+* * * * * sleep 10; /home/jasonrohrer/checkout/jason-rohrer/housing/54A_Rutland/cameras/periodicSnapCron.sh frontDoor 192.168.88.230 ""
+* * * * * sleep 20; /home/jasonrohrer/checkout/jason-rohrer/housing/54A_Rutland/cameras/periodicSnapCron.sh frontDoor 192.168.88.230 ""
+* * * * * sleep 30; /home/jasonrohrer/checkout/jason-rohrer/housing/54A_Rutland/cameras/periodicSnapCron.sh frontDoor 192.168.88.230 ""
+* * * * * sleep 40; /home/jasonrohrer/checkout/jason-rohrer/housing/54A_Rutland/cameras/periodicSnapCron.sh frontDoor 192.168.88.230 ""
+* * * * * sleep 50; /home/jasonrohrer/checkout/jason-rohrer/housing/54A_Rutland/cameras/periodicSnapCron.sh frontDoor 192.168.88.230 ""
 
 
-* * * * *  /home/jasonrohrer/checkout/jason-rohrer/housing/54A_Rutland/cameras/periodicSnapCron.sh backDoor 192.168.88.231
-* * * * * sleep 10; /home/jasonrohrer/checkout/jason-rohrer/housing/54A_Rutland/cameras/periodicSnapCron.sh backDoor 192.168.88.231
-* * * * * sleep 20; /home/jasonrohrer/checkout/jason-rohrer/housing/54A_Rutland/cameras/periodicSnapCron.sh backDoor 192.168.88.231
-* * * * * sleep 30; /home/jasonrohrer/checkout/jason-rohrer/housing/54A_Rutland/cameras/periodicSnapCron.sh backDoor 192.168.88.231
-* * * * * sleep 40; /home/jasonrohrer/checkout/jason-rohrer/housing/54A_Rutland/cameras/periodicSnapCron.sh backDoor 192.168.88.231
-* * * * * sleep 50; /home/jasonrohrer/checkout/jason-rohrer/housing/54A_Rutland/cameras/periodicSnapCron.sh backDoor 192.168.88.231
+* * * * *  /home/jasonrohrer/checkout/jason-rohrer/housing/54A_Rutland/cameras/periodicSnapCron.sh backDoor 192.168.88.231 ""
+* * * * * sleep 10; /home/jasonrohrer/checkout/jason-rohrer/housing/54A_Rutland/cameras/periodicSnapCron.sh backDoor 192.168.88.231 ""
+* * * * * sleep 20; /home/jasonrohrer/checkout/jason-rohrer/housing/54A_Rutland/cameras/periodicSnapCron.sh backDoor 192.168.88.231 ""
+* * * * * sleep 30; /home/jasonrohrer/checkout/jason-rohrer/housing/54A_Rutland/cameras/periodicSnapCron.sh backDoor 192.168.88.231 ""
+* * * * * sleep 40; /home/jasonrohrer/checkout/jason-rohrer/housing/54A_Rutland/cameras/periodicSnapCron.sh backDoor 192.168.88.231 ""
+* * * * * sleep 50; /home/jasonrohrer/checkout/jason-rohrer/housing/54A_Rutland/cameras/periodicSnapCron.sh backDoor 192.168.88.231 ""
 
 
-* * * * *  /home/jasonrohrer/checkout/jason-rohrer/housing/54A_Rutland/cameras/periodicSnapCron.sh garage 192.168.88.232
-* * * * * sleep 10; /home/jasonrohrer/checkout/jason-rohrer/housing/54A_Rutland/cameras/periodicSnapCron.sh garage 192.168.88.232
-* * * * * sleep 20; /home/jasonrohrer/checkout/jason-rohrer/housing/54A_Rutland/cameras/periodicSnapCron.sh garage 192.168.88.232
-* * * * * sleep 30; /home/jasonrohrer/checkout/jason-rohrer/housing/54A_Rutland/cameras/periodicSnapCron.sh garage 192.168.88.232
-* * * * * sleep 40; /home/jasonrohrer/checkout/jason-rohrer/housing/54A_Rutland/cameras/periodicSnapCron.sh garage 192.168.88.232
-* * * * * sleep 50; /home/jasonrohrer/checkout/jason-rohrer/housing/54A_Rutland/cameras/periodicSnapCron.sh garage 192.168.88.232
+* * * * *  /home/jasonrohrer/checkout/jason-rohrer/housing/54A_Rutland/cameras/periodicSnapCron.sh garage 192.168.88.232 ""
+* * * * * sleep 10; /home/jasonrohrer/checkout/jason-rohrer/housing/54A_Rutland/cameras/periodicSnapCron.sh garage 192.168.88.232 ""
+* * * * * sleep 20; /home/jasonrohrer/checkout/jason-rohrer/housing/54A_Rutland/cameras/periodicSnapCron.sh garage 192.168.88.232 ""
+* * * * * sleep 30; /home/jasonrohrer/checkout/jason-rohrer/housing/54A_Rutland/cameras/periodicSnapCron.sh garage 192.168.88.232 ""
+* * * * * sleep 40; /home/jasonrohrer/checkout/jason-rohrer/housing/54A_Rutland/cameras/periodicSnapCron.sh garage 192.168.88.232 ""
+* * * * * sleep 50; /home/jasonrohrer/checkout/jason-rohrer/housing/54A_Rutland/cameras/periodicSnapCron.sh garage 192.168.88.232 ""
+
+
+
+* * * * *  /home/jasonrohrer/checkout/jason-rohrer/housing/54A_Rutland/cameras/periodicSnapCron.sh sideDrive 192.168.88.219 "admin"
+* * * * * sleep 10; /home/jasonrohrer/checkout/jason-rohrer/housing/54A_Rutland/cameras/periodicSnapCron.sh sideDrive 192.168.88.219 "admin"
+* * * * * sleep 20; /home/jasonrohrer/checkout/jason-rohrer/housing/54A_Rutland/cameras/periodicSnapCron.sh sideDrive 192.168.88.219 "admin"
+* * * * * sleep 30; /home/jasonrohrer/checkout/jason-rohrer/housing/54A_Rutland/cameras/periodicSnapCron.sh sideDrive 192.168.88.219 "admin"
+* * * * * sleep 40; /home/jasonrohrer/checkout/jason-rohrer/housing/54A_Rutland/cameras/periodicSnapCron.sh sideDrive 192.168.88.219 "admin"
+* * * * * sleep 50; /home/jasonrohrer/checkout/jason-rohrer/housing/54A_Rutland/cameras/periodicSnapCron.sh sideDrive 192.168.88.219 "admin"
+
+
+
+
+* * * * *  /home/jasonrohrer/checkout/jason-rohrer/housing/54A_Rutland/cameras/periodicSnapCron.sh frontDrive 192.168.88.199 "admin"
+* * * * * sleep 10; /home/jasonrohrer/checkout/jason-rohrer/housing/54A_Rutland/cameras/periodicSnapCron.sh frontDrive 192.168.88.199 "admin"
+* * * * * sleep 20; /home/jasonrohrer/checkout/jason-rohrer/housing/54A_Rutland/cameras/periodicSnapCron.sh frontDrive 192.168.88.199 "admin"
+* * * * * sleep 30; /home/jasonrohrer/checkout/jason-rohrer/housing/54A_Rutland/cameras/periodicSnapCron.sh frontDrive 192.168.88.199 "admin"
+* * * * * sleep 40; /home/jasonrohrer/checkout/jason-rohrer/housing/54A_Rutland/cameras/periodicSnapCron.sh frontDrive 192.168.88.199 "admin"
+* * * * * sleep 50; /home/jasonrohrer/checkout/jason-rohrer/housing/54A_Rutland/cameras/periodicSnapCron.sh frontDrive 192.168.88.199 "admin"
+
+
+
+* * * * *  /home/jasonrohrer/checkout/jason-rohrer/housing/54A_Rutland/cameras/periodicSnapCron.sh frontYard 192.168.88.197 "admin"
+* * * * * sleep 10; /home/jasonrohrer/checkout/jason-rohrer/housing/54A_Rutland/cameras/periodicSnapCron.sh frontYard 192.168.88.197 "admin"
+* * * * * sleep 20; /home/jasonrohrer/checkout/jason-rohrer/housing/54A_Rutland/cameras/periodicSnapCron.sh frontYard 192.168.88.197 "admin"
+* * * * * sleep 30; /home/jasonrohrer/checkout/jason-rohrer/housing/54A_Rutland/cameras/periodicSnapCron.sh frontYard 192.168.88.197 "admin"
+* * * * * sleep 40; /home/jasonrohrer/checkout/jason-rohrer/housing/54A_Rutland/cameras/periodicSnapCron.sh frontYard 192.168.88.197 "admin"
+* * * * * sleep 50; /home/jasonrohrer/checkout/jason-rohrer/housing/54A_Rutland/cameras/periodicSnapCron.sh frontYard 192.168.88.197 "admin"
+
+
+
+* * * * *  /home/jasonrohrer/checkout/jason-rohrer/housing/54A_Rutland/cameras/periodicSnapCron.sh bulkhead 192.168.88.195 "admin"
+* * * * * sleep 10; /home/jasonrohrer/checkout/jason-rohrer/housing/54A_Rutland/cameras/periodicSnapCron.sh bulkhead 192.168.88.195 "admin"
+* * * * * sleep 20; /home/jasonrohrer/checkout/jason-rohrer/housing/54A_Rutland/cameras/periodicSnapCron.sh bulkhead 192.168.88.195 "admin"
+* * * * * sleep 30; /home/jasonrohrer/checkout/jason-rohrer/housing/54A_Rutland/cameras/periodicSnapCron.sh bulkhead 192.168.88.195 "admin"
+* * * * * sleep 40; /home/jasonrohrer/checkout/jason-rohrer/housing/54A_Rutland/cameras/periodicSnapCron.sh bulkhead 192.168.88.195 "admin"
+* * * * * sleep 50; /home/jasonrohrer/checkout/jason-rohrer/housing/54A_Rutland/cameras/periodicSnapCron.sh bulkhead 192.168.88.195 "admin"
+
+
+
+* * * * *  /home/jasonrohrer/checkout/jason-rohrer/housing/54A_Rutland/cameras/periodicSnapCron.sh rearDrive 192.168.88.194 "admin"
+* * * * * sleep 10; /home/jasonrohrer/checkout/jason-rohrer/housing/54A_Rutland/cameras/periodicSnapCron.sh rearDrive 192.168.88.194 "admin"
+* * * * * sleep 20; /home/jasonrohrer/checkout/jason-rohrer/housing/54A_Rutland/cameras/periodicSnapCron.sh rearDrive 192.168.88.194 "admin"
+* * * * * sleep 30; /home/jasonrohrer/checkout/jason-rohrer/housing/54A_Rutland/cameras/periodicSnapCron.sh rearDrive 192.168.88.194 "admin"
+* * * * * sleep 40; /home/jasonrohrer/checkout/jason-rohrer/housing/54A_Rutland/cameras/periodicSnapCron.sh rearDrive 192.168.88.194 "admin"
+* * * * * sleep 50; /home/jasonrohrer/checkout/jason-rohrer/housing/54A_Rutland/cameras/periodicSnapCron.sh rearDrive 192.168.88.194 "admin"
+
+
+
+
 
 
 # vids every 10 minutes for each camera
 
-*/10 * * * *  /home/jasonrohrer/checkout/jason-rohrer/housing/54A_Rutland/cameras/tenMinuteVideoCron.sh frontDoor 192.168.88.230
+*/10 * * * *  /home/jasonrohrer/checkout/jason-rohrer/housing/54A_Rutland/cameras/tenMinuteVideoCron.sh frontDoor 192.168.88.230 ""
 
-*/10 * * * *  /home/jasonrohrer/checkout/jason-rohrer/housing/54A_Rutland/cameras/tenMinuteVideoCron.sh backDoor 192.168.88.231
+*/10 * * * *  /home/jasonrohrer/checkout/jason-rohrer/housing/54A_Rutland/cameras/tenMinuteVideoCron.sh backDoor 192.168.88.231 ""
 
-*/10 * * * *  /home/jasonrohrer/checkout/jason-rohrer/housing/54A_Rutland/cameras/tenMinuteVideoCron.sh garage 192.168.88.232
+*/10 * * * *  /home/jasonrohrer/checkout/jason-rohrer/housing/54A_Rutland/cameras/tenMinuteVideoCron.sh garage 192.168.88.232 ""
+
+*/10 * * * *  /home/jasonrohrer/checkout/jason-rohrer/housing/54A_Rutland/cameras/tenMinuteVideoCron.sh sideDrive 192.168.88.219 "admin"
+
+*/10 * * * *  /home/jasonrohrer/checkout/jason-rohrer/housing/54A_Rutland/cameras/tenMinuteVideoCron.sh frontDrive 192.168.88.199 "admin"
+
+*/10 * * * *  /home/jasonrohrer/checkout/jason-rohrer/housing/54A_Rutland/cameras/tenMinuteVideoCron.sh frontYard 192.168.88.197 "admin"
+
+*/10 * * * *  /home/jasonrohrer/checkout/jason-rohrer/housing/54A_Rutland/cameras/tenMinuteVideoCron.sh bulkhead 192.168.88.195 "admin"
+
+*/10 * * * *  /home/jasonrohrer/checkout/jason-rohrer/housing/54A_Rutland/cameras/tenMinuteVideoCron.sh rearDrive 192.168.88.194 "admin"
+
+
+
 
 
 # at 1am each day, run timelapse-building from snaps taken previous day
-# space these out by 10 minutes to avoid high CPU
+# space these out by 5 minutes to avoid high CPU
 
 00 01 * * * /home/jasonrohrer/checkout/jason-rohrer/housing/54A_Rutland/cameras/assembleDailyTimelapse.sh frontDoor
 
-10 01 * * * /home/jasonrohrer/checkout/jason-rohrer/housing/54A_Rutland/cameras/assembleDailyTimelapse.sh backDoor
+05 01 * * * /home/jasonrohrer/checkout/jason-rohrer/housing/54A_Rutland/cameras/assembleDailyTimelapse.sh backDoor
 
-20 01 * * * /home/jasonrohrer/checkout/jason-rohrer/housing/54A_Rutland/cameras/assembleDailyTimelapse.sh garage
+15 01 * * * /home/jasonrohrer/checkout/jason-rohrer/housing/54A_Rutland/cameras/assembleDailyTimelapse.sh garage
+
+20 01 * * * /home/jasonrohrer/checkout/jason-rohrer/housing/54A_Rutland/cameras/assembleDailyTimelapse.sh sideDrive
+
+25 01 * * * /home/jasonrohrer/checkout/jason-rohrer/housing/54A_Rutland/cameras/assembleDailyTimelapse.sh frontDrive
+
+30 01 * * * /home/jasonrohrer/checkout/jason-rohrer/housing/54A_Rutland/cameras/assembleDailyTimelapse.sh frontYard
+
+35 01 * * * /home/jasonrohrer/checkout/jason-rohrer/housing/54A_Rutland/cameras/assembleDailyTimelapse.sh bulkhead
+
+40 01 * * * /home/jasonrohrer/checkout/jason-rohrer/housing/54A_Rutland/cameras/assembleDailyTimelapse.sh rearDrive

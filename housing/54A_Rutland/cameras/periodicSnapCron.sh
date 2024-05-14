@@ -2,6 +2,8 @@
 cameraName=$1
 # specify camera IP as second argument
 cameraIP=$2
+# specify camera password as third argument (in quotes)
+pass=$3
 
 
 basePath="/var/www/html/camera"
@@ -34,7 +36,7 @@ mkdir -p $pathDestMotion
 
 fileName="${hourNum}_${minuteNum}_$secondsNum.jpg"
 
-wget "http://$cameraIP:88/cgi-bin/CGIProxy.fcgi?cmd=snapPicture2&usr=admin&pwd=" -O $path$fileName
+wget "http://$cameraIP:88/cgi-bin/CGIProxy.fcgi?cmd=snapPicture2&usr=admin&pwd=$pass" -O $path$fileName
 
 
 if [ -n "$lastFile" ];

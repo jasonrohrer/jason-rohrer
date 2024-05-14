@@ -3,13 +3,21 @@
 	
 <center>
 <div id="message"><font color=black>-</font></div><br>
-<img height=58% src="" id="myImageA" onclick="bigA()"/><br><br>
-<img height=10% src="" id="myImageB" onclick="bigB()"/><br><br>
-<img height=10% src="" id="myImageC" onclick="bigC()"/><br><br>
-<img height=10% src="" id="myImageD" onclick="bigD()"/>
+<img height=48% src="" id="myImageBig"/><br><br>
+<img height=10% src="" id="myImageA" onclick="makeBig(0)"/>
+<img height=10% src="" id="myImageB" onclick="makeBig(1)"/>
+<img height=10% src="" id="myImageC" onclick="makeBig(2)"/>
+<img height=10% src="" id="myImageD" onclick="makeBig(3)"/><br><br>
+<img height=10% src="" id="myImageE" onclick="makeBig(4)"/>
+<img height=10% src="" id="myImageF" onclick="makeBig(5)"/>
+<img height=10% src="" id="myImageG" onclick="makeBig(6)"/>
+<img height=10% src="" id="myImageH" onclick="makeBig(7)"/>
 </center>
 
 <script>
+
+  var currentBigIndex = 0;
+
 
   var lastActivity = Date.now();
 
@@ -18,44 +26,50 @@
 
   var sleeping = false;
 
-  var loadingFlags=[ 0, 0, 0, 0 ];
+  var numElements = 8;
+  var loadingFlags=[ 0, 0, 0, 0, 0,
+					 0, 0, 0 ];
 
   function doneLoading(i) {
 	  loadingFlags[i] = 0;
   }
 
   function resetLoadingFlags() {
-	  loadingFlags[0] =  1;
-	  loadingFlags[1] =  1;
-      loadingFlags[2] =  1;
-      loadingFlags[3] =  1;
+	  for (let i = 0; i < numElements; i++) { 
+		  loadingFlags[i] =  1;
+	  }
   }
   
-  
-  
-  var urlA = "http://192.168.88.230:88/cgi-bin/CGIProxy.fcgi?cmd=snapPicture2&usr=admin&pwd="
-  var urlB = "http://192.168.88.231:88/cgi-bin/CGIProxy.fcgi?cmd=snapPicture2&usr=admin&pwd="
-  var urlC = "http://192.168.88.232:88/cgi-bin/CGIProxy.fcgi?cmd=snapPicture2&usr=admin&pwd="
-  var urlD = "http://192.168.88.219:88/cgi-bin/CGIProxy.fcgi?cmd=snapPicture2&usr=admin&pwd=admin"
-  
-  var myImageElementA = document.getElementById('myImageA');
-  myImageElementA.onload = function() { doneLoading(0) };
-  myImageElementA.src = urlA + '&rand=' + Math.random();
-  
-  var myImageElementB = document.getElementById('myImageB');
-  myImageElementB.onload = function() { doneLoading(1) };
-  myImageElementB.src = urlB + '&rand=' + Math.random();
-  
-  
-  var myImageElementC = document.getElementById('myImageC');
-  myImageElementC.onload = function() { doneLoading(2) };
-  myImageElementC.src = urlC + '&rand=' + Math.random();
 
-  var myImageElementD = document.getElementById('myImageD');
-  myImageElementD.onload = function() { doneLoading(3) };
-  myImageElementD.src = urlD + '&rand=' + Math.random();
+  var elementIDs = [ "myImageA",
+					 "myImageB",
+					 "myImageC",
+					 "myImageD",
+					 "myImageE",
+					 "myImageF",
+					 "myImageG",
+					 "myImageH",
+				   ];
+					 
+  var urls = [ "http://192.168.88.230:88/cgi-bin/CGIProxy.fcgi?cmd=snapPicture2&usr=admin&pwd=",
+			   "http://192.168.88.231:88/cgi-bin/CGIProxy.fcgi?cmd=snapPicture2&usr=admin&pwd=",
+			   "http://192.168.88.232:88/cgi-bin/CGIProxy.fcgi?cmd=snapPicture2&usr=admin&pwd=",
+			   "http://192.168.88.219:88/cgi-bin/CGIProxy.fcgi?cmd=snapPicture2&usr=admin&pwd=admin",
+			   "http://192.168.88.199:88/cgi-bin/CGIProxy.fcgi?cmd=snapPicture2&usr=admin&pwd=admin",
+			   "http://192.168.88.197:88/cgi-bin/CGIProxy.fcgi?cmd=snapPicture2&usr=admin&pwd=admin",
+			   "http://192.168.88.195:88/cgi-bin/CGIProxy.fcgi?cmd=snapPicture2&usr=admin&pwd=admin",
+			   "http://192.168.88.194:88/cgi-bin/CGIProxy.fcgi?cmd=snapPicture2&usr=admin&pwd=admin"
+             ];
 
-  
+  for (let i = 0; i < numElements; i++) { 
+	  var myImageElement = document.getElementById( elementIDs[i] );
+	  myImageElement.onload = function() { doneLoading(i) };
+	  myImageElement.src = urls[i] + '&rand=' + Math.random();
+	  }
+
+  updateBigSource();
+
+
 
   function blinkSleepingMessage() {
 	  var div = document.getElementById('sleepCellA');
@@ -74,6 +88,10 @@
   }
 
 
+  var reloadTimeSum = 0;
+  var maxReloadTimeSum = 2000;
+
+  
   function periodicReload() {
 	  // note that we must wait until the last reload is complete before
 	  // changing the img src URLs again and triggering a new reload
@@ -83,10 +101,20 @@
 	  // erratically in the browser in that case.
 	  
       if ( loadingFlags[0] || loadingFlags[1] || loadingFlags[2] ||
-		   loadingFlags[3] ) {
-		  // wait longer
-		  setTimeout( periodicReload, 50 );
-		  return;
+		   loadingFlags[3] || loadingFlags[4] || loadingFlags[5] ||
+		   loadingFlags[6] || loadingFlags[7] ) {
+
+		  if( reloadTimeSum < maxReloadTimeSum ) {
+			  
+			  // wait longer
+			  reloadTimeSum += 50;
+			  
+			  setTimeout( periodicReload, 50 );
+			  return;
+	      }
+	  
+		  // else we've waited long enough, maybe one of our images
+		  // is failing?move on to next reload
 	  }
 	  
 	  
@@ -104,38 +132,47 @@
 	  }
 
 	  resetLoadingFlags();
+	  
+	  for (let i = 0; i < numElements; i++) { 
+		  var myImageElement = document.getElementById( elementIDs[i] );
+		  myImageElement.src = urls[i] + '&rand=' + Math.random();
+	  }
+	  
+	  
+	  updateBigSource();
+	  
 
-	  var myImageElementA = document.getElementById('myImageA');
-      myImageElementA.src = urlA + '&rand=' + Math.random();
-	  
-      var myImageElementB = document.getElementById('myImageB');
-      myImageElementB.src = urlB + '&rand=' + Math.random();
-	  
-	  var myImageElementC = document.getElementById('myImageC');
-      myImageElementC.src = urlC + '&rand=' + Math.random();
-
-	  var myImageElementD = document.getElementById('myImageD');
-      myImageElementD.src = urlD + '&rand=' + Math.random();
-	  
-	  setTimeout( periodicReload, 500 );
+      reloadTimeSum = 500;
+      setTimeout( periodicReload, 500 );
   }
-  
+
+  reloadTimeSum = 500;
   setTimeout( periodicReload, 500 );
 
 
+	function updateBigSource() {
+		// clear all borders
+		for (let i = 0; i < numElements; i++) { 
+			var myImageElement = document.getElementById( elementIDs[i] );
+			myImageElement.style.borderStyle = "solid";
+			myImageElement.style.borderWidth = "4px";
+			myImageElement.style.borderColor = "#000000";
+		}
+		
+		var bigSourceElement = document.getElementById( 
+			elementIDs[ currentBigIndex ] );
+		var myImageElementBig = document.getElementById('myImageBig');
+		myImageElementBig.src = bigSourceElement.src;
+		
+		bigSourceElement.style.borderStyle = "solid";
+		bigSourceElement.style.borderWidth = "4px";
+		bigSourceElement.style.borderColor = "#FF0000";
+		}
 
-  function pickBig( highA, highB, highC, highD ) {
+
+
+  function makeBig( newIndex ) {
 	  lastActivity = Date.now();
-
-	  var myImageElementA = document.getElementById('myImageA');
-	  myImageElementA.style.height=highA;
-	  var myImageElementB = document.getElementById('myImageB');
-	  myImageElementB.style.height=highB;
-	  var myImageElementC = document.getElementById('myImageC');
-	  myImageElementC.style.height=highC;
-	  var myImageElementD = document.getElementById('myImageD');
-	  myImageElementD.style.height=highD;
-
 	  if( sleeping ) {
 		  sleeping = false;
 		  var div = document.getElementById('message');
@@ -144,36 +181,47 @@
 		  // resume refresh updates
 		  periodicReload();
 	  }
-  }
 
-
-  function bigA() {
-	  pickBig( "58%", "10%", "10%", "10%" );
-  }
-  function bigB() {
-	  pickBig( "10%", "58%", "10%", "10%" );
-  }
-  function bigC() {
-	  pickBig( "10%", "10%", "58%", "10%" );
-  }
-  function bigD(){
-	  pickBig( "10%", "10%", "10%", "58%" );
+	  currentBigIndex = newIndex;
+	  updateBigSource();
   }
 
 
   document.onkeydown = function( evt ) {
-      //evt = evt || window.event;
-      if( evt.keyCode == 49 ) {
-		  bigA();
+      // evt = evt || window.event;
+      if( evt.keyCode == 32 ) {
+		  // space
+		  // cycle through
+		  newIndex = currentBigIndex + 1;
+		  if( newIndex >= numElements ) {
+			  newIndex = 0;
+		  }
+		  makeBig( newIndex );
+	  }
+	  // number keys 1... 
+	  else if( evt.keyCode == 49 ) {
+		  makeBig( 0 );
 	  }
 	  else if( evt.keyCode == 50 ) {
-		  bigB();
+		  makeBig( 1 );
 	  }
 	  else if( evt.keyCode == 51 ) {
-		  bigC();
+		  makeBig( 2 );
 	  }
 	  else if( evt.keyCode == 52 ) {
-		  bigD();
+		  makeBig( 3 );
+	  }
+      else if( evt.keyCode == 53 ) {
+		  makeBig( 4 );
+	  }
+      else if( evt.keyCode == 54 ) {
+		  makeBig( 5 );
+	  }
+      else if( evt.keyCode == 55 ) {
+		  makeBig( 6 );
+	  }
+      else if( evt.keyCode == 56 ) {
+		  makeBig( 7 );
 	  }
   };
 
