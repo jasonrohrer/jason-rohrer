@@ -115,3 +115,9 @@
 35 01 * * * /home/jasonrohrer/checkout/jason-rohrer/housing/54A_Rutland/cameras/assembleDailyTimelapse.sh bulkhead
 
 40 01 * * * /home/jasonrohrer/checkout/jason-rohrer/housing/54A_Rutland/cameras/assembleDailyTimelapse.sh rearDrive
+
+
+
+
+* * * * *  /home/jasonrohrer/checkout/jason-rohrer/housing/54A_Rutland/cameras/remoteWebCheckCron.sh
+* * * * * sleep 30; /home/jasonrohrer/checkout/jason-rohrer/housing/54A_Rutland/cameras/remoteWebCheckCron.sh
