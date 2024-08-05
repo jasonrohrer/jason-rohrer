@@ -1,5 +1,12 @@
 
 <?php
+$blockFlag = trim( file_get_contents( "/home/jcr13/public_html/block.txt" ) );
+
+if( $blockFlag == 1 ) {
+    echo "Disabled";
+    die();
+}
+
 file_put_contents( "/home/jcr13/public_html/flag.txt", "1" );
 
 ?>
