@@ -6,6 +6,28 @@ $fn = 40;
 skull();
 
 
+/*
+
+The problem here is that we have the sprue connection points coming from SVG files,
+which limits what we can do with them, because they're not centered.
+
+So, for example, we can't make funnels at each point, or control the angle of the
+curves very well.
+
+Seems like we're going to have to actually pull the numerical coordinates out of the
+spruePoint svg files, like this:
+
+       cx="-462.13651"
+       cy="745"
+       r="6.0900416"
+       
+... so that we actually have something more flexible to work with.
+
+Then we can construct the sprue in the center, and then translate it out to where
+we need it to connect.
+
+*/
+
 
 module outerSprue() {
     translate( [0,0,19.9] ) {
