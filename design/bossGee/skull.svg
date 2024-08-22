@@ -44,9 +44,9 @@
      inkscape:window-height="968"
      id="namedview887"
      showgrid="false"
-     inkscape:zoom="0.72608949"
-     inkscape:cx="12.251522"
-     inkscape:cy="413.55154"
+     inkscape:zoom="0.5134228"
+     inkscape:cx="420.9007"
+     inkscape:cy="381.81912"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -345,9 +345,10 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:40px;line-height:125%;font-family:Impact;-inkscape-font-specification:'Impact Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       id="text4577"
-       y="-64.603256"
-       x="-927.17334">NOT  EVERY  MAN  REALLY  LIVES</text>
+       id="text4577"><textPath
+         xlink:href="#path4646"
+         id="textPath4660"
+         style="font-size:93.33333588px;letter-spacing:20px;word-spacing:40px">NOT EVERY MAN REALLY LIVES</textPath></text>
     <circle
        transform="scale(-1,1)"
        r="468.22607"
@@ -365,5 +366,22 @@
        d="M 296.83398,-89.609375 C 175.28433,-89.185256 54.574617,-37.627868 -29.310225,50.527542 -115.45321,139.88587 -162.84217,265.53913 -155.81631,389.3887 c 5.62485,113.08813 54.88902,223.58221 136.30533,302.56961 75.686876,74.31435 177.77658,120.97508 283.44653,128.90692 104.24752,8.18847 211.0767,-20.51643 296.77246,-80.93907 C 648.12536,679.2303 712.87692,586.81561 739.97656,483.76367 768.28789,378.71699 757.3838,263.68407 708.95116,165.99332 666.69125,79.455148 596.37585,6.5678936 510.68543,-37.65589 445.02566,-71.937184 370.92014,-90.125847 296.83398,-89.609375 Z"
        id="circle4602"
        inkscape:connector-curvature="0" />
+    <path
+       style="opacity:0.6520004;fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:1.81616175;stroke-linejoin:round;stroke-miterlimit:6.4000001;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+       d="M 66.761603,79.733807 C 175.00012,-9.7357577 336.59302,-28.873964 462.07866,34.762145 570.54579,87.449971 650.48956,196.1294 665.44345,316.15194 680.56216,425.05938 644.65182,540.46525 568.15351,619.82138 496.15259,696.31654 390.44731,740.35291 285.2867,735.29064 182.60749,731.46777 82.108472,682.96584 16.659134,603.49695 -48.843652,525.60624 -80.427755,419.8642 -66.465194,318.86881 -54.423474,226.1886 -6.2079811,138.3686 66.761603,79.733807 Z"
+       id="path4624"
+       inkscape:connector-curvature="0" />
+    <path
+       style="opacity:0.6520004;fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:2.4338305;stroke-linejoin:round;stroke-miterlimit:6.4000001;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+       d="m -118.80101,217.68919 c -50.37868,139.13962 -24.87268,303.59276 67.031675,420.05679 78.727793,102.08886 203.241825,167.917 332.424965,172.09407 116.77517,5.03671 235.31758,-37.62652 320.51034,-117.8536 C 686.57399,613.04376 739.47002,499.97037 743.09017,383.42724 747.58277,269.67457 706.85178,154.48359 630.1323,70.126195 555.33669,-13.44162 448.59162,-67.29293 336.92767,-76.033488 222.84337,-85.697712 105.28718,-49.848594 17.25066,23.759743 -44.424622,74.703181 -92.254017,142.30825 -118.80101,217.68919 Z"
+       id="path4646"
+       inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:40px;line-height:125%;font-family:Impact;-inkscape-font-specification:'Impact Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
+       id="text4664"><textPath
+         xlink:href="#path4624"
+         id="textPath4669"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:93.33333588px;font-family:Futura;-inkscape-font-specification:'Futura Bold';letter-spacing:3px;word-spacing:10px">BOSS GEE</textPath></text>
   </g>
 </svg>
