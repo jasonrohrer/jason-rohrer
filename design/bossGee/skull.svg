@@ -44,13 +44,13 @@
      inkscape:window-height="968"
      id="namedview887"
      showgrid="false"
-     inkscape:zoom="0.70710678"
-     inkscape:cx="8.8864951"
-     inkscape:cy="57.032388"
+     inkscape:zoom="0.35355339"
+     inkscape:cx="-643.30453"
+     inkscape:cy="-242.74894"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="g6456"
+     inkscape:current-layer="g7488"
      showguides="true"
      inkscape:guide-bbox="true"
      inkscape:snap-bbox="true"
@@ -80,14 +80,14 @@
     <image
        sodipodi:absref="/home/jasonrohrer/checkout/jason-rohrer/design/bossGee/skullPhoto.jpg"
        xlink:href="skullPhoto.jpg"
-       width="570"
-       height="745"
-       preserveAspectRatio="none"
-       id="image893"
-       x="-287.36066"
-       y="376.66229"
+       inkscape:label="image893"
        style="opacity:1;fill:#ff0000;image-rendering:auto"
-       inkscape:label="image893" />
+       y="376.66229"
+       x="-287.36066"
+       id="image893"
+       preserveAspectRatio="none"
+       height="745"
+       width="570" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -658,7 +658,7 @@
      inkscape:groupmode="layer"
      id="layer10"
      inkscape:label="Sprue Template"
-     style="display:inline">
+     style="display:none">
     <circle
        style="display:inline;opacity:1;fill:#0000e0;fill-opacity:1;stroke:none;stroke-width:46.21465683;stroke-linejoin:round;stroke-miterlimit:6.4000001;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
        id="path5763"
@@ -680,6 +680,17 @@
   </g>
   <g
      inkscape:groupmode="layer"
+     id="g7468"
+     inkscape:label="Sprue Template Outer Larger"
+     style="display:inline;opacity:0.48300003">
+    <path
+       style="display:inline;opacity:1;fill:#0000e0;fill-opacity:1;stroke:none;stroke-width:46.21465683;stroke-linejoin:round;stroke-miterlimit:6.4000001;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+       d="m -462.87109,722.81055 c -19.73585,-0.88605 -28.61691,28.98768 -12.92774,40.03906 13.19225,11.43002 35.24081,-0.6272 35.9336,-17.125 1.07216,-12.48834 -10.90125,-23.26017 -23.00586,-22.91406 z"
+       id="circle7466"
+       inkscape:connector-curvature="0" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
      id="g6456"
      inkscape:label="Sprue Template Inner"
      style="display:inline">
@@ -689,6 +700,17 @@
        cx="-351.15009"
        cy="745"
        r="6.0119166" />
+  </g>
+  <g
+     style="display:inline;opacity:0.612"
+     inkscape:label="Sprue Template Inner Larger"
+     id="g7478"
+     inkscape:groupmode="layer">
+    <path
+       style="display:inline;opacity:1;fill:#0000e0;fill-opacity:1;stroke:none;stroke-width:45.62179947;stroke-linejoin:round;stroke-miterlimit:6.4000001;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+       d="m -352.35742,722.9082 c -19.39226,-0.42606 -27.87176,28.95802 -12.42969,39.85938 13.40959,11.6447 35.96901,-1.10592 35.87891,-17.96875 0.38698,-12.26907 -11.52581,-22.49945 -23.44922,-21.89063 z"
+       id="circle7476"
+       inkscape:connector-curvature="0" />
   </g>
   <g
      style="display:inline"
@@ -701,5 +723,16 @@
        cx="-209.93495"
        id="circle6458"
        style="display:inline;opacity:1;fill:#0000e0;fill-opacity:1;stroke:none;stroke-width:44.91037369;stroke-linejoin:round;stroke-miterlimit:6.4000001;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="g7488"
+     inkscape:label="Sprue Template Cheek Larger"
+     style="display:inline;opacity:0.478">
+    <path
+       style="display:inline;opacity:1;fill:#0000e0;fill-opacity:1;stroke:none;stroke-width:44.91037369;stroke-linejoin:round;stroke-miterlimit:6.4000001;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+       d="m -211.17383,723.00781 c -19.32936,-0.42367 -27.63472,28.83329 -12.31836,39.68946 13.30041,11.58451 35.70521,-1.01324 35.67578,-17.76368 0.52897,-12.3093 -11.41123,-22.56914 -23.35742,-21.92578 z"
+       id="circle7486"
+       inkscape:connector-curvature="0" />
   </g>
 </svg>
