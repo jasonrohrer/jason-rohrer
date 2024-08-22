@@ -45,12 +45,12 @@
      id="namedview887"
      showgrid="false"
      inkscape:zoom="0.36304474"
-     inkscape:cx="-543.73834"
+     inkscape:cx="-618.7364"
      inkscape:cy="38.579857"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer8"
+     inkscape:current-layer="layer9"
      showguides="true"
      inkscape:guide-bbox="true"
      inkscape:snap-bbox="true"
@@ -63,14 +63,14 @@
     <image
        sodipodi:absref="/home/jasonrohrer/checkout/jason-rohrer/design/bossGee/skullPhoto.jpg"
        xlink:href="skullPhoto.jpg"
-       inkscape:label="image893"
-       style="opacity:1;fill:#ff0000;image-rendering:auto"
-       y="-2.0050468"
-       x="12.158869"
-       id="image893"
-       preserveAspectRatio="none"
+       width="570"
        height="745"
-       width="570" />
+       preserveAspectRatio="none"
+       id="image893"
+       x="12.158869"
+       y="-2.0050468"
+       style="opacity:1;fill:#ff0000;image-rendering:auto"
+       inkscape:label="image893" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -94,28 +94,6 @@
        d="m 304.60352,14.339844 c -1.38065,-0.01119 -2.76192,-0.01058 -4.14258,0.002 -61.8925,0.526178 -125.59207,20.024078 -171.22852,63.154297 -20.43334,17.747509 -41.354828,38.407309 -47.095701,65.921879 -6.317435,26.13814 -5.852169,54.38999 -19.404297,78.36133 -12.131979,28.53786 -6.869151,61.38296 5.371094,88.94531 3.67704,8.00949 8.651116,16.01209 8.179687,25.01953 0.214095,12.56548 0.52987,26.94775 10.382813,36.21289 3.635265,2.58946 -3.232579,3.14658 -4.445313,4.55078 -7.59719,2.76006 -13.335209,9.07527 -15.332031,16.89844 -4.48205,14.417 2.238599,29.73695 12.050781,40.2793 7.177156,11.90338 15.473069,24.90205 29.353517,29.69726 3.75546,2.08538 11.04434,2.12046 9.56836,8.28907 2.87325,36.11651 2.8543,72.60949 -2.30664,108.48632 -0.46991,15.03991 2.93985,32.8036 16.50586,41.48438 7.45779,3.45152 17.54698,3.90638 20.91601,12.82031 10.88046,16.86831 17.26746,38.52352 35.77149,49.01172 18.82903,12.81643 39.45444,22.82991 59.5625,33.28711 23.54357,6.96024 47.86586,-3.11893 71.59765,1.51172 15.90099,1.99908 34.02489,1.88683 46.70313,-9.38086 20.59777,-13.61355 40.23111,-28.88425 56.49219,-47.58203 9.60936,-9.91146 16.63346,-22.06606 26.49023,-31.68946 6.51267,-5.32753 14.51511,-9.53775 17.58203,-17.90625 9.35233,-21.37462 1.58153,-44.90142 -0.48242,-66.81054 -1.54877,-17.7902 0.79638,-35.58994 2.03906,-53.46875 0.75313,-3.88007 0.45681,-8.81308 2.29688,-11.79493 10.97983,-1.2656 22.81456,-5.33177 28.32812,-15.68554 13.35551,-16.57476 28.45007,-34.47834 30.48633,-56.52539 -0.4163,-11.30681 -7.5851,-20.86089 -14.96094,-28.83985 7.44084,-7.30869 11.16643,-17.86057 9.60938,-28.22265 -0.61227,-11.42763 -1.39384,-23.5234 5.55078,-33.46485 9.00705,-16.82001 14.88984,-35.85629 12.67383,-55.10742 -1.61893,-25.69613 -16.14281,-48.29868 -18.63477,-73.82031 C 520.34814,163.2623 516.5198,137.22823 501.51758,116.40239 465.20107,58.96733 399.78908,24.774755 333.51367,16.296875 323.92674,15.07639 314.26803,14.418167 304.60352,14.339844 Z m -4.06055,12.001953 c 32.33439,-0.381879 64.89442,6.483989 95.07617,18.603515 42.81289,18.130213 82.31044,48.799279 103.3125,91.263668 13.65432,27.03499 10.32159,58.56101 20.91797,86.5254 7.39421,16.82708 12.4155,34.83457 10.68359,53.36523 -0.13346,15.15519 -7.9915,28.29897 -14.24414,41.56445 -6.4467,12.24695 -3.52392,26.25632 -3.74023,39.4043 0.62507,10.31418 -11.24118,14.06325 -12.91211,23.5293 5.85199,6.23825 12.87453,11.801 16.38476,19.83203 5.55038,11.99633 -3.59669,23.71282 -9.29492,33.72656 -7.5016,10.46593 -14.41225,21.90825 -24.35937,30.22266 -7.42297,3.93798 -16.73206,1.74249 -23.86914,6.78711 -1.61337,22.24238 -4.64459,44.4457 -4.06446,66.79296 -1.06584,17.20942 6.68978,33.52301 4.87891,50.61914 0.34351,9.4658 -1.34357,20.35711 -9.50977,26.27344 -13.09002,6.79001 -20.12897,20.15094 -28.8125,31.33203 -14.26231,14.69757 -28.0958,30.08023 -44.98437,41.82032 -11.22512,5.53719 -19.65039,16.57838 -32.28906,18.95117 -16.95806,1.09263 -34.10673,-3.18483 -51.25977,-1.23828 -14.96572,0.088 -31.10186,4.88227 -45.17187,-2.30469 -17.78741,-11.16508 -37.57194,-19.1136 -54.38672,-31.67969 -18.94004,-12.70709 -21.15972,-38.14261 -37.5,-53.05664 -5.66717,-6.73843 -16.72211,-3.65026 -21.54492,-11.29687 -9.80216,-15.04912 -5.90486,-33.98731 -3.62305,-50.51563 3.36722,-32.39461 0.94949,-65.08688 -1.22852,-97.48828 -10.64706,-5.91134 -24.23208,-8.03596 -31.421872,-18.86914 -4.68119,-8.79201 -11.170968,-16.38115 -16.591797,-24.69336 -5.435303,-8.34274 -5.065758,-22.40531 4.25586,-27.76172 6.48985,-1.06779 11.744068,-5.45007 14.68164,-11.24414 3.825589,-3.32491 0.139009,-8.14559 -2.332031,-11.24023 -7.288499,-5.13866 -9.152322,-14.40212 -9.048828,-22.48047 0.575606,-11.56921 -1.767826,-23.13096 -7.34961,-33.31836 -9.168362,-15.9579 -12.344342,-34.71981 -13.228515,-52.70508 -1.368492,-15.64115 5.813367,-29.87147 11.509765,-43.91406 12.825216,-29.18764 6.929802,-63.65971 24.111328,-91.13867 13.79458,-18.65933 31.18608,-34.51323 49.44727,-48.738286 41.677,-32.667127 95.60062,-46.087982 147.50781,-46.929687 z"
        id="path7767"
        inkscape:connector-curvature="0" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:44.22122574px;line-height:125%;font-family:Impact;-inkscape-font-specification:'Impact Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.10553074px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="299.51962"
-       y="133.10349"
-       id="text8393"><tspan
-         sodipodi:role="line"
-         x="299.51962"
-         y="133.10349"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Futura;-inkscape-font-specification:'Futura Bold';text-align:center;text-anchor:middle;stroke-width:1.10553074px"
-         id="tspan8405">EVERY MAN</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:60.4249382px;line-height:125%;font-family:Impact;-inkscape-font-specification:'Impact Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.51062346px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="230.72595"
-       y="197.44664"
-       id="text8417"><tspan
-         sodipodi:role="line"
-         id="tspan8415"
-         x="230.72595"
-         y="197.44664"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Futura;-inkscape-font-specification:'Futura Bold';stroke-width:1.51062346px">DIES</tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
@@ -332,6 +310,34 @@
        d="m 389.26895,513.49859 c 0,0 -2.22132,-15.52196 0.34343,-26.18932 5.17918,-5.00749 11.8246,-4.30997 17.55982,-6.8862 6.69543,-3.00755 18.13836,-8.45411 25.13464,-10.67362 8.86254,-2.81156 19.51445,-3.47961 19.51445,-3.47961 l -0.0659,6.86078 c 0,0 -4.58605,-0.19273 -13.44859,2.61883 -6.99628,2.21951 -18.43921,7.66607 -25.13464,10.67362 -5.73522,2.57623 -12.38064,1.87871 -17.55982,6.8862 -2.56475,10.66736 -0.17127,20.81208 -0.17127,20.81208 z"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccssccssccc" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer9"
+     inkscape:label="Skull Text"
+     style="display:inline">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:44.22122574px;line-height:125%;font-family:Impact;-inkscape-font-specification:'Impact Bold';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.36199999;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.10553074px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="299.51962"
+       y="133.10349"
+       id="text8393"><tspan
+         sodipodi:role="line"
+         x="299.51962"
+         y="133.10349"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Futura;-inkscape-font-specification:'Futura Bold';text-align:center;text-anchor:middle;stroke-width:1.10553074px"
+         id="tspan8405">EVERY MAN</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:60.4249382px;line-height:125%;font-family:Impact;-inkscape-font-specification:'Impact Bold';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.36199999;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.51062346px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="230.72595"
+       y="197.44664"
+       id="text8417"><tspan
+         sodipodi:role="line"
+         id="tspan8415"
+         x="230.72595"
+         y="197.44664"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Futura;-inkscape-font-specification:'Futura Bold';stroke-width:1.51062346px">DIES</tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
