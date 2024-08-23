@@ -84,6 +84,7 @@ module cheekSprue() {
 module skull() {
     scale( 1/250 ) {
         union() {
+        /*
             for( s=[0:5] ) {
                 rotate( a=[0,0,60*s] ) {
                     outerSprue();
@@ -95,8 +96,9 @@ module skull() {
             cheekSprue();
             rotate( [0,0,180] )
                 cheekSprue();
-             
-            linear_extrude(height = 20, center = false, convexity = 10, $fn=200 ) {
+          */
+          
+            linear_extrude(height = 20, center = false, convexity = 10, $fn=150 ) {
                 import( "coinRimRidges.svg");
             }
             difference() {
