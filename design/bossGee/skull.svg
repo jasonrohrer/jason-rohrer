@@ -44,13 +44,13 @@
      inkscape:window-height="968"
      id="namedview887"
      showgrid="false"
-     inkscape:zoom="0.35355339"
-     inkscape:cx="-643.30453"
-     inkscape:cy="-242.74894"
+     inkscape:zoom="0.5"
+     inkscape:cx="6.8328035"
+     inkscape:cy="-177.58611"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="g7488"
+     inkscape:current-layer="layer7"
      showguides="true"
      inkscape:guide-bbox="true"
      inkscape:snap-bbox="true"
@@ -80,14 +80,14 @@
     <image
        sodipodi:absref="/home/jasonrohrer/checkout/jason-rohrer/design/bossGee/skullPhoto.jpg"
        xlink:href="skullPhoto.jpg"
-       inkscape:label="image893"
-       style="opacity:1;fill:#ff0000;image-rendering:auto"
-       y="376.66229"
-       x="-287.36066"
-       id="image893"
-       preserveAspectRatio="none"
+       width="570"
        height="745"
-       width="570" />
+       preserveAspectRatio="none"
+       id="image893"
+       x="-287.36066"
+       y="376.66229"
+       style="opacity:1;fill:#ff0000;image-rendering:auto"
+       inkscape:label="image893" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -332,7 +332,7 @@
      inkscape:groupmode="layer"
      id="layer9"
      inkscape:label="Skull Text"
-     style="display:none">
+     style="display:inline">
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:62.01516724px;line-height:125%;font-family:Impact;-inkscape-font-specification:'Impact Bold';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.36199999;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.5503794px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -342,7 +342,7 @@
          sodipodi:role="line"
          x="9.5202326e-05"
          y="557.72809"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Futura;-inkscape-font-specification:'Futura Bold';text-align:center;text-anchor:middle;stroke-width:1.5503794px"
+         style="font-style:normal;font-variant:normal;font-weight:800;font-stretch:normal;font-family:Overpass;-inkscape-font-specification:'Overpass Ultra-Bold';text-align:center;text-anchor:middle;stroke-width:1.5503794px"
          id="tspan8405">EVERY MAN</tspan></text>
     <text
        xml:space="preserve"
@@ -354,10 +354,10 @@
          id="tspan8415"
          x="-96.137924"
          y="641.65808"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Futura;-inkscape-font-specification:'Futura Bold';stroke-width:2.11107063px">DIES</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:800;font-stretch:normal;font-family:Overpass;-inkscape-font-specification:'Overpass Ultra-Bold';stroke-width:2.11107063px">DIES</tspan></text>
   </g>
   <g
-     style="display:inline"
+     style="display:none"
      inkscape:label="Skull Text as Paths"
      id="g5041"
      inkscape:groupmode="layer">
@@ -465,22 +465,22 @@
      inkscape:groupmode="layer"
      id="layer7"
      inkscape:label="Rim Text"
-     style="display:none">
+     style="display:inline">
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:40px;line-height:125%;font-family:Impact;-inkscape-font-specification:'Impact Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        id="text4577"><textPath
          xlink:href="#path4646"
          id="textPath4660"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:93.33333588px;font-family:Futura;-inkscape-font-specification:'Futura Bold';letter-spacing:10px;word-spacing:20px">NOT EVERY MAN REALLY LIVES</textPath></text>
+         style="font-style:normal;font-variant:normal;font-weight:800;font-stretch:normal;font-size:93.33333588px;font-family:Overpass;-inkscape-font-specification:'Overpass Ultra-Bold';letter-spacing:10px;word-spacing:20px">NOT EVERY MAN REALLY LIVES</textPath></text>
     <path
        style="opacity:0.6520004;fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:1.81616175;stroke-linejoin:round;stroke-miterlimit:6.4000001;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
-       d="M -232.75793,458.40113 C -124.51941,368.93157 37.073489,349.79336 162.55913,413.42947 271.02626,466.1173 350.97003,574.79673 365.92392,694.81927 381.04263,803.72671 345.13229,919.13258 268.63398,998.48871 196.63306,1074.9839 90.927779,1119.0202 -14.232831,1113.958 -116.91204,1110.1351 -217.41106,1061.6332 -282.8604,982.16428 c -65.50278,-77.89071 -97.08689,-183.63275 -83.12433,-284.62814 12.04172,-92.68021 60.25722,-180.50021 133.2268,-239.13501 z"
+       d="M -228.98449,455.37853 C -119.58413,367.33343 42.245435,350.31205 166.88736,415.58525 274.65552,469.68836 353.16988,579.40492 366.55145,699.61291 380.24331,808.70892 342.82542,923.63485 265.29492,1001.9828 192.29888,1077.529 86.026243,1120.1779 -19.059096,1113.7396 -121.67946,1108.573 -221.535,1058.7599 -285.93853,978.44098 c -64.4776,-78.74144 -94.67489,-184.88785 -79.39153,-285.69182 13.25382,-92.51465 62.61472,-179.69599 136.34557,-237.37063 z"
        id="path4624"
        inkscape:connector-curvature="0" />
     <path
        style="opacity:0.6520004;fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:2.4338305;stroke-linejoin:round;stroke-miterlimit:6.4000001;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
-       d="m -396.21705,544.74302 c -67.53517,131.66946 -62.98694,298.02663 13.48501,425.15775 65.21485,111.20803 180.42596,192.22343 308.049129,212.66983 115.20591,19.7334 238.184621,-7.6289 332.820841,-76.4633 C 352.82561,1038.5742 419.56848,933.08027 437.86728,817.92577 456.67943,705.64952 430.81109,586.23928 365.35078,492.87441 301.69936,400.5356 202.60369,333.64371 92.935539,310.88116 c -111.95257,-23.98428 -233.093009,-3.25725 -329.714969,58.65247 -67.6112,42.75279 -123.58988,103.78133 -159.43762,175.20939 z"
+       d="m -411.80143,579.14613 c -56.1013,136.93245 -37.43213,302.30129 49.56707,422.47377 74.42962,105.2635 196.10883,176.1951 325.007889,185.7218 116.466137,9.8715 236.674641,-27.8429 325.118841,-104.4706 C 376.49841,1007.5355 434.03472,896.75133 442.48125,780.45836 451.68385,666.98954 415.76137,550.20963 342.60349,462.74548 271.3352,376.14993 166.91339,317.92139 55.707552,304.56104 -57.878262,290.17749 -176.81903,321.12431 -267.83025,391.02123 c -63.7334,48.34387 -114.32323,113.90881 -143.97118,188.1249 z"
        id="path4646"
        inkscape:connector-curvature="0" />
     <text
@@ -489,10 +489,10 @@
        id="text4664"><textPath
          xlink:href="#path4624"
          id="textPath4669"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:93.33333588px;font-family:Futura;-inkscape-font-specification:'Futura Bold';letter-spacing:3px;word-spacing:10px">BOSS GEE</textPath></text>
+         style="font-style:normal;font-variant:normal;font-weight:800;font-stretch:normal;font-size:93.33333588px;font-family:Overpass;-inkscape-font-specification:'Overpass Ultra-Bold';letter-spacing:2.5px;word-spacing:19px">BOSS GEE</textPath></text>
   </g>
   <g
-     style="display:inline"
+     style="display:none"
      inkscape:label="Rim Text as Paths"
      id="g4262"
      inkscape:groupmode="layer">
