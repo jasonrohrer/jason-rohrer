@@ -98,26 +98,26 @@ module skull() {
                 cheekSprue();
           */
           
-            linear_extrude(height = 17, center = false, convexity = 10, $fn=150 ) {
+            linear_extrude(height =11, center = false, convexity = 10, $fn=150 ) {
                 import( "coinRimRidges.svg");
             }
             difference() {
-                linear_extrude(height = 15, center = false, convexity = 10) {
+                linear_extrude(height = 11, center = false, convexity = 10) {
                     import( "coinRim.svg");
                 }
-                translate( [0,0,8.1] ) {
-                    linear_extrude(height = 7, center = false, convexity = 10) {
+                translate( [0,0,5.6] ) {
+                    linear_extrude(height = 5.5, center = false, convexity = 10) {
                         import( "coinRimTextOverpass.svg");
                     }
                 }
             }
             
             
-            linear_extrude(height = 17, center = false, convexity = 10) {
+            linear_extrude(height = 11, center = false, convexity = 10) {
                 import( "skullRidge.svg");
             }
             difference() {
-                linear_extrude(height = 15, center = false, convexity = 10) {
+                linear_extrude(height = 11, center = false, convexity = 10) {
                     import( "skullOutline.svg");
                 }
                 linear_extrude(height = 100, center = true, convexity = 10) {
@@ -126,8 +126,8 @@ module skull() {
                 linear_extrude(height = 100, center = true, convexity = 10) {
                     import( "skullLines.svg");
                 }
-                translate( [0,0,8.1] ) {
-                    linear_extrude(height = 7, center = false, convexity = 10) {
+                translate( [0,0,5.6] ) {
+                    linear_extrude(height = 5.5, center = false, convexity = 10) {
                         import( "skullTextOverpass.svg");
                     }
                 }
