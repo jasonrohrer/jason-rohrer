@@ -5,7 +5,52 @@ $fn = 40;
 //$fa = 40;
 skull();
 
+rotate( [0, 0, 42 ] )
+sideSprue();
 
+rotate( [0, 0, 140 ] )
+sideSprue();
+
+rotate( [0, 0, -19 ] )
+sideSprue();
+
+
+rotate( [0, 0, -80 ] )
+sideSprue();
+
+
+rotate( [0, 0, -118 ] )
+sideSprue();
+
+
+mainSprue();
+
+module mainSprue() {
+    translate( [0,0, .172 -.044 +.22489/2] ) {
+        cylinder( h=0.66597, d=0.22489, center=false );
+        sphere( d=0.22489 );
+        }
+    }
+
+module sideSprue() {
+
+    //translate( [0.336/2 - 0.07, 0, .172 + .02] )
+    //sphere( r=0.044 );
+    
+    translate( [0, 0, .172] )
+    rotate( [0, 90, 0 ] )
+    translate( [0, 0, 0.658] )
+    rotate( [0,180,0] )
+    linear_extrude(height = .658, center = false, scale=[1.5,1.5])
+        circle(r = 0.022);
+        
+    translate( [.658, 0, 0] )
+    translate( [0, 0, 0.022] )
+    rotate( [0,90,-90] )
+    translate( [-0.075, 0, 0 ] )
+    rotate_extrude(angle=180, convexity=10)
+       translate([.075, 0]) circle(0.022);
+    }
 /*
 
 The problem here is that we have the sprue connection points coming from SVG files,
