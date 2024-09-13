@@ -152,15 +152,20 @@ module skull() {
                 }
                 translate( [0,0,7.6] ) {
                     linear_extrude(height = 3.5, center = false, convexity = 10) {
-                        import( "coinRimTextOverpass.svg");
+                        //import( "coinRimTextOverpass.svg");
                     }
                 }
             }
             
             
+            translate( [0, 0, 11] )
+            rotate( [0, 180, 0] )
             linear_extrude(height = 11, center = false, convexity = 10) {
                 import( "skullRidge.svg");
             }
+            
+            translate( [0, 0, 11] )
+            rotate( [0, 180, 0] )
             difference() {
                 linear_extrude(height = 11, center = false, convexity = 10) {
                     import( "skullOutline.svg");
@@ -173,7 +178,7 @@ module skull() {
                 }
                 translate( [0,0,7.6] ) {
                     linear_extrude(height = 3.5, center = false, convexity = 10) {
-                        import( "skullTextOverpass.svg");
+                        //import( "skullTextOverpass.svg");
                     }
                 }
             }
