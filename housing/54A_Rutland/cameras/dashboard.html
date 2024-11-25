@@ -7,12 +7,16 @@
 <img height=10% src="" id="myImageA" onclick="makeBig(0)"/>
 <img height=10% src="" id="myImageB" onclick="makeBig(1)"/>
 <img height=10% src="" id="myImageC" onclick="makeBig(2)"/>
-<img height=10% src="" id="myImageD" onclick="makeBig(3)"/><br><br>
-<img height=10% src="" id="myImageE" onclick="makeBig(4)"/>
+<img height=10% src="" id="myImageD" onclick="makeBig(3)"/>
+<img height=10% src="" id="myImageE" onclick="makeBig(4)"/><br><br>
 <img height=10% src="" id="myImageF" onclick="makeBig(5)"/>
 <img height=10% src="" id="myImageG" onclick="makeBig(6)"/>
-<img height=10% src="" id="myImageH" onclick="makeBig(7)"/><br><br>
+<img height=10% src="" id="myImageH" onclick="makeBig(7)"/>
 <img height=10% src="" id="myImageI" onclick="makeBig(8)"/>
+<img height=10% src="" id="myImageJ" onclick="makeBig(9)"/><br><br>
+<img height=10% src="" id="myImageK" onclick="makeBig(10)"/>
+<img height=10% src="" id="myImageL" onclick="makeBig(11)"/>
+<img height=10% src="" id="myImageM" onclick="makeBig(12)"/>
 </center>
 
 <script>
@@ -27,8 +31,9 @@
 
   var sleeping = false;
 
-  var numElements = 9;
+  var numElements = 13;
   var loadingFlags=[ 0, 0, 0, 0, 
+					 0, 0, 0, 0,
 					 0, 0, 0, 0,
 					 0 ];
 
@@ -52,6 +57,10 @@
 					 "myImageG",
 					 "myImageH",
 					 "myImageI",
+					 "myImageJ",
+					 "myImageK",
+					 "myImageL",
+					 "myImageM",
 				   ];
 					 
   var urls = [ "http://192.168.88.230:88/cgi-bin/CGIProxy.fcgi?cmd=snapPicture2&usr=admin&pwd=",
@@ -62,7 +71,11 @@
 			   "http://192.168.88.197:88/cgi-bin/CGIProxy.fcgi?cmd=snapPicture2&usr=admin&pwd=admin",
 			   "http://192.168.88.195:88/cgi-bin/CGIProxy.fcgi?cmd=snapPicture2&usr=admin&pwd=admin",
 			   "http://192.168.88.194:88/cgi-bin/CGIProxy.fcgi?cmd=snapPicture2&usr=admin&pwd=admin",
-			   "http://192.168.88.183:88/cgi-bin/CGIProxy.fcgi?cmd=snapPicture2&usr=admin&pwd=admin"
+			   "http://192.168.88.183:88/cgi-bin/CGIProxy.fcgi?cmd=snapPicture2&usr=admin&pwd=admin",
+			   "http://192.168.88.182:88/cgi-bin/CGIProxy.fcgi?cmd=snapPicture2&usr=admin&pwd=admin",
+			   "http://192.168.88.181:88/cgi-bin/CGIProxy.fcgi?cmd=snapPicture2&usr=admin&pwd=admin",
+			   "http://192.168.88.180:88/cgi-bin/CGIProxy.fcgi?cmd=snapPicture2&usr=admin&pwd=admin",
+			   "http://192.168.88.179:88/cgi-bin/CGIProxy.fcgi?cmd=snapPicture2&usr=admin&pwd=admin"
              ];
 
   for (let i = 0; i < numElements; i++) { 
@@ -106,7 +119,9 @@
 	  
       if ( loadingFlags[0] || loadingFlags[1] || loadingFlags[2] ||
 		   loadingFlags[3] || loadingFlags[4] || loadingFlags[5] ||
-		   loadingFlags[6] || loadingFlags[7] || loadingFlags[8] ) {
+		   loadingFlags[6] || loadingFlags[7] || loadingFlags[8] ||
+		   loadingFlags[9] || loadingFlags[10] || loadingFlags[11] ||
+		   loadingFlags[12] ) {
 
 		  if( reloadTimeSum < maxReloadTimeSum ) {
 			  
@@ -229,6 +244,19 @@
 	  }
       else if( evt.keyCode == 57 ) {
 		  makeBig( 8 );
+	  }
+	  // out of numbers, start with a, b, c, d, etc.
+      else if( evt.keyCode == 97 ) {
+		  makeBig( 9 );
+	  }
+      else if( evt.keyCode == 98 ) {
+		  makeBig( 10 );
+	  }
+      else if( evt.keyCode == 99 ) {
+		  makeBig( 11 );
+	  }
+      else if( evt.keyCode == 100 ) {
+		  makeBig( 12 );
 	  }
   };
 
