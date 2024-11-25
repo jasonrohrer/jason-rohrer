@@ -11,7 +11,8 @@
 <img height=10% src="" id="myImageE" onclick="makeBig(4)"/>
 <img height=10% src="" id="myImageF" onclick="makeBig(5)"/>
 <img height=10% src="" id="myImageG" onclick="makeBig(6)"/>
-<img height=10% src="" id="myImageH" onclick="makeBig(7)"/>
+<img height=10% src="" id="myImageH" onclick="makeBig(7)"/><br><br>
+<img height=10% src="" id="myImageI" onclick="makeBig(8)"/>
 </center>
 
 <script>
@@ -26,9 +27,10 @@
 
   var sleeping = false;
 
-  var numElements = 8;
-  var loadingFlags=[ 0, 0, 0, 0, 0,
-					 0, 0, 0 ];
+  var numElements = 9;
+  var loadingFlags=[ 0, 0, 0, 0, 
+					 0, 0, 0, 0,
+					 0 ];
 
   function doneLoading(i) {
 	  loadingFlags[i] = 0;
@@ -49,6 +51,7 @@
 					 "myImageF",
 					 "myImageG",
 					 "myImageH",
+					 "myImageI",
 				   ];
 					 
   var urls = [ "http://192.168.88.230:88/cgi-bin/CGIProxy.fcgi?cmd=snapPicture2&usr=admin&pwd=",
@@ -58,7 +61,8 @@
 			   "http://192.168.88.199:88/cgi-bin/CGIProxy.fcgi?cmd=snapPicture2&usr=admin&pwd=admin",
 			   "http://192.168.88.197:88/cgi-bin/CGIProxy.fcgi?cmd=snapPicture2&usr=admin&pwd=admin",
 			   "http://192.168.88.195:88/cgi-bin/CGIProxy.fcgi?cmd=snapPicture2&usr=admin&pwd=admin",
-			   "http://192.168.88.194:88/cgi-bin/CGIProxy.fcgi?cmd=snapPicture2&usr=admin&pwd=admin"
+			   "http://192.168.88.194:88/cgi-bin/CGIProxy.fcgi?cmd=snapPicture2&usr=admin&pwd=admin",
+			   "http://192.168.88.183:88/cgi-bin/CGIProxy.fcgi?cmd=snapPicture2&usr=admin&pwd=admin"
              ];
 
   for (let i = 0; i < numElements; i++) { 
@@ -102,7 +106,7 @@
 	  
       if ( loadingFlags[0] || loadingFlags[1] || loadingFlags[2] ||
 		   loadingFlags[3] || loadingFlags[4] || loadingFlags[5] ||
-		   loadingFlags[6] || loadingFlags[7] ) {
+		   loadingFlags[6] || loadingFlags[7] || loadingFlags[8] ) {
 
 		  if( reloadTimeSum < maxReloadTimeSum ) {
 			  
@@ -222,6 +226,9 @@
 	  }
       else if( evt.keyCode == 56 ) {
 		  makeBig( 7 );
+	  }
+      else if( evt.keyCode == 57 ) {
+		  makeBig( 8 );
 	  }
   };
 
