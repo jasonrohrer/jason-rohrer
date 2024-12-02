@@ -127,7 +127,7 @@ Link to Cultivation and to Jon Newton.
 <!--<H3>painter -- scholar -- poet -- lover -- scientist -- composer -- disciplinarian</H3>-->
 Currently parenting and making video games somewhere in New Hampshire.<br><br>
 
- [<A HREF="http://hcsoftware.sf.net/jason-rohrer/worklog">worklog</A>] [<a href="releaseLog.html">release log</a>] [<A HREF="supportMyWork.php">support my work</A>]<br><br><br>
+ [<A HREF="http://northcountrynotes.org/jason-rohrer/worklog">worklog</A>] [<a href="releaseLog.html">release log</a>] [<A HREF="supportMyWork.php">support my work</A>]<br><br><br>
 
 Want to know when I release something?<br>You'll get a few brief emails a year, at most.<br>
 <form action="http://northcountrynotes.org/releaseList/server.php" 
@@ -142,7 +142,7 @@ Email Address: <input type="text" name="email" value="">
 
 <H1>Real-World Games</H1>
 
-<A HREF="https://projectskydrop.com">Project Skydrop</A>-- a real-world treasure hunt in a shrinking circle.  Starting soon.<BR><BR>
+<A HREF="https://projectskydrop.com">Project Skydrop</A>-- a real-world treasure hunt in a shrinking circle.  Ended October 2, 2024.<BR><BR>
 
 <A HREF="https://www.polygon.com/2013/3/28/4157884/game-designer-jason-rohrer-designs-a-game-meant-to-be-played-2000">A Game for Someone</A> [<a href="https://www.gdcvault.com/play/1017715/Humanity-s-Last-Game-The">video</a>]-- a titanium board game that won't be played by anyone for at least 2000 years.  Available now, somewhere in the Nevada Desert.<BR><BR>
 
@@ -221,7 +221,7 @@ A monthly series of game prototypes commissioned by <i>The Escapist</i>.<br><br>
 <BR>
 <H1>Books</H1>
 
-<A HREF="http://laurenserafin.com/saturdayWithMez">Saturday with Mez</A>-- A board book for children that depicts a day in the life of a breastfeeding toddler.  Co-authored with my spouse Lauren Serafin.<BR><BR>
+<A HREF="http://www.northcountrynotes.org/laurenserafin/saturdayWithMez/">Saturday with Mez</A>-- A board book for children that depicts a day in the life of a breastfeeding toddler.  Co-authored with my spouse Lauren Serafin.<BR><BR>
 
 
 <BR>
@@ -386,7 +386,7 @@ A mirror of the <A HREF="eldredVashcroft.html">Eldred vs. Ashcroft hearing trans
 <TR>
 
 <TD ALIGN=LEFT VALIGN=TOP>
-last updated on January 31, 2023.
+last updated on December 2, 2024.
 </TD>
 
 <TD ALIGN=RIGHT>
