@@ -17,7 +17,7 @@ A
 
 
 2022-2023
-Ancient Greek History and Literature
+Ancient Greek Hist and Lit
 History
 1
 A
@@ -60,52 +60,48 @@ A
 
 
 
+line
 
 
 2023-2024
 Geometry
 Math
 1
--
+A
 
 
 2023-2024
-Ancient Greek History and Literature
+Ancient Greek Hist and Lit
 History
 1
--
+A
 
-2023-2024
-Geometry
-Math
-1
--
 
 2023-2024
 English 2
 Writing
 1
--
+A
 
 
 2023-2024
 World History
 History
 1
--
+A
 
 2023-2024
 FIRST Robotics
 Engineering
 1
--
+A
 
 
 2023-2024
 Chemistry
 Science
 1
--
+A
 
 
 2023-2024
@@ -117,10 +113,10 @@ A
 
 
 2023-2024
-Trapshooting 
+Trapshooting
 Phys Ed
 1/2
--
+A
 
 2023-2024
 Skiing
@@ -128,5 +124,66 @@ Phys Ed
 1/2
 A
 
+
+line
+
+
+2024-2025
+Algebra 2
+Math
+1
+-
+
+2024-2025
+Ancient Greek Hist and Lit
+History
+1
+-
+
+2024
+History of New England at Great Bay Community College
+History
+3
+A
+
+
+2024-2025
+FIRST Robotics
+Engineering
+1
+-
+
+2024-2025
+Physics
+Science
+1
+-
+
+2024-2025
+US Government
+Soc Studies
+1
+-
+
+
+2024-2025
+Trapshooting
+Phys Ed
+1/2
+-
+
+
+2024-2025
+Skiing
+Phys Ed
+1/2
+A
+
+
+2024-2025
+Internship i2i Portsmouth NH
+Engineering
+-
+-
 
 
