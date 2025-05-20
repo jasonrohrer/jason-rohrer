@@ -10,7 +10,6 @@ translate( [0,0,thick/2 - letterThick/2 + extra/2] )
         Text(); 
 }
 
-
 translate( [0, 0, thick/2 - letterThick/2] )
     color( "red" )
         linear_extrude(height = letterThick, center = true, convexity = 10)
