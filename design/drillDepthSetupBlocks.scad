@@ -47,7 +47,7 @@ module shim( inThicknessDenom ) {
 }
 
 module text() {
-    import( file = "drillDepthSetupBlocks.dxf", layer="TextLines", $fn=200 );
+    import( file = "drillDepthSetupBlocks.dxf", layer="TextLines", $fn=30 );
 }
 
 module refPosts() {
