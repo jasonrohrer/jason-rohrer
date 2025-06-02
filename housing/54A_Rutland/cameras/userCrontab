@@ -121,7 +121,11 @@
 
 # vids every 10 minutes for each camera
 
-*/10 * * * *  /home/jasonrohrer/checkout/jason-rohrer/housing/54A_Rutland/cameras/tenMinuteVideoCron.sh frontDoor 192.168.88.230 ""
+# 4th parameter of 1 for frontDoor triggers audio recording, since
+# microphone is plugged in there.
+
+*/10 * * * *  /home/jasonrohrer/checkout/jason-rohrer/housing/54A_Rutland/cameras/tenMinuteVideoCron.sh frontDoor 192.168.88.230 "" 1
+
 
 */10 * * * *  /home/jasonrohrer/checkout/jason-rohrer/housing/54A_Rutland/cameras/tenMinuteVideoCron.sh backDoor 192.168.88.231 ""
 
