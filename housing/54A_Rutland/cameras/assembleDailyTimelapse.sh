@@ -34,10 +34,10 @@ motionFileName="${cameraName}_fullDay_motion_timelapse.mp4"
 
 
 cd $pathSnaps
-ffmpeg -r 30 -pattern_type glob -i '*.jpg' -c:v libx264 -pix_fmt yuv420p $pathDest$fileName
+ffmpeg -y -r 30 -pattern_type glob -i '*.jpg' -c:v libx264 -pix_fmt yuv420p $pathDest$fileName
 
 cd $pathMotion
-ffmpeg -r 5 -pattern_type glob -i '*.jpg' -c:v libx264 -pix_fmt yuv420p $pathDest$motionFileName
+ffmpeg -y -r 5 -pattern_type glob -i '*.jpg' -c:v libx264 -pix_fmt yuv420p $pathDest$motionFileName
 
 
 
