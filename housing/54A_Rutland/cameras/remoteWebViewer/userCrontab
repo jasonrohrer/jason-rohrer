@@ -1,0 +1,2 @@
+*/3 * * * *  echo -n "0" > /home/jcr13/public_html/flag.txt
+0 * * * *  bash /home/jcr13/checkout/jason-rohrer/housing/54A_Rutland/cameras/remoteWebViewer/hourlyCron.sh
