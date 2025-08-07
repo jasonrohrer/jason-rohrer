@@ -1,9 +1,10 @@
 
 protrusionThickness = 0.0482;
 
+endCoverHeight = 1/2;
 
 difference() {
-    linear_extrude(height = 1/4 )
+    linear_extrude(height = endCoverHeight )
         outerEdge();
     
     translate( [0, 0, -1 ] )
@@ -11,7 +12,7 @@ difference() {
             opening();
     
     translate( [0, 0, protrusionThickness ] )
-        linear_extrude(height = 1/4 )
+        linear_extrude(height = endCoverHeight )
             innerOpening();
 }
 
