@@ -1,5 +1,5 @@
 
-protrusionThickness = 0.0482;
+protrusionThickness = 0.0352;
 
 endCoverHeight = 1/4;
 
