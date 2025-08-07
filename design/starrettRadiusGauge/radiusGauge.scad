@@ -1,7 +1,7 @@
 
 protrusionThickness = 0.0482;
 
-endCoverHeight = 1/2;
+endCoverHeight = 1/4;
 
 difference() {
     linear_extrude(height = endCoverHeight )
@@ -24,11 +24,11 @@ module outerEdge() {
 
 
 module opening() {
-    import( file = "openings.dxf", layer="Opening", $fn=30 );
+    import( file = "openings.dxf", layer="OpeningBigger", $fn=30 );
 }
 
 
 module innerOpening() {
-    import( file = "openings.dxf", layer="InnerOpening", $fn=30 );
+    import( file = "openings.dxf", layer="InnerOpeningBigger", $fn=30 );
 }
 
