@@ -1,7 +1,7 @@
 
-protrusionThickness = 0.0352;
+protrusionThickness = 0.0402;
 
-endCoverHeight = 1/4;
+endCoverHeight = 1/2;
 
 difference() {
     linear_extrude(height = endCoverHeight )
