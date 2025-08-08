@@ -6,17 +6,17 @@ endCoverHeight = 1/2;
 legThickness = 0.3906;
 
 
-//radiusGauge();
+radiusGauge();
 
-testSection();
+//testSection();
 
 
 module testSection() {
     intersection() {
         radiusGauge();
 
-        translate( [-0.75, -1, -1 ] )
-            cube( [2,2,2] );
+        translate( [-.35, -1, -1 ] )
+            cube( [1.5,2,2] );
     }
 }
 
