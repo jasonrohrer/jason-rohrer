@@ -3,6 +3,11 @@ protrusionThickness = 0.0402;
 
 endCoverHeight = 1/2;
 
+legThickness = 0.3906;
+
+
+
+union() {
 difference() {
     linear_extrude(height = endCoverHeight )
         outerEdge();
@@ -17,7 +22,14 @@ difference() {
 }
 
 
-
+translate( [0, -1/8 , 0] )
+rotate( [-90,0,0] )
+linear_extrude(height = legThickness ) {
+    translate( [0, -0.2656, 0 ] ) {
+        legs();
+        }
+    }
+}
 module outerEdge() {
     import( file = "openings.dxf", layer="OuterEdge", $fn=30 );
 }
@@ -32,3 +44,7 @@ module innerOpening() {
     import( file = "openings.dxf", layer="InnerOpeningBigger", $fn=30 );
 }
 
+
+module legs() {
+    import( file = "openings.dxf", layer="Legs", $fn=30 );
+}
