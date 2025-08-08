@@ -22,13 +22,20 @@ difference() {
 }
 
 
-color( "red")
-translate( [0, -1/8 , 0] )
-rotate( [-90,0,0] )
-linear_extrude(height = legThickness ) {
-    translate( [0, -0.2656, 0 ] ) {
-        legs();
-        }
+
+
+    color( "red")
+
+    difference() {
+        
+        translate( [0, -1/8 , 0] )
+            rotate( [-90,0,0] )
+                linear_extrude(height = legThickness )
+                    translate( [0, -0.2656, 0 ] )
+                        legs();
+        translate( [0, 0, -1 ] )
+            linear_extrude(height = 2)
+                opening();
     }
 }
 module outerEdge() {
@@ -47,5 +54,5 @@ module innerOpening() {
 
 
 module legs() {
-    import( file = "openings.dxf", layer="Legs", $fn=30 );
+    import( file = "openings.dxf", layer="Legs", $fn=100 );
 }
