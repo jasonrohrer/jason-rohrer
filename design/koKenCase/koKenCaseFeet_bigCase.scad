@@ -1,6 +1,10 @@
 
 holeDepth=1/16 + 0.01;
 
+holeExtrude=1/8;
+
+cornerCrossSectionRadius = 0.625;
+
 footWithMagnetHole();
 
 
@@ -35,18 +39,18 @@ module footWithMagnetHole() {
         
         // bottom plate hole
         translate( [0,0, -holeDepth] )
-            linear_extrude(height = 1/8 )
+            linear_extrude(height = holeExtrude )
                 magnetHole();
         
         // side wall hole
-        translate( [1.25,-0.3125 - holeDepth, 0.2813] )
+        translate( [1.25,- (cornerCrossSectionRadius - holeExtrude) - holeDepth, 0.2813] )
             rotate( [90,0,0] )
-                linear_extrude(height = 1/8 )
+                linear_extrude(height = holeExtrude )
                     magnetHole();
         // side wall hole
-        translate( [-0.4375 - holeDepth, 0.75, 0.2813] )
+        translate( [ - cornerCrossSectionRadius - holeDepth, 0.75, 0.2813] )
             rotate( [90,0,90] )
-                linear_extrude(height = 1/8 )
+                linear_extrude(height = holeExtrude )
                     magnetHole();
     }
 }  
