@@ -5,6 +5,8 @@ holeExtrude=1/8;
 
 cornerCrossSectionRadius = 0.625;
 
+bottomFoot = true;
+
 footWithMagnetHole();
 
 
@@ -13,8 +15,8 @@ intersection() {
 footWithMagnetHole();
     translate( [-0.25, -0.25, 0] )
     rotate( [0, 0, -45] )
-    scale( [0.85, 1.1, 1] )
-cylinder( h=5, d=1.2, center=true, $fn=200 );
+    scale( [1.2, 1.1, 1] )
+cylinder( h=5, d=1.3, center=true, $fn=200 );
 }
 */
 /*
@@ -38,7 +40,7 @@ module footWithMagnetHole() {
         cornerFoot();
         
         // bottom plate hole
-        translate( [0,0, -holeDepth] )
+        translate( [-.24,-.24, -holeDepth] )
             linear_extrude(height = holeExtrude )
                 magnetHole();
         
@@ -52,6 +54,13 @@ module footWithMagnetHole() {
             rotate( [90,0,90] )
                 linear_extrude(height = holeExtrude )
                     magnetHole();
+        
+        if( bottomFoot ) {
+            translate( [0,0, -5] )
+            linear_extrude(height = 10 )
+                    footHole();
+        }
+        
     }
 }  
 
@@ -74,7 +83,10 @@ module cornerFoot() {
 
     translate( [0,0,-1/8] )
         linear_extrude(height = 1/8 )
-            bottom();
+            if( bottomFoot ) 
+                bottomFeet();
+            else
+                bottom();
 }
 
 
@@ -96,4 +108,13 @@ module magnetHole() {
 
 module bottom() {
     import( file = "koKenCaseFeet_bigCase.dxf", layer="Bottom", $fn=200 );
+}
+
+module bottomFeet() {
+    import( file = "koKenCaseFeet_bigCase.dxf", layer="BottomFeet", $fn=200 );
+}
+
+
+module footHole() {
+    import( file = "koKenCaseFeet_bigCase.dxf", layer="footHole", $fn=200 );
 }
