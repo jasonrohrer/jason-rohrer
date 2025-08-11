@@ -7,18 +7,17 @@ cornerCrossSectionRadius = 0.625;
 
 bottomFoot = true;
 
-footWithMagnetHole();
+//footWithMagnetHole();
 
-
-/*
+//if( false )
 intersection() {
 footWithMagnetHole();
-    translate( [-0.25, -0.25, 0] )
-    rotate( [0, 0, -45] )
-    scale( [1.2, 1.1, 1] )
+    translate( [.2,.2, 0] )
+    rotate( [0, 0, 45] )
+    scale( [1.8, 1.3, 1] )
 cylinder( h=5, d=1.3, center=true, $fn=200 );
 }
-*/
+
 /*
 intersection() {
 footWithMagnetHole();
