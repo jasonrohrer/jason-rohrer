@@ -3,13 +3,13 @@ holeDepth=1/16 + 0.01;
 
 holeExtrude=1/8;
 
-cornerCrossSectionRadius = 0.625;
+cornerCrossSectionRadius = 0.59375;
 
 bottomFoot = true;
 
-//footWithMagnetHole();
+footWithMagnetHole();
 
-//if( false )
+if( false )
 intersection() {
 footWithMagnetHole();
     translate( [.2,.2, 0] )
