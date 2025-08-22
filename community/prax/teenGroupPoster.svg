@@ -15,7 +15,10 @@
    version="1.1"
    id="svg8"
    inkscape:version="0.92.4 (unknown)"
-   sodipodi:docname="teenGroupPoster.svg">
+   sodipodi:docname="teenGroupPoster.svg"
+   inkscape:export-filename="/home/jasonrohrer2/teenPoster2.png"
+   inkscape:export-xdpi="150"
+   inkscape:export-ydpi="150">
   <defs
      id="defs2">
     <marker
@@ -164,8 +167,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.49497475"
-     inkscape:cx="155.52332"
-     inkscape:cy="65.138397"
+     inkscape:cx="548.78287"
+     inkscape:cy="568.63718"
      inkscape:document-units="in"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -200,57 +203,53 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(0,-17.6)">
+    <rect
+       style="opacity:0.98000004;fill:#ffdb34;fill-opacity:1;stroke:#000000;stroke-width:0.96499997;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.965, 2.895;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect6649"
+       width="312.20834"
+       height="341.69049"
+       x="-33.078472"
+       y="2.4694438" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:80.00000119%;font-family:Avenir;-inkscape-font-specification:Avenir;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="107.26357"
-       y="57.653778"
+       y="57.27742"
        id="text817"><tspan
          sodipodi:role="line"
          id="tspan815"
          x="107.26357"
-         y="57.653778"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.16666603px;line-height:125%;font-family:Futura;-inkscape-font-specification:'Futura, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.26458332px">TEEN</tspan><tspan
+         y="57.27742"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.16666603px;line-height:110.00000238%;font-family:Futura;-inkscape-font-specification:'Futura, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.26458332px">TEEN</tspan><tspan
          sodipodi:role="line"
          x="107.26357"
-         y="84.112106"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.16666603px;line-height:125%;font-family:Futura;-inkscape-font-specification:'Futura, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.26458332px"
+         y="80.56076"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.16666603px;line-height:110.00000238%;font-family:Futura;-inkscape-font-specification:'Futura, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.26458332px"
          id="tspan819">HOMESCHOOL</tspan><tspan
          sodipodi:role="line"
          x="107.26357"
-         y="110.57044"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.16666603px;line-height:125%;font-family:Futura;-inkscape-font-specification:'Futura, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.26458332px"
+         y="103.84409"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.16666603px;line-height:110.00000238%;font-family:Futura;-inkscape-font-specification:'Futura, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.26458332px"
          id="tspan821">GROUP</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:80.00000119%;font-family:Avenir;-inkscape-font-specification:Avenir;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="108.39632"
-       y="33.067448"
+       y="33.067459"
        id="text829"><tspan
          sodipodi:role="line"
          id="tspan827"
          x="108.39632"
-         y="33.067448"
+         y="33.067459"
          style="stroke-width:0.26458332px">We own our very own building in Dover!</tspan><tspan
          sodipodi:role="line"
          x="108.39632"
-         y="41.534115"
+         y="41.534126"
          style="stroke-width:0.26458332px"
          id="tspan831" /></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:80.00000119%;font-family:Avenir;-inkscape-font-specification:Avenir;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="108.32224"
-       y="187.00555"
-       id="text835"><tspan
-         sodipodi:role="line"
-         x="108.32224"
-         y="187.00555"
-         style="stroke-width:0.26458332px"
-         id="tspan837">Join us for:</tspan></text>
     <g
        id="g6384"
-       transform="translate(0,1.6113333)">
+       transform="translate(7.6451601e-7,-5.491389)">
       <text
          id="text825"
          y="129.34375"
@@ -266,7 +265,7 @@
            style="line-height:105.99999428%;stroke-width:0.26458332px"
            y="140.56209"
            x="108.16043"
-           sodipodi:role="line">homeschoolers in the NH Seacost area</tspan><tspan
+           sodipodi:role="line">homeschoolers in the NH Seacoast area</tspan><tspan
            id="tspan881"
            style="line-height:105.99999428%;stroke-width:0.26458332px"
            y="151.78041"
@@ -301,7 +300,7 @@
            y="-57.188103" /></flowRegion><flowPara
          id="flowPara2273"></flowPara></flowRoot>    <g
        id="g6312"
-       transform="translate(3.6301197,-5.4727002)">
+       transform="translate(3.6301204,-10.9458)">
       <g
          transform="translate(219.85871,13.229166)"
          id="g6277">
@@ -371,7 +370,7 @@
     </g>
     <g
        id="g6322"
-       transform="translate(-8.5357416,-5.0722105)">
+       transform="translate(-8.5357416,-9.1316774)">
       <g
          transform="translate(238.50298,-30.973334)"
          id="g6297">
@@ -441,7 +440,7 @@
     </g>
     <g
        id="g6332"
-       transform="translate(1.2192397,-12.128427)">
+       transform="translate(1.2192397,-14.77426)">
       <g
          transform="translate(319.76786,20.032738)"
          id="g6287">
@@ -885,5 +884,16 @@
        d="m 188.98891,237.13162 v 66.28286"
        id="path6647"
        inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:80.00000119%;font-family:Avenir;-inkscape-font-specification:Avenir;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="107.72651"
+       y="179.39946"
+       id="text6653"><tspan
+         sodipodi:role="line"
+         id="tspan6651"
+         x="107.72651"
+         y="179.39946"
+         style="stroke-width:0.26458332px">Hosted by Prax Village (praxvillage.org)</tspan></text>
   </g>
 </svg>
