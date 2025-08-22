@@ -1,0 +1,889 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="8.5in"
+   height="11in"
+   viewBox="0 0 215.9 279.4"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.4 (unknown)"
+   sodipodi:docname="teenGroupPoster.svg">
+  <defs
+     id="defs2">
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker1581"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="DotS">
+      <path
+         transform="scale(0.2) translate(7.4, 1)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M -2.5,-1.0 C -2.5,1.7600000 -4.7400000,4.0 -7.5,4.0 C -10.260000,4.0 -12.5,1.7600000 -12.5,-1.0 C -12.5,-3.7600000 -10.260000,-6.0 -7.5,-6.0 C -4.7400000,-6.0 -2.5,-3.7600000 -2.5,-1.0 z "
+         id="path1579" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker1523"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="DotS">
+      <path
+         transform="scale(0.2) translate(7.4, 1)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M -2.5,-1.0 C -2.5,1.7600000 -4.7400000,4.0 -7.5,4.0 C -10.260000,4.0 -12.5,1.7600000 -12.5,-1.0 C -12.5,-3.7600000 -10.260000,-6.0 -7.5,-6.0 C -4.7400000,-6.0 -2.5,-3.7600000 -2.5,-1.0 z "
+         id="path1521" />
+    </marker>
+    <marker
+       inkscape:stockid="DotS"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker1445"
+       style="overflow:visible"
+       inkscape:isstock="true"
+       inkscape:collect="always">
+      <path
+         id="path1443"
+         d="M -2.5,-1.0 C -2.5,1.7600000 -4.7400000,4.0 -7.5,4.0 C -10.260000,4.0 -12.5,1.7600000 -12.5,-1.0 C -12.5,-3.7600000 -10.260000,-6.0 -7.5,-6.0 C -4.7400000,-6.0 -2.5,-3.7600000 -2.5,-1.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.2) translate(7.4, 1)" />
+    </marker>
+    <marker
+       inkscape:stockid="DotS"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="DotS"
+       style="overflow:visible"
+       inkscape:isstock="true"
+       inkscape:collect="always">
+      <path
+         id="path960"
+         d="M -2.5,-1.0 C -2.5,1.7600000 -4.7400000,4.0 -7.5,4.0 C -10.260000,4.0 -12.5,1.7600000 -12.5,-1.0 C -12.5,-3.7600000 -10.260000,-6.0 -7.5,-6.0 C -4.7400000,-6.0 -2.5,-3.7600000 -2.5,-1.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.2) translate(7.4, 1)" />
+    </marker>
+    <marker
+       inkscape:stockid="DotL"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="DotL"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path954"
+         d="M -2.5,-1.0 C -2.5,1.7600000 -4.7400000,4.0 -7.5,4.0 C -10.260000,4.0 -12.5,1.7600000 -12.5,-1.0 C -12.5,-3.7600000 -10.260000,-6.0 -7.5,-6.0 C -4.7400000,-6.0 -2.5,-3.7600000 -2.5,-1.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.8) translate(7.4, 1)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Send"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Send"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path908"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.2) rotate(180) translate(6,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Sstart"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Sstart"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path905"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.2) translate(6,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Lend"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path896"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Mend"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path902"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.4) rotate(180) translate(10,0)" />
+    </marker>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter6631">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.82853575"
+         id="feGaussianBlur6633" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.49497475"
+     inkscape:cx="155.52332"
+     inkscape:cy="65.138397"
+     inkscape:document-units="in"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="in"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:window-width="1280"
+     inkscape:window-height="751"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1">
+    <sodipodi:guide
+       position="-237.36905,99.029762"
+       orientation="1,0"
+       id="guide2565"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-17.6)">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:80.00000119%;font-family:Avenir;-inkscape-font-specification:Avenir;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="107.26357"
+       y="57.653778"
+       id="text817"><tspan
+         sodipodi:role="line"
+         id="tspan815"
+         x="107.26357"
+         y="57.653778"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.16666603px;line-height:125%;font-family:Futura;-inkscape-font-specification:'Futura, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.26458332px">TEEN</tspan><tspan
+         sodipodi:role="line"
+         x="107.26357"
+         y="84.112106"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.16666603px;line-height:125%;font-family:Futura;-inkscape-font-specification:'Futura, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.26458332px"
+         id="tspan819">HOMESCHOOL</tspan><tspan
+         sodipodi:role="line"
+         x="107.26357"
+         y="110.57044"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.16666603px;line-height:125%;font-family:Futura;-inkscape-font-specification:'Futura, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.26458332px"
+         id="tspan821">GROUP</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:80.00000119%;font-family:Avenir;-inkscape-font-specification:Avenir;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="108.39632"
+       y="33.067448"
+       id="text829"><tspan
+         sodipodi:role="line"
+         id="tspan827"
+         x="108.39632"
+         y="33.067448"
+         style="stroke-width:0.26458332px">We own our very own building in Dover!</tspan><tspan
+         sodipodi:role="line"
+         x="108.39632"
+         y="41.534115"
+         style="stroke-width:0.26458332px"
+         id="tspan831" /></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:80.00000119%;font-family:Avenir;-inkscape-font-specification:Avenir;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="108.32224"
+       y="187.00555"
+       id="text835"><tspan
+         sodipodi:role="line"
+         x="108.32224"
+         y="187.00555"
+         style="stroke-width:0.26458332px"
+         id="tspan837">Join us for:</tspan></text>
+    <g
+       id="g6384"
+       transform="translate(0,1.6113333)">
+      <text
+         id="text825"
+         y="129.34375"
+         x="108.16043"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:80.00000119%;font-family:Avenir;-inkscape-font-specification:Avenir;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="line-height:105.99999428%;stroke-width:0.26458332px"
+           y="129.34375"
+           x="108.16043"
+           id="tspan823"
+           sodipodi:role="line">We're a group of liberty-minded</tspan><tspan
+           id="tspan869"
+           style="line-height:105.99999428%;stroke-width:0.26458332px"
+           y="140.56209"
+           x="108.16043"
+           sodipodi:role="line">homeschoolers in the NH Seacost area</tspan><tspan
+           id="tspan881"
+           style="line-height:105.99999428%;stroke-width:0.26458332px"
+           y="151.78041"
+           x="108.16043"
+           sodipodi:role="line">welcoming all religions (and non-religious)</tspan><tspan
+           id="tspan871"
+           style="line-height:105.99999428%;stroke-width:0.26458332px"
+           y="162.99875"
+           x="108.16043"
+           sodipodi:role="line">and all styles of homeschooling.</tspan></text>
+      <path
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.06500006;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#DotS);marker-end:url(#marker1445)"
+         d="M 11.229398,168.83922 H 204.7532"
+         id="path891"
+         inkscape:connector-curvature="0" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path1519"
+         d="M 11.22939,117.91528 H 204.75321"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.06500006;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#marker1523);marker-end:url(#marker1581)" />
+    </g>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot2267"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:80.00000119%;font-family:Avenir;-inkscape-font-specification:Avenir;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       transform="matrix(0.26458333,0,0,0.26458333,0,17.6)"><flowRegion
+         id="flowRegion2269"><rect
+           id="rect2271"
+           width="662.6601"
+           height="385.87827"
+           x="-54.548237"
+           y="-57.188103" /></flowRegion><flowPara
+         id="flowPara2273"></flowPara></flowRoot>    <g
+       id="g6312"
+       transform="translate(3.6301197,-5.4727002)">
+      <g
+         transform="translate(219.85871,13.229166)"
+         id="g6277">
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:80.00000119%;font-family:Avenir;-inkscape-font-specification:Avenir;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="-148.97612"
+           y="193.8754"
+           id="text843"><tspan
+             sodipodi:role="line"
+             id="tspan841"
+             x="-148.97612"
+             y="193.8754"
+             style="stroke-width:0.26458332px">Weekly teen meetings</tspan></text>
+        <path
+           sodipodi:type="star"
+           style="opacity:0.98000004;fill:none;fill-opacity:1;stroke:#000000;stroke-width:7.52417231;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="path2551"
+           sodipodi:sides="5"
+           sodipodi:cx="27.79603"
+           sodipodi:cy="181.53957"
+           sodipodi:r1="22.278162"
+           sodipodi:r2="11.139081"
+           sodipodi:arg1="0.52807445"
+           sodipodi:arg2="1.156393"
+           inkscape:flatsided="true"
+           inkscape:rounded="0.15"
+           inkscape:randomized="0"
+           d="M 47.039436,192.76489 C 45.060013,196.15818 26.905548,204.1439 23.066656,203.30995 19.227763,202.47599 6.0228525,187.67779 5.6297096,183.76908 5.2365667,179.86037 15.229948,162.72886 18.825865,161.1471 c 3.595917,-1.58176 22.977077,2.62858 25.592619,5.55971 2.615542,2.93113 4.600376,22.66478 2.620952,26.05808 z"
+           inkscape:transform-center-x="0.12059287"
+           inkscape:transform-center-y="-0.19821095"
+           transform="matrix(0.15446009,0.05784172,-0.05784172,0.15446009,-202.07656,160.51695)" />
+      </g>
+      <g
+         transform="translate(365.88095,-0.6455805)"
+         id="g6282">
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:80.00000119%;font-family:Avenir;-inkscape-font-specification:Avenir;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="-183.41643"
+           y="209.02014"
+           id="text851"><tspan
+             sodipodi:role="line"
+             x="-183.41643"
+             y="209.02014"
+             style="stroke-width:0.26458332px"
+             id="tspan853">Bonfires</tspan></text>
+        <path
+           sodipodi:type="star"
+           style="opacity:0.98000004;fill:none;fill-opacity:1;stroke:#000000;stroke-width:7.52417231;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="path2555"
+           sodipodi:sides="5"
+           sodipodi:cx="27.79603"
+           sodipodi:cy="181.53957"
+           sodipodi:r1="22.278162"
+           sodipodi:r2="11.139081"
+           sodipodi:arg1="0.52807445"
+           sodipodi:arg2="1.156393"
+           inkscape:flatsided="true"
+           inkscape:rounded="0.15"
+           inkscape:randomized="0"
+           d="M 47.039436,192.76489 C 45.060013,196.15818 26.905548,204.1439 23.066656,203.30995 19.227763,202.47599 6.0228525,187.67779 5.6297096,183.76908 5.2365667,179.86037 15.229948,162.72886 18.825865,161.1471 c 3.595917,-1.58176 22.977077,2.62858 25.592619,5.55971 2.615542,2.93113 4.600376,22.66478 2.620952,26.05808 z"
+           inkscape:transform-center-x="0.12059287"
+           inkscape:transform-center-y="-0.19821095"
+           transform="matrix(0.15446009,0.05784172,-0.05784172,0.15446009,-202.07656,175.5347)" />
+      </g>
+    </g>
+    <g
+       id="g6322"
+       transform="translate(-8.5357416,-5.0722105)">
+      <g
+         transform="translate(238.50298,-30.973334)"
+         id="g6297">
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:80.00000119%;font-family:Avenir;-inkscape-font-specification:Avenir;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="-185.07794"
+           y="253.4384"
+           id="text885"><tspan
+             sodipodi:role="line"
+             id="tspan883"
+             x="-185.07794"
+             y="253.4384"
+             style="stroke-width:0.26458332px">Dances</tspan></text>
+        <path
+           transform="matrix(0.15446009,0.05784172,-0.05784172,0.15446009,-202.07656,220.58795)"
+           inkscape:transform-center-y="-0.19821095"
+           inkscape:transform-center-x="0.12059287"
+           d="M 47.039436,192.76489 C 45.060013,196.15818 26.905548,204.1439 23.066656,203.30995 19.227763,202.47599 6.0228525,187.67779 5.6297096,183.76908 5.2365667,179.86037 15.229948,162.72886 18.825865,161.1471 c 3.595917,-1.58176 22.977077,2.62858 25.592619,5.55971 2.615542,2.93113 4.600376,22.66478 2.620952,26.05808 z"
+           inkscape:randomized="0"
+           inkscape:rounded="0.15"
+           inkscape:flatsided="true"
+           sodipodi:arg2="1.156393"
+           sodipodi:arg1="0.52807445"
+           sodipodi:r2="11.139081"
+           sodipodi:r1="22.278162"
+           sodipodi:cy="181.53957"
+           sodipodi:cx="27.79603"
+           sodipodi:sides="5"
+           id="path2553"
+           style="opacity:0.98000004;fill:none;fill-opacity:1;stroke:#000000;stroke-width:7.52417231;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           sodipodi:type="star" />
+      </g>
+      <g
+         transform="translate(300.49107,-17.386905)"
+         id="g6292">
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:80.00000119%;font-family:Avenir;-inkscape-font-specification:Avenir;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="-147.62376"
+           y="238.92865"
+           id="text863"><tspan
+             sodipodi:role="line"
+             id="tspan861"
+             x="-147.62376"
+             y="238.92865"
+             style="stroke-width:0.26458332px">Classes and workshops</tspan></text>
+        <path
+           transform="matrix(0.15446009,0.05784172,-0.05784172,0.15446009,-202.07656,205.5702)"
+           inkscape:transform-center-y="-0.19821095"
+           inkscape:transform-center-x="0.12059287"
+           d="M 47.039436,192.76489 C 45.060013,196.15818 26.905548,204.1439 23.066656,203.30995 19.227763,202.47599 6.0228525,187.67779 5.6297096,183.76908 5.2365667,179.86037 15.229948,162.72886 18.825865,161.1471 c 3.595917,-1.58176 22.977077,2.62858 25.592619,5.55971 2.615542,2.93113 4.600376,22.66478 2.620952,26.05808 z"
+           inkscape:randomized="0"
+           inkscape:rounded="0.15"
+           inkscape:flatsided="true"
+           sodipodi:arg2="1.156393"
+           sodipodi:arg1="0.52807445"
+           sodipodi:r2="11.139081"
+           sodipodi:r1="22.278162"
+           sodipodi:cy="181.53957"
+           sodipodi:cx="27.79603"
+           sodipodi:sides="5"
+           id="path2557"
+           style="opacity:0.98000004;fill:none;fill-opacity:1;stroke:#000000;stroke-width:7.52417231;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           sodipodi:type="star" />
+      </g>
+    </g>
+    <g
+       id="g6332"
+       transform="translate(1.2192397,-12.128427)">
+      <g
+         transform="translate(319.76786,20.032738)"
+         id="g6287">
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:80.00000119%;font-family:Avenir;-inkscape-font-specification:Avenir;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="-162.82698"
+           y="223.91089"
+           id="text847"><tspan
+             sodipodi:role="line"
+             id="tspan845"
+             x="-162.82698"
+             y="223.91089"
+             style="stroke-width:0.26458332px">Open mic nights</tspan></text>
+        <path
+           sodipodi:type="star"
+           style="opacity:0.98000004;fill:none;fill-opacity:1;stroke:#000000;stroke-width:7.52417231;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="path2559"
+           sodipodi:sides="5"
+           sodipodi:cx="27.79603"
+           sodipodi:cy="181.53957"
+           sodipodi:r1="22.278162"
+           sodipodi:r2="11.139081"
+           sodipodi:arg1="0.52807445"
+           sodipodi:arg2="1.156393"
+           inkscape:flatsided="true"
+           inkscape:rounded="0.15"
+           inkscape:randomized="0"
+           d="M 47.039436,192.76489 C 45.060013,196.15818 26.905548,204.1439 23.066656,203.30995 19.227763,202.47599 6.0228525,187.67779 5.6297096,183.76908 5.2365667,179.86037 15.229948,162.72886 18.825865,161.1471 c 3.595917,-1.58176 22.977077,2.62858 25.592619,5.55971 2.615542,2.93113 4.600376,22.66478 2.620952,26.05808 z"
+           inkscape:transform-center-x="0.12059287"
+           inkscape:transform-center-y="-0.19821095"
+           transform="matrix(0.15446009,0.05784172,-0.05784172,0.15446009,-202.07656,190.55245)" />
+      </g>
+      <g
+         transform="translate(229.05357,-24.766515)"
+         id="g6302">
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:80.00000119%;font-family:Avenir;-inkscape-font-specification:Avenir;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="-172.04762"
+           y="268.96414"
+           id="text859"><tspan
+             sodipodi:role="line"
+             id="tspan857"
+             x="-172.04762"
+             y="268.96414"
+             style="stroke-width:0.26458332px">Movie nights</tspan></text>
+        <path
+           transform="matrix(0.15446009,0.05784172,-0.05784172,0.15446009,-202.07656,235.6057)"
+           inkscape:transform-center-y="-0.19821095"
+           inkscape:transform-center-x="0.12059287"
+           d="M 47.039436,192.76489 C 45.060013,196.15818 26.905548,204.1439 23.066656,203.30995 19.227763,202.47599 6.0228525,187.67779 5.6297096,183.76908 5.2365667,179.86037 15.229948,162.72886 18.825865,161.1471 c 3.595917,-1.58176 22.977077,2.62858 25.592619,5.55971 2.615542,2.93113 4.600376,22.66478 2.620952,26.05808 z"
+           inkscape:randomized="0"
+           inkscape:rounded="0.15"
+           inkscape:flatsided="true"
+           sodipodi:arg2="1.156393"
+           sodipodi:arg1="0.52807445"
+           sodipodi:r2="11.139081"
+           sodipodi:r1="22.278162"
+           sodipodi:cy="181.53957"
+           sodipodi:cx="27.79603"
+           sodipodi:sides="5"
+           id="path2561"
+           style="opacity:0.98000004;fill:none;fill-opacity:1;stroke:#000000;stroke-width:7.52417231;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           sodipodi:type="star" />
+      </g>
+    </g>
+    <g
+       id="g6431"
+       transform="rotate(-90,117.52947,226.95486)">
+      <text
+         id="text6400"
+         y="254.22574"
+         x="80.654945"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:80.00000119%;font-family:Avenir;-inkscape-font-specification:Avenir;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           id="tspan6404"
+           style="font-size:5.64444447px;line-height:0px;stroke-width:0.26458332px"
+           y="254.22574"
+           x="80.654945"
+           sodipodi:role="line">Dover Homeschool</tspan></text>
+      <text
+         id="text6412"
+         y="260.63861"
+         x="87.446136"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:80.00000119%;font-family:Avenir;-inkscape-font-specification:Avenir;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           id="tspan6414"
+           style="font-size:5.64444447px;stroke-width:0.26458332px"
+           y="260.63861"
+           x="87.446136"
+           sodipodi:role="line">Email for info:</tspan></text>
+      <text
+         id="text6420"
+         y="251.97102"
+         x="78.522797"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:80.00000119%;font-family:Avenir;-inkscape-font-specification:Avenir;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="stroke-width:0.26458332px"
+           y="258.34778"
+           x="78.522797"
+           id="tspan6418"
+           sodipodi:role="line" /><tspan
+           id="tspan6422"
+           style="font-size:5.64444447px;stroke-width:0.26458332px"
+           y="266.81445"
+           x="78.522797"
+           sodipodi:role="line">PraxTeens@sent.com</tspan></text>
+    </g>
+    <g
+       transform="rotate(-90,144.18082,200.30352)"
+       id="g6447">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:80.00000119%;font-family:Avenir;-inkscape-font-specification:Avenir;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="80.654945"
+         y="254.22574"
+         id="text6435"><tspan
+           sodipodi:role="line"
+           x="80.654945"
+           y="254.22574"
+           style="font-size:5.64444447px;line-height:0px;stroke-width:0.26458332px"
+           id="tspan6433">Dover Homeschool</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:80.00000119%;font-family:Avenir;-inkscape-font-specification:Avenir;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="87.446136"
+         y="260.63861"
+         id="text6439"><tspan
+           sodipodi:role="line"
+           x="87.446136"
+           y="260.63861"
+           style="font-size:5.64444447px;stroke-width:0.26458332px"
+           id="tspan6437">Email for info:</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:80.00000119%;font-family:Avenir;-inkscape-font-specification:Avenir;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="78.522797"
+         y="251.97102"
+         id="text6445"><tspan
+           sodipodi:role="line"
+           id="tspan6441"
+           x="78.522797"
+           y="258.34778"
+           style="stroke-width:0.26458332px" /><tspan
+           sodipodi:role="line"
+           x="78.522797"
+           y="266.81445"
+           style="font-size:5.64444447px;stroke-width:0.26458332px"
+           id="tspan6443">PraxTeens@sent.com</tspan></text>
+    </g>
+    <g
+       id="g6463"
+       transform="rotate(-90,130.85514,213.62919)">
+      <text
+         id="text6451"
+         y="254.22574"
+         x="80.654945"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:80.00000119%;font-family:Avenir;-inkscape-font-specification:Avenir;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           id="tspan6449"
+           style="font-size:5.64444447px;line-height:0px;stroke-width:0.26458332px"
+           y="254.22574"
+           x="80.654945"
+           sodipodi:role="line">Dover Homeschool</tspan></text>
+      <text
+         id="text6455"
+         y="260.63861"
+         x="87.446136"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:80.00000119%;font-family:Avenir;-inkscape-font-specification:Avenir;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           id="tspan6453"
+           style="font-size:5.64444447px;stroke-width:0.26458332px"
+           y="260.63861"
+           x="87.446136"
+           sodipodi:role="line">Email for info:</tspan></text>
+      <text
+         id="text6461"
+         y="251.97102"
+         x="78.522797"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:80.00000119%;font-family:Avenir;-inkscape-font-specification:Avenir;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="stroke-width:0.26458332px"
+           y="258.34778"
+           x="78.522797"
+           id="tspan6457"
+           sodipodi:role="line" /><tspan
+           id="tspan6459"
+           style="font-size:5.64444447px;stroke-width:0.26458332px"
+           y="266.81445"
+           x="78.522797"
+           sodipodi:role="line">PraxTeens@sent.com</tspan></text>
+    </g>
+    <g
+       transform="rotate(-90,50.901109,293.58323)"
+       id="g6511">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:80.00000119%;font-family:Avenir;-inkscape-font-specification:Avenir;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="80.654945"
+         y="254.22574"
+         id="text6499"><tspan
+           sodipodi:role="line"
+           x="80.654945"
+           y="254.22574"
+           style="font-size:5.64444447px;line-height:0px;stroke-width:0.26458332px"
+           id="tspan6497">Dover Homeschool</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:80.00000119%;font-family:Avenir;-inkscape-font-specification:Avenir;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="87.446136"
+         y="260.63861"
+         id="text6503"><tspan
+           sodipodi:role="line"
+           x="87.446136"
+           y="260.63861"
+           style="font-size:5.64444447px;stroke-width:0.26458332px"
+           id="tspan6501">Email for info:</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:80.00000119%;font-family:Avenir;-inkscape-font-specification:Avenir;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="78.522797"
+         y="251.97102"
+         id="text6509"><tspan
+           sodipodi:role="line"
+           id="tspan6505"
+           x="78.522797"
+           y="258.34778"
+           style="stroke-width:0.26458332px" /><tspan
+           sodipodi:role="line"
+           x="78.522797"
+           y="266.81445"
+           style="font-size:5.64444447px;stroke-width:0.26458332px"
+           id="tspan6507">PraxTeens@sent.com</tspan></text>
+    </g>
+    <g
+       transform="rotate(-90,90.878127,253.60621)"
+       id="g6543">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:80.00000119%;font-family:Avenir;-inkscape-font-specification:Avenir;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="80.654945"
+         y="254.22574"
+         id="text6531"><tspan
+           sodipodi:role="line"
+           x="80.654945"
+           y="254.22574"
+           style="font-size:5.64444447px;line-height:0px;stroke-width:0.26458332px"
+           id="tspan6529">Dover Homeschool</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:80.00000119%;font-family:Avenir;-inkscape-font-specification:Avenir;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="87.446136"
+         y="260.63861"
+         id="text6535"><tspan
+           sodipodi:role="line"
+           x="87.446136"
+           y="260.63861"
+           style="font-size:5.64444447px;stroke-width:0.26458332px"
+           id="tspan6533">Email for info:</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:80.00000119%;font-family:Avenir;-inkscape-font-specification:Avenir;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="78.522797"
+         y="251.97102"
+         id="text6541"><tspan
+           sodipodi:role="line"
+           id="tspan6537"
+           x="78.522797"
+           y="258.34778"
+           style="stroke-width:0.26458332px" /><tspan
+           sodipodi:role="line"
+           x="78.522797"
+           y="266.81445"
+           style="font-size:5.64444447px;stroke-width:0.26458332px"
+           id="tspan6539">PraxTeens@sent.com</tspan></text>
+    </g>
+    <g
+       id="g6559"
+       transform="rotate(-90,77.552453,266.93188)">
+      <text
+         id="text6547"
+         y="254.22574"
+         x="80.654945"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:80.00000119%;font-family:Avenir;-inkscape-font-specification:Avenir;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           id="tspan6545"
+           style="font-size:5.64444447px;line-height:0px;stroke-width:0.26458332px"
+           y="254.22574"
+           x="80.654945"
+           sodipodi:role="line">Dover Homeschool</tspan></text>
+      <text
+         id="text6551"
+         y="260.63861"
+         x="87.446136"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:80.00000119%;font-family:Avenir;-inkscape-font-specification:Avenir;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           id="tspan6549"
+           style="font-size:5.64444447px;stroke-width:0.26458332px"
+           y="260.63861"
+           x="87.446136"
+           sodipodi:role="line">Email for info:</tspan></text>
+      <text
+         id="text6557"
+         y="251.97102"
+         x="78.522797"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:80.00000119%;font-family:Avenir;-inkscape-font-specification:Avenir;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="stroke-width:0.26458332px"
+           y="258.34778"
+           x="78.522797"
+           id="tspan6553"
+           sodipodi:role="line" /><tspan
+           id="tspan6555"
+           style="font-size:5.64444447px;stroke-width:0.26458332px"
+           y="266.81445"
+           x="78.522797"
+           sodipodi:role="line">PraxTeens@sent.com</tspan></text>
+    </g>
+    <g
+       transform="rotate(-90,64.226784,280.25756)"
+       id="g6575">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:80.00000119%;font-family:Avenir;-inkscape-font-specification:Avenir;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="80.654945"
+         y="254.22574"
+         id="text6563"><tspan
+           sodipodi:role="line"
+           x="80.654945"
+           y="254.22574"
+           style="font-size:5.64444447px;line-height:0px;stroke-width:0.26458332px"
+           id="tspan6561">Dover Homeschool</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:80.00000119%;font-family:Avenir;-inkscape-font-specification:Avenir;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="87.446136"
+         y="260.63861"
+         id="text6567"><tspan
+           sodipodi:role="line"
+           x="87.446136"
+           y="260.63861"
+           style="font-size:5.64444447px;stroke-width:0.26458332px"
+           id="tspan6565">Email for info:</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:80.00000119%;font-family:Avenir;-inkscape-font-specification:Avenir;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="78.522797"
+         y="251.97102"
+         id="text6573"><tspan
+           sodipodi:role="line"
+           id="tspan6569"
+           x="78.522797"
+           y="258.34778"
+           style="stroke-width:0.26458332px" /><tspan
+           sodipodi:role="line"
+           x="78.522797"
+           y="266.81445"
+           style="font-size:5.64444447px;stroke-width:0.26458332px"
+           id="tspan6571">PraxTeens@sent.com</tspan></text>
+    </g>
+    <g
+       id="g6591"
+       transform="rotate(-90,104.2038,240.28054)">
+      <text
+         id="text6579"
+         y="254.22574"
+         x="80.654945"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:80.00000119%;font-family:Avenir;-inkscape-font-specification:Avenir;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           id="tspan6577"
+           style="font-size:5.64444447px;line-height:0px;stroke-width:0.26458332px"
+           y="254.22574"
+           x="80.654945"
+           sodipodi:role="line">Dover Homeschool</tspan></text>
+      <text
+         id="text6583"
+         y="260.63861"
+         x="87.446136"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:80.00000119%;font-family:Avenir;-inkscape-font-specification:Avenir;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           id="tspan6581"
+           style="font-size:5.64444447px;stroke-width:0.26458332px"
+           y="260.63861"
+           x="87.446136"
+           sodipodi:role="line">Email for info:</tspan></text>
+      <text
+         id="text6589"
+         y="251.97102"
+         x="78.522797"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:80.00000119%;font-family:Avenir;-inkscape-font-specification:Avenir;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="stroke-width:0.26458332px"
+           y="258.34778"
+           x="78.522797"
+           id="tspan6585"
+           sodipodi:role="line" /><tspan
+           id="tspan6587"
+           style="font-size:5.64444447px;stroke-width:0.26458332px"
+           y="266.81445"
+           x="78.522797"
+           sodipodi:role="line">PraxTeens@sent.com</tspan></text>
+    </g>
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.265, 0.795;stroke-dashoffset:0;stroke-opacity:1;filter:url(#filter6631)"
+       d="m 29.399648,237.13162 v 66.28286"
+       id="path6609"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.96499997;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.965, 2.895;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 29.080841,237.13162 v 66.28286"
+       id="path6635"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path6637"
+       d="m 55.732188,237.13162 v 66.28286"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.96499997;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.965, 2.895;stroke-dashoffset:0;stroke-opacity:1" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.96499997;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.965, 2.895;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 82.383533,237.13162 v 66.28286"
+       id="path6639"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path6641"
+       d="m 109.03488,237.13162 v 66.28286"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.96499997;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.965, 2.895;stroke-dashoffset:0;stroke-opacity:1" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.96499997;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.965, 2.895;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 135.68622,237.13162 v 66.28286"
+       id="path6643"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path6645"
+       d="m 162.33757,237.13162 v 66.28286"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.96499997;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.965, 2.895;stroke-dashoffset:0;stroke-opacity:1" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.96499997;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.965, 2.895;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 188.98891,237.13162 v 66.28286"
+       id="path6647"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>
