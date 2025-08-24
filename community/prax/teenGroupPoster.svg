@@ -166,9 +166,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.49497475"
-     inkscape:cx="548.78287"
-     inkscape:cy="568.63718"
+     inkscape:zoom="0.24748738"
+     inkscape:cx="709.32577"
+     inkscape:cy="-59.110152"
      inkscape:document-units="in"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -194,7 +194,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -223,7 +223,7 @@
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.16666603px;line-height:110.00000238%;font-family:Futura;-inkscape-font-specification:'Futura, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.26458332px">TEEN</tspan><tspan
          sodipodi:role="line"
          x="107.26357"
-         y="80.56076"
+         y="80.560753"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.16666603px;line-height:110.00000238%;font-family:Futura;-inkscape-font-specification:'Futura, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.26458332px"
          id="tspan819">HOMESCHOOL</tspan><tspan
          sodipodi:role="line"
@@ -298,7 +298,7 @@
            height="385.87827"
            x="-54.548237"
            y="-57.188103" /></flowRegion><flowPara
-         id="flowPara2273"></flowPara></flowRoot>    <g
+         id="flowPara2273" /></flowRoot>    <g
        id="g6312"
        transform="translate(3.6301204,-10.9458)">
       <g
@@ -521,7 +521,7 @@
            style="font-size:5.64444447px;line-height:0px;stroke-width:0.26458332px"
            y="254.22574"
            x="80.654945"
-           sodipodi:role="line">Dover Homeschool</tspan></text>
+           sodipodi:role="line">Teen Homeschool</tspan></text>
       <text
          id="text6412"
          y="260.63861"
@@ -563,7 +563,7 @@
            x="80.654945"
            y="254.22574"
            style="font-size:5.64444447px;line-height:0px;stroke-width:0.26458332px"
-           id="tspan6433">Dover Homeschool</tspan></text>
+           id="tspan6433">Teen Homeschool</tspan></text>
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:80.00000119%;font-family:Avenir;-inkscape-font-specification:Avenir;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -605,7 +605,7 @@
            style="font-size:5.64444447px;line-height:0px;stroke-width:0.26458332px"
            y="254.22574"
            x="80.654945"
-           sodipodi:role="line">Dover Homeschool</tspan></text>
+           sodipodi:role="line">Teen Homeschool</tspan></text>
       <text
          id="text6455"
          y="260.63861"
@@ -647,7 +647,7 @@
            x="80.654945"
            y="254.22574"
            style="font-size:5.64444447px;line-height:0px;stroke-width:0.26458332px"
-           id="tspan6497">Dover Homeschool</tspan></text>
+           id="tspan6497">Teen Homeschool</tspan></text>
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:80.00000119%;font-family:Avenir;-inkscape-font-specification:Avenir;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -689,7 +689,7 @@
            x="80.654945"
            y="254.22574"
            style="font-size:5.64444447px;line-height:0px;stroke-width:0.26458332px"
-           id="tspan6529">Dover Homeschool</tspan></text>
+           id="tspan6529">Teen Homeschool</tspan></text>
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:80.00000119%;font-family:Avenir;-inkscape-font-specification:Avenir;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -731,7 +731,7 @@
            style="font-size:5.64444447px;line-height:0px;stroke-width:0.26458332px"
            y="254.22574"
            x="80.654945"
-           sodipodi:role="line">Dover Homeschool</tspan></text>
+           sodipodi:role="line">Teen Homeschool</tspan></text>
       <text
          id="text6551"
          y="260.63861"
@@ -773,7 +773,7 @@
            x="80.654945"
            y="254.22574"
            style="font-size:5.64444447px;line-height:0px;stroke-width:0.26458332px"
-           id="tspan6561">Dover Homeschool</tspan></text>
+           id="tspan6561">Teen Homeschool</tspan></text>
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:80.00000119%;font-family:Avenir;-inkscape-font-specification:Avenir;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -815,7 +815,7 @@
            style="font-size:5.64444447px;line-height:0px;stroke-width:0.26458332px"
            y="254.22574"
            x="80.654945"
-           sodipodi:role="line">Dover Homeschool</tspan></text>
+           sodipodi:role="line">Teen Homeschool</tspan></text>
       <text
          id="text6583"
          y="260.63861"
