@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="8.5in"
+   height="11in"
+   viewBox="0 0 215.9 279.4"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.4 (unknown)"
+   sodipodi:docname="airCompressorInstructions.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.3828125"
+     inkscape:cx="724.12002"
+     inkscape:cy="336.60522"
+     inkscape:document-units="in"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="in"
+     inkscape:window-width="1280"
+     inkscape:window-height="751"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-17.6)">
+    <g
+       id="g1039"
+       transform="translate(-4.9984373,-4.7625013)">
+      <image
+         sodipodi:absref="/home/jasonrohrer2/checkout/jason-rohrer/housing/54A_Rutland/design/airCompressor/compressorImage.jpg"
+         xlink:href="compressorImage.jpg"
+         y="32.945835"
+         x="15.581771"
+         id="image923"
+         preserveAspectRatio="none"
+         height="162.24899"
+         width="111.71143" />
+      <g
+         transform="translate(-37.570832,-0.52916667)"
+         id="g939">
+        <circle
+           style="opacity:0.98000004;fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:2.06500006;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="path930"
+           cx="69.806801"
+           cy="53.367344"
+           r="5.8748302" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:80.00000119%;font-family:Avenir;-inkscape-font-specification:Avenir;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="69.812973"
+           y="56.562099"
+           id="text934"><tspan
+             sodipodi:role="line"
+             id="tspan932"
+             x="69.812973"
+             y="56.562099"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.87777805px;font-family:Futura;-inkscape-font-specification:Futura;fill:#ffffff;fill-opacity:1;stroke-width:0.26458332px">A</tspan></text>
+      </g>
+      <g
+         transform="translate(-37.041666)"
+         id="g971">
+        <circle
+           r="5.8748302"
+           cy="183.65033"
+           cx="152.74557"
+           id="circle941"
+           style="opacity:0.98000004;fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:2.06500006;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+        <text
+           id="text945"
+           y="187.37425"
+           x="153.14995"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:80.00000119%;font-family:Avenir;-inkscape-font-specification:Avenir;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           xml:space="preserve"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.87777805px;font-family:Futura;-inkscape-font-specification:Futura;fill:#ffffff;fill-opacity:1;stroke-width:0.26458332px"
+             y="187.37425"
+             x="153.14995"
+             id="tspan943"
+             sodipodi:role="line">B</tspan></text>
+      </g>
+      <g
+         transform="translate(-37.570832,-2.1166667)"
+         id="g966">
+        <circle
+           style="opacity:0.98000004;fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:2.06500006;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="circle949"
+           cx="89.504761"
+           cy="167.75374"
+           r="5.8748302" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:80.00000119%;font-family:Avenir;-inkscape-font-specification:Avenir;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="89.129471"
+           y="171.47766"
+           id="text953"><tspan
+             sodipodi:role="line"
+             id="tspan951"
+             x="89.129471"
+             y="171.47766"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.87777805px;font-family:Futura;-inkscape-font-specification:Futura;fill:#ffffff;fill-opacity:1;stroke-width:0.26458332px">C</tspan></text>
+      </g>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:80.00000119%;font-family:Avenir;-inkscape-font-specification:Avenir;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="74.317047"
+       y="205.51581"
+       id="text975"><tspan
+         sodipodi:role="line"
+         id="tspan973"
+         x="74.317047"
+         y="205.51581"
+         style="font-size:7.05555534px;line-height:120.00000477%;text-align:start;text-anchor:start;stroke-width:0.26458332px">To use compressor:</tspan><tspan
+         sodipodi:role="line"
+         x="74.317047"
+         y="214.69695"
+         style="font-size:7.05555534px;line-height:120.00000477%;text-align:start;text-anchor:start;stroke-width:0.26458332px"
+         id="tspan977"> 1. OPEN black handle (A)</tspan><tspan
+         sodipodi:role="line"
+         x="74.317047"
+         y="223.87808"
+         style="font-size:7.05555534px;line-height:120.00000477%;text-align:start;text-anchor:start;stroke-width:0.26458332px"
+         id="tspan979"> 2. Turn ON wall switch</tspan><tspan
+         sodipodi:role="line"
+         x="74.317047"
+         y="233.05922"
+         style="font-size:7.05555534px;line-height:120.00000477%;text-align:start;text-anchor:start;stroke-width:0.26458332px"
+         id="tspan981"> 3. Compressor may run for a few minutes</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:80.00000119%;font-family:Avenir;-inkscape-font-specification:Avenir;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="10.583333"
+       y="239.38208"
+       id="text985"><tspan
+         sodipodi:role="line"
+         id="tspan983"
+         x="10.583333"
+         y="239.38208"
+         style="font-size:7.05555534px;line-height:120.00000477%;text-align:start;text-anchor:start;stroke-width:0.26458332px">When done:</tspan><tspan
+         sodipodi:role="line"
+         x="10.583333"
+         y="248.56322"
+         style="font-size:7.05555534px;line-height:120.00000477%;text-align:start;text-anchor:start;stroke-width:0.26458332px"
+         id="tspan987"> 1. Turn OFF wall switch</tspan><tspan
+         sodipodi:role="line"
+         x="10.583333"
+         y="257.74435"
+         style="font-size:7.05555534px;line-height:120.00000477%;text-align:start;text-anchor:start;stroke-width:0.26458332px"
+         id="tspan991"> 2. CLOSE black handle (A)</tspan><tspan
+         sodipodi:role="line"
+         x="10.583333"
+         y="266.92551"
+         style="font-size:7.05555534px;line-height:120.00000477%;text-align:start;text-anchor:start;stroke-width:0.26458332px"
+         id="tspan1022"> 3. Quickly OPEN and CLOSE white handle (B) to blast moisture</tspan><tspan
+         sodipodi:role="line"
+         x="10.583333"
+         y="276.10663"
+         style="font-size:7.05555534px;line-height:120.00000477%;text-align:start;text-anchor:start;stroke-width:0.26458332px"
+         id="tspan995"> 4. OPEN white handle (C) and exhaust all pressure</tspan><tspan
+         sodipodi:role="line"
+         x="10.583333"
+         y="285.28778"
+         style="font-size:7.05555534px;line-height:120.00000477%;text-align:start;text-anchor:start;stroke-width:0.26458332px"
+         id="tspan1001"> 5. CLOSE white handle (C)</tspan><tspan
+         sodipodi:role="line"
+         x="10.583333"
+         y="294.4689"
+         style="font-size:7.05555534px;text-align:start;text-anchor:start;stroke-width:0.26458332px"
+         id="tspan989" /></text>
+  </g>
+</svg>
