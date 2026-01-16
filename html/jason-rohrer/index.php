@@ -130,7 +130,7 @@ Currently parenting and making video games somewhere in New Hampshire.<br><br>
  [<A HREF="http://northcountrynotes.org/jason-rohrer/worklog">worklog</A>] [<a href="releaseLog.html">release log</a>] [<A HREF="supportMyWork.php">support my work</A>]<br><br><br>
 
 Want to know when I release something?<br>You'll get a few brief emails a year, at most.<br>
-<form action="http://northcountrynotes.org/releaseList/server.php" 
+<form action="https://onehouronelife.com/releaseList/server.php" 
       method="post">
 <input type="hidden" name="action" value="subscribe">
 <input type="hidden" name="timeStamp" value="<?php echo time();?>">
