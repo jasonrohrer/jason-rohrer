@@ -6,3 +6,5 @@
 
 
 ./makeWorking.sh ayzaTranscript.txt ayzaTranscript.pdf
+
+./makeWorking.sh novyTranscript.txt novyTranscript.pdf
