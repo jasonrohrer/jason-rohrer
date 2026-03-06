@@ -152,7 +152,7 @@ Email Address: <input type="text" name="email" value="">
 <H1>Artificial Intelligence Projects</H1>
 
 
-<A HREF="http://projectdecember.net">Project December</A>-- Talk to the world's most sophisticated AI.  Simulate the dead.  Available now.<BR><BR>
+<A HREF="http://projectdecember.net">Project December</A>-- The first seemingly-sentient conversational AI, more than 2 years before ChatGPT existed.<BR><BR>
 
 <br>
      
