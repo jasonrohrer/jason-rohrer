@@ -48,7 +48,7 @@ else
 
 	rtspURL="rtsp://admin:$pass@$cameraIP:88/videoMain"
 
-	if [[ "$cameraIP" == "192.168.88.146" ]];
+	if [ "$cameraIP" = "192.168.88.146" ];
 	then
 		# special case for LPR camera
 		rtspURL="rtsp://admin:$pass@$cameraIP:554/cam/realmonitor?channel=1&subtype=0"
