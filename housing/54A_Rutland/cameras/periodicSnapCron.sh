@@ -38,7 +38,7 @@ fileName="${hourNum}_${minuteNum}_$secondsNum.jpg"
 
 camURL="http://$cameraIP:88/cgi-bin/CGIProxy.fcgi?cmd=snapPicture2&usr=admin&pwd=$pass"
 
-if [[ "$cameraIP" == "192.168.88.146" ]];
+if [ "$cameraIP" = "192.168.88.146" ];
 then
 	# special case for LPR camera
 	camURL="http://admin:$pass@$cameraIP/cgi-bin/snapshot.cgi"
