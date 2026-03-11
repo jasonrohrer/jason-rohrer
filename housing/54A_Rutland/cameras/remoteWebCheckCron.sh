@@ -38,6 +38,8 @@ if grep -q "1" ~/tempWebPush/flag.txt; then
 
     wget -O ~/tempWebPush/garageInside.jpg "http://192.168.88.179:88/cgi-bin/CGIProxy.fcgi?cmd=snapPicture2&usr=admin&pwd=admin"
 
+	wget -O ~/tempWebPush/licensePlate.jpg "http://admin:$pass@192.168.88.146/cgi-bin/snapshot.cgi"
+	
 
     cd ~/tempWebPush
 

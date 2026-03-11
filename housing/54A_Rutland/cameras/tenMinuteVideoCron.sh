@@ -45,7 +45,16 @@ then
 	ffmpeg -rtsp_transport tcp -i rtsp://admin:$pass@$cameraIP:88/videoMain -c:v copy -c:a aac -t 600 $path$fileName
 else
 	# skip audio
-	ffmpeg -rtsp_transport tcp -i rtsp://admin:$pass@$cameraIP:88/videoMain -c copy -an -t 600 $path$fileName
+
+	rtspURL="rtsp://admin:$pass@$cameraIP:88/videoMain"
+
+	if [[ "$cameraIP" == "192.168.88.146" ]];
+	then
+		# special case for LPR camera
+		rtspURL="rtsp://admin:$pass@$cameraIP:554/cam/realmonitor?channel=1&subtype=0"
+	fi
+	
+	ffmpeg -rtsp_transport tcp -i "$rtspURL" -c copy -an -t 600 $path$fileName
 fi
 
 

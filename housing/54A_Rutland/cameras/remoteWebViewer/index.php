@@ -26,3 +26,4 @@ file_put_contents( "/home/jcr13/public_html/flag.txt", "1" );
 <img src=pics/backYardSide.jpg><br><br><br>
 <img src=pics/backYardRear.jpg><br><br><br>
 <img src=pics/garageInside.jpg><br><br><br>
+<img src=pics/licensePlate.jpg><br><br><br>
