@@ -75,6 +75,8 @@ Link to Cultivation and to Jon Newton.
 
 <HEAD>
 
+<meta name="google-site-verification" content="ccJWloWNMmHvDE7FHAmCUVSnKzmZJLL0i3GgqKi0SVo" />
+
 <META name="description" content="Jason Rohrer's home page.">
 
 <META name="keywords" content="jason, rohrer, Cornell, university, computer, science, research, software, programming, artificial, intelligence, graphics, systems, hardened, criminal, software, hardencrypt, konspire, subreal, radiosgl, java, c++, Santa Cruz, game design, potsdam, las cruces, Davis, passage, gravitation, between"> 
