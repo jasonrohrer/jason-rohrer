@@ -160,6 +160,8 @@ Email Address: <input type="text" name="email" value="">
 <H1>Video Games</H1>
 
 
+ <A HREF="https://store.steampowered.com/app/4109570/Chessamphetamine__DOFAMINMASHINA_IZ_SSSR/">Chessamphetamine</A>-- my thirteenth game.  A lightning-fast roguelike deckbuilding auto-battler.  Puts the Chess back in "auto chess".  Coming soon.<BR><BR>   
+
 <A HREF="http://onehouronelife.com">One Hour One Life</A>-- my twelfth game.  A multiplayer survival game of parenting and civilization building.  Available now.<BR><BR>
 
 <A HREF="http://cordialminuet.com">Cordial Minuet</A>-- my eleventh game.  A two-player online strategy game played for real money.<BR><BR>
