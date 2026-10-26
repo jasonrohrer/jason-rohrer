@@ -735,7 +735,7 @@
 		(uuid "3449c5ad-4908-453c-8b83-e21712b7efe1")
 		(at 127.395 120.2525 -90)
 		(property "Reference" "J1"
-			(at 2.7475 10.395 0)
+			(at 0.2475 9.395 0)
 			(layer "F.SilkS")
 			(uuid "df3f07a3-81b2-47eb-8b4d-3f78c76e89e6")
 			(effects
@@ -1911,7 +1911,7 @@
 		(at 123.5 128.6 -90)
 		(descr "<b>OS102011MS2QS1-2</b><br>")
 		(property "Reference" "S1"
-			(at 7.9 -4.5 90)
+			(at 4.9 -3.5 90)
 			(layer "F.SilkS")
 			(uuid "e7957c4f-54de-4274-85a2-8f0a335ef74b")
 			(effects
