@@ -3393,7 +3393,7 @@
 				)
 			)
 		)
-		(property "Value" "MCP1640x-xCHY"
+		(property "Value" "MCP1640T-I/CHY"
 			(at 147.32 83.82 0)
 			(effects
 				(font
