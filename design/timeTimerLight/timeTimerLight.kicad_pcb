@@ -1703,7 +1703,7 @@
 			)
 		)
 		(property "Value" "2N3906"
-			(at 1.27 2.79 90)
+			(at 3.07 3 90)
 			(layer "F.SilkS")
 			(uuid "c5e75f33-d560-405f-b069-ba20cc4904a3")
 			(effects
@@ -1911,7 +1911,7 @@
 		(at 123.5 128.6 -90)
 		(descr "<b>OS102011MS2QS1-2</b><br>")
 		(property "Reference" "S1"
-			(at -2.1 3.5 0)
+			(at -3.1 2.5 0)
 			(layer "F.SilkS")
 			(uuid "e7957c4f-54de-4274-85a2-8f0a335ef74b")
 			(effects
@@ -4236,6 +4236,42 @@
 		(fill no)
 		(layer "Edge.Cuts")
 		(uuid "754c7ea9-6edd-4582-b7b9-5dbc2d3695da")
+	)
+	(gr_text "TIMETIMER LIGHT MOD"
+		(at 129.5 114.5 0)
+		(layer "F.SilkS")
+		(uuid "22d76552-38c0-4ea1-8a2d-0ebb8d75a0bb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "JASON ROHRER"
+		(at 153 114.5 0)
+		(layer "F.SilkS")
+		(uuid "63eb688b-01ba-49cb-a373-eb9f36ff9a74")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "VERSION 1\nOCTOBER 2026"
+		(at 119 135.5 90)
+		(layer "F.SilkS")
+		(uuid "e217492f-4ba0-4de6-82a0-9bb2d288a58a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
 	)
 	(segment
 		(start 148.5 115.23)
