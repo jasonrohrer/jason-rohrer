@@ -4237,8 +4237,8 @@
 		(layer "Edge.Cuts")
 		(uuid "754c7ea9-6edd-4582-b7b9-5dbc2d3695da")
 	)
-	(gr_text "TIMETIMER LIGHT MOD"
-		(at 129.5 114.5 0)
+	(gr_text "TIME TIMER LIGHT MOD"
+		(at 129 114.5 0)
 		(layer "F.SilkS")
 		(uuid "22d76552-38c0-4ea1-8a2d-0ebb8d75a0bb")
 		(effects
